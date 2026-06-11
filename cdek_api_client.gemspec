@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['lib/**/*', 'README.md', 'CHANGELOG.md']
   spec.require_paths = ['lib']
 
-  spec.required_ruby_version = '>= 3.0'
+  spec.required_ruby_version = '>= 3.2.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/SamyRai/cdek_api_client'
