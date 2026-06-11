@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
 module CDEKApiClient
-  VERSION = '0.3.0'
+  # The current version of the gem
+  VERSION = '0.4.0'
 end
