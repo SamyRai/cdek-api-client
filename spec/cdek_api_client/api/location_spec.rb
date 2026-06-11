@@ -46,10 +46,12 @@ RSpec.describe CDEKApiClient::API::Location do
         expect(result[:valid]).to be true
       end
 
-      # This test is here only to populate the cities_mapping.json file
-      it 'saves cities to filesystem', skip: 'WebMock disables real HTTP calls in test environment' do
+      # This test verifies that live responses can be serialized to the filesystem
+      it 'saves cities to filesystem' do
+        allow(File).to receive(:write)
         response = location.cities(use_live_data: true)
         save_response_to_file(response, 'cities_mapping.json')
+        expect(File).to have_received(:write).with('data/cities_mapping.json', anything)
       end
     end
 
@@ -94,10 +96,12 @@ RSpec.describe CDEKApiClient::API::Location do
         expect(result[:valid]).to be true
       end
 
-      # This test is here only to populate the regions_mapping.json file
-      it 'saves regions to filesystem', skip: 'WebMock disables real HTTP calls in test environment' do
+      # This test verifies that live responses can be serialized to the filesystem
+      it 'saves regions to filesystem' do
+        allow(File).to receive(:write)
         response = location.regions(use_live_data: true)
         save_response_to_file(response, 'regions_mapping.json')
+        expect(File).to have_received(:write).with('data/regions_mapping.json', anything)
       end
     end
 
@@ -142,10 +146,12 @@ RSpec.describe CDEKApiClient::API::Location do
         expect(result[:valid]).to be true
       end
 
-      # This test is here only to populate the offices_mapping.json file
-      it 'saves offices to filesystem', skip: 'WebMock disables real HTTP calls in test environment' do
+      # This test verifies that live responses can be serialized to the filesystem
+      it 'saves offices to filesystem' do
+        allow(File).to receive(:write)
         response = location.offices(use_live_data: true)
         save_response_to_file(response, 'offices_mapping.json')
+        expect(File).to have_received(:write).with('data/offices_mapping.json', anything)
       end
     end
 
@@ -190,9 +196,9 @@ RSpec.describe CDEKApiClient::API::Location do
       expect(cities_response.first).to have_key('code')
     end
 
-    # This test is here only to populate the cities_with_postal_codes_mapping.json file
-    it 'retrieves postal codes for each city and saves to filesystem',
-       skip: 'WebMock disables real HTTP calls in test environment' do
+    # This test verifies we can iterate and save postal codes
+    it 'retrieves postal codes for each city and saves to filesystem' do
+      allow(File).to receive(:write)
       cities_response = location.cities(use_live_data: true)
       cities_with_postal_codes = cities_response.map do |city|
         city_code = city['code']
@@ -203,18 +209,19 @@ RSpec.describe CDEKApiClient::API::Location do
         }
       end
       save_response_to_file(cities_with_postal_codes, 'cities_with_postal_codes_mapping.json')
+      expect(File).to have_received(:write).with('data/cities_with_postal_codes_mapping.json', anything)
     end
   end
 
   describe '#postal_codes' do
     context 'when use_live_data is false' do
-      it 'retrieves a list of postal codes from the file system',
-         skip: 'WebMock disables real HTTP calls in test environment' do
+      it 'retrieves a list of postal codes from the file system' do
         cities_response = location.cities(use_live_data: true)
         city_code = cities_response.first['code']
-        # Create the postal codes file for the first city
+
+        # Create the postal codes file for the first city (mocked)
         postal_codes_response = location.postal_codes(city_code, use_live_data: true)
-        File.write("data/postal_codes_#{city_code}_mapping.json", JSON.pretty_generate(postal_codes_response))
+        allow(File).to receive(:read).with("data/postal_codes_#{city_code}_mapping.json", encoding: 'UTF-8').and_return(JSON.generate(postal_codes_response))
 
         response = location.postal_codes(city_code)
         expect(response).to be_an(Array)

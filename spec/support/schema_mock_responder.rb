@@ -277,6 +277,20 @@ class SchemaMockResponder
           ].to_json,
           headers: { 'Content-Type' => 'application/json' }
         )
+
+      # Postal codes
+      stub_request(:get, %r{#{Regexp.escape(@base_url)}/location/postalcodes(?:\?|$)})
+        .to_return(
+          status: 200,
+          body: {
+            postal_codes: [
+              '101000',
+              '101001',
+              '101002'
+            ]
+          }.to_json,
+          headers: { 'Content-Type' => 'application/json' }
+        )
     end
 
     # Mock courier endpoints
