@@ -19,3 +19,10 @@ end
 task :audit do
   sh 'bundle exec bundle audit check --update'
 end
+
+namespace :schema do
+  desc 'Pull and organize the latest CDEK API schemas'
+  task :update do
+    sh 'ruby pull_cdek_schemas.rb'
+  end
+end

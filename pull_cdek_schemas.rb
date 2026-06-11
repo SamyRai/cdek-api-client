@@ -100,6 +100,7 @@ class CdekSchemaPuller
 
     schema.each do |key, value|
       next if value.nil?
+      next if %w[description example summary x-displayName].include?(key)
 
       if value.is_a?(Hash)
         cleaned_dict = clean_schema(value)
