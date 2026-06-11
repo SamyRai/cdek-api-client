@@ -17,7 +17,13 @@ require_relative 'entities/auth_error_response'
 
 module CDEKApiClient
   # Client class for interacting with the CDEK API.
+  # rubocop:disable Metrics/ClassLength
   class Client
+    # Maximum number of retries for API requests
+    MAX_RETRIES = 3
+    # HTTP status codes that should trigger a retry (Rate Limits and Server Errors)
+    RETRY_STATUS_CODES = [429, 500, 502, 503, 504].freeze
+
     # @return [String] the base API URL
     attr_reader :base_url
     # @return [String] the access token for API authentication.
@@ -80,7 +86,7 @@ module CDEKApiClient
         'client_secret' => @client_secret
       )
 
-      response = http.request(request)
+      response = execute_with_retry(http, request)
 
       case response
       when Net::HTTPSuccess
@@ -127,7 +133,7 @@ module CDEKApiClient
       http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = true
       request = build_request(method, uri, body)
-      response = http.request(request)
+      response = execute_with_retry(http, request)
       handle_response(response)
     rescue StandardError => e
       @logger.error("HTTP request failed: #{e.message}")
@@ -139,6 +145,31 @@ module CDEKApiClient
     end
 
     private
+
+    # Executes an HTTP request with automatic retry and exponential backoff.
+    #
+    # @param http [Net::HTTP] the HTTP connection.
+    # @param request [Net::HTTPRequest] the HTTP request.
+    # @return [Net::HTTPResponse] the HTTP response.
+    def execute_with_retry(http, request)
+      retries = 0
+      loop do
+        response = http.request(request)
+        if RETRY_STATUS_CODES.include?(response.code.to_i) && retries < MAX_RETRIES
+          retries += 1
+          sleep(0.5 * (2**retries))
+          next
+        end
+        return response
+      rescue Net::OpenTimeout, Net::ReadTimeout, Errno::ECONNRESET, EOFError => e
+        if retries < MAX_RETRIES
+          retries += 1
+          sleep(0.5 * (2**retries))
+          next
+        end
+        raise "Request failed after #{MAX_RETRIES} retries: #{e.message}"
+      end
+    end
 
     # Builds an HTTP request with the specified method, URI, and body.
     #
@@ -197,4 +228,5 @@ module CDEKApiClient
       @logger.error(message)
     end
   end
+  # rubocop:enable Metrics/ClassLength
 end
