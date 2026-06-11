@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative 'schema_driven_generator'
-require_relative 'edge_case_generator'
 
 # AdvancedEdgeCaseGenerator creates sophisticated invalid test data
 # Extends basic edge case generation with constraint-aware invalidation

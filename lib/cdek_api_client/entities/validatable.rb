@@ -149,7 +149,7 @@ module CDEKApiClient
         object.class.validations.each do |attr, validation_rule|
           value = object.send(attr)
           validate_presence(attr, value, validation_rule)
-          validate_type(attr, value, validation_rule)
+          validate_type(attr, value, validation_rule) unless value.nil?
         end
       end
 
@@ -165,7 +165,7 @@ module CDEKApiClient
         rule[:schema].each do |attr, validation_rule|
           value = hash[attr]
           validate_presence(attr, value, validation_rule)
-          validate_type(attr, value, validation_rule)
+          validate_type(attr, value, validation_rule) unless value.nil?
         end
       end
     end

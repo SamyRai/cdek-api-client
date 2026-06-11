@@ -1,0 +1,400 @@
+
+CDEKApiClient::API::Courier
+  #create_agreement
+I, [2026-06-11T21:47:16.867463 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to create_agreement method
+I, [2026-06-11T21:47:16.871987 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts agreement data parameter
+    request data conforms to schema
+  #get_agreement
+I, [2026-06-11T21:47:16.896811 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_agreement method
+I, [2026-06-11T21:47:16.899371 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts agreement uuid parameter
+  #create_intake
+I, [2026-06-11T21:47:16.910017 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to create_intake method
+I, [2026-06-11T21:47:16.922760 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts intake data parameter
+    request data conforms to schema
+  #get_intake
+I, [2026-06-11T21:47:16.945075 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_intake method
+I, [2026-06-11T21:47:16.948341 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts intake uuid parameter
+  #delete_intake
+I, [2026-06-11T21:47:16.952336 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to delete_intake method
+I, [2026-06-11T21:47:16.955198 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts intake uuid parameter
+  #create_intake_available_days
+I, [2026-06-11T21:47:16.958522 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to create_intake_available_days method
+I, [2026-06-11T21:47:16.961185 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts intake available days request parameter
+    request data conforms to schema
+  #get_delivery_intervals
+I, [2026-06-11T21:47:16.971033 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_delivery_intervals method
+I, [2026-06-11T21:47:16.973670 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts cdek_number parameter
+I, [2026-06-11T21:47:16.981793 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts order_uuid parameter
+
+CDEKApiClient::API::Location
+  #cities
+    when using live data
+I, [2026-06-11T21:47:16.986738 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      retrieves a list of cities successfully
+I, [2026-06-11T21:47:16.991833 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      checks the first city has a city key
+I, [2026-06-11T21:47:16.998641 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      cities response conforms to schema
+      saves cities to filesystem (PENDING: WebMock disables real HTTP calls in test environment)
+    when using cached data
+I, [2026-06-11T21:47:17.003711 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      retrieves a list of cities from the file system
+I, [2026-06-11T21:47:17.006191 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      checks the first city has a city key
+I, [2026-06-11T21:47:17.008676 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      cities response conforms to schema
+  #regions
+    when using live data
+I, [2026-06-11T21:47:17.011467 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      retrieves a list of regions successfully
+I, [2026-06-11T21:47:17.018675 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      checks the first region has a region key
+I, [2026-06-11T21:47:17.022846 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      regions response conforms to schema
+      saves regions to filesystem (PENDING: WebMock disables real HTTP calls in test environment)
+    when using cached data
+I, [2026-06-11T21:47:17.027538 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      retrieves a list of regions from the file system
+I, [2026-06-11T21:47:17.030988 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      checks the first region has a region key
+I, [2026-06-11T21:47:17.033735 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      regions response conforms to schema
+  #offices
+I, [2026-06-11T21:47:17.036924 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    handles errors gracefully
+    when using live data
+I, [2026-06-11T21:47:17.044417 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      retrieves a list of offices successfully
+I, [2026-06-11T21:47:17.051422 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      checks the first office has a code key
+I, [2026-06-11T21:47:17.056184 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      offices response conforms to schema
+      saves offices to filesystem (PENDING: WebMock disables real HTTP calls in test environment)
+    when using cached data
+I, [2026-06-11T21:47:17.065009 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      retrieves a list of offices from the file system
+I, [2026-06-11T21:47:17.067614 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      checks the first office has a code key
+I, [2026-06-11T21:47:17.070342 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      offices response conforms to schema
+  #cities_with_postal_codes
+I, [2026-06-11T21:47:17.073136 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    retrieves cities and their postal codes successfully
+I, [2026-06-11T21:47:17.077306 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    checks the first city has a code key
+    retrieves postal codes for each city and saves to filesystem (PENDING: WebMock disables real HTTP calls in test environment)
+  #postal_codes
+    when use_live_data is false
+      retrieves a list of postal codes from the file system (PENDING: WebMock disables real HTTP calls in test environment)
+    when city_code is nil
+I, [2026-06-11T21:47:17.082511 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      raises an ArgumentError
+    when city_code is empty
+I, [2026-06-11T21:47:17.085175 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      raises an ArgumentError
+  #read_data_from_file
+    when the file does not exist
+I, [2026-06-11T21:47:17.090071 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+E, [2026-06-11T21:47:17.090216 #1] ERROR -- : Failed to read data from file: No such file or directory @ rb_sysopen - data/test.json
+      logs an error and returns an error hash
+  API Contract Tests
+    with cities endpoint
+I, [2026-06-11T21:47:17.093530 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      maintains cities request/response contract
+    with regions endpoint
+I, [2026-06-11T21:47:17.099223 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      maintains regions request/response contract
+    with delivery points endpoint
+I, [2026-06-11T21:47:17.103885 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      maintains delivery points request/response contract
+
+CDEKApiClient::API::Order
+  #create
+    request data conforms to schema
+I, [2026-06-11T21:47:17.118401 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    creates an order successfully
+I, [2026-06-11T21:47:17.126366 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    has an accepted state
+I, [2026-06-11T21:47:17.135191 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    create response conforms to schema
+  #track
+I, [2026-06-11T21:47:17.144414 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    tracks an order successfully
+I, [2026-06-11T21:47:17.155082 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    includes the correct order uuid
+I, [2026-06-11T21:47:17.166311 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    track response conforms to schema
+  #delete
+I, [2026-06-11T21:47:17.177467 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to delete method
+I, [2026-06-11T21:47:17.182788 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts order uuid parameter
+  #cancel
+I, [2026-06-11T21:47:17.186484 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to cancel method
+I, [2026-06-11T21:47:17.189021 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts order uuid parameter
+  #update
+I, [2026-06-11T21:47:17.192902 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to update method
+I, [2026-06-11T21:47:17.195385 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts order data parameter
+  #get_by_cdek_number
+I, [2026-06-11T21:47:17.201411 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_by_cdek_number method
+I, [2026-06-11T21:47:17.204138 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts cdek number parameter
+  #get_by_im_number
+I, [2026-06-11T21:47:17.208785 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_by_im_number method
+I, [2026-06-11T21:47:17.212265 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts im number parameter
+  API Contract Tests
+    with order creation
+I, [2026-06-11T21:47:17.224078 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      maintains create order request/response contract
+    with order tracking
+I, [2026-06-11T21:47:17.231780 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      maintains track order request/response contract
+
+CDEKApiClient::API::Payment
+  #get_payments
+I, [2026-06-11T21:47:17.244405 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_payments method
+I, [2026-06-11T21:47:17.247773 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts date parameter
+    generated payment params conform to schema
+  #get_checks
+I, [2026-06-11T21:47:17.252529 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_checks method
+I, [2026-06-11T21:47:17.256398 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts check data parameter
+    generated check params conform to schema
+  #get_registries
+I, [2026-06-11T21:47:17.261443 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_registries method
+I, [2026-06-11T21:47:17.264813 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts date parameter
+    generated registries params conform to schema
+
+CDEKApiClient::API::Print
+  #create_barcode
+I, [2026-06-11T21:47:17.269564 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to create_barcode method
+I, [2026-06-11T21:47:17.272146 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts barcode data parameter
+    request data conforms to schema
+  #get_barcode
+I, [2026-06-11T21:47:17.281433 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_barcode method
+I, [2026-06-11T21:47:17.283952 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+E, [2026-06-11T21:47:17.284694 #1] ERROR -- : Failed to parse JSON body: unexpected character: 'PDF_CONTENT_PLACEHOLDER' at line 1 column 1
+E, [2026-06-11T21:47:17.284717 #1] ERROR -- : API Error: Failed to parse JSON body: unexpected character: 'PDF_CONTENT_PLACEHOLDER' at line 1 column 1
+    accepts barcode uuid parameter
+  #get_barcode_pdf
+I, [2026-06-11T21:47:17.287216 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_barcode_pdf method
+I, [2026-06-11T21:47:17.291027 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+E, [2026-06-11T21:47:17.291791 #1] ERROR -- : Failed to parse JSON body: unexpected character: 'PDF_CONTENT_PLACEHOLDER' at line 1 column 1
+E, [2026-06-11T21:47:17.291814 #1] ERROR -- : API Error: Failed to parse JSON body: unexpected character: 'PDF_CONTENT_PLACEHOLDER' at line 1 column 1
+    accepts barcode uuid parameter
+  #create_invoice
+I, [2026-06-11T21:47:17.294963 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to create_invoice method
+I, [2026-06-11T21:47:17.298510 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts invoice data parameter
+    request data conforms to schema
+  #get_invoice
+I, [2026-06-11T21:47:17.306409 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_invoice method
+I, [2026-06-11T21:47:17.308878 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+E, [2026-06-11T21:47:17.309514 #1] ERROR -- : Failed to parse JSON body: unexpected character: 'PDF_CONTENT_PLACEHOLDER' at line 1 column 1
+E, [2026-06-11T21:47:17.309536 #1] ERROR -- : API Error: Failed to parse JSON body: unexpected character: 'PDF_CONTENT_PLACEHOLDER' at line 1 column 1
+    accepts invoice uuid parameter
+  #get_invoice_pdf
+I, [2026-06-11T21:47:17.312169 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get_invoice_pdf method
+I, [2026-06-11T21:47:17.315861 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+E, [2026-06-11T21:47:17.318456 #1] ERROR -- : Failed to parse JSON body: unexpected character: 'PDF_CONTENT_PLACEHOLDER' at line 1 column 1
+E, [2026-06-11T21:47:17.319396 #1] ERROR -- : API Error: Failed to parse JSON body: unexpected character: 'PDF_CONTENT_PLACEHOLDER' at line 1 column 1
+    accepts invoice uuid parameter
+
+CDEKApiClient::API::Tariff
+  #calculate
+    request data conforms to schema
+I, [2026-06-11T21:47:17.333852 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    does not include error
+I, [2026-06-11T21:47:17.340193 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    calculates the total_sum
+I, [2026-06-11T21:47:17.345678 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    response conforms to schema
+  #calculate_list
+I, [2026-06-11T21:47:17.355032 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to calculate_list method
+I, [2026-06-11T21:47:17.357517 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts tariff data parameter
+
+CDEKApiClient::API::TrackOrder
+  #get
+    with a valid uuid
+I, [2026-06-11T21:47:17.364892 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      returns the tracking information
+    with an invalid uuid
+I, [2026-06-11T21:47:17.377085 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      raises an ArgumentError
+    when the API returns an error
+I, [2026-06-11T21:47:17.385688 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+E, [2026-06-11T21:47:17.387752 #1] ERROR -- : Unexpected response type: Net::HTTPInternalServerError
+      returns an error hash
+
+CDEKApiClient::API::Webhook
+  #register
+    request data conforms to schema
+I, [2026-06-11T21:47:17.404968 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    registers a webhook successfully
+I, [2026-06-11T21:47:17.411728 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    response includes uuid
+I, [2026-06-11T21:47:17.415907 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    register response conforms to schema
+  #list
+I, [2026-06-11T21:47:17.419532 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    retrieves webhooks successfully
+I, [2026-06-11T21:47:17.423224 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    response is an array
+I, [2026-06-11T21:47:17.427268 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    list response conforms to schema
+  #list_all
+I, [2026-06-11T21:47:17.432279 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to list_all method
+I, [2026-06-11T21:47:17.434906 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    returns response without error
+  #get
+I, [2026-06-11T21:47:17.438974 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    responds to get method
+I, [2026-06-11T21:47:17.441785 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    accepts webhook uuid parameter
+  #delete
+I, [2026-06-11T21:47:17.447517 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    deletes a webhook successfully
+I, [2026-06-11T21:47:17.451039 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    deletion is successful
+I, [2026-06-11T21:47:17.454523 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    delete response conforms to schema
+  API Contract Tests
+    with webhook registration
+I, [2026-06-11T21:47:17.458924 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      maintains register webhook request/response contract
+    with webhook listing
+I, [2026-06-11T21:47:17.465870 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      maintains list webhooks request/response contract
+    with webhook deletion
+I, [2026-06-11T21:47:17.469869 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      maintains delete webhook request/response contract
+
+CDEKApiClient::Client
+  #initialize
+I, [2026-06-11T21:47:17.474047 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+I, [2026-06-11T21:47:17.475701 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+I, [2026-06-11T21:47:17.477359 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+I, [2026-06-11T21:47:17.478888 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+    initializes submodules correctly
+  #authenticate
+    when authentication is successful
+I, [2026-06-11T21:47:17.482509 #1]  INFO -- : Successfully authenticated, token expires in 3600 seconds
+      retrieves an access token
+    when authentication fails
+      raises an error
+  #request
+    when the request fails
+E, [2026-06-11T21:47:17.486134 #1] ERROR -- : HTTP request failed: test error
+      returns an error hash
+    when the response is not successful
+E, [2026-06-11T21:47:17.488157 #1] ERROR -- : Failed to parse JSON body: unexpected token 'Internal' at line 1 column 1
+E, [2026-06-11T21:47:17.488181 #1] ERROR -- : Unexpected response type: Net::HTTPInternalServerError
+      returns an error hash
+    when the response body is not a valid JSON
+E, [2026-06-11T21:47:17.489773 #1] ERROR -- : Failed to parse JSON body: unexpected character: 'invalid' at line 1 column 1
+E, [2026-06-11T21:47:17.489800 #1] ERROR -- : API Error: Failed to parse JSON body: unexpected character: 'invalid' at line 1 column 1
+      returns an error hash
+
+New CDEK API Entities
+  CDEKApiClient::Entities::Barcode
+    can be initialized with required parameters
+    can be created with orders UUID helper
+    can be created with CDEK numbers helper
+  CDEKApiClient::Entities::Invoice
+    can be initialized with required parameters
+    can be created with orders UUID helper
+    can be created with CDEK numbers helper
+  CDEKApiClient::Entities::Agreement
+    can be initialized with required parameters
+  CDEKApiClient::Entities::Intakes
+    can be initialized with required parameters
+  CDEKApiClient::Entities::Check
+    can be initialized with optional parameters
+    can be initialized with cdek_number
+    can be initialized with date
+    provides query params
+
+CDEKApiClient::Entities::Validatable
+  #validate!
+    with valid data
+      does not raise an error
+    with invalid data types
+      raises an error for invalid string type
+      raises an error for invalid integer type
+      raises an error for negative integer
+    with missing required attributes
+      raises an error for missing presence
+    with nested invalid data types
+      raises an error for invalid nested string type
+      raises an error for missing nested required attribute
+    with nested array invalid data types
+      raises an error for invalid nested array type
+
+CDEKApiClient
+  .configure
+    yields the client to the provided block
+  .client
+    returns a CDEKApiClient::Client instance
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+
+  1) CDEKApiClient::API::Location#cities when using live data saves cities to filesystem
+     # WebMock disables real HTTP calls in test environment
+     # ./spec/cdek_api_client/api/location_spec.rb:50
+
+  2) CDEKApiClient::API::Location#regions when using live data saves regions to filesystem
+     # WebMock disables real HTTP calls in test environment
+     # ./spec/cdek_api_client/api/location_spec.rb:98
+
+  3) CDEKApiClient::API::Location#offices when using live data saves offices to filesystem
+     # WebMock disables real HTTP calls in test environment
+     # ./spec/cdek_api_client/api/location_spec.rb:146
+
+  4) CDEKApiClient::API::Location#cities_with_postal_codes retrieves postal codes for each city and saves to filesystem
+     # WebMock disables real HTTP calls in test environment
+     # ./spec/cdek_api_client/api/location_spec.rb:194
+
+  5) CDEKApiClient::API::Location#postal_codes when use_live_data is false retrieves a list of postal codes from the file system
+     # WebMock disables real HTTP calls in test environment
+     # ./spec/cdek_api_client/api/location_spec.rb:211
+
+Finished in 1.92 seconds (files took 0.72598 seconds to load)
+146 examples, 0 failures, 5 pending
+

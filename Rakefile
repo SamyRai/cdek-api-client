@@ -25,4 +25,10 @@ namespace :schema do
   task :update do
     sh 'ruby pull_cdek_schemas.rb'
   end
+
+  desc 'Generate Ruby Entity classes from OpenAPI schemas'
+  task :generate_entities do
+    require_relative 'lib/cdek_api_client/generators/entity_generator'
+    CDEKApiClient::Generators::EntityGenerator.new.generate_all
+  end
 end

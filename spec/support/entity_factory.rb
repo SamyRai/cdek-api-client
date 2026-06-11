@@ -17,7 +17,7 @@ class EntityFactory
 
       CDEKApiClient::Entities::TariffData.new(
         type: data['type'] || 1,
-        currency: data['currency'] || 'RUB',
+        currency: data['currency'] || 1,
         tariff_code: data['tariff_code'] || 139,
         from_location: from_location,
         to_location: to_location,
