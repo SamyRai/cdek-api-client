@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# rubocop:disable Style/OneClassPerFile
+
 require 'dry-struct'
 
 # Monkey-patch Dry::Struct to support Hash-like access for backward compatibility
@@ -177,3 +179,4 @@ module CDEKApiClient
     end
   end
 end
+# rubocop:enable Style/OneClassPerFile
