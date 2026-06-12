@@ -1,0 +1,30 @@
+{
+  "date_intervals": [
+    {
+      "date": "mlx64jx",
+      "time_intervals": [
+        {
+          "start_time": "94jux4xnuylvopml962i6a",
+          "end_time": "kz5flv2v8cq76bhqsibxuu6307rrsbdwj"
+        },
+        {
+          "start_time": "j49niya3l1wu3",
+          "end_time": "i5gvrud4g8ylj"
+        }
+      ]
+    },
+    {
+      "date": "l",
+      "time_intervals": [
+        {
+          "start_time": "whw4ej2ocsbzczmf3n18g0",
+          "end_time": "6o5k0zlukj9u5jmrdo5n8b1f5487f66yjr69w"
+        },
+        {
+          "start_time": "f1pkyu0rp0mqqo69plm73vvmjf7jm0f06spf1c9bdwf1ydl",
+          "end_time": "3el9lcj4l2r2whpisvg8cdr3xq2"
+        }
+      ]
+    }
+  ]
+}

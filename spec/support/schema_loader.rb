@@ -8,6 +8,8 @@ class SchemaLoader
   SCHEMAS_FILE = 'cdek_api_schemas.json'
 
   class << self
+    attr_accessor :current_context_schema
+
     # Load the complete schemas data
     def load_schemas
       @load_schemas ||= JSON.parse(File.read(SCHEMAS_FILE, encoding: 'UTF-8'))
@@ -67,14 +69,14 @@ class SchemaLoader
       endpoint_schema = find_endpoint_schema(path, method)
       return nil unless endpoint_schema && endpoint_schema['requestBody']
 
-      request_body = endpoint_schema['requestBody']
-      content = request_body['content']
+      content = endpoint_schema['requestBody']['content']
       return nil unless content && content['application/json']
 
       schema_ref = content['application/json']['schema']
-
+      
       # Find the schema that contains this endpoint to resolve references correctly
       context_schema = find_context_schema_for_endpoint(path)
+      self.current_context_schema = context_schema
       resolve_schema_reference_with_context(schema_ref, context_schema)
     end
 
@@ -90,13 +92,14 @@ class SchemaLoader
 
       # Find the schema that contains this endpoint to resolve references correctly
       context_schema = find_context_schema_for_endpoint(path)
+      self.current_context_schema = context_schema
       resolve_schema_reference_with_context(schema_ref, context_schema)
     end
 
-    # Find which schema contains a specific endpoint
+    # Find which schema file contains the given path
     def find_context_schema_for_endpoint(path)
-      schemas = load_schemas['schemas']
-      schemas.each do |schema_entry|
+      schemas = load_schemas
+      schemas['schemas'].each do |schema_entry|
         schema = schema_entry['schema']
         return schema if schema['paths'] && schema['paths'][path]
       end
@@ -118,9 +121,32 @@ class SchemaLoader
       end
     end
 
-    # Resolve a $ref reference to the actual schema (uses main API schema as default)
+    # Resolve a $ref reference to the actual schema by searching across all schemas
     def resolve_schema_reference(schema_ref)
-      resolve_schema_reference_with_context(schema_ref, main_api_schema['schema'])
+      return schema_ref unless schema_ref.is_a?(Hash) && schema_ref['$ref']
+
+      ref_path = schema_ref['$ref']
+      if ref_path.start_with?('#/components/schemas/')
+        schema_name = ref_path.sub('#/components/schemas/', '')
+        
+        # First try to resolve in the current context to avoid naming collisions (e.g. RequestDto)
+        if current_context_schema && current_context_schema['components'] && current_context_schema['components']['schemas']
+          resolved = current_context_schema['components']['schemas'][schema_name]
+          return resolved if resolved
+        end
+
+        # Fallback to searching all schemas
+        load_schemas['schemas'].each do |schema_entry|
+          schema = schema_entry['schema']
+          next unless schema['components'] && schema['components']['schemas']
+          
+          if schema['components']['schemas'][schema_name]
+            return schema['components']['schemas'][schema_name]
+          end
+        end
+      end
+      
+      schema_ref
     end
 
     # Get all available endpoints

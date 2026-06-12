@@ -1,0 +1,41 @@
+{
+  "date": "cxxbit74c4",
+  "type": 325,
+  "additional_order_types": [
+    89,
+    233,
+    253
+  ],
+  "currency": 1,
+  "lang": "hn",
+  "shipment_point": "ukpax5bhwlzm1xoqki2fahkk44jalg5u3wycdl2roh0x5a48vh4u3vw6c4k6p9m2p36wid3fenljql3rzccp7ll7zeer3hclypyjtumxp98guilc5y9feec1wnn0lihobfic9efj71k53hyl1t44lpfjd779qr6emzrraat2yixtyc427g8mmfggcbhwyygqy5unk34ky9yx9rddrwgha2plhfybeki3m240g1dx801ljh09wnoea14r",
+  "delivery_point": "8lqrh6iyamrwq04i3jc7st2vrsnrbwjb7z4hw394hiqi4krfc5pfi9pwpvn66538b6cg6oaduzqssqo7du1yo6soie6nzfq",
+  "from_location": {
+    "code": 687,
+    "postal_code": "3uz1x4ei8sejo7o93a6e7ljrl9nx6ud8bc8l4pmz4wff0k63b7pk2t02qvku6bfu5s94ppp06kndg2n51d09tr99ww7r6hkryulw67g4npbcu60nz6djhpvlp8vsnyqycvqmqpk32el7k2rmsu1pwick6bw6ugin1",
+    "country_code": "u3",
+    "city": "xf8zwzhad26wbw8cthdxrzhij1z4dasi7pdllcrqddv6a0frzs9s",
+    "address": "n9kg10i5v43yhkbct4jwxp9g5bxair6ajpjhtl3gqh4aflbp9ay9oxvgcz4bvv13sgzoxm75q44zq615074it0ibqv1ymhrghca8gbk17dzwzrmrehaisutsk",
+    "contragent_type": "33ij2ls689q37oonep",
+    "longitude": 497.0,
+    "latitude": 563.0
+  },
+  "to_location": {
+    "code": 334,
+    "postal_code": "wkrqc5x85r03zruaeniwqvtqjf7bk9wu9q8bd6hqgr1tmu7gaz3m86iaowvqfx3tqf9lrwlo14i2hq6xtm35ybagl4fn4hx6e3izxifltoyo6t3r0f1q0eiqrj0msa3jleq6skjs04cqpznvc08sw644pmqipya1c5oo1ol14azgqgsxuujfxnrkek12i6mr6th3kt4s090gd2xtwmwpl",
+    "country_code": "t",
+    "city": "xdh22oew4ew144636v2afwc2rg9o3nfdfx66m38byym5z61n2k9vbn5916mullgfsn7pa7ml9usyddxczwu6bbde2kw",
+    "address": "1v9wbvfbz50svx4i17lvqkz1jkagaek79h9tl5q9go6a40tw0sq4svxrtrpv328ygmboeby3keo86a",
+    "contragent_type": "bk8sy4dbrgkm6",
+    "longitude": 698.0,
+    "latitude": 742.0
+  },
+  "packages": [
+    {
+      "weight": 395,
+      "length": 189,
+      "width": 219,
+      "height": 778
+    }
+  ]
+}

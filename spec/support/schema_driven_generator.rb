@@ -74,9 +74,6 @@ class SchemaDrivenGenerator
       schema['properties'].each do |property_name, property_schema|
         next unless property_schema # Skip if no schema defined
 
-        # Make required properties more likely to be generated
-        next unless required.include?(property_name) || rand < 0.8
-
         # Special handling for currency fields
         result[property_name] = if property_name == 'currency' && property_schema['type'] == 'integer'
                                   # Generate valid currency code integers (1=RUB, 3=USD, 4=EUR, etc.)
@@ -99,7 +96,7 @@ class SchemaDrivenGenerator
 
     def generate_string(schema, prop_name = nil)
       # Handle enums first
-      return schema['enum'].sample if schema['enum']
+      return schema['enum'].first if schema['enum']
 
       # Handle patterns
       if schema['pattern']
@@ -120,12 +117,16 @@ class SchemaDrivenGenerator
       end
     end
 
-    def generate_string_with_constraints(schema, _prop_name = nil)
+    def generate_string_with_constraints(schema, prop_name = nil)
       min_length = schema['minLength'] || 1
       max_length = schema['maxLength'] || 50
 
       # Generate realistic strings based on common field names
-      if schema['description']&.downcase&.include?('email')
+      if schema['format'] == 'uuid' || prop_name&.downcase&.include?('uuid')
+        'c80a68c1-1e43-42ca-b7e2-de1aad5b7d93'
+      elsif prop_name&.downcase == 'state'
+        'ACCEPTED'
+      elsif schema['description']&.downcase&.include?('email')
         Faker::Internet.email
       elsif schema['description']&.downcase&.include?('phone')
         Faker::PhoneNumber.cell_phone_in_e164

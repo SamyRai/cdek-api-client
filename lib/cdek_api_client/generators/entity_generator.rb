@@ -9,14 +9,15 @@ module CDEKApiClient
   module Generators
     # EntityGenerator reads the OpenAPI schema and rewrites the Entities
     class EntityGenerator
-      # Map CDEK's OpenAPI Component names to our Ruby class names
       MAPPING = {
         'OrderCreateRequestDto' => 'OrderData',
         'PackageRequestDto' => 'Package',
+        'CalcPackageRequestDto' => 'Package',
         'ItemRequestDto' => 'Item',
         'RecipientContactDto' => 'Recipient',
         'SenderContactDto' => 'Sender',
         'LocationDto' => 'Location',
+        'CalculatorLocationDto' => 'Location',
         'MoneyDto' => 'Payment',
         'CalculatorRequestDto' => 'TariffData',
         'WebhookDto' => 'Webhook',
@@ -25,7 +26,37 @@ module CDEKApiClient
         'AuthResponseDto' => 'AuthResponse',
         'ErrorResponseDto' => 'AuthErrorResponse',
         'IntakeAvailableDaysRequestDto' => 'IntakeAvailableDaysRequest',
-        'IntakeAvailableDaysResponseDto' => 'IntakeAvailableDaysResponse'
+        'IntakeAvailableDaysResponseDto' => 'IntakeAvailableDaysResponse',
+        'ResponseDtoRootEntityDto' => 'EntityResponse',
+        'ResponseDtoOrderResponseDto' => 'OrderResponse',
+        'SuggestCityResponseDto' => 'SuggestCityResponse',
+        'RegionsResponseDto' => 'RegionsResponse',
+        'PostcodesResponseDto' => 'PostcodesResponse',
+        'V2LocationCityByCoordinatesDto' => 'CityByCoordinates',
+        'V2LocationCityDto' => 'City',
+        'WaybillPrintResponseDto' => 'WaybillPrintResponse',
+        'RegisterPrealertResponseDto' => 'RegisterPrealertResponse',
+        'IntakeChangeStatusResponseDto' => 'IntakeChangeStatusResponse',
+        'WaybillGetResponseDto' => 'WaybillGetResponse',
+        'GetPrealertResponseDto' => 'PrealertResponse',
+        'AvailableDeliveryIntervalsResponseDto' => 'AvailableDeliveryIntervalsResponse',
+        'IntakeInfoResponseEntity' => 'IntakeInfoResponse',
+        'IntakeInfoDto' => 'IntakeInfo',
+        'BarcodePrintResponseDto' => 'BarcodePrintResponse',
+        'ResponseDtoScheduleInfoDto' => 'ScheduleInfoResponse',
+        'BarcodeGetResponseDto' => 'BarcodeGetResponse',
+        'PhotoResponseDto' => 'PhotoResponse',
+        'EstimatedDeliveryIntervalsResponseDto' => 'EstimatedDeliveryIntervalsResponse',
+        'CalculatorTariffListResponseDto' => 'TariffListResponse',
+        'CalculatorResponseDto' => 'TariffResponse',
+        'CalculatorTariffWithServicesListResponseDto' => 'TariffWithServicesResponse',
+        'RegistriesResponseDto' => 'RegistriesResponse',
+        'PassportResponseDto' => 'PassportResponse',
+        'OfficeDto' => 'Office',
+        'CheckResponseDto' => 'CheckResponse',
+        'CalculatorAvailableTariffsResponseDto' => 'AvailableTariffsResponse',
+        'ResponseDtoWebhookResponseDto' => 'WebhookEntityResponse',
+        'ResponseDtoWebhookDto' => 'WebhookDataResponse'
       }.freeze
 
       # Presenter object for the ERB template
@@ -43,56 +74,57 @@ module CDEKApiClient
           binding
         end
 
-        def ruby_type(prop)
-          return 'string' unless prop
+        def dry_type(prop)
+          return 'Types::String' unless prop
 
           type = prop['type']
           case type
-          when 'string' then 'string'
-          when 'integer' then 'integer'
-          when 'number' then 'integer' # Assuming number maps to integer/float based on needs, let's stick to integer/number logic
-          when 'boolean' then 'boolean'
-          when 'array' then 'array'
-          when 'object' then 'object'
+          when 'string' then 'Types::String.optional'
+          when 'integer' then 'Types::Integer.optional'
+          when 'number' then '(Types::Float | Types::Integer).optional'
+          when 'boolean' then 'Types::Bool.optional'
+          when 'array'
+            if prop['items'] && prop['items']['$ref']
+              ref_name = prop['items']['$ref'].split('/').last
+              mapped_class = MAPPING[ref_name] || 'Types::Hash'
+              "Types::Array.of(#{mapped_class}).optional"
+            elsif prop['items']
+              inner = dry_type(prop['items']).sub('.optional', '')
+              "Types::Array.of(#{inner}).optional"
+            else
+              'Types::Array.optional'
+            end
+          when 'object'
+            if prop['$ref']
+              ref_name = prop['$ref'].split('/').last
+              mapped = MAPPING[ref_name] || 'Types::Hash'
+              "#{mapped}.optional"
+            else
+              'Types::Hash.optional'
+            end
           else
             if prop['$ref']
-              'object'
+              ref_name = prop['$ref'].split('/').last
+              mapped = MAPPING[ref_name] || 'Types::Any'
+              "#{mapped}.optional"
             else
-              'string'
+              'Types::Any.optional'
             end
-          end
-        end
-
-        def items_validation(prop)
-          if prop['type'] == 'array' && prop['items']
-            if prop['items']['$ref']
-              ref_name = prop['items']['$ref'].split('/').last
-              mapped_class = MAPPING[ref_name]
-              if mapped_class
-                ", items: [#{mapped_class}]"
-              else
-                ', items: [{ type: :object }]'
-              end
-            else
-              type = ruby_type(prop['items'])
-              ", items: [{ type: :#{type} }]"
-            end
-          elsif prop['$ref'] || (prop['type'] == 'object' && prop['properties'])
-            ''
-          else
-            ''
           end
         end
 
         def yard_type(prop)
-          case ruby_type(prop)
+          return 'String' unless prop
+
+          case prop['type']
           when 'string' then 'String'
           when 'integer' then 'Integer'
+          when 'number' then 'Float, Integer'
           when 'boolean' then 'Boolean'
           when 'array'
             if prop['items'] && prop['items']['$ref']
               ref_name = prop['items']['$ref'].split('/').last
-              mapped_class = MAPPING[ref_name] || 'Object'
+              mapped_class = MAPPING[ref_name] || 'Hash'
               "Array<#{mapped_class}>"
             else
               'Array'
@@ -100,27 +132,12 @@ module CDEKApiClient
           when 'object'
             if prop['$ref']
               ref_name = prop['$ref'].split('/').last
-              MAPPING[ref_name] || 'Object'
+              MAPPING[ref_name] || 'Hash'
             else
-              'Object'
+              'Hash'
             end
           else 'Object'
           end
-        end
-
-        def initialize_args(properties, required_fields)
-          required = []
-          optional = []
-
-          properties.each_key do |k|
-            if required_fields.include?(k.to_s)
-              required << "#{k}:"
-            else
-              optional << "#{k}: nil"
-            end
-          end
-
-          (required + optional).join(', ')
         end
       end
 

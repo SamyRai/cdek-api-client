@@ -15,11 +15,11 @@ RSpec.describe CDEKApiClient::API::Print do
 
   # Schema-driven test data
   let(:raw_barcode_data) do
-    SchemaDrivenGenerator.generate_request('/v2/print/barcodes', 'post') || {}
+    load_request_fixture('/v2/print/barcodes', 'post') || {}
   end
 
   let(:raw_invoice_data) do
-    SchemaDrivenGenerator.generate_request('/v2/print/orders', 'post') || {}
+    load_request_fixture('/v2/print/orders', 'post') || {}
   end
 
   let(:barcode_data) do

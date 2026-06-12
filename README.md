@@ -14,15 +14,20 @@
 
 CDEK ([СДЭК](https://www.cdek.ru/)) is a big logistics company in Russia, that provides a wide range of delivery services for businesses and individuals. The [CDEK API](https://www.cdek.ru/ru/integration/api) allows developers to integrate CDEK's services into their applications, enabling functionalities such as order creation, tracking, tariff calculation, location data retrieval, and webhook management.
 
-The `cdek_api_client` gem offers a clean and robust interface to interact with the CDEK API, ensuring maintainable code with proper validations. This gem supports the following features:
+The `cdek_api_client` gem provides a Ruby interface for the CDEK API.
 
-- **Order Management**: Creating, tracking, updating, canceling, deleting, and retrieving orders by various identifiers
-- **Tariff Calculation**: Calculating single tariffs, tariff lists, and enhanced tariff calculations with services
-- **Location Services**: Retrieving cities, regions, postal codes, delivery offices, and coordinates
-- **Print/Documents**: Creating and retrieving barcodes, invoices, and other printable documents (PDF)
-- **Courier Services**: Managing delivery agreements and intake requests for courier pickup
-- **Payment Services**: Retrieving payment information, check data, and payment registries
-- **Webhook Management**: Registering, listing, managing, and deleting webhooks for real-time notifications
+Features:
+
+- **Order Management**: Create, track, update, cancel, and delete orders.
+- **Tariff Calculation**: Calculate single tariffs and tariff lists.
+- **Location Services**: Retrieve cities, regions, postal codes, and delivery offices.
+- **Print/Documents**: Generate barcodes and invoices (PDF).
+- **Courier Services**: Manage delivery agreements and courier intake requests.
+- **Payment Services**: Retrieve payment and check data.
+- **Webhook Management**: Register and manage webhooks.
+- **Testing & Mocking**: Zero-configuration dynamic test stubbing (`AutoMocker`) and auto-generated API specs.
+- **Resilience**: Built-in 5xx retry logic and automatic rate-limit backoff handling.
+- **Schema Sync**: Fully automated OpenAPI schema synchronization and code generation pipelines.
 
 ## Table of Contents
 
@@ -289,7 +294,7 @@ end
 
 ### Order Management
 
-The gem provides comprehensive order management capabilities beyond basic creation and tracking:
+Order management examples:
 
 ```ruby
 # Delete an order
@@ -497,7 +502,7 @@ rescue => e
 end
 ```
 
-### Enhanced Webhook Management
+### Webhook Management
 
 List and manage webhooks:
 

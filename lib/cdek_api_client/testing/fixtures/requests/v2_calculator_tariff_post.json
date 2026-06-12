@@ -1,0 +1,51 @@
+{
+  "currency": 3,
+  "lang": "g6w",
+  "tariff_code": 707,
+  "from_location": {
+    "code": 36,
+    "postal_code": "l9l8xrp7h33c5csdb2ue8k80609z7oho12kt9y5pl3r7ph6ogfmkouhnerr9xvfgaodz7q1b64pbyhmz2ywwk9lvtepgiaqzciwioe1dnae66jz0cm54hjlqbd4ayxkn6fsj04",
+    "country_code": "a",
+    "city": "9n4p4ggemiryef39uix9tqvlur6fqx2rev74fr0hnl4bc6nnyrt4l8wwur2d8a27st7bh1d0rw5lbhxubfjpa3tqi7291fz7dt8xv1humgx71owdbr",
+    "address": "fo630thas87ntdbhyftbvfcbgr1u3s5xqmff4yg2obrcz1212n5pm09bx90p6kbhw770cgkz7uhhvni2ubab8hsl74vq",
+    "longitude": 651.0,
+    "latitude": 870.0
+  },
+  "to_location": {
+    "code": 383,
+    "postal_code": "qi1ckaa7qgl9i82z0kq1kai91t8k3jbotyf86kebgnrdiicfjor2jvh0wfv2htmlfhvmoirby4295si7x1kjn5zc9wwqvz",
+    "country_code": "f4",
+    "city": "wne6n5o0lkwlrio1qt6gm5u8tt3gt15j3jk",
+    "address": "ctosblmwjfa4der7ifi14yeo0dqrrj0mbguc47wi4pij5du9r5dkw9ks32fize7zyz809i6iovydf0405yqpyjir09s97hfh8avyrtfq1rlrzricawa6i12agp7akg2ymjgads4rvjcdjfy4gcxvsc4t34ow5uknrhjid51wa1iq0q7vu5za1762y2f0dqg9cnq8flf",
+    "contragent_type": "f",
+    "longitude": 1000.0,
+    "latitude": 540.0
+  },
+  "services": [
+    {
+      "parameter": "q0a9tcs80a2h6dh9u62r5tlu3hd8dme85dev987fhn2v1mqhfnwcx22eom5cpygv9fwet6fq3e2zwznr01liptguujxm6d0uchk44p8fftn98m7k9d88lj42ujzbppdbbcs4sgfvr06yw9y8pyincahl067p22j3w2jkni2fa9m7nyg7fo5b4llg35otdx0hql99qmo6cvausn84xciyheuo7i08j5mp5jwydfr98a8u"
+    },
+    {
+      "code": "1f4dz4v4kyc7rin758pnss",
+      "parameter": "04102nhsqdsjotlrwuevlqr5yejagbq4pehli4r11g6bnq11uhpbyoj0mtkmizug6dq7125s1t406fnducw9rpevfgl8r9jtyekr2vplh7nmuj6i23t6jqp3ye22n3pq7tag66zsfta1lyq97r4gqgz3l0qbh4oeodj5zd4x0t36hczm2re8wguwfriucx7pxkcmtzwhgatdakqkjezlqh5e2r5qpwnyg9ctd2d9ozbarv"
+    },
+    {
+      "code": "1hki6m5j2h49x4k1awzsj4qi82dh9zd9ruo4ytbzclrvzzaheg74slgsqqgc2dn5gwq6qikxsco6zq9ns5bv7rra886oh3okjm05rdtfe59sbw2vyrfzs5hyoboe1fk6dd2e0v6byjdw5eqc",
+      "parameter": "4a49gzz5ub7go31xyykgxp2inrveaso6wb5luc47ispz7g9hj90gr38f18s3rfc4ttcj0pyxx25nlzjq1jjyucp4ecj7uu6w6qzlkla2nn7d385g5bv9fdaa06mb1uqh9tty34f7ichzdhow4a56wkthscvitjtwy3xupopdmeb7b8jv30jlg7y8uayssuiq"
+    }
+  ],
+  "packages": [
+    {
+      "weight": 440,
+      "length": 417,
+      "width": 281,
+      "height": 663
+    }
+  ],
+  "additional_order_types": [
+    834,
+    42
+  ],
+  "shipment_point": "4lrbvnh6k0nmfc67p3y66jek2a1jp72v8lnsji9ia4m09shc2ancmo8ylno187xgoylfm9mp1p6dc0hhy8zgmw4tb86bvktel5udgdsg99yhda3f5",
+  "delivery_point": "pnv1butywf8otqfcisaxaq7bd6qsd3omfxl9o1ih1j7fnje4auzecofg12k4uru"
+}

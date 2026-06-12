@@ -1,0 +1,50 @@
+{
+  "shipment_point": "wip",
+  "to_location": {
+    "code": 22,
+    "fias_guid": "pzox1lj5jbe8b042lbxfwxrxrf47qqin54",
+    "postal_code": "7wekzgrjd",
+    "longitude": 414.0,
+    "latitude": 242.0,
+    "country_code": "apz2s2oydj",
+    "region": "8rrpovrs704dm02aipncizsygt2",
+    "region_code": 556,
+    "sub_region": "dhps07ujjjcvq3mrucmrz1975kn",
+    "city": "jghwpaboj4ctdnfzbpn61etuut76k6hyvw47dsppyo",
+    "address": "xjzarlf3tycc3"
+  },
+  "tariff_code": 33,
+  "sender": {
+    "contragent_type": "LEGAL_ENTITY",
+    "phones": [
+      {
+        "number": "hvjz9qan0q376radl",
+        "additional": "wxkl1mfk0h5qln9rhloyap60wka2ua5c"
+      },
+      {
+        "number": "jwsh7l6pblly0ngwzc0g2jeddwwiv"
+      },
+      {
+        "number": "n8t8vyl0pskx6uzbyxlcd",
+        "additional": "s3p94dfe422lw7nzc9al3gf2"
+      }
+    ]
+  },
+  "recipient": {
+    "contragent_type": "LEGAL_ENTITY",
+    "phones": [
+      {
+        "number": "xzx2xa5ea67gez8bmsczx3qv8014cgrm2mqa4j32rmkw8jfxuc",
+        "additional": "8awnut2oo71gyf5g"
+      },
+      {
+        "number": "a9db5jol385i55pvzmhnf8jlf1ck48k2vv",
+        "additional": "zybcnrs2h4ykkz0l7r"
+      },
+      {
+        "number": "sqpnxeel9fdemkdw9irgp3qk08ztc8",
+        "additional": "fy0r9zax6hu38px"
+      }
+    ]
+  }
+}

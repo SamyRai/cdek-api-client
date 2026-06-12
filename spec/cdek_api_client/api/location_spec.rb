@@ -15,13 +15,13 @@ RSpec.describe CDEKApiClient::API::Location do
   let(:location) { client.location }
   # Schema-driven test data for requests
   let(:cities_request_params) do
-    SchemaDrivenGenerator.generate_request('/v2/location/cities', 'get') || {}
+    load_request_fixture('/v2/location/cities', 'get') || {}
   end
   let(:regions_request_params) do
-    SchemaDrivenGenerator.generate_request('/v2/location/regions', 'get') || {}
+    load_request_fixture('/v2/location/regions', 'get') || {}
   end
   let(:offices_request_params) do
-    SchemaDrivenGenerator.generate_request('/v2/deliverypoints', 'get') || {}
+    load_request_fixture('/v2/deliverypoints', 'get') || {}
   end
 
   def save_response_to_file(response, filename)

@@ -1,0 +1,51 @@
+{
+  "date": "0nxlnuc4vka2e4ppqi6tf2ilybu1shsm8",
+  "type": 212,
+  "currency": 5,
+  "lang": "913",
+  "from_location": {
+    "code": 493,
+    "postal_code": "f8o9hput438giosdt7rdnac1cssrtbojnzx4nu0jux3lze9cqwv41rcakygspbhgbxclaa44azi7c3096b3kcelvgbbrfx27e60802rtvup3uxbwwrijin0o6uf4zz4i7mwmjwgu1jrnm5keonu4eewbb4dr7afnl31kbew77crfsqc5rbczo",
+    "country_code": "wy",
+    "city": "493s6pdu3lgzqgpdi4yyfweelwei73prouusns6r01xejtby501n38esiwpops0hkv3hxrdw4yf3u12dr2t6cepyhobf44hn37esomholaj4qm5kkfdi7ign7r6wi349tdw5u4qe13b9cep8hyaezu60o68esck9w05wkznx5jo4zq4jcty78b5fp07p",
+    "address": "ufaidvm5pz75zqdlf3h7fc3m3kvr04numfr31dzbuurkew8mgdhk188vvvt0rjn9o91onuizo22wkcup8pfxeid9ycsn7o1o8lmi",
+    "contragent_type": "4g65bb3om7m87dwkkoe",
+    "longitude": 899.0,
+    "latitude": 931.0
+  },
+  "to_location": {
+    "code": 41,
+    "postal_code": "7simibeprt617n11wn9i0bop4iydhmw2tj0l0m2yvkkyc7512qni9l1obsdfsxsa3w5ce3hxrt",
+    "country_code": "w",
+    "city": "rqpd8a3y9ybxgxyatr1iyzaysdnfs8wyaw7qlehddckjh06sitsrk3jr7oivoztj8yuqkhw73umnf63lycszc7xd03ut7er7jsvn6qerkg46hb1tozs",
+    "address": "ldwq4jjq4fzwrxhgz50n0r1zt03hq46gmnfp40mftmjveek1j4f1rsau4h873bvwc5r2ts7sgmjlbl2gazwlme615kevcwfv2a8y69rx3g7c67rntuy6yv8q4czt4yts5loyc658b7ipfan9mgotz898089ba9zsbwf16go6vidmm1t5q4y6pht2sjocoxploac9tuygag0kv84ga69mle0p10pmqgfiw4y6rldyip2ps10eq",
+    "contragent_type": "znfuzfh",
+    "longitude": 355.0,
+    "latitude": 36.0
+  },
+  "services": [
+    {
+      "code": "v3pzz37wi98byfbbkvbreb",
+      "parameter": "3qin7iee02enzuapmgmig2r8rqfjdnlbdd6uszsjojo594z4s84f4y5rum9qbukahlcep5zkfyioh1wljx3rdewipclmuxx9022cf2k2c7m7vhp4lat972lc6j75x0ctxeb1sbt0lzbenxz15x84u8ozuydw0b4d09e3qut7dpduvfuoj0ko0efqg4feaixk1vp5881w9keecpy4n1sp3c4g92l"
+    },
+    {
+      "code": "na698yuf62uj5vbepk3hdwbwam830z9roa6c7t34caswcnhe1a6ho8hpuyfaf7drk",
+      "parameter": "eu7jcewaop2bqe0yhc51x4dodbpe98tvpwbifuqfv8cih3gsk8qpntibr53we3dd9n1i3fm9l41ar74hmknuwehnzazxqdc0bf7prv3d57j3q1jatja90stdp4k1zj40lk"
+    }
+  ],
+  "packages": [
+    {
+      "weight": 955,
+      "length": 649,
+      "width": 69,
+      "height": 57
+    }
+  ],
+  "additional_order_types": [
+    845,
+    87,
+    163
+  ],
+  "shipment_point": "a0v0seide0o49id0slqeok5es2avk2kgl0o366a1l2sgbj4",
+  "delivery_point": "79wouwyb6v8l6mzitzst08gb0tk61xnvg67al494bgdurzvjx3svqslb30vsxxlpc1l6zm3x56eq8s4y4dwhze9cvppawhzubdfnc"
+}

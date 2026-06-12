@@ -1,0 +1,86 @@
+{
+  "entity": {
+    "uuid": "qojgz41jxg9r5ejvjb83jgkjl3fhtqble"
+  },
+  "requests": [
+    {
+      "request_uuid": "7ikkjo4k4b0az0wwgm8rl7",
+      "type": "zkvwaunqxkgllt5oz4nnqt5v683hrao8qu07kjf9p41q8bu",
+      "date_time": "m0s3",
+      "state": "95wsyt75smsfy8sv0o0t1m2qwev2u6yn88tip1hvpbqep2gzvi1hrw669u1gw7nt7vm82u5ttp334rddrt9zsu09c1pqbksteifwhqesyoknp8j1gthmzd3felhkozupkbsmfsexgp81l6ffzl14acgxt9nxyvw9ljggylcgvgo7zfc4opcouul6p9j06e9ts6n9r4t",
+      "errors": [
+        {
+          "code": "znxl4f7uymbp8dx37yv3yaphi1ujfwkj9uiqyprvej",
+          "additional_code": "uaslv9tl8kggb8px4f1z",
+          "message": "guw204j1roqpwdwrig0pg9scg3"
+        },
+        {
+          "code": "qy9eq2ssdrqhod19axgo9zd",
+          "message": "4g7kkqadj4"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "jqmg6rex9ayc6cm",
+          "message": "7hjhpsiyx8q"
+        }
+      ]
+    },
+    {
+      "request_uuid": "hwpr4okur4p6kc",
+      "type": "1csr7h457n96zisnxckvpqu5w",
+      "date_time": "0f0v0v38dbl3eqwzx5jy",
+      "state": "5jfuomusj0yqpcxd7qkp9s0gbemx2o9h4raszaclz9hynjz00up4ko532eqroolm50twin141tztcii1g56razob88bq6l84z25tpx8xb3wztumkbamvpk7j0ul91u4mu5mo1rg799mow6gh8iqczm1zifeq1l8z4n1vek4aplk6zxtpvtk9164sy",
+      "errors": [
+        {
+          "code": "rk9qbt3kwldkfs10fd9w6m2ijcrt7le07iw5uq8djg4x",
+          "additional_code": "3521xn4h3ixz67gd791pf3qbd32gx",
+          "message": "653prmllvcjb83"
+        }
+      ]
+    },
+    {
+      "request_uuid": "02bfenaoq",
+      "type": "3vv9jwe57jpxy20o1cj9",
+      "date_time": "o",
+      "state": "b22zozkwwguxw1fdt15dmyw0i7vx8qfydmog5y5plalatt1jtcjbcra7qs0uqd0vvzwshr8ciuedm4stetf2han4wo4bv0kk1o2w40920cctklndifol796m5mu43uhru90qc7ggl4vh3lres9pe2v861d44fj84qp8bcofi4pp47sy3os6pwif79o9tn0rnfwtid1",
+      "errors": [
+        {
+          "code": "3cvupwq0isg51kpw8",
+          "additional_code": "dccr",
+          "message": "97cmdv8tgmwk9atrfgncqkwj"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "y32dmtdopm8te243",
+          "message": "bum3infzz51jsk8mjtio9t27qqfhxmbcjhkvedfdmvc0n0"
+        },
+        {
+          "code": "qeewa7acn9qoyq8nmz0fhl4010eqhisu2jtrmmczndt",
+          "message": "z28fozldiox14mr60xe"
+        }
+      ]
+    }
+  ],
+  "related_entities": [
+    {
+      "uuid": "egbzv9ugluqb5lk73ncs3ae80ggb75f4",
+      "type": "waybill",
+      "url": "e1xeinah877i5a7ywle6bdf8t3r3awqn71m",
+      "create_time": "t4ka0hkllop",
+      "cdek_number": "kxm5gni9pbgvih7qw3t7272pz5ut4nzug4gk3m4d1ij712m",
+      "date": "1f60sy7goiv2xsoxgu6dch9da",
+      "time_from": "6fbrxdqpfvs5xyw1f",
+      "time_to": "rqryhebep"
+    },
+    {
+      "uuid": "rs9u83qn9z",
+      "type": "barcode",
+      "create_time": "yu8oe30t8hj98xerp4db78iqbteqbskp5",
+      "date": "dxbx3cov05g0c",
+      "time_from": "g0kpycsmoxdwwkfbuhyyf5ls1vfe2urc3c4n",
+      "time_to": "8lqwyg0h"
+    }
+  ]
+}

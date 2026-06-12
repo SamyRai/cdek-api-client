@@ -1,0 +1,21 @@
+{
+  "delivery_sum": 698.0,
+  "period_min": 74,
+  "period_max": 866,
+  "calendar_min": 227,
+  "calendar_max": 378,
+  "weight_calc": 293,
+  "total_sum": 980.0,
+  "currency": "3",
+  "errors": [
+    {
+      "code": "10l2zvpffnrop3dqrrfh6eo5yje54n3p",
+      "additional_code": "ewfdnz5b47e1gpku121maz97vj7g87hyqoggfliz865jdyzhhd",
+      "message": "r4vmvms72kz45ary"
+    }
+  ],
+  "delivery_date_range": {
+    "min": "f7kbpiob56vlsnaie",
+    "max": "qupn3pois90i848wxtpn"
+  }
+}

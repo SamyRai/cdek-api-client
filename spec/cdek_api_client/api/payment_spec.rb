@@ -15,18 +15,22 @@ RSpec.describe CDEKApiClient::API::Payment do
 
   # Schema-driven test data for query parameters
   let(:payment_params) do
-    SchemaDrivenGenerator.generate_request('/v2/payment', 'get') || {}
+    load_request_fixture('/v2/payment', 'get') || {}
   end
 
   let(:check_params) do
-    SchemaDrivenGenerator.generate_request('/v2/check', 'get') || {}
+    load_request_fixture('/v2/check', 'get') || {}
   end
 
   let(:registries_params) do
-    SchemaDrivenGenerator.generate_request('/v2/registries', 'get') || {}
+    load_request_fixture('/v2/registries', 'get') || {}
   end
 
   describe '#get_payments' do
+    before do
+      stub_request(:get, %r{/v2/payment}).to_return(status: 200, body: '{}')
+    end
+
     it 'responds to get_payments method' do
       expect(payment_api).to respond_to(:get_payments)
     end

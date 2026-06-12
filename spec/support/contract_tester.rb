@@ -6,13 +6,15 @@ require_relative 'schema_validator'
 # ContractTester provides high-level contract testing for API endpoints
 # Tests that request/response pairs conform to their OpenAPI schemas
 class ContractTester
+  extend FixtureLoader
+
   class << self
     # Test a complete request/response contract for an endpoint
     def test_contract(path, method = 'post', &block)
       raise ArgumentError, 'Block required for API call' unless block_given?
 
       # Generate valid request data from schema
-      request_data = SchemaDrivenGenerator.generate_request(path, method)
+      request_data = load_request_fixture(path, method)
       raise "Could not generate request data for #{path} #{method}" unless request_data
 
       # Validate request data against schema
@@ -37,7 +39,7 @@ class ContractTester
 
     # Test only request generation and validation (for unit tests)
     def test_request_contract(path, method = 'post')
-      request_data = SchemaDrivenGenerator.generate_request(path, method)
+      request_data = load_request_fixture(path, method)
       raise "Could not generate request data for #{path} #{method}" unless request_data
 
       validation = SchemaValidator.validate_request(path, method, request_data)
@@ -71,7 +73,7 @@ class ContractTester
       raise ArgumentError, 'Block required for API call' unless block_given?
 
       # Generate valid request data
-      request_data = SchemaDrivenGenerator.generate_request(path, method)
+      request_data = load_request_fixture(path, method)
       raise "Could not generate request data for #{path} #{method}" unless request_data
 
       # Execute API call that should result in error

@@ -1,0 +1,59 @@
+name: E2E Live Schema Drift Validation
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # Runs nightly at 3 AM UTC
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  e2e-test:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      issues: write
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3
+          bundler-cache: true
+
+      - name: Run Live E2E Contract Tests
+        id: live-tests
+        env:
+          CDEK_API_ENV: demo
+          CDEK_API_URL: https://api.edu.cdek.ru/v2
+          CDEK_CLIENT_ID: ${{ secrets.CDEK_TEST_CLIENT_ID }}
+          CDEK_CLIENT_SECRET: ${{ secrets.CDEK_TEST_CLIENT_SECRET }}
+          USE_LIVE_DATA: 'true'
+        run: |
+          bundle exec rspec --format json --out rspec_results.json || exit 1
+
+      - name: Create Issue on Failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = "The nightly E2E Live Schema Drift Validation has failed.\n\n";
+            try {
+              const results = JSON.parse(fs.readFileSync('rspec_results.json', 'utf8'));
+              body += `**Failures:** ${results.summary.failure_count}\n`;
+              results.examples.filter(e => e.status === 'failed').forEach(e => {
+                body += `- **${e.full_description}**: \n\`\`\`\n${e.exception.message}\n\`\`\`\n`;
+              });
+            } catch (e) {
+              body += "Failed to parse RSpec results.";
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: "🚨 API Drift Detected: Nightly E2E Test Failure",
+              body: body,
+              labels: ["bug", "api-drift", "automated-issue"]
+            });

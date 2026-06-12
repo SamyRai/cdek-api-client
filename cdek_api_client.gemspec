@@ -24,4 +24,10 @@ Gem::Specification.new do |spec|
   spec.metadata['changelog_uri'] = 'https://github.com/SamyRai/cdek_api_client/blob/main/CHANGELOG.md'
   spec.metadata['documentation_uri'] = 'https://www.rubydoc.info/gems/cdek_api_client'
   spec.metadata['rubygems_mfa_required'] = 'true'
+
+  spec.add_dependency 'dry-struct', '~> 1.8'
+  spec.add_dependency 'dry-validation', '~> 1.11'
+
+  # For more information and examples about making a new gem, checkout our
+  # guide at: https://bundler.io/guides/creating_gem.html
 end

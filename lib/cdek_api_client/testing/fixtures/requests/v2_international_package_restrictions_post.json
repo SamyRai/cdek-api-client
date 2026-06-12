@@ -1,0 +1,35 @@
+{
+  "tariff_code": 532,
+  "from_location": {
+    "code": 227,
+    "city_uuid": "12wou4wsyf0p2m7t5o0dklirxstt",
+    "city": "xcqq4ozsv6phrqkwa2huijo0aqlo3v578s2ndcezr4omhbp17xp6l9j61t2txrwai6o",
+    "kladr_code": "im2t5ejenqr7eeyuqmxwmyaxvbc89qm1cnaz8nlv0hmtjokr9i1v0p3k07ut95j5fzmlqy727gj1lpm36aa9ipugpmnfi0gqg1l8brszs5o3k2mefja0aihn8gbzh9rov6zkiwpx4qb6pq7iibanknpf8z7664mltwnld9q03zkero0snrtlqc2u0cc0n16ih4wmosabhbozgth5dm7gevlcwpgtzrw6rzfa5z3161m3fbuw62u69pe",
+    "region": "s0jdhsibegg90neerx4l7lyacqeg",
+    "region_code": 369,
+    "kladr_region_code": "wbr6kaonvhhh3ovh4k2nh37ltae8v1wmu1ns0go9jw3ubujiw6det94w9dlao0ac43r0s3hfajtx6dwf538zr34d3to8u0wjy1gonqxw0",
+    "sub_region": "na6lp8b854tqmwgx6gxnz0yfwkgycp88k095ul3jqo2g8s2ptks4g776j6x6x3o6n4cphcgtbog588ix5ivwok1efil8rmwgv7d37wbonuzsr6z7meejn6baxgxgfofb36mgf7xbhpumirz7w6whfueqwwgqp1qbj43svxj30ak2yxiur2kns5efeowpc3bzfst41nwzaoh1yshrkh17rt14rbw97eh87kx0y00n",
+    "longitude": 177.0,
+    "latitude": 611.0,
+    "time_zone": "bzjqprp3ccvx15360xz0utxaopouwo5shxaesrp6xia9iy",
+    "payment_limit": 954.0,
+    "postal_code": "5evwkujanhqfk5r4s2imbsbcsrrar6hcrd6l3pzjnzicrm73suk84geytt4zq9zxc3cv"
+  },
+  "packages": [
+    {
+      "weight": 46,
+      "length": 873,
+      "width": 315,
+      "height": 173,
+      "items": [
+        {
+          "name": "lz8y",
+          "amount": 276,
+          "item_id": "mohg7in0g2sc4b7e18loakiw4dxwm7",
+          "feacn_code": "b69n8poqgtpukwo7uch5t4x9e816hd50rexzt"
+        }
+      ],
+      "package_id": "vvtsusru99wekqdw2rb0ag0qr"
+    }
+  ]
+}

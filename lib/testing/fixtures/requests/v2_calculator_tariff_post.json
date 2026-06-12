@@ -1,0 +1,67 @@
+{
+  "date": "lb8yte3zt7u3bcu9f5ktqjvkuq6jz9x9p886jglxo",
+  "type": 952,
+  "currency": 1,
+  "lang": "gk",
+  "tariff_code": 348,
+  "from_location": {
+    "code": 760,
+    "postal_code": "um2fcowf3f25z3kg8x7li4okcgv82q7y5mdyl8d4p3dgbfx5xv0w7ytjdubwr4zymndsugzwjl3i3it3nln5k24k0wf1kjgdgr4iiivq0p5tw2jhy7kznd5jf121nin2drdbqlaw26ppomsg",
+    "country_code": "w",
+    "city": "ja7i2sv4015w35ml5n4v93255da9cs3rnlo25a72ahghxa804t4irrlknu41f8svlfi9bxy8wx734h7g435bie55avktrask20ah89rigfobxug3cp6ji5m4z0767filxrm9b97pfrik7spb2fzgg6t27mf53zafyw6vwfp0281wtcl0hc3ouw1k0i0k3f8emeq8rl20bg6q9it55919jpc5",
+    "address": "7iqjeeuq2gsmtmt5vsjfh91mublvohqdmg",
+    "contragent_type": "2ukorj4kmdfrn695x1x4",
+    "longitude": 201.0,
+    "latitude": 458.0
+  },
+  "to_location": {
+    "code": 712,
+    "postal_code": "idq3gz76vs8g9ur8wgo3fn482dlv",
+    "country_code": "t",
+    "city": "ij9izfqh2i6mi5undfej1syo7oqy16m9kw52kvxxwg1tcz5cs96dl5yim77nh5lru2091zq0ie17y1l1ylka",
+    "address": "us2ti3p8kookxfrh6u65uy9b2u3ehdbu6480s66u07ml2lkqwlxnzmybs42orzx7y47ynhexv5wt5m486xolz0ctj36vzwcy8cnm4v08ykdn9t5hhe1ktpnxugb4l4631cea9ub7hgcshbf8gob602gmasfagdvbw1rifby",
+    "contragent_type": "q01bi1ufjkeusppa2n",
+    "longitude": 266.0,
+    "latitude": 311.0
+  },
+  "services": [
+    {
+      "code": "f8i9m5pxhcatd48tpv",
+      "parameter": "htw2wgyoyrgj1snshogypwfj335f31rodxfbps6ryw4yx9q5463c8e9msr10znfgc0hcl31fo097f27m9yd6y7a1p73obsfjk3xatzkrs6fz92jp758ajhiroh6oouael1wtua"
+    },
+    {
+      "code": "r8sveqk23u9npge15fte6a73i8frwib1izzwykzcq64iu3",
+      "parameter": "o42yoskm9bp0kv06imbvtlhyl9zkxquw1a1ob7drz5aabhgr6ae8n6fhtdsbtbuvy6fk7ipkj41dyurqppqrjuffyb6nju1qojukico7n2vytv5j7bkx8xdm7nwmibt3ahs6b2up2trlulcpzqovs6iq4204fqbajyavu230uglkuqgwn23kqpt6u421hm2qglcrl8co7xbfw4uzcr42o2or"
+    },
+    {
+      "code": "qtu",
+      "parameter": "9wm9105d36ots0chozf2zpz2v2g33knjg6cui56s83zydnv49nhtn4ytlab2jx5vmhpr4digdwku2angqbnsbiap1hc1n6f5gkv98flktxbmrddp9qewasqekmrq6hrskitrbrjduy5u2emztgh9smqn78b8etnu6j5iqfctk68xarg5i6d49vpwwqk3ywdo"
+    }
+  ],
+  "packages": [
+    {
+      "weight": 624,
+      "length": 28,
+      "width": 528,
+      "height": 597
+    },
+    {
+      "weight": 586,
+      "length": 220,
+      "width": 110,
+      "height": 911
+    },
+    {
+      "weight": 289,
+      "length": 189,
+      "width": 360,
+      "height": 564
+    }
+  ],
+  "additional_order_types": [
+    233,
+    535
+  ],
+  "shipment_point": "tyegek9t9d76ixy0o0tv7qwha4h2kxmomo2s5xmywflcwuyw2qy9njmoe0w9kkvk6p4988171geyywxazwm1zw4sxlviqf4uspihprqnu3iblkr06u4t62fvp4n6vrc0ncm8ponyzo3px1cgpls4ilhkazf31zuojz8rm2yjyj55wx03q3nmk1zsqp12692drqo45aar9v25k85as58y1nhax5zrljwhtvz3l",
+  "delivery_point": "tkuh"
+}

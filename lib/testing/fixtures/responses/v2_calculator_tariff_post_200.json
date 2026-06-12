@@ -1,0 +1,56 @@
+{
+  "delivery_sum": 643.0,
+  "period_min": 567,
+  "period_max": 520,
+  "calendar_min": 109,
+  "calendar_max": 532,
+  "weight_calc": 55,
+  "services": [
+    {
+      "code": "l6w6pdceajgsbj5ss9d9wpklxcl1lat20",
+      "sum": 121.0,
+      "total_sum": 335.0,
+      "discount_percent": 25.0,
+      "discount_sum": 49.0,
+      "vat_rate": 717.0,
+      "vat_sum": 108.0
+    },
+    {
+      "code": "phtluqvn59r08s0c1op7e79lwgg4ht36o8tbdbgx2",
+      "sum": 87.0,
+      "total_sum": 738.0,
+      "discount_percent": 658.0,
+      "discount_sum": 663.0,
+      "vat_rate": 68.0,
+      "vat_sum": 778.0
+    }
+  ],
+  "total_sum": 102.0,
+  "currency": "f8a",
+  "errors": [
+    {
+      "code": "2z1i7drmmzi3qy",
+      "additional_code": "w4dror97ft",
+      "message": "pfv6mdn"
+    },
+    {
+      "code": "ptqfemedvtrwtz0cnhxba0fp6slaf9jgerrhtlcq5nbjvs0",
+      "additional_code": "30zs1x14d0yq",
+      "message": "peu441eu0f02s1dv6"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "bfb5l8897b5spyqwdtbxqgpjqssprw63rwlcgnwh6m1hi",
+      "message": "qvbokoun0rx4alqs5e9txugckyozpe2lkam0e5ml3r6kdu3"
+    },
+    {
+      "code": "s",
+      "message": "9indpenu308plz7168420wpwrex2g4e"
+    }
+  ],
+  "delivery_date_range": {
+    "min": "1su02v2yjsl3ne1n43f",
+    "max": "3wdx7j"
+  }
+}

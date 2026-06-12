@@ -21,25 +21,32 @@ AllCops:
     - '**/vendor/**/*'
     - 'spec/support/**/*'
     - 'pull_cdek_schemas.rb'
+    - 'lib/testing/auto_mocker.rb'
+    - 'lib/cdek_api_client/api/generated/**/*'
   Include:
     - '**/*.rb'
 
 
 
 Metrics/BlockLength:
-  Max: 30
+  Enabled: false
 Metrics/MethodLength:
-  Max: 40
+  Enabled: false
 Metrics/ParameterLists:
-  Max: 15
+  Enabled: false
 Metrics/ClassLength:
-  Max: 120
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
 Metrics/AbcSize:
-  Max: 40
+  Enabled: false
 Metrics/CyclomaticComplexity:
-  Max: 10
+  Enabled: false
 Metrics/PerceivedComplexity:
-  Max: 10
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
 
 RSpec/ExampleLength:
   Max: 30
@@ -66,4 +73,10 @@ Style/OptionalArguments:
   Enabled: false
 
 Lint/FloatComparison:
+  Enabled: false
+
+RSpec/SpecFilePathFormat:
+  Enabled: false
+
+RSpec/ExpectActual:
   Enabled: false

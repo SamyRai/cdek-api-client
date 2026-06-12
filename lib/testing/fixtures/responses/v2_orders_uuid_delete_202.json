@@ -1,0 +1,66 @@
+{
+  "entity": {
+    "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93"
+  },
+  "requests": [
+    {
+      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "7ls2qn5lvl8g9p0lcuzal54a67yupuuydsc",
+      "date_time": "le0xskh7i9tczi0f3jkxz",
+      "state": "ACCEPTED",
+      "errors": [
+        {
+          "code": "15zp0uduqn8",
+          "additional_code": "fp562sp70n748iyfzutzak3tbx0xp3wf0lsxlg2b9mww",
+          "message": "56b73fx7"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "29fyni2ay",
+          "message": "rb2bllgajiby8wtw2jm27rascwcy2g9265e3h633giretsg2ef"
+        },
+        {
+          "code": "xjdl4ubgr30wd84m6q7uy4sqx",
+          "message": "9h4xi"
+        },
+        {
+          "code": "sg6b1uf",
+          "message": "5w"
+        }
+      ]
+    }
+  ],
+  "related_entities": [
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "6dqnba7wiepdqmwujf9yk6x8t96z9a52peeq5vzeyx8rawu1dpmc600m7e4s4ceboacf9yfsybt12adbx5vi8f632fo4glat93e0zbooe2am4xhqzjotj94s6nmngn7sdkis88jmpim",
+      "create_time": "u4uuhzecutgei3hp0zj65",
+      "cdek_number": "yknuavt1qly12mnlwrc7ytx9mqr593hczrf8go9kkscatyvsfembe2pqlu1f8eisreywj7x2l0tyvcfjhm84msjmktwwssuapczqhomryzpchp",
+      "date": "bd4b12aiav3zjewwl",
+      "time_from": "be0x5waf0",
+      "time_to": "jyckfeczu52oh2munoh1uy9h857gjq54r"
+    },
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "1xksxitkeq3633vq1wg2kvprbsabyd8j88qrazr5blsmj1ub5yc4nj8znmoa9n6ym0qm",
+      "create_time": "9e2ut0ylw2f6s689y78z9ziuoq",
+      "cdek_number": "71zv0rkr3e0gmlwlhprwakuhqnt2nl5027ls32nk8ypmmsalf7zo6r2rfa2js90uogyt8k14bqoo7u9ebh0lcpixkpkiatoy8c9b4hsh2q0t70bpu6xlyc5jeox",
+      "date": "ebhepgb7b5p2zoo54dfzvby7yi91eyzjxv",
+      "time_from": "fzge4z9ml6mvwjg9ri10bf7prou32s",
+      "time_to": "1pr8oz46g1nlaecu"
+    },
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "319afa584y6973f9n71yo7chdm",
+      "create_time": "0ne2en3m3f1qyqfsmlzz7mi6lw8mmqqd",
+      "cdek_number": "p6k1lhvx0xtjded4fp6prjnm1uth",
+      "date": "qa513tu73vnltd6b2mfomospn7c59op",
+      "time_from": "73ti1ruuc2yktyso3n1g7c03bhu1",
+      "time_to": "orssfjwc1woa7vazlz8k17biije69aooiz3"
+    }
+  ]
+}

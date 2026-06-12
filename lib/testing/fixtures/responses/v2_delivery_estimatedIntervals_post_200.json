@@ -1,0 +1,44 @@
+{
+  "date_intervals": [
+    {
+      "date": "7lkxj3thcysc7yy8nxorqq05xmc7zog6mxmbp4q542nnlzx",
+      "time_intervals": [
+        {
+          "start_time": "p13kyjqhswvnqsc1b4rkw0br2wb2v",
+          "end_time": "x9k0ktru39lk",
+          "agreed_count": 476,
+          "total_count": 44
+        },
+        {
+          "start_time": "umukotvoddzmzisxv2imbqshrf9kslhlmeh689kzj36o8e1cj1",
+          "end_time": "ov4cw1",
+          "agreed_count": 908,
+          "total_count": 807
+        }
+      ]
+    },
+    {
+      "date": "1fjdr2oo4fw6wokbv40",
+      "time_intervals": [
+        {
+          "start_time": "xrrt5ciz30e",
+          "end_time": "4qx0r69k8goutza1l",
+          "agreed_count": 471,
+          "total_count": 711
+        },
+        {
+          "start_time": "1theion84368la9tij6easwfq1v5",
+          "end_time": "4t0k1lr9rfe548tx0",
+          "agreed_count": 664,
+          "total_count": 338
+        },
+        {
+          "start_time": "r54eprh3gc0qra1he3l",
+          "end_time": "fedlkz878g71sif842snhuaq20gmcaf82mwqo5hniv4bwtq",
+          "agreed_count": 1,
+          "total_count": 15
+        }
+      ]
+    }
+  ]
+}

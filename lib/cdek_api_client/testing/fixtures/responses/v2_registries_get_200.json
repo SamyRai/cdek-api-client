@@ -1,0 +1,61 @@
+{
+  "registries": [
+    {
+      "registry_number": 778,
+      "sum": 938.0,
+      "payment_order_number": "xcn0mfj",
+      "orders": [
+        {
+          "cdek_number": "to1n",
+          "transfer_sum": 304.0,
+          "payment_sum": 235.0,
+          "total_sum_without_agent": 888.0,
+          "agent_commission_sum": 558.0,
+          "basis_type": "m1497lh50xsn"
+        }
+      ],
+      "date_created": "9t0yda2dcmv7ka064j2"
+    },
+    {
+      "registry_number": 591,
+      "payment_date": "7qoqtk6",
+      "sum": 599.0,
+      "payment_order_number": "zij687dntgya5jcvlmdriamdoktwbebrc",
+      "orders": [
+        {
+          "cdek_number": "lzxvnd7",
+          "transfer_sum": 43.0,
+          "payment_sum": 750.0,
+          "total_sum_without_agent": 848.0,
+          "agent_commission_sum": 659.0,
+          "basis_type": "r6n7svfbxb7ts1yp6dtuw"
+        },
+        {
+          "cdek_number": "ww0a72qftd6cgyxc0191",
+          "transfer_sum": 813.0,
+          "payment_sum": 649.0,
+          "total_sum_without_agent": 661.0,
+          "agent_commission_sum": 527.0
+        }
+      ],
+      "date_created": "vln6"
+    }
+  ],
+  "errors": [
+    {
+      "code": "sju1kkpgpj13mruxdl0bjscljmud0c5ajk4x2tvizj0cpfbl26",
+      "additional_code": "uqx0u9zybe9t3mat2renp292qhwb7yno0hc8uz",
+      "message": "jcwepp78s4ao5"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "i7qtj2d9lgegr6my7b1v2uof2q2y6n",
+      "message": "0bhtef7pxhp4e687k9x7xabr8g0aqkzdqymt"
+    },
+    {
+      "code": "9ss5ilaomt8ki02",
+      "message": "v5zq6ra4c24rkfs9ibivljr9wug"
+    }
+  ]
+}

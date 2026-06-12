@@ -1,0 +1,58 @@
+{
+  "entity": {
+    "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93"
+  },
+  "requests": [
+    {
+      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "yzji85htmkh",
+      "date_time": "6uus9xl2arxf269fiobeytc5iii2m7gqqi5qcut0sv",
+      "state": "ACCEPTED",
+      "errors": [
+        {
+          "code": "tz1mtb6281i6qe3fctdbhssey0lxleaov6wpq5",
+          "additional_code": "wqhhdn7xy",
+          "message": "tiojhg0y7t"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "i55vztoo15cec80jyszhsjpqvouir7kcyez7f55sw3k1osm",
+          "message": "28xwy3ts"
+        }
+      ]
+    }
+  ],
+  "related_entities": [
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "ndyvsy8qzekwvdgxmunyenfmbq1st6iwpv79zc9p8ms488rvsfp2fzzpss2zds6x0momq44ft0jqfk4l7efuq0zqwb8hsirb8tfs4oc18z9uag2i2eb1y4lnjjxt2dpp38tlgk8dvua1r2piltpuowlmp4ofq62fwapp3j7h",
+      "create_time": "rrzp65s41ab6qgd0egwoo6gojy6ip2npwojhk7qkflu7evgh",
+      "cdek_number": "2xmlmj203ee88zx4ejy1x37pluy3beya78ai18nzin46o1pwp0nytkprltd0dok2z9ti708p0gksp65flpqwemma3fjavmmc3t",
+      "date": "rjo301xoqhpvy7plvr",
+      "time_from": "os8ghqetpnylojuybzpltthamnkbpj9j4hlx",
+      "time_to": "ij4crxup"
+    },
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "sus881b2jzr0jz3qocx218rsmmumlyq7l7ws68ym6m2joa2nsgfb3on7bid1szclfukf6hegoz50yht",
+      "create_time": "8rntif3p4ugajx0pccwwggp7i96skprxe23vt1uhnii15c4",
+      "cdek_number": "kv6s9dz6icajp0cvawst3nkp61vmq1vavndiyrqcj3q2ju18ks41f8k4deshic8xb4iiozpfdk2jf42s7p6tnh299p3jfrihdt43crlxlrgcwyblzrhvqj85od83js95flg3l040q3ngv",
+      "date": "pu1a88",
+      "time_from": "p6fbcn60tu94s1l2ljtvcuayelxh40n",
+      "time_to": "mtaqpim9wis2zj6cpizzvkbohf7bew0quvj54svwi150"
+    },
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "kqb89llmz2d1dtehliihhfok2qdufbupnz95pwv167axx21b28w9udid08o96m1gd0dvg0soicwbpvplmv51kvlsfm93a7sg7vuoq5rgku6i7yy8qeiw80d0xqhnyiq3lwxwxsurz8297au9q106b7opawge9p7pb0gzznzfd62axb28syien5ti04j5razcvec",
+      "create_time": "0fexup85tkdytyfvgm4uj",
+      "cdek_number": "zwr2xkcp7o2cicq",
+      "date": "nbqzv9v1yegrpd6mpcfqpqis5qju5st8c1fkhx82almflqzmb",
+      "time_from": "s9jzyuj29seo48v0ss47ago1vh7ezxktkzdel5qh5ve",
+      "time_to": "82jxpnzh07js"
+    }
+  ]
+}

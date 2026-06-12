@@ -1,0 +1,81 @@
+{
+  "tariff_codes": [
+    {
+      "tariff_code": "9hoo7g98gnst563fjk8r1q4pgxfw4p56ydwi",
+      "status": "zdf6oqc874hykrmt9ot4wxr",
+      "result": {
+        "delivery_sum": 529.0,
+        "period_min": 775,
+        "period_max": 709,
+        "calendar_max": 678,
+        "delivery_date_range": {
+          "min": "zj973xerc2f9d7a963tu7dwzb"
+        },
+        "weight_calc": 575,
+        "services": [
+          {
+            "code": "kknyovwg7rtremf1cavxjswbr0gxpql0jotthaw2anh",
+            "sum": 527.0,
+            "total_sum": 5.0,
+            "discount_percent": 578.0,
+            "discount_sum": 469.0,
+            "vat_rate": 806.0,
+            "vat_sum": 380.0
+          },
+          {
+            "code": "komzt1s0z92lnv207y8spl47osuhgcckgi56g30m209jhlo",
+            "sum": 380.0,
+            "total_sum": 614.0,
+            "discount_percent": 62.0,
+            "discount_sum": 758.0,
+            "vat_rate": 95.0,
+            "vat_sum": 238.0
+          },
+          {
+            "code": "rydkuqzt6g",
+            "sum": 416.0,
+            "total_sum": 380.0,
+            "discount_percent": 402.0,
+            "discount_sum": 809.0,
+            "vat_rate": 77.0,
+            "vat_sum": 585.0
+          }
+        ],
+        "total_sum": 141.0,
+        "currency": "g5a99jtdof91",
+        "errors": [
+          {
+            "code": "pr0b26q885zuu0umu7osw5nm2le758lm7",
+            "message": "2tfcajk8mhxmx"
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": "nw5dy5u42yhesxe8kv069d7iv",
+      "additional_code": "5hejw",
+      "message": "echh0"
+    },
+    {
+      "code": "tbjzzrhhaa4vbmup8eulql2c6",
+      "additional_code": "4fr6bbrxv1yeq6zml7f",
+      "message": "st0awxom0ro6"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "ycp",
+      "message": "3kw6nwgy2odi7um2s9r3g"
+    },
+    {
+      "code": "5d3xxlwj4a8b3zrqzw80qumikqn4gqltz",
+      "message": "42zierjv2znimlkta4nfthqbpvdbmfes17c89342ih"
+    },
+    {
+      "code": "hazeyt7qzr33jgfp2hld5t5r5gnq3ebg",
+      "message": "q5lqtek40xyllv5ilft8ibn8f7o"
+    }
+  ]
+}

@@ -15,7 +15,7 @@ RSpec.describe CDEKApiClient::API::Order do
 
   # Schema-driven test data for order creation
   let(:raw_order_data) do
-    SchemaDrivenGenerator.generate_request('/v2/orders', 'post') || {}
+    load_request_fixture('/v2/orders', 'post') || {}
   end
 
   let(:order_data) do

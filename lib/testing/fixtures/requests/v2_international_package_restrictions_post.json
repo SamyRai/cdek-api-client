@@ -1,0 +1,96 @@
+{
+  "tariff_code": 984,
+  "from_location": {
+    "code": 938,
+    "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "city": "lom2l3nn9hmexh9o7l955sn02nsd3kwu1t03x0jnoga4atoo4velr7p1a56wbnik0tjc6bwno3e3lms06m7kt81i4u3vccor5z2ou5r3c3lktoxqkdtjpzj7czk7bockyijt93q54y2po967g5902786jke8xykl1ydh6w3efn3nwvvji0v4vbltkn9t600ztc7ulcigzc41xh46n77aommshz960h6uh3kgvnjoao6oxgpv8hl9orfxrypb",
+    "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "kladr_code": "wgwdtqesjqtfzhty3io5sjmbvg2b6q4mn2xihift",
+    "country_code": "re",
+    "country": "1tt4e1mv9eobt5mqr4f7hhe78eiqcbo7gapoooehwu0kjbueq1mzzkb5ckf0cii512ue7",
+    "region": "d8b0vq1kes2uy5y1haf2vg79zzy8x5u2l1obx",
+    "region_code": 62,
+    "fias_region_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "kladr_region_code": "tkdng67hpom6lqx2siobxey89tbvl6e0",
+    "sub_region": "ombc6zbkapusai1",
+    "longitude": 845.0,
+    "latitude": 305.0,
+    "time_zone": "whr3xa0oinne3ayjh98lr085o",
+    "payment_limit": 840.0,
+    "address": "4afq8onjqvlcx2nsxzhssiwehxukd7iql153rzae5wceko1q7g71n3pobhmp9qblh2x4zq5e3gu7rxyg1unilpunt6tew3l7t01c95731vnui50dq98etp6x471gf46f9pxuem6pi9f8ivyk4sns36g2zcm98toqft1ghha9c4h1l3epav2yxylih8xscxalridrwhpqm",
+    "postal_code": "vca8dw2a9o2av1l5dtobl2vqg9fjfz279d1qzk9swyf8o5f2axr7731fv4ghfaqy1hvjq23fdlrqujr1zl3lconhdb23xjaolw5648gnhfocw0fp8ow44raljhc8it6zsuqmnzqu8yqs10cqnacp4o1g63ea0x2y8vzvmqdiiucjo01h5vqm4g1d47sazmj7xktazqmuzg3349nqi7mt1l8q9t3y15htvp32kx3kr3"
+  },
+  "to_location": {
+    "code": 614,
+    "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "city": "ekr1h7hqkrzvp2l9yvmgpq2bsuag55o16aocqjmfe4u5g9864e15ornrur1fxyi88fdn6ga41pew8z3vz5u02i7y1l1v9fj33ofkp8n3a9",
+    "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "kladr_code": "0wbty633oq8h33vf84ao4l5g1mleuakpl3jdvjjk9ge9z0hefh11pe9xlqh9xwo",
+    "country_code": "qb",
+    "country": "wigddjoy2hleix37vl2eq68om27ts9488avaz8tyocs2naec71010xqm5dcmfkurchmku06hu53oubqqic9huamsq6jd4vkhl1kzwuo0e9h0oawapy39a6h8a10gx5tpe7cyih3xz9z5t3sf4bys0nvzjaehfxt9l6z403j6y0",
+    "region": "vrc367waq3ksn30tdr4sknquolao07hf5rqiqemi3hahjuls5jbgx7",
+    "region_code": 740,
+    "fias_region_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "kladr_region_code": "snnmhkmseosl2ej6x543oo6yh9d4bt0knc9jin97xrkv4gmqa3uc4yb9h8mp0pb0z6quzxi25r0cvj6z9h3fo86d9x8nk9tx9ccxrf0j64h9mb2yngfwyelp7s33znhkq6ld6nec6hh1em8b2d1tvjfu3rozqlsz4ba9ts5dawtrajyf0me4az7ojbndfx4uy8gsdu804ujxtepvtklrpmmvbpxnk0d9ztxyjr2dtg2fdwotocyo3sh",
+    "sub_region": "h9w61gi2zp2dkq4mndrshay8g53vxfep0uyoegvt1cqbcguqxggckc5i277re2a917k1q4vbg05ao7y04eix1sipkezg1mbg5kb38yj8t052px6wqudn5bz1pxr3mwugrgfxuu4vdvtzf8lkw",
+    "longitude": 870.0,
+    "latitude": 121.0,
+    "time_zone": "v2t0mn4n8ltfc",
+    "payment_limit": 926.0,
+    "address": "2ol9r5molt5hb0dy9rzhwk2z8dh12g7dbvvar4nfjv79gsusavsdx0mhn2ce8e4nxa49dpr909m3t7wqksqj4gifyia6bus9xyals8bjefzkftnh8yek706s3aczpav7j0arb2fzonof47ap",
+    "postal_code": "tbkilwpkuchxhd1hfxy0xtnrbig0u81ibsc6ke6jymkcu2n2qqoorka8d8cfsm7911i4rggwfor27m9qbqxk"
+  },
+  "packages": [
+    {
+      "weight": 599,
+      "length": 574,
+      "width": 783,
+      "height": 331,
+      "items": [
+        {
+          "name": "i78bds4g5kkz4q4j3u12yvyqq",
+          "amount": 421,
+          "item_id": "ljuqtqywlr18rz8kbm9h16pbjp4",
+          "feacn_code": "3o7cl4ghac9d"
+        },
+        {
+          "name": "u3mwdkjgqcqcurslid3r1ozk070k11f6858dfcwonuhghry",
+          "amount": 716,
+          "item_id": "s506l9tiv179stlzqz",
+          "feacn_code": "vultntfmsbn92r42yczhl3kpggqq3ilfdcnhdzehteen"
+        }
+      ],
+      "package_id": "icvv"
+    },
+    {
+      "weight": 330,
+      "length": 196,
+      "width": 846,
+      "height": 539,
+      "items": [
+        {
+          "name": "0ct",
+          "amount": 117,
+          "item_id": "ilbw3",
+          "feacn_code": "wbkapzez8ltnkire30cqdy7jbfb8kghz"
+        }
+      ],
+      "package_id": "obwexghea75r7jfq6p0"
+    },
+    {
+      "weight": 12,
+      "length": 590,
+      "width": 405,
+      "height": 62,
+      "items": [
+        {
+          "name": "yw5h52gdvcepkqglf7ym4h74yc0882pssr1elvbb3i",
+          "amount": 488,
+          "item_id": "v1abv",
+          "feacn_code": "0pmwasexb8mvod6bgs1ihbjceerlcmvq6xe0oitqbinx11"
+        }
+      ],
+      "package_id": "5vhlxptg6z"
+    }
+  ]
+}

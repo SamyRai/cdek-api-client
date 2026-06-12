@@ -1,0 +1,75 @@
+{
+  "entity": {
+    "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93"
+  },
+  "requests": [
+    {
+      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "gq6",
+      "date_time": "wqg05lfbxevrd7smd641k87xd",
+      "state": "ACCEPTED",
+      "errors": [
+        {
+          "code": "j65u0tt9eo1i9nu53b67wg61bz5pdk93rkwfbtwja",
+          "additional_code": "d5rf5amo9agukl58lwppb4u9auffp6k6ukazzj",
+          "message": "bpzpjo5owmdfsyddnuifhm1rlveym2gntl85w565a"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "44m6xxbwdnh52xzlfbq6cama7dhc2nkdbsn3pk6cuysowjfsj",
+          "message": "wx1iq8pcistfxy"
+        },
+        {
+          "code": "1uvv",
+          "message": "qu5vmo3gdquu5znfpyveeaaw8nxcp4x9is695q4"
+        },
+        {
+          "code": "pndsjuc25s63vtur2977edds2z7qo4bjixok9ua1tsx",
+          "message": "8"
+        }
+      ]
+    },
+    {
+      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "icdqx69w7m62aaay2oc9m6ugtxzqd0gicxuv3ny",
+      "date_time": "r5u9c17qqagne99ab7gqi1lwlt54fuq9vkrjkcnbkeuvwk",
+      "state": "ACCEPTED",
+      "errors": [
+        {
+          "code": "j",
+          "additional_code": "wwixb02qv0g5hlbx95rckenhrr7gp4mvownxmnw",
+          "message": "xnd2mngfvpoj11ytc2z8lzaqps6r0x0ppq7"
+        },
+        {
+          "code": "ly258",
+          "additional_code": "uj1xcplcbnax7p2t6kbngfl2cjz7319k77",
+          "message": "py8bl04n7vfj8dhxv"
+        },
+        {
+          "code": "by5o1wfnfugwru8ubwmtlfjyj0d4y97hr8q3d",
+          "additional_code": "28j",
+          "message": "45zqh18o7zqn"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "823nlw9i",
+          "message": "jxy"
+        }
+      ]
+    }
+  ],
+  "related_entities": [
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "vrgfs5ckj7l62sw538hfu",
+      "create_time": "r55dqowhwea6itnyeng79ni43znqfdiz41g7tbrpfhn",
+      "cdek_number": "8sngrspxlg32o8qevrjm649hqy2ihyu6rou8aj674q6sjvx9umj8lbc6mgfq1oluxqxdr2qd9i4qmfrr1ruqenl7",
+      "date": "d8",
+      "time_from": "c3ln5e5xhkfq9wbjnsoboai2f73eprr3",
+      "time_to": "13d2goazcj8bol6gi4n6dol93i"
+    }
+  ]
+}

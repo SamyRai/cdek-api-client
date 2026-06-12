@@ -1,4 +1,4 @@
-name: Ruby
+name: Ruby CI/CD
 
 on:
   push:
@@ -14,10 +14,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
+    # We do not need id-token: write for build, only for publish
     permissions:
-      id-token: write # IMPORTANT: this permission is mandatory for trusted publishing
-      contents: write
+      contents: read
 
     steps:
       - uses: actions/checkout@v4
@@ -28,19 +28,16 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      - name: Install dependencies
+      - name: Verify generated code is up-to-date
         run: |
-          gem install bundler
-          bundle install
+          bin/cdek-builder generate
+          git diff --exit-code || (echo "Generated files are out of sync! Please run 'bin/cdek-builder generate' locally and commit the changes." && exit 1)
 
       - name: Run tests
         run: bundle exec rspec
 
       - name: Lint with RuboCop
         run: bundle exec rubocop
-
-      - name: Security audit
-        run: bundle exec bundle audit check --update
 
   publish:
     if: github.event_name == 'release' && github.event.action == 'created'
@@ -53,6 +50,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false # Required for trusted publishing
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1

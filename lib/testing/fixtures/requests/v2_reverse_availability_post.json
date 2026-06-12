@@ -1,0 +1,57 @@
+{
+  "from_location": {
+    "code": 204,
+    "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "postal_code": "xxustf6o",
+    "longitude": 448.0,
+    "latitude": 567.0,
+    "country_code": "zmoezbg",
+    "region": "74z2drdh8xmckktk7cvgrzksbltgjgi6b0v6f6ti6j2elk",
+    "region_code": 920,
+    "sub_region": "36ev311vq9t",
+    "city": "m5xplnn8ksu2x6geg2cchzdv7",
+    "address": "u3ba4zk6nk7lztz42l33n1"
+  },
+  "shipment_point": "z1buybv2a9uag6krgq6kk0ly0gi9thmlvls",
+  "to_location": {
+    "code": 455,
+    "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "postal_code": "vutk7puch705zce8afuw5x6mt",
+    "longitude": 96.0,
+    "latitude": 709.0,
+    "country_code": "e732jjd7e398633vk7s3qofwhwbjpyenljp9",
+    "region": "ig5xgx4bh8tay5vb6j8kmy3l79exykv9stj",
+    "region_code": 771,
+    "sub_region": "7nbkp8h6on95jz0nqy3pik",
+    "city": "td4",
+    "address": "z28byu31086cwan6rkv48h46mwb3mn8l7k8zm527cj0jhvaexa"
+  },
+  "delivery_point": "zbxic5srk",
+  "tariff_code": 860,
+  "sender": {
+    "contragent_type": "LEGAL_ENTITY",
+    "phones": [
+      {
+        "number": "9f4yw06dz1l",
+        "additional": "005acg"
+      }
+    ]
+  },
+  "recipient": {
+    "contragent_type": "LEGAL_ENTITY",
+    "phones": [
+      {
+        "number": "3h2kc",
+        "additional": "sbb06b04yjqnuib"
+      },
+      {
+        "number": "wpwwtqpozmhwznj0dezara7lbp2bbgw7fqh7mq1",
+        "additional": "k69xl5ietmqw3cysewhtyv5rxi45pq9y9se1x91"
+      },
+      {
+        "number": "vd5jptohlv2y4",
+        "additional": "ptdbsg76z68p2rkkb"
+      }
+    ]
+  }
+}

@@ -4,20 +4,21 @@ require 'webmock/rspec'
 require 'faker'
 require 'pry'
 require_relative '../lib/cdek_api_client'
-require_relative 'support/schema_mock_responder'
+require_relative '../lib/cdek_api_client/testing/fixture_loader'
+require 'testing/auto_mocker'
 
 Faker::Config.locale = 'ru'
 
 RSpec.configure do |config|
   config.before(:suite) do
     # Set up all schema-compliant mock responses
-    SchemaMockResponder.setup_schema_mocks
+    CDEKApiClient::Testing::AutoMocker.stub_all_endpoints!
   end
 
   config.before do
     # Ensure clean mock state for each test
     WebMock.reset!
-    SchemaMockResponder.setup_schema_mocks
+    CDEKApiClient::Testing::AutoMocker.stub_all_endpoints!
   end
 end
 

@@ -1,31 +1,15 @@
 # frozen_string_literal: true
 
-require_relative 'validatable'
+require 'dry-struct'
+require_relative 'types'
 
 module CDEKApiClient
   module Entities
     # Represents an invoice entity for printing invoices in the CDEK API.
-    class Invoice
-      include Validatable
-
-      attr_accessor :orders, :copy_count, :type
-
-      validates :orders, type: :array, presence: true, items: [{ type: :hash, presence: true }]
-      validates :copy_count, type: :integer, presence: false
-      validates :type, type: :string, presence: false
-
-      # Initializes a new Invoice object.
-      #
-      # @param orders [Array<Hash>] the list of orders for invoice generation.
-      # @param copy_count [Integer] the number of copies (default: 1).
-      # @param type [String] the type of invoice.
-      # @raise [ArgumentError] if any attribute validation fails.
-      def initialize(orders:, copy_count: 1, type: nil)
-        @orders = orders
-        @copy_count = copy_count
-        @type = type
-        validate!
-      end
+    class Invoice < Dry::Struct
+      attribute :orders, Types::Array.of(Types::Hash)
+      attribute? :copy_count, Types::Integer.default(1)
+      attribute? :type, Types::String.optional
 
       # Creates an Invoice with orders UUIDs.
       #
@@ -53,10 +37,7 @@ module CDEKApiClient
       #
       # @return [String] the JSON representation of the Invoice.
       def to_json(*_args)
-        data = { orders: @orders }
-        data[:copy_count] = @copy_count if @copy_count
-        data[:type] = @type if @type
-        data.to_json
+        to_h.compact.to_json
       end
     end
   end

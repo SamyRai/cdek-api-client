@@ -1,0 +1,89 @@
+{
+  "tariff_codes": [
+    {
+      "tariff_code": "p5y938a741uuorjqgs1eys0hd7bz6ve",
+      "status": "gb2gv1ptygbc6btojl0qq94fz7q62",
+      "result": {
+        "delivery_sum": 336.0,
+        "period_min": 949,
+        "period_max": 650,
+        "calendar_min": 437,
+        "calendar_max": 315,
+        "delivery_date_range": {
+          "min": "ks7m6dcf3dwf5k3so49esxlb5v1s3skojaf7bcj0ujhsg",
+          "max": "fd1gv5uh44qozo9zwt7i76a6y92g4bdjrcpba4"
+        },
+        "weight_calc": 748,
+        "services": [
+          {
+            "code": "r5",
+            "sum": 128.0,
+            "total_sum": 818.0,
+            "discount_percent": 528.0,
+            "discount_sum": 957.0,
+            "vat_rate": 290.0,
+            "vat_sum": 509.0
+          },
+          {
+            "code": "tloaqo7e",
+            "sum": 633.0,
+            "total_sum": 652.0,
+            "discount_percent": 321.0,
+            "discount_sum": 783.0,
+            "vat_rate": 761.0,
+            "vat_sum": 478.0
+          },
+          {
+            "code": "ft6q90umjqi4nknilyhpx0fd",
+            "sum": 100.0,
+            "total_sum": 327.0,
+            "discount_percent": 981.0,
+            "discount_sum": 876.0,
+            "vat_rate": 105.0,
+            "vat_sum": 216.0
+          }
+        ],
+        "total_sum": 234.0,
+        "currency": "kq190vf8g8hpekkf45j5cg69vhai6huk03coza6js3ahvw4t",
+        "errors": [
+          {
+            "code": "jizxu9d8wp3od3nf2rme079kqzc1mfi",
+            "additional_code": "jimzopbgmp17okf2hn8hr6aankkr0b2k15wv",
+            "message": "8pdusin9mxn"
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": "lbuwrlom",
+      "additional_code": "eyrxmwumrcveoxssto7cs",
+      "message": "yxdt4"
+    },
+    {
+      "code": "uywa",
+      "additional_code": "urkb99qk3u37gu79zb",
+      "message": "6917ervsqbd7ix4vhm20dts6e"
+    },
+    {
+      "code": "ggfbglkzojixp",
+      "additional_code": "e4pva5us9qu4705pcfbw3is3q9j533dm5l91r1chex0",
+      "message": "b3qhfzen3abuijcb7oqm78dpisi5uatqluf36c"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "zbuqyd0exu7aps5v6phvnfktslg3qo3pkq112oxxy3uyl1p0i",
+      "message": "sd"
+    },
+    {
+      "code": "iv8pdtjmdc2bzd5u92z1kcsdlfnwr2ipnqy5igz24e8z",
+      "message": "td38kv4iavr92xedu11oll4zi2gwjjobptalh8gxn"
+    },
+    {
+      "code": "hnjjj3jdgh6n6oaz1k554a6hmwmabjpjh255alq2",
+      "message": "y60hsegdi1zaigubfa53mz9"
+    }
+  ]
+}

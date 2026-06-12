@@ -1,0 +1,47 @@
+{
+  "date_intervals": [
+    {
+      "date": "qiviyul",
+      "time_intervals": [
+        {
+          "start_time": "fclt9g8kmyqco41b384iniry",
+          "end_time": "ra4772jmn4vcbeyhury4ifcp8g0yaq5",
+          "agreed_count": 99,
+          "total_count": 920
+        },
+        {
+          "start_time": "8e03w03wgjvkv6ljwre3mjycw3rrk57g2k4oxt",
+          "end_time": "kgncs2u0h4zrr48y6tiguahw6cehroeovn0",
+          "agreed_count": 42,
+          "total_count": 166
+        },
+        {
+          "start_time": "0ut4w2k011fcd2gdym",
+          "end_time": "3qmuoq371j2jxxlp",
+          "agreed_count": 612,
+          "total_count": 324
+        }
+      ]
+    },
+    {
+      "date": "k37jy4kczeg9uc0j9wgbxh8rghpru5unqa7hqhxmh0uh3",
+      "time_intervals": [
+        {
+          "start_time": "8s9i4mu18nek83ybgn8tgrnlrk3xsngdkn6",
+          "end_time": "tnm81mp8yodesfdvzg3y7abuw6rhfd8docmusywehi1j",
+          "total_count": 709
+        },
+        {
+          "end_time": "t",
+          "agreed_count": 171,
+          "total_count": 60
+        },
+        {
+          "start_time": "xtg36xr03g64b7aoyf9",
+          "end_time": "29ha1vz4umf6rvyz5g5lz4efe3lpvfuuqfa1f4dxzhl"
+        }
+      ]
+    },
+    {}
+  ]
+}

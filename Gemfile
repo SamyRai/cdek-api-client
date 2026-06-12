@@ -11,6 +11,8 @@ group :development do
   gem 'bundler-audit', '~> 0.9.1'
   gem 'faker', '~> 3.5.3'
   gem 'rake', '~> 13.2'
+  group :test do
+  end
   gem 'json_schemer', '~> 2.5.0'
   gem 'pry', '~> 0.15.2'
   gem 'rspec', '~> 3.13.2'

@@ -1,0 +1,18 @@
+[
+  {
+    "code": 258,
+    "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "city": "dablijsjot7lvg59zdg8sfv382j6visdwhkn0pt5ljxv5wc3vxaip8flphytknbum39s01hlj3yak52pk1uvphxcatcurjdbwttz5djff2m5jfmrvfivrvtqohodbfnna7aj8j9t7znath2tsqa",
+    "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "country_code": "26",
+    "country": "4g6bqlvgllz8f5xiorh5kyvvq8jrxj700k1hgq2c5mna5k788n9dfhil8r3tbynvi18x64296s6eu3kmk86vi8kbdx8a9bphhdvxro0fmefvku8pu6zh2aeaqgh0rmhc7l8u3wbz74amnd36jzuto9luw9a08gc99hotxgu7dxmvys3mfvkwqek0bcmy9hiywegz82c1swvgll8lqyepc6zd7cons2",
+    "region": "fl6f6cbnnzsh170bjol5cj0arpcpwctznmghlbk74czskoezapzr9t5mi6htzmr29hmjmmsxf4bcqw8s1loi7gfun39wx7t8zv9bb24gjcvak2hvwicq",
+    "region_code": 139,
+    "fias_region_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "sub_region": "3uzk9rxk5yt",
+    "longitude": 181.0,
+    "latitude": 490.0,
+    "time_zone": "p9lbs6s3jui1hnfmz9mn",
+    "payment_limit": 352.0
+  }
+]

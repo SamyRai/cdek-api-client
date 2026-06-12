@@ -1,0 +1,33 @@
+{
+  "errors": [
+    {
+      "code": "5g8cux0cfa",
+      "additional_code": "dg7dh",
+      "message": "87nlot34197hmdme7mf"
+    },
+    {
+      "code": "nwnjjag23oa8ppnr25",
+      "additional_code": "b7qsh3zey",
+      "message": "qkd7uo6mg7x9zx8sc2ebddtk9c0rroj1nnmra8a4lt13iu"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "sauoj7q7",
+      "message": "ugupqnm3kq813xiba1mdjeluzcmdncl319zbkkjlb2gzv67k"
+    },
+    {
+      "code": "9xykd0pxtk46n8i",
+      "message": "h5rh7k3r41hobhvz9wsog56v5crqksixfwpniom5"
+    }
+  ],
+  "orders": [
+    {
+      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "cdek_number": "aervm3cdo9kuwolqy7",
+      "link": "wc0tacedx5ksgzo09xsky63yx63a991c88hw3bblxbfeegy",
+      "status": "CREATED",
+      "create_date": "zf"
+    }
+  ]
+}

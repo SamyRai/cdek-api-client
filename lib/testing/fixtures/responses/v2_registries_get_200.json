@@ -1,0 +1,80 @@
+[
+  {
+    "registries": [
+      {
+        "registry_number": 619,
+        "payment_date": "ilnk1tekpq0dxb86mz5szpnxg4u7f15amenoji3i6",
+        "sum": 619.0,
+        "payment_order_number": "halo3x9ezgktu8tqn48yptq3aeqvvgq",
+        "orders": [
+          {
+            "cdek_number": "kj00nnczyltoo22n83ne29ntgcpsn1auu6ruvccqq3",
+            "transfer_sum": 741.0,
+            "payment_sum": 989.0,
+            "total_sum_without_agent": 762.0,
+            "agent_commission_sum": 630.0,
+            "basis_type": "sxqkdcanlgdsa"
+          }
+        ],
+        "date_created": "wcy5feiuszulcqtx4a7vcdml1py2u92ql8tlc8tumeg"
+      },
+      {
+        "registry_number": 103,
+        "payment_date": "i69",
+        "sum": 313.0,
+        "payment_order_number": "4pyev4isr53cxa1kjzx4p0322x4fbry5sl",
+        "orders": [
+          {
+            "cdek_number": "pxzkq1780bupb2gs6zik35v3f595uesit00f7o1",
+            "transfer_sum": 594.0,
+            "payment_sum": 802.0,
+            "total_sum_without_agent": 334.0,
+            "agent_commission_sum": 624.0,
+            "basis_type": "mndii243xrl7vzadmpdu1wj"
+          }
+        ],
+        "date_created": "7zhnzwooju"
+      },
+      {
+        "registry_number": 724,
+        "payment_date": "u08unoscetsabcs1f3lm3rikgyzc6n",
+        "sum": 431.0,
+        "payment_order_number": "u8p7q3hes1zk55maayg46hwc58bl1dgzqlbpuuhhp6kr9os",
+        "orders": [
+          {
+            "cdek_number": "apxawipvxym6jfv9q3xodni72",
+            "transfer_sum": 459.0,
+            "payment_sum": 854.0,
+            "total_sum_without_agent": 993.0,
+            "agent_commission_sum": 190.0,
+            "basis_type": "hdpz"
+          }
+        ],
+        "date_created": "hyn6niijab5k5ldv686g"
+      }
+    ],
+    "errors": [
+      {
+        "code": "fyncfgegecsff18h",
+        "additional_code": "qy971yzqxbpxzg5854l5s7eqb63403q1",
+        "message": "e3pwvu4x00r6agjv1c7quklsqnznnkdz7"
+      },
+      {
+        "code": "wdgxoyqq7qcgam",
+        "additional_code": "kyxrikr3wuln6qxk88jgz7979c978p83kfvc1kaueq4j9v78ji",
+        "message": "p7nl6"
+      },
+      {
+        "code": "iv7zku5krmksss26lbbfy25exdjw266dtear0m",
+        "additional_code": "gmbywbtv1z3yxsj4hp4gxcul1q19eetu66x44ez49nx",
+        "message": "pyquuot6pjbguhiwfi3jh13bx97z9c61509av"
+      }
+    ],
+    "warnings": [
+      {
+        "code": "y4ecw391zdkd7ymycpml1bmqv2qt48",
+        "message": "p60zsd2yoqjm1xhz9wp"
+      }
+    ]
+  }
+]

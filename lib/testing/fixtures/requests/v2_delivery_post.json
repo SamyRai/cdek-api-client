@@ -1,0 +1,27 @@
+{
+  "cdek_number": "xzpnz42ov1jo9y8g7b81uusdygcw4y4ipqow3qb16or2pakylt5lk9nb4y17croy212mldgpjo3s90yb5gbdendkgqkmbepu21zhhhahjup6blp6ts1i0xxr1ys47ifzrbn6104mvcap9mchxsrc0vl4x8ua6kxlpnskwgomwxh4foa83i59femnh9g98o3x5br2qtlsx",
+  "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+  "date": "7gm",
+  "time_from": "bu4ivis8zx9a7qo3k68l8cg2yfiyc2tkrgige",
+  "time_to": "ua7ng8cnrqni5cejl7kg9d2fa3r5hmdg7l2a4",
+  "comment": "o4le5q5dj9ilank9m6cwelwydl41",
+  "delivery_point": "k1s8jky7dwoy77qyig7weci318rl4yai5us4xni0s716slv28ex00f9hn79g6ghtob9wp82g76084f0gzfs41hcjp4",
+  "to_location": {
+    "code": 820,
+    "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "city": "z17w90b",
+    "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "kladr_code": "hr",
+    "country_code": "2",
+    "country": "pozhqaxhnvzkomb8y6gkohlkd32zls84ki2axiotea6j8",
+    "region": "upzu8gvv8ft17tlsqn1gf3trek8qiz71525n9y5j7e3hv81sdelidwp6m19sqcs3b",
+    "region_code": 382,
+    "fias_region_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+    "kladr_region_code": "305yduahw4gikeve44257x43nb95opegskh4zc0vjt1h0hejfrqyoqa8fqaivb97iltrlpm0fd7j7o5zl01kapjuh80cjsovrgtogyqlr1qy4kebrj4gos42tfrbwxqdt2r0zb14n4anqqze1dxz1eqounqsw3uw04mh3x8i2zskdobciqst9m6dnzo9is7gyfyvbzt0z5ahcleh",
+    "sub_region": "5c8ken0idwdoonailnafdf7zit8xd469r4pr8mdd1qz3b463noro3g9e2ekv988ed0lxt77fl5gy5esu64l9ag4lw3qlmpi1u1ld0wwibiugvfa22t9z7f3rw56q13awx8htfqx73vj5vi8zfnqjc6h9inbjlalv6qyfucav0l82qie5ac96ply0fhd4ql8preoagszzsz5azx9v17pam5pggasxh8dwjl8qk5ujnp1b",
+    "longitude": 559.0,
+    "latitude": 41.0,
+    "address": "w17fs8yst4ynfk1jy2le31dya",
+    "postal_code": "wheg6bkigd1jw4z44sz4p4byhb9ym8qzr4bey6vckl4o2cg1of7a9zy2poc3tfg2aiyg90srhwdzzh36vjhnweymrgmrlvn117k33844pvvbpxxvv0pubnrndzk14"
+  }
+}

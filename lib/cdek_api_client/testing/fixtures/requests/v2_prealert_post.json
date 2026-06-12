@@ -1,0 +1,20 @@
+{
+  "planned_date": "734vm",
+  "shipment_point": "y8gv4xawudryja851j6mkj3aofh4x0ggivom2aln53",
+  "orders": [
+    {
+      "order_uuid": "x9o2b0xidsd",
+      "cdek_number": 973
+    },
+    {
+      "order_uuid": "x08nezc",
+      "cdek_number": 531,
+      "im_number": "uqymfx63vw721ltknr0qsqd"
+    },
+    {
+      "order_uuid": "e7z83bg335whj1uu2f5rvxu9p0e0e",
+      "cdek_number": 615,
+      "im_number": "efde1k7mtsfkp74a"
+    }
+  ]
+}

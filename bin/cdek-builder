@@ -1,0 +1,88 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'optparse'
+
+# Add lib directory to load path
+$LOAD_PATH.unshift(File.expand_path('../lib', __dir__))
+
+require 'cdek_api_client/generators/schema_puller'
+require 'cdek_api_client/generators/entity_generator'
+require 'cdek_api_client/generators/endpoint_generator'
+require 'cdek_api_client/generators/doc_generator'
+require 'cdek_api_client/generators/fixture_generator'
+require 'cdek_api_client/generators/mock_generator'
+require 'cdek_api_client/generators/rspec_generator'
+
+module CDEKApiClient
+  module Generators
+    class CLI
+      def initialize(args)
+        @args = args
+      end
+
+      def run
+        command = @args.shift
+
+        case command
+        when 'sync'
+          sync_schema
+        when 'generate'
+          generate_all
+        when 'all'
+          sync_schema
+          generate_all
+        else
+          puts "Usage: bin/cdek-builder [sync|generate|all]"
+          puts "  sync     - Pull latest CDEK API schema"
+          puts "  generate - Run all generators based on current schema"
+          puts "  all      - Sync schema and then generate"
+          exit 1
+        end
+      end
+
+      private
+
+      def sync_schema
+        puts "Starting schema sync..."
+        puller = SchemaPuller.new
+        puller.run
+      end
+
+      def generate_all
+        puts "Starting code generation..."
+        schema_file = File.expand_path('../cdek_api_schemas.json', __dir__)
+        unless File.exist?(schema_file)
+          puts "Schema file not found at #{schema_file}."
+          puts "Please run 'bin/cdek-builder sync' first."
+          exit 1
+        end
+
+        puts "\n1. Generating Entities..."
+        EntityGenerator.new.generate_all
+
+        puts "\n2. Generating Endpoints..."
+        EndpointGenerator.new.generate_all
+
+        puts "\n3. Generating Fixtures..."
+        FixtureGenerator.new.generate_all
+
+        puts "\n4. Generating Documentation..."
+        DocGenerator.new.generate_all
+
+        puts "\n5. Generating AutoMocker..."
+        MockGenerator.new.generate_all
+
+        puts "\n6. Generating RSpec Contract Tests..."
+        RspecGenerator.new.generate_all
+
+        puts "\n✅ All code generation completed successfully!"
+      end
+    end
+  end
+end
+
+if __FILE__ == $PROGRAM_NAME
+  cli = CDEKApiClient::Generators::CLI.new(ARGV)
+  cli.run
+end

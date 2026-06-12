@@ -1,0 +1,25 @@
+{
+  "date": [
+    "2",
+    "adzw1m6xydh8kam6emi3e7mk8esmnpydjkbknn8aa24"
+  ],
+  "all_days": false,
+  "errors": [
+    {
+      "code": "5litam4y7y9fx277lgexvcp",
+      "additional_code": "3budhkm73z770czyqkgc0mcuean7e73uti3qgmfjjf9q9",
+      "message": "mprs"
+    },
+    {
+      "code": "h13crpmumkrkkkxcfvpaa9vh6tygvfwqqyd8lbi3b3566",
+      "additional_code": "ybrtktsvlxtr73nmey2qq46t976v10u6yisd8",
+      "message": "wu8wvgvf3udtb2dli85lz9rwoj4a3"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "98ktjlotb76xnv43ktjnmyyfzgc6ki",
+      "message": "s1h4ehyb9uhseeoi9513u47ddfpmq81iam5q3a"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "entity": {
+    "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93"
+  },
+  "requests": [
+    {
+      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "obw6x9dqc9dci4w8m15th3pu",
+      "date_time": "3f",
+      "state": "ACCEPTED",
+      "errors": [
+        {
+          "code": "zwt712awq04g82t",
+          "additional_code": "p6p5qkjvgoq2vnlt04pb22hoxnrvx6jdmbi40ngtkb0h",
+          "message": "b3ae7uv9i8uio7ng1li3"
+        },
+        {
+          "code": "op",
+          "additional_code": "vvut8fqsgakzq5xpw1roc7f6i5tm5",
+          "message": "capp6ki5gccx3hw787fobk7flnympot7m"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "4wgqch8simsghiipykstyz0xtm7l70ln2vv7v2ih",
+          "message": "q08cdaa1i9355"
+        },
+        {
+          "code": "uiobh09alnl6ws5ssuex1xf3zrfms5m",
+          "message": "gewepgryqatmk4k"
+        }
+      ]
+    },
+    {
+      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "u5inm2fd7y30q9evcfnextf2ne",
+      "date_time": "qkdu1yj0t79bmwz6d4e3j1u8005k0sp4bfvn9tecn8",
+      "state": "ACCEPTED",
+      "errors": [
+        {
+          "code": "3l919xcs110z",
+          "additional_code": "2gk",
+          "message": "1juybkwtk4y4cqp"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "ufquxqh279b4par68ps5pwf8gsz2e09vf2sf9q",
+          "message": "cgc"
+        },
+        {
+          "code": "ll63asbcj3uuq8g8htr2vliipmg8",
+          "message": "p"
+        }
+      ]
+    },
+    {
+      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "7nmqsm14l24kbmn",
+      "date_time": "t4yxs1cwm6mbktpv",
+      "state": "ACCEPTED",
+      "errors": [
+        {
+          "code": "2gcxdjy8bxe61i3fid36iszszgwrttn4cuk4nknwxvmf5bi9k",
+          "additional_code": "1iws3artcov",
+          "message": "36mqwpso3nemmyum7xono0nax3xky2shwyoyrdqydb5z"
+        },
+        {
+          "code": "2luqq0vfr0h",
+          "additional_code": "8vpwbfrum8sx36sccieqatblih0x63j75jyp0q",
+          "message": "q4s9k3o1wpdbb4gtl"
+        },
+        {
+          "code": "98vd1",
+          "additional_code": "nailkmyysifhz",
+          "message": "vrdryzjwjja8vv7y"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "wxagdzbasnf",
+          "message": "mxhmqp8n510scvvjen5314o2ruvmyawgcas9t5e8tj1i"
+        },
+        {
+          "code": "efwysolrvjxtenvcxtvu1euaesqavw22fo51sam",
+          "message": "sfhgwfka0qpy7v3hac5cmzxbdwj4i9jbbtj739"
+        }
+      ]
+    }
+  ],
+  "related_entities": [
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "awi1qwad2caughtpdun3ijnajg9m07qvo5xyffdx9n480xqc2hxqdgj98xomojary9ap1o8r33pxrbb9tmtjrqi1v63wg5gar1nernvcw5re6izyn7k8ugfb4wzltzw",
+      "create_time": "lon0e8q553tloo3dx23qa3836eoh7eblv1fi7ut",
+      "cdek_number": "ab2in4ko2czqk3yt77jisbqd39k7zq916lavu1lsrmz6mdppxrdxzs73jylva8vzfsul470h89wo1fgpddak7cwr9mfwco46fzhnrier8d7h2d9px5hekcm4gop136e7n5axw66hngxhio4sj67wmyms37xwf1u",
+      "date": "zj",
+      "time_from": "r3yzgz5h8x9q751zrflgxha6glgq9",
+      "time_to": "uvofmbdet3718atvbaya00ufn755bq4pkz"
+    },
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "fw5u9jqshxenkv8re0du5jiqlsh0x06s88a6wz6mdf54jjpyez4d5mkr5n9nerkhos5c9kgbkvex8fndvrhs7gs9rmhwioxp5211sopncidbti4zofbcmuaowwmj7upzwnd1mfzuovhcr65zah9l37xtcl7luo42wanrtouo5l7bnd8gooi49nfldji7mtmny16eai3w5gjmojpybkjwdvdd2s5lryb1410kgexs1f1ox6nugeg4ax8nioxgg4",
+      "create_time": "vdjpz51jpeofm7lp9x167lld8lguzbllxlfe0i5ra1t3x90b4",
+      "cdek_number": "99wewollx5r0bisyqndcr6eku58hm5ucsvxi59mpdeheq7eezhf9th2t84kduwk82tpo9rnppd2e79a135ea409o95qjhp9q00f6fejmvwpn",
+      "date": "qy7rta7l5mhy4htb2azyp4i6jx28hxej8n",
+      "time_from": "ikpxj10t",
+      "time_to": "s91kdpgwwn8blx0ifvzxr0kz1"
+    },
+    {
+      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "return_order",
+      "url": "0hkvennllc1eo5nd2plp6cegvhs5xbpk0gy8f1v6bjyd5qei",
+      "create_time": "f1vd10zfypjnifiko8xehrhbeghtlevpz2xypnoa149h3xndg",
+      "cdek_number": "nl0ppdvxmg1yebb6d1wpd94ej95cnvyeq0s4um64mgsgr7kep9",
+      "date": "cem4i1m0ufrgyhe9k1vd57qn92h",
+      "time_from": "eauug9lv",
+      "time_to": "ntwra"
+    }
+  ]
+}

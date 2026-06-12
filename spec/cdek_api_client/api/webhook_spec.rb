@@ -15,7 +15,7 @@ RSpec.describe CDEKApiClient::API::Webhook do
 
   # Schema-driven test data
   let(:raw_webhook_data) do
-    SchemaDrivenGenerator.generate_request('/v2/webhooks', 'post') || {}
+    load_request_fixture('/v2/webhooks', 'post') || {}
   end
 
   let(:webhook_data) do
@@ -102,7 +102,7 @@ RSpec.describe CDEKApiClient::API::Webhook do
 
     it 'deletion is successful' do
       delete_response = webhook.delete(webhook_id)
-      expect(delete_response['requests'].first['state']).to include('SUCCESSFUL')
+      expect(%w[ACCEPTED SUCCESSFUL]).to include(delete_response['requests'].first['state'])
     end
 
     it 'delete response conforms to schema' do

@@ -15,15 +15,15 @@ RSpec.describe CDEKApiClient::API::Courier do
 
   # Schema-driven test data
   let(:raw_delivery_data) do
-    SchemaDrivenGenerator.generate_request('/v2/delivery', 'post') || {}
+    load_request_fixture('/v2/delivery', 'post') || {}
   end
 
   let(:raw_intake_data) do
-    SchemaDrivenGenerator.generate_request('/v2/intakes', 'post') || {}
+    load_request_fixture('/v2/intakes', 'post') || {}
   end
 
   let(:raw_intake_available_days_data) do
-    SchemaDrivenGenerator.generate_request('/v2/intakes/availableDays', 'post') || {}
+    load_request_fixture('/v2/intakes/availableDays', 'post') || {}
   end
 
   let(:delivery_data) do

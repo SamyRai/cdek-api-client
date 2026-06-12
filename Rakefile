@@ -19,16 +19,3 @@ end
 task :audit do
   sh 'bundle exec bundle audit check --update'
 end
-
-namespace :schema do
-  desc 'Pull and organize the latest CDEK API schemas'
-  task :update do
-    sh 'ruby pull_cdek_schemas.rb'
-  end
-
-  desc 'Generate Ruby Entity classes from OpenAPI schemas'
-  task :generate_entities do
-    require_relative 'lib/cdek_api_client/generators/entity_generator'
-    CDEKApiClient::Generators::EntityGenerator.new.generate_all
-  end
-end

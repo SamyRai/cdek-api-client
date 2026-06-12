@@ -1,37 +1,17 @@
 # frozen_string_literal: true
 
-require_relative 'validatable'
+require 'dry-struct'
+require_relative 'types'
 
 module CDEKApiClient
   module Entities
     # Represents a barcode entity for printing barcodes in the CDEK API.
-    class Barcode
-      include Validatable
-
-      attr_accessor :orders, :copy_count, :type, :format, :lang
-
-      validates :orders, type: :array, presence: true, items: [{ type: :hash, presence: true }]
-      validates :copy_count, type: :integer, presence: false
-      validates :type, type: :string, presence: false
-      validates :format, type: :string, presence: false, inclusion: %w[A4 A5 A6]
-      validates :lang, type: :string, presence: false
-
-      # Initializes a new Barcode object.
-      #
-      # @param orders [Array<Hash>] the list of orders for barcode generation.
-      # @param copy_count [Integer] the number of copies (default: 1).
-      # @param type [String] the type of barcode.
-      # @param format [String] the print format (A4, A5, A6).
-      # @param lang [String] the language code.
-      # @raise [ArgumentError] if any attribute validation fails.
-      def initialize(orders:, copy_count: 1, type: nil, format: 'A4', lang: nil)
-        @orders = orders
-        @copy_count = copy_count
-        @type = type
-        @format = format
-        @lang = lang
-        validate!
-      end
+    class Barcode < Dry::Struct
+      attribute :orders, Types::Array.of(Types::Hash)
+      attribute? :copy_count, Types::Integer.default(1)
+      attribute? :type, Types::String.optional
+      attribute? :format, Types::String.default('A4')
+      attribute? :lang, Types::String.optional
 
       # Creates a Barcode with orders UUIDs.
       #
@@ -59,12 +39,7 @@ module CDEKApiClient
       #
       # @return [String] the JSON representation of the Barcode.
       def to_json(*_args)
-        data = { orders: @orders }
-        data[:copy_count] = @copy_count if @copy_count
-        data[:type] = @type if @type
-        data[:format] = @format if @format
-        data[:lang] = @lang if @lang
-        data.to_json
+        to_h.compact.to_json
       end
     end
   end

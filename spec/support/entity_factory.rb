@@ -114,8 +114,7 @@ class EntityFactory
     # Create a default payment for testing
     def create_default_payment
       CDEKApiClient::Entities::Payment.new(
-        value: 100,
-        currency: 'RUB'
+        value: 100
       )
     end
 

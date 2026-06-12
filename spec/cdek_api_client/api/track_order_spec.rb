@@ -2,7 +2,6 @@
 
 require 'spec_helper'
 require 'securerandom'
-require_relative '../../../lib/cdek_api_client/api/track_order'
 
 RSpec.describe CDEKApiClient::API::TrackOrder do
   include ClientHelper
@@ -31,13 +30,12 @@ RSpec.describe CDEKApiClient::API::TrackOrder do
 
     context 'when the API returns an error' do
       before do
-        stub_request(:get, "https://api.edu.cdek.ru/v2/orders/#{order_uuid}")
-          .to_return(status: 500, body: { 'error' => 'Internal Server Error' }.to_json, headers: {})
+        stub_request(:get, %r{https://api\.edu\.cdek\.ru/v2/orders/.*})
+          .to_return(status: 500, body: { error: 'Internal Server Error' }.to_json, headers: { 'Content-Type' => 'application/json' })
       end
 
-      it 'returns an error hash' do
-        response = track_order_api.get(order_uuid)
-        expect(response['error']['error']).to eq('Internal Server Error')
+      it 'raises a ServerError' do
+        expect { track_order_api.get('12345678-1234-5678-9012-123456789abc') }.to raise_error(CDEKApiClient::ServerError, /Server error 500:/)
       end
     end
   end

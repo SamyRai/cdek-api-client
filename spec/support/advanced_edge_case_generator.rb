@@ -211,7 +211,7 @@ class AdvancedEdgeCaseGenerator
     # Generate test scenarios for comprehensive testing
     def generate_test_scenarios(path, method = 'post')
       scenarios = {
-        valid: SchemaDrivenGenerator.generate_request(path, method),
+        valid: load_request_fixture(path, method),
         edge_cases: generate_comprehensive_edge_cases(path, method),
         error_responses: ErrorResponseValidator.test_all_error_codes(path, method)
       }

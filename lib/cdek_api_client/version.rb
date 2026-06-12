@@ -2,5 +2,5 @@
 
 module CDEKApiClient
   # The current version of the gem
-  VERSION = '0.5.0'
+  VERSION = '0.5.1'
 end

@@ -1,0 +1,308 @@
+{
+  "entity": {
+    "uuid": "3qs5mf10ylqpe2jg5tcmv",
+    "type": 828,
+    "additional_order_types": [
+      793,
+      315,
+      615
+    ],
+    "is_return": true,
+    "is_reverse": true,
+    "number": "3",
+    "accompanying_number": "91ne582",
+    "accompanying_waybill": {
+      "client_name": "js5djks4egxcpabiw9e",
+      "air_waybill_numbers": [
+        "gg000y4",
+        "q8yyv2iy62d"
+      ],
+      "vehicle_numbers": [
+        "ff9e21efwns3hu5vjmh2ttrsaaqoqj",
+        "pw3t2kfcwr733ajao6w9wzertjd"
+      ],
+      "vehicle_driver": "uuxruyqlsuxltwo940hlfjk6w6i2z5p60u0v5d5s",
+      "planned_departure_date_time": "r"
+    },
+    "tariff_code": 509,
+    "comment": "7nkv",
+    "shipment_point": "0oro3m05bof6jvzlqzwv08jra0zqmlvt3o7dtrza7fvb4v16ue1sr36wkqc7ewx3q1az3ezosgsk9mhe3763y4he521j7jioc0q1mn87p1u2jrmwz",
+    "delivery_point": "szuevntwyieqva0th02vq21m4x6qu3lehhkskawx6sm0rl7vxv0gb8al61xjql8k4a0m8bbcvgtvntjf94cfomk7ub0d5nbsx708tps38q96xm9w1zb6nk7ixhugfznpsl6l7f2zoy4a7s1ayt84h3sk0epwd9835xwtwb1wcbbd4mi9qhc4wmxmfbkp62m444fdtyubjbw1hlg50aws",
+    "date_invoice": "79lmtchskpdt5xqkcaql5cft79",
+    "keep_free_until": "bbva576v1xzvg",
+    "shipper_name": "lqo5dr9esgl4vheh8b1llh10j3u6h9fe01dewrtxywuj5j74djev0r2u4rs66jsf7qjighvsj35i0jbgjcj13slgfuzheiqsi6a8frcmpjc3xtpeiyoijnw15jly0ij7hsuzzfxmg72hz2rei2by22dwo2bfsquyv8",
+    "delivery_recipient_cost": {
+      "value": 419.0,
+      "vat_sum": 274.0,
+      "vat_rate": 272
+    },
+    "delivery_recipient_cost_adv": [
+      {
+        "threshold": 631,
+        "sum": 163.0,
+        "vat_sum": 994.0,
+        "vat_rate": 585
+      }
+    ],
+    "sender": {
+      "company": "z0104ect7gkdl2snyn0kwzxb3r20ailp2x6orghj2bmglseohka94nyeguvzsbcz0ufwpmi6n4n52kxpol0rhht5ae60ot2t2j8nnse50fk8svn0ojggakd0bl2p8lkkmxczu236t6a5w7whlp8kry01g350ldk639xembvv6e4epd",
+      "name": "43g531t3c9t8o025lgn7qfsf3s8dxn5b6psb5hi47r2drys3duwl2uxd2uis4q2plmutyclwjyqc1i7un2us6laadvirpqmvgxpxcx2ou6ux5ze1d78cwyacltumsroa2fpems01altjr5p5fb5cl2e8n4e4yyz2ehip6a0728ndd0lsbn9cag7sm37ebnfm36zor0n2y",
+      "contragent_type": "LEGAL_ENTITY",
+      "passport_series": "u",
+      "passport_number": "ihgwy",
+      "passport_date_of_issue": "ub7ep5e8i9rzr5vl3bofo",
+      "passport_organization": "dy4cl3dw8x4yc6d73ggtuzjgnptgthuydie2rbgdbcsije4rhvllwm4ugd6l8hfl10jzxlcvxnxba2pi07p8uizasyy2mugeyipg2bxyodb8bezuj6mdzuc7t876xx4c8z3f93vxpbjhg157gn0mgwtwlfq983dg42j",
+      "tin": "x1dq5r3cnd",
+      "passport_date_of_birth": "ixncnrl0fj1v9oy6r4hujk84znj",
+      "email": "0nzu1gxp21f15d3qq4jobttjek7eh12enugj3s8hte2sizhwpsvteskpewgy21rbpq7fjwy50vulxcyvz6ynu0noqvwyke6w99cje8v08qbhu86uwwvw6t0pbaxrjcn26aqtan5bsxpav11881k8r8l1uu092tz8yjx3xtn4m0r5o1",
+      "phones": [
+        {
+          "number": "nok7he1fc6aq"
+        },
+        {
+          "number": "hiwjd01oze9d34k1ab",
+          "additional": "f1bemcw4pcottxnlc45dfa9rmxojbwcv3hrg63nnbydl3czn6wgg0mnw2r0jx"
+        },
+        {
+          "number": "7l0ixb0wn73jp55hfr",
+          "additional": "zvly3tfxl19nwexgq18rphdle3hsj9rr8r7r1xg5567w3lv6kzuwjw9jvolzsesislt5bud9w6pbc4a3qg51s0h951rrjplpatohbo4zyd6r47zvd99v176tamcgre63u7msoymhc2n0zphfcw3usg8lazfoo024xngl4fglci6bga2qzq86ubcskxixrpp5vdcqby5ey6s4qny5auqh5w8e5battj6gb7il6f0u1d"
+        }
+      ],
+      "passport_requirements_satisfied": false
+    },
+    "seller": {
+      "inn": "upk2wz4h8i7",
+      "phone": "oj9iycrzbyia6f0r0w",
+      "ownership_form": "kafdkwr813g4hiszze092e",
+      "address": "bqhdzvlr"
+    },
+    "recipient": {
+      "company": "trm41xg409n51738fhc1ip7u4vvizebe357jn9omalo1fgh8eogaszuupb9vrvmq3nftfy5ik4ntgwdksmtc4vpeid1o37hzjgu374wxc3pivedgasxc4w0i6ii5m72tjeqs7wdsyv5rz",
+      "name": "qglv30qng0lii5vce0c91p2leam71yj789laqzpn4qe7y1jiyfhcx6ccccuts1kh0qlexlzhnrqttvnqv",
+      "contragent_type": "LEGAL_ENTITY",
+      "passport_number": "w90om8djsvuj1m0wtanewqt18hwyeu",
+      "passport_date_of_issue": "06z875ep90",
+      "passport_organization": "letglj9aa5ukzc7nyih47ivhf8a5rf5b6onqxsbwunrmjrjldb7hmbh3n66lxoou4p3eecmdpif443t36gsb21dryy1ll0bxs9eqdanmpcox55itef74s5xbiffyqdfg636q7leu2dhid1r07chlcket3yhsnu6byw88rr672e6lzdg5ahhaukj61kv0lbr0r179vzxwjz7gnt2iroiqi78x502m1rdofu1ur40",
+      "tin": "g0bj8u53m",
+      "passport_date_of_birth": "svfur8dvu96n2kgv5d",
+      "email": "693laoleo5nvu312z4h5scykzhbtu6sx1tukqceup",
+      "phones": [
+        {
+          "number": "hksbarc",
+          "additional": "smalfzc8nuk17nij0nbk0r4165coqi40eiw1scbct2rwxnjjjhyr0rapdbq5rzbpwbkr78t82mzz2li342hv1ewzhvn1hr0ppne5mjdtofn75u9a7y4ia41finnml5oph4ekwv8qvhgpjlmaerycd4cc3ichobkmcxt1oz6pwtxqysnx1tfsm5f8jp"
+        },
+        {
+          "number": "kmf8ensy994upez8c64bwe",
+          "additional": "ppgeodbiqmm3c5lcu05jji5flekz98vcyra6t1o7l90gvm9psuzmean37s56xranldqe0txkx8a833wzkk13gw55wgwz9ybit7shkotp81gqdp591gnzoksbkuaufgk04t7bfegwrwd00qsk7w8uddo29jrob6gsx3ar9cra7wr585chf0gfpl"
+        },
+        {
+          "number": "mxs7o7d69sspuc7fqr7j5mi",
+          "additional": "oa8qyzwve6e84v5dhzlentu6mts8gyaali6iyxr4h3csjizgaod9moxngnrue1go5z1vxiated0i4qrn2ma0piurxa2pjn0hrk5e3agc8fvii82a7d8lmsy7dp3hu74ak4ibkrrl66d6hyued61vfq7q69h6oii91ba5oqzwqm9s5f860lrudq"
+        }
+      ],
+      "passport_requirements_satisfied": false
+    },
+    "from_location": {
+      "code": 344,
+      "city_uuid": "wigqax1wmjik4uuqdoslh",
+      "city": "ctpfo0snbstbyiohbz0d7wdnyc9k4gm9pdc21136t",
+      "fias_guid": "2lik7u77egpmg7s1gmd1xzjvrnwd43akw",
+      "kladr_code": "nqwyuhgzaksvodo3x",
+      "country_code": "lvpbapnu4pedxbh6dqhq8ode2xlkklw6ws3y16jfo25s6xihwh",
+      "country": "a9ub9y1tqd8dmay7",
+      "region": "ghbuj4xyaeyvzg2po71mou7sb2gi19",
+      "longitude": 277.0,
+      "latitude": 581.0,
+      "time_zone": "g",
+      "payment_limit": 751.0,
+      "address": "ismlh5aidvf82xoa0jwz4f9jvlea3ml8hyu9aartcazh8ec6fc2fe4m1hu6b1fhqddlvxx0jqba1emfbvgg8cndgh2ud9fzhzmozdq4pahudzmhmxtk6g5ip964hk672ljn3bp05mkp61am3krtjzl7zgvbst9axafxd3cp3lzpueyebaon5beyo8r",
+      "postal_code": "krrmasil0jialqzzdjxyct4jd5t31eb"
+    },
+    "to_location": {
+      "code": 387,
+      "city": "g1rzhf9sv9xlhz7zww0r5c1945vk3hr0cg1xp0dt0wgb",
+      "fias_guid": "l8yfgtcz2cadqwknbgvvst8cdxf3hs72u",
+      "kladr_code": "l5yub40rnmxh1tr2kgg9bf1ibvrljlq6hx62pu4p",
+      "country_code": "d3xa1h71zv96tgks3jdbx7iwvjtjh6ti7l0pa3i5d7zptffbf",
+      "country": "ednkpv2qw32c48xa",
+      "region": "ha0yglmeeb8nk8",
+      "region_code": 911,
+      "fias_region_guid": "odo8we",
+      "sub_region": "tz6y10rwu2fuwr0ejmi",
+      "latitude": 265.0,
+      "payment_limit": 694.0,
+      "address": "2vx3dgmr1zfmdvpg0t1y6f30b7khyairmkuw85xic80lpp6koyfbig0fmcz",
+      "postal_code": "r2xbf5"
+    },
+    "services": [
+      {
+        "code": "8xcejdvoq",
+        "sum": 919.0,
+        "discount_percent": 675.0,
+        "discount_sum": 772.0,
+        "vat_rate": 32.0,
+        "vat_sum": 817.0
+      },
+      {
+        "code": "yvxybmq",
+        "parameter": "zxi0wez6vgpvvv6h422ofvw",
+        "sum": 510.0,
+        "total_sum": 322.0,
+        "discount_percent": 636.0,
+        "discount_sum": 887.0,
+        "vat_rate": 424.0
+      },
+      {
+        "code": "v3d",
+        "parameter": "fny2f26fc30zwp7onnnwdc9zil",
+        "sum": 100.0,
+        "total_sum": 197.0,
+        "discount_percent": 421.0,
+        "discount_sum": 394.0,
+        "vat_rate": 540.0,
+        "vat_sum": 646.0
+      }
+    ],
+    "packages": [
+      {
+        "number": "ln3bt1x82acrh6zxsk9k14dx973",
+        "weight": 857,
+        "length": 423,
+        "width": 479,
+        "weight_volume": 902,
+        "weight_calc": 213,
+        "height": 955,
+        "services": [
+          {
+            "code": "8572y6udpxk2xv49gnw4ca9ukone58m1guvk4jko20fc8rvip0"
+          },
+          {
+            "code": "381anuzzf7cc4hpzi05tf4"
+          }
+        ]
+      }
+    ],
+    "statuses": [
+      {
+        "code": "b0p6wuu948qurkwe1lod7t898k6d9",
+        "name": "s68r4nf9t3wft7",
+        "reason_code": "lavtq6",
+        "city": "s3v8a1c0wj1ryg2oe99cuhxgfc2gd2",
+        "deleted": true
+      },
+      {
+        "code": "mhtseqfy",
+        "date_time": "n4s2hsxovftg9bvajn6zantrijf5al5wo9u",
+        "reason_code": "cihayr5sgjq7nm4",
+        "city": "cv26koqn",
+        "city_uuid": "muf45rvkkmnq12sf"
+      }
+    ],
+    "is_client_return": true,
+    "delivery_mode": "1lqpyfx362l5y5df5q7e0l99d1je1jcbi6j07gca1c3knk",
+    "has_reverse_order": false,
+    "delay_reasons": [
+      {
+        "create_date": "q8ofhbjuui7222470y7jeuqc2nb4yk1pgznpjbo9s18xx"
+      },
+      {
+        "create_date": "mf5gunxtw7a7soo2n90fmuz8h"
+      },
+      {
+        "create_date": "hh7dntp4mfs0dh4"
+      }
+    ],
+    "planned_delivery_date": "9xeoj76b2a5",
+    "delivery_detail": {
+      "recipient_name": "vyahhz6z22ph3f76rkd8prc1wlwm2ws8w93q9s9o",
+      "payment_sum": 939.0,
+      "delivery_sum": 233.0,
+      "total_sum": 843.0,
+      "delivery_vat_rate": 829.0,
+      "delivery_vat_sum": 110.0,
+      "delivery_discount_percent": 660.0,
+      "delivery_discount_sum": 7.0
+    },
+    "developer_key": "fqhao32vfgxuj117yiyy6pijdy74w7vt27r35jrfy2",
+    "calls": {
+      "failed_calls": [
+        {
+          "date_time": "tqudd8495scizyiqrwy9te7ectnib7z31y6acd1k",
+          "reason_code": 246
+        },
+        {
+          "date_time": "3wfoux717xjoihmph1euoxqz4wrstmcyv4jnwfhv16kchbz",
+          "reason_code": 557
+        },
+        {
+          "date_time": "jwpcx8u8zaby89hg0wl8ky128325dbm2soj6al97ay1xizuz",
+          "reason_code": 724
+        }
+      ]
+    }
+  },
+  "requests": [
+    {
+      "request_uuid": "kcoydttudoyqpgxa1an07o3",
+      "type": "l8",
+      "date_time": "roupxj51zmhvy4npqarqsw0p9avtq104mte",
+      "state": "7q6u29m61o3uxaonyk7zgp3dro4g27bk7",
+      "errors": [
+        {
+          "code": "9cjls39s5f68witontm9il7yc7nb382jw85mtwyvpj",
+          "additional_code": "u58lx4a4pikk",
+          "message": "8bo9117e9yhq1mu1h5s5o7f3123nivnd"
+        },
+        {
+          "code": "fdxrxpcg06tbp6cida0ilxvaro",
+          "additional_code": "b9",
+          "message": "1ytdjuoa2p71mzexoefrp43qjccpszgatxacydzj63ifi"
+        }
+      ]
+    },
+    {
+      "type": "svsmsavjcqrnbcnw0mhttcg1yt2kg99apuiroy092rh4zo288",
+      "date_time": "l5bgojk60i6drwq0jwnlg08aivi3wk586e2u1i6ceqfcyt0t",
+      "state": "lolq45jd0bue64tfexrbcut0d3wg0jy1ho67hfrntp4xg7rynwbtoqzqiqe6c7goz7djmk7d3idbs04mk24"
+    },
+    {
+      "request_uuid": "0422rkmxvtciva8do77qjj689sh53u0gqmt1qrh",
+      "type": "3p56mhugock9hmac05sviee0alaga3h",
+      "date_time": "92u12g8204qqvncq7erdwdncudl7",
+      "state": "g2c7hoa968qv6tpu77qu8u9kt29l5e6y0flo70jbury8z9b0zz7gh5gugimxgxpo8bnw58we4dwjej8wmcnax22c23gm6p3an8vxacobhri06m7u5h9ssbvmy44195y31nxv",
+      "errors": [
+        {
+          "code": "iyxojwb170cpgyq3wbi9l13fay",
+          "additional_code": "mmz2n0drygbywracyeorhjv160",
+          "message": "8accwlresrtydpmusrmunybvfby7mve1"
+        },
+        {
+          "code": "3p5qdownc3a",
+          "additional_code": "xamg5d2ke3ehhj3n3s0nztx2tlk9gnbiy85k30rx7f2q71021",
+          "message": "gt0o3awymq7zgtvlngf57e2mo9z9"
+        }
+      ]
+    }
+  ],
+  "related_entities": [
+    {
+      "uuid": "xlvnzdntdw7pxzvfse3lt3n6r7zcaxcvyhnt5nmgx6a",
+      "type": "reverse_order",
+      "url": "gxgfvboeqxz8e1pv9n73skuvir8kd9j7ok6lltp10ts3dqphglrboiryo8mlwbdqvliiy8170au6i96at30fiktyn5ucr4oyr00u1tpetxz0bi457kh02fmkxrsatcqac7wtcgazazy6oi2jjdmz1vzmyyfl64ujcp88geu1mcf3j67ffke1hstdp95v5rkkn543qqknkjqm",
+      "cdek_number": "r7z4t1c49f7dwh8mwbgrhhd607pch64jkrvda2fb",
+      "date": "c986yezlt",
+      "time_from": "03",
+      "time_to": "nnsb5bvh0vy"
+    },
+    {
+      "uuid": "1r95nt9t4axejgk4kf9ieb2ykdurq2hycxssczr0p",
+      "type": "return_order",
+      "url": "rxq5cjpr2qcadij0x6i70knax0h32o308e3o3sfj2jfy1wlxfgwi9g2bzo6bionl347m48wo3j3a9e2c4hcqjg8sb80qthqnyxzqj5qvgbz8mcd3i5cptl4hg43qe73uj7kl13gdldv3v7cmx95nxfk1f68rjfvjz024238b10rrgzo7orn29irbdx7b9o2vzslwfq9po",
+      "create_time": "j0rngov173bw5sr",
+      "cdek_number": "uil2uqta1vwvimra1y9absrjij69p4uugo05x3om6wsj71oqgs9flbn69c4kj58t66xdkqtv38g9qbcmmr90zxhm1",
+      "date": "xq7xzlolja6itxutv07jjo4f8f1",
+      "time_from": "opcjfucg9s3",
+      "time_to": "9jd6h50wlvw4rhlwavzx1uh0fu5oj4ckk3ci53n0drri6"
+    }
+  ]
+}

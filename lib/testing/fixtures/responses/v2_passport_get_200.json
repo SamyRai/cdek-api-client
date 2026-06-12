@@ -1,0 +1,55 @@
+{
+  "orders": [
+    {
+      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "cdek_number": 258,
+      "passport": [
+        {
+          "client": "SENDER",
+          "passport_requirements_satisfied": false
+        }
+      ]
+    },
+    {
+      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "cdek_number": 494,
+      "passport": [
+        {
+          "client": "SENDER",
+          "passport_requirements_satisfied": false
+        },
+        {
+          "client": "SENDER",
+          "passport_requirements_satisfied": false
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": "j8i5d2wv5lvc04ckoxjzk8fbb14fri4p",
+      "additional_code": "u8nf9fw5pjir35keim2ddtu",
+      "message": "y"
+    },
+    {
+      "code": "z6336cxu",
+      "additional_code": "w",
+      "message": "hj7x9ebi7ggu8ocfvdmlvmo0wp77b"
+    },
+    {
+      "code": "f3tlp11cq3nstkx3054o4zz",
+      "additional_code": "ltt77tvc6c1qgjhf8tkw56tnhkwny6blywe7h2gmmjorjv6",
+      "message": "9koruc9hgn6rw3l591x47b"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "9trw0bcm5dg40xg9h99rnoqf3cva1eopr5gke56ja4c",
+      "message": "o84nct"
+    },
+    {
+      "code": "oghspiwopccysk8cwh91h",
+      "message": "chogs97077blxisnnc18byxs4xtztm0hg0fm"
+    }
+  ]
+}

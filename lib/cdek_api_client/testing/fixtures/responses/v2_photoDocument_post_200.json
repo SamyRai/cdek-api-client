@@ -1,0 +1,39 @@
+{
+  "errors": [
+    {
+      "code": "s3e7vidg5o8ku5anuv4jg7ztwa688lhxepzcvwjd3bdkgb",
+      "additional_code": "orcdfuug7kubo0usp8wdgcecfjwa",
+      "message": "y9"
+    },
+    {
+      "code": "up44b",
+      "additional_code": "exhg31q4ntmdwslm1hgyjxjqvk0cilizq6yjyb",
+      "message": "b9xho3adqooe7juq01m1omxd6di1vn2fai99vic6k"
+    },
+    {
+      "code": "pc9erlogzeriavxjgep6d30ovb3alfd7b8hblg13fa17n81",
+      "message": "rjp839o81fh8sycwxzy3"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "am0j6cvbqpf9hotahdfbr0kthmtktb0ggi9hj2y8ubmykcvi",
+      "message": "p59wncyl0cv732pdzu088jj"
+    }
+  ],
+  "orders": [
+    {
+      "cdek_number": "talknoo8wcyrvofybhgjzvvbfapnd3yngx5t",
+      "link": "yfldy32z5gm4i7bcwoxi72pv64iuznozv7zt",
+      "status": "READY_FOR_EXECUTION",
+      "create_date": "4q6d9l0vfzhgd6kt4xfob2r9tvo1od1yib95qs1"
+    },
+    {
+      "order_uuid": "5iftzmrb1w3idj36sjj1nyobfa6me06gnqt1",
+      "cdek_number": "cm2uv2ay30i6spwbxg0",
+      "link": "61czpoa56ds8dky85qttv8e7v16q1e7",
+      "status": "ERROR",
+      "create_date": "vu64kyushif4ej2xnp53qgny1ubdq6l0jghew"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date_time": "fgbhq4pqd6ubctzc7f73bv6iior2rtzegm",
+  "from_location": {
+    "fias_guid": "9vzjavstlz520vc4znveayx",
+    "postal_code": "kz",
+    "longitude": 722.0,
+    "latitude": 334.0,
+    "country_code": "0pvp5th6o69lg3tigjcp9adokxvqdpy83pwb8bn3n",
+    "region": "3f02l1klnaqqvy33mezotnc3up78f1z9r4t49gsujgybf",
+    "region_code": 425,
+    "sub_region": "0ks2mv9iwclcnj8l1w9gf0ks8rpr4sb5h4jh3tbf95r7urgq4",
+    "city": "cq59fz2wsy7amwcsdel0h",
+    "address": "nnnwq493g15zug9qo0lgk0ujwurveuxl4apik9c37p1i6u96"
+  },
+  "shipment_point": "f2rg6j05tyhf5ohhczp9ukj4dlbh5ytquytqb",
+  "to_location": {
+    "code": 551,
+    "fias_guid": "l6fzfsanvjsenlnjxvlcqhv8xhesvd0nrlv3quh3ks",
+    "longitude": 610.0,
+    "latitude": 245.0,
+    "country_code": "myjb",
+    "region": "bq2iaoq8",
+    "region_code": 193,
+    "city": "u3x7j8evvm09uchcdvlzo2rznr0obz1sajq2x0fcw5i",
+    "address": "jh6xdfhv"
+  },
+  "tariff_code": 171,
+  "additional_order_types": [
+    430,
+    599,
+    543
+  ]
+}

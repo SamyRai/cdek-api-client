@@ -14,7 +14,7 @@ RSpec.describe CDEKApiClient::API::Tariff do
 
   let(:raw_tariff_data) do
     # Generate tariff data from schema instead of hardcoded values
-    SchemaDrivenGenerator.generate_request('/v2/calculator/tariff', 'post')
+    load_request_fixture('/v2/calculator/tariff', 'post')
   end
 
   let(:tariff_data) do
@@ -48,7 +48,7 @@ RSpec.describe CDEKApiClient::API::Tariff do
   describe '#calculate_list' do
     let(:raw_tariff_data_list) do
       # Generate tariff data from schema instead of hardcoded values
-      SchemaDrivenGenerator.generate_request('/v2/calculator/tariff', 'post')
+      load_request_fixture('/v2/calculator/tariff', 'post')
     end
 
     let(:tariff_data_list) do

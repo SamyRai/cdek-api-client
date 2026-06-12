@@ -13,6 +13,7 @@ RSpec.describe CDEKApiClient do
     let(:client_double) { instance_double(CDEKApiClient::Client) }
 
     before do
+      described_class.instance_variable_set(:@client, nil)
       allow(CDEKApiClient::Client).to receive(:new).and_return(client_double)
     end
 

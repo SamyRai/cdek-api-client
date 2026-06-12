@@ -28,7 +28,7 @@ RSpec.describe CDEKApiClient::Client do
       end
 
       it 'raises an error' do
-        expect { client }.to raise_error(RuntimeError, 'Authentication failed with HTTP 500: Internal Server Error')
+        expect { client }.to raise_error(CDEKApiClient::AuthenticationError, 'Authentication failed with HTTP 500: Internal Server Error')
       end
     end
   end
@@ -43,9 +43,8 @@ RSpec.describe CDEKApiClient::Client do
         allow_any_instance_of(Net::HTTP).to receive(:request).and_raise(StandardError, 'test error')
       end
 
-      it 'returns an error hash' do
-        response = client.request('get', 'test_path')
-        expect(response).to eq({ 'error' => 'test error' })
+      it 'raises a RequestError' do
+        expect { client.request('get', 'test_path') }.to raise_error(CDEKApiClient::RequestError, 'HTTP request failed: test error')
       end
     end
 
@@ -55,9 +54,8 @@ RSpec.describe CDEKApiClient::Client do
           .to_return(status: 500, body: 'Internal Server Error')
       end
 
-      it 'returns an error hash' do
-        response = client.request('get', 'test_path')
-        expect(response).to eq({ 'error' => { 'error' => "Failed to parse JSON body: unexpected token 'Internal' at line 1 column 1" } })
+      it 'raises a ServerError' do
+        expect { client.request('get', 'test_path') }.to raise_error(CDEKApiClient::ServerError, 'Server error 500: Internal Server Error')
       end
     end
 
@@ -67,9 +65,8 @@ RSpec.describe CDEKApiClient::Client do
           .to_return(status: 200, body: 'invalid json')
       end
 
-      it 'returns an error hash' do
-        response = client.request('get', 'test_path')
-        expect(response['error']).to match(/Failed to parse JSON body/)
+      it 'raises a RequestError' do
+        expect { client.request('get', 'test_path') }.to raise_error(CDEKApiClient::RequestError, /Failed to parse JSON body/)
       end
     end
   end

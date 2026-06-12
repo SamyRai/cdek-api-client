@@ -1,0 +1,44 @@
+{
+  "cdek_number": "5yy6q3y79tjs6ek6oybgem9295dfkloo3flg9dzvt3q",
+  "intake_date": "xxwjhj9rblethzhobe1rai0re5tngzd56ve3abuifd7nxg",
+  "intake_time_from": "q7g0m1o5863ekkjgwnoc1lf9fx5c",
+  "intake_time_to": "m0lfluhfkefzzzffqluda24996p1yaa7mzwvc4ykk3o",
+  "lunch_time_from": "wfrkux6mb1g2np",
+  "lunch_time_to": "j4ho9h8mx8e09ii4ioq6ow5dc",
+  "name": "yewsl3ijpq1wp3asie40qitk51mazke9v6d1cp23w5wclf37kili5j9lx111e22100g9pfl220q46d38zofy5v7udipmxw5qe",
+  "width": 247,
+  "comment": "hrcty0shf6gjayhsyht1xeg0iboih5nojgtbdyov0p5k6d7297eqphh6gxs1o6oetfw0hya8goypyqriv8eig889od1tvf2qqzmsmp1ikfpeiwk2wg5msk0zntcvfi8mkr6g93srpcqier",
+  "courier_identity_card": false,
+  "sender": {
+    "company": "hcx3j5anuzpdv7vllb1jds0hbuzsgx08qmnzvc89j9dyc42klxx00zff8p8y8x0i8q44umywfh",
+    "name": "a2an668slqg34kwbyfw8a0nxtl89hzcmbijs2i5lcsk8eebmssmlk6qxbt6q7eldz5n0rbqpo76xa8uf022u43ef4j1t7wkcgzfbu1xj0i9utwc1ngvbdm5d6ze82pa7cla4yunsxmjz639s99v16r5iqhe7m59ajyf8xs416744817whpyzw01ntkukgfwj2bqcgow0psorek2ef02yo9azf30",
+    "contragent_type": "INDIVIDUAL",
+    "passport_series": "19",
+    "passport_number": "72a1g4gtn7v8ei68kopbtc",
+    "passport_date_of_issue": "cbkq35c589vp9g4xopw2rraqj8",
+    "tin": "u6",
+    "phones": [
+      {
+        "number": "94g8suugbvo8",
+        "additional": "c3vc3dcohte4jnx12qkuflaecxe6gi2w"
+      }
+    ],
+    "passport_requirements_satisfied": false
+  },
+  "from_location": {
+    "code": 119,
+    "city_uuid": "gl1h27p2hyubg3x04oyviemi31nfcf56spv9c",
+    "city": "t9t39uarn8rb6m4oql9ev35acnn1t7pf4v0xguj",
+    "country_code": "ks",
+    "country": "zuhr9kp8tp70ilh837rckc3u4eeulqrc2m6cybspmwlhek8l9wzy340gize31rlo17rrdr91tnokhgu13gykd3opfxlskjp6gpffde6whob1u7h5bo15n6x5fxtwaqpxdxqk764h2x36mtek6a9nv5dzqlhej9yroq5tafvc5bp2t3qjb632rbkjcrloq9bljvyh6z3lmhnyjdue0pgxfmxigquemfi82zr4cnwm0p3zhegl3pp8mmrsogv",
+    "region": "evhdrul2b48coyaidamvj6wc3v6j6cwd5maupgat2hlcwiyzxvbe05rtkb2ig9a27vw70vgusmvlmhuxakp0exwfyqe4",
+    "region_code": 414,
+    "fias_region_guid": "rbtykqedd",
+    "kladr_region_code": "hnl03fdlsz55qhhsv1zbwi9gucspb8q7d3f9k9lmlc1a1eo8jrir6ynnmzoc4j11c9bq",
+    "sub_region": "s44knkanos7j4vpantk0winhw6aooc43bmmq44h17sbiiecmlglreof3it2lcpybb5t3i6rt9mph85j3x9bz37khpzgbf71k837kobhh7vy2szosbya0pv56ppe8cwum3hznm2vpqigs97um923al7gomb5qiqqu49y81ugtcf6bgeelasnf6xu1q1p340192m7i2p4mvh21y8pk2k6vmy",
+    "latitude": 209.0,
+    "address": "0f5y2oep6myguwnjg1eq6kueb9rxd59i1czh7neawlj4vz936kooov24j5rmdotzgeur7kzafcvpzsi4hr5x5z34qhmtwi2mksys4895ljdjrbmhtlfv2jco18ujz17o0s8ezyzpk30ysxqriw42uhqixyb3cqbgd9s1mflsv1zf73sronslcycjf818qgino5aa1ouckf47ml7lblk",
+    "postal_code": "2kpum8btchbbreaw8i7f73exx5m8ym9v8ze5ra5vmzenp5o6f8f690zu4bpjf15lvcmhj9gmzmnrfi0tgn"
+  },
+  "need_call": false
+}

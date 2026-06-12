@@ -1,0 +1,49 @@
+{
+  "errors": [
+    {
+      "code": "xz2d9zn5sj6pn254ftmrfgg",
+      "additional_code": "72o7w9fitse774d9bf3yf6yavjkfkmwjioz1jwohdg",
+      "message": "fv4cwbn6l217eh3xyw50wucenx"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "o1zw3e7efzawait3m",
+      "message": "0n6cm1lg320aqhb4r3rltiq0qyc65b4j3a3x370el51f"
+    },
+    {
+      "code": "uptc1f689f702r4mnrzjgb",
+      "message": "0l94t9wwzrjupvs1irc6xxjyg"
+    },
+    {
+      "code": "hnrqo9hs1atknxgv9ag2f0m7qocu3jnvzt6jtap3iecmqi94j",
+      "message": "fi7"
+    }
+  ],
+  "check_info": [
+    {
+      "order_uuid": "urm3o",
+      "cdek_number": 435,
+      "date": "vs8rcdifr9m6boa0ucfo4b9vrg1",
+      "fiscal_storage_number": "lqsgj13bqy3wvjfzbwkpfa9vs4fcjt4d0vrzndn9g4tx0tfqt88wu068f81gz6mx534r84f95eudc88c69v5ess6d9gk8b3b2gwk2n9qs7g0h3f74rthnoa8vmkt4ihi4kkqavjlplekg6pezfbjvoxwyuinhatxra2l2b6epnfd75sepimy1dd1y7paw",
+      "document_number": "92yvenez1ywhuxnkpqq90aoxoiljbi8dywqetxgjcnhbgrnpoltu5",
+      "fiscal_sign": 497,
+      "type": "CASH_RECEIPT_REFUND",
+      "payment_info": [
+        {
+          "sum": 18.0,
+          "type": "CARD"
+        },
+        {
+          "sum": 740.0,
+          "type": "CARD"
+        },
+        {
+          "sum": 322.0,
+          "type": "CARD"
+        }
+      ],
+      "shift_no": 261
+    }
+  ]
+}

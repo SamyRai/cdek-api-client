@@ -1,0 +1,29 @@
+{
+  "date": [
+    "rfk70khmxr69jcd7ldauy4jjv57dcdq5sl35d0fw175",
+    "hb0vnc5y8b7cz57ouli0jsh"
+  ],
+  "errors": [
+    {
+      "code": "33y5w2fligla1de9591b",
+      "additional_code": "cbo4bljrdfcqwk8tjl2wfiwiu9lmbx54bk9snr",
+      "message": "mu0v5n"
+    },
+    {
+      "code": "e0pxx5usih9f6wr55akmf1mo3d2dua1hmt7kg0",
+      "additional_code": "wciu5g7tnkkjbbxr",
+      "message": "fecj3a8xzwtlcy52gmiate6"
+    },
+    {
+      "code": "kxec8f290ombh8uu2onz0r3zihxu",
+      "additional_code": "5ucgizisooz61jalufdzds0",
+      "message": "33cc03ra6cung3p9ahv1c6f52hz4cc5n0292"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "siooog730or5ujqom8rudq8q4ftxs8jwwkw9sba7d0v4jq9vr",
+      "message": "nscl7h8famj9cbl7vvr4rqxjkbo3r4jb2n7u"
+    }
+  ]
+}

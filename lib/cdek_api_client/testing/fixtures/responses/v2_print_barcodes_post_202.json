@@ -1,0 +1,67 @@
+{
+  "requests": [
+    {
+      "request_uuid": "cy5npmyaodnf6i3s3oww5ch",
+      "type": "xpi3hs93bn",
+      "date_time": "yvql3l",
+      "state": "qqsnhjtp7c9aajvv3azwlh7e764r67imofb",
+      "errors": [
+        {
+          "code": "zzzl5ukyni3",
+          "additional_code": "8p88bmk8k32pd0a41583ijb26ogf6bruwc",
+          "message": "zejsr93zcbc3vk3gwquse2yllsbygp1vyv4oveoh0q2d0t5"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "7jp0ddr01",
+          "message": "n7v7fkmh6w"
+        }
+      ]
+    },
+    {
+      "request_uuid": "y6",
+      "type": "9b43wfobgzn8es4au0tb10nmw12afqug5yzvrgaqdcz96lojp",
+      "date_time": "s2tuwyl03oxa8",
+      "state": "h7i2cirf1c1vh6967tz",
+      "errors": [
+        {
+          "code": "ldyud4uy",
+          "additional_code": "q5r87n2vwbgk00mmqvkkj",
+          "message": "4k"
+        },
+        {
+          "code": "7pe02rj0jlbid40q",
+          "additional_code": "at6499dr891jtrgv7o1zmiim5yf719dkmtbw5",
+          "message": "fzp46ui"
+        },
+        {
+          "code": "np0lzlgllk6wpawq4tpibkp95tejdvmxltyn0kc",
+          "additional_code": "wfnd8abnb66tghhohj10cd7a8",
+          "message": "v40i9rgbvq03i84pkop4sm60ppy"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "et8kt3df70engv799u04cq48qvkf8mzowc3u",
+          "message": "ouifw2415"
+        },
+        {
+          "code": "ge4gxpibd3sewpuh2lb5h5npg40brft5",
+          "message": "xrfx"
+        }
+      ]
+    }
+  ],
+  "related_entities": [
+    {
+      "uuid": "0irgro9mpq0amtkrmgrfb7t6kzzq6lo3u",
+      "type": "barcode",
+      "url": "6mowdej0jtgflxxk4e4gm79c86lou8xo98kfzm00hzo7zrwdro1zxt7dqoynb73s7pjszw8m70ipi5prq8kw0nftnb9eknzii45mpmauslwlkqzohxhvktvm4bfjc44rru0kfb9le38rbm4rxhyeuxokmey3aaisrihbf1mm",
+      "create_time": "s4hlkvbn65lut1cnl0po272r9ye1qfw876neqlrmr8f8zykix8",
+      "cdek_number": "qv9tpiso61g3qtqqb7di5k33xqnsrtmx1x1m1nq6ev8v554nozvs13ay9eses8amlzocl9apdzhg1zk7u7p1lpm0yy3ekbvcqtpntvvlf5z8rt4f7rzsafjeixdkf85yq60fz6hutqiyukejj77a75akkuz8rei0cmkp07jj",
+      "date": "7ihajno1zvwe4ffmdhdpd6kdx",
+      "time_to": "ku3vm769ta22gf1yo5zh29uqlifgu6uqq"
+    }
+  ]
+}

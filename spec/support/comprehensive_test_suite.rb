@@ -74,7 +74,7 @@ class ComprehensiveTestSuite
       result = { valid_requests: 0, valid_responses: 0, total_requests: 0, total_responses: 0 }
 
       # Generate and validate request data
-      request_data = SchemaDrivenGenerator.generate_request(path, method)
+      request_data = load_request_fixture(path, method)
       if request_data
         result[:total_requests] = 1
         validation = SchemaValidator.validate_request(path, method, request_data)

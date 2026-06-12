@@ -1,0 +1,46 @@
+{
+  "date": "2uwl69ohkjwwsxj72vt4vei1frxmj",
+  "additional_order_types": [
+    480,
+    478,
+    910
+  ],
+  "currency": 4,
+  "lang": "ovy",
+  "delivery_point": "zm25dqddmril7rhwcpzbm0jumxe3jxkns4grp2sem0uj90ph2831gzlt5ll81za1ildtq3dguys2qq2ambgth5zo7yosbatxuz1sg9bqaesxlomv4j7uqzw12dga1xuj4g2xamqaih4ga8m9u529wem0rrdrqv784rusgm3egsvr8ecxreiihs10mtydc3612c1pmmzjvh885iu168kftw",
+  "from_location": {
+    "code": 675,
+    "postal_code": "evb9bqm92gf29tug45sdsmp1",
+    "country_code": "t",
+    "city": "ssbk89debxnykykx5h7a6zwk8rdwj53sun4tcbpyh3n4rse1nswi9ix28p1fqbotysthtslwrtn6qlkp50417c5o7nn36bpmbcwu64fg6nheeq68va5bra2xrqmyj8iw7mfg4rzdtfszmyqqx535xol432okdioj9xpzzyv80ppvht8845odce0ngca41mfq9albpsm96fgbbba",
+    "address": "vtzbo4ws388bbcawqcvbjvosjvas2ggwwu6pwd5ailnkh7tlqlt13we0lvqpr46iwkg51dn16ipzxv9k27rk9r46jc5zxx5lcuzc4l4xn6nychf8q9urf38j3qgtk3b2sxjflfq0x2c372ooplqdy2vzl2n491u6wnn587k4uq1n7mib147u4tn2qwlpgwhi8p1hml2cgwh0ngzwe",
+    "contragent_type": "t7swj1cgd8rao5",
+    "longitude": 577.0,
+    "latitude": 954.0
+  },
+  "to_location": {
+    "country_code": "kj",
+    "city": "1kpvavnd6l53bkxrcwete28nl2nxvaw507icvs2i4sk6dgbjy87p0pt74ujahod9mwz97etuorcan8r2osimwa9wx43fqnuo7xyqhcnz0ta0de8kycr99jwo8mfmr5jf2zcoaogwt2hlpru9x6zq1w7xageu3vji3",
+    "longitude": 440.0,
+    "latitude": 552.0
+  },
+  "packages": [
+    {
+      "weight": 734,
+      "length": 639,
+      "height": 638
+    },
+    {
+      "weight": 513,
+      "length": 281,
+      "width": 843,
+      "height": 203
+    },
+    {
+      "weight": 781,
+      "length": 838,
+      "width": 326,
+      "height": 816
+    }
+  ]
+}
