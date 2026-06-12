@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cdek_api_client (0.5.0)
+    cdek_api_client (0.5.1)
       dry-struct (~> 1.8)
       dry-validation (~> 1.11)
 
