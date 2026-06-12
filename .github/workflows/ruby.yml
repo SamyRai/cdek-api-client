@@ -30,8 +30,8 @@ jobs:
 
       - name: Verify generated code is up-to-date
         run: |
-          bin/cdek-builder generate
-          git diff --exit-code || (echo "Generated files are out of sync! Please run 'bin/cdek-builder generate' locally and commit the changes." && exit 1)
+          bundle exec bin/cdek-builder generate
+          git diff --exit-code || (echo "Generated files are out of sync! Please run 'bundle exec bin/cdek-builder generate' locally and commit the changes." && exit 1)
 
       - name: Run tests
         run: bundle exec rspec

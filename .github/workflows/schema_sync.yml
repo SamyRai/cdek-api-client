@@ -22,9 +22,8 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      - name: Fetch Latest Schema & Generate
-        run: |
-          bin/cdek-builder all
+      - name: Sync OpenAPI Schemas and Generate Code
+        run: bundle exec bin/cdek-builder all
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
