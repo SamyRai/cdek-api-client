@@ -3,7 +3,10 @@ name: E2E Live Schema Drift Validation
 on:
   schedule:
     - cron: '0 3 * * *' # Runs nightly at 3 AM UTC
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Allows manual trigger
 
 jobs:
   e2e-test:
