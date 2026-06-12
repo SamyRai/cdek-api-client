@@ -9,7 +9,7 @@ gemspec
 
 group :development do
   gem 'bundler-audit', '~> 0.9.1'
-  gem 'faker', '~> 3.5.3'
+  gem 'faker', '~> 3.8.0'
   gem 'rake', '~> 13.2'
   group :test do
   end
