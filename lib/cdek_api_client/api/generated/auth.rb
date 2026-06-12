@@ -9,17 +9,17 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP POST /v2/oauth/token
       # @return [CDEKApiClient::Entities::AuthResponse]
       def get_o_auth_token(body_data = {}, query_params = {})
-        response = @client.request('post', 'oauth/token', body: body_data, query: query_params)
+        response = @client.request('post', "oauth/token", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::AuthResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::AuthResponse.new(result)
       end
+      
     end
   end
 end

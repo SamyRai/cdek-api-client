@@ -1,56 +1,52 @@
 {
-  "delivery_sum": 643.0,
-  "period_min": 567,
-  "period_max": 520,
-  "calendar_min": 109,
-  "calendar_max": 532,
-  "weight_calc": 55,
+  "delivery_sum": 661.0,
+  "period_min": 592,
+  "period_max": 637,
+  "calendar_min": 404,
+  "calendar_max": 471,
+  "weight_calc": 160,
   "services": [
     {
-      "code": "l6w6pdceajgsbj5ss9d9wpklxcl1lat20",
-      "sum": 121.0,
-      "total_sum": 335.0,
-      "discount_percent": 25.0,
-      "discount_sum": 49.0,
-      "vat_rate": 717.0,
-      "vat_sum": 108.0
+      "code": "6255klj7vkyd4iwfu5g5",
+      "sum": 997.0,
+      "total_sum": 168.0,
+      "discount_percent": 95.0,
+      "discount_sum": 345.0,
+      "vat_rate": 985.0,
+      "vat_sum": 935.0
     },
     {
-      "code": "phtluqvn59r08s0c1op7e79lwgg4ht36o8tbdbgx2",
-      "sum": 87.0,
-      "total_sum": 738.0,
-      "discount_percent": 658.0,
-      "discount_sum": 663.0,
-      "vat_rate": 68.0,
-      "vat_sum": 778.0
+      "code": "ulrfy3i5w84ugmgkul37ufxnetdnsj4udgkizbii",
+      "sum": 447.0,
+      "total_sum": 652.0,
+      "discount_percent": 215.0,
+      "discount_sum": 664.0,
+      "vat_rate": 814.0,
+      "vat_sum": 803.0
     }
   ],
-  "total_sum": 102.0,
-  "currency": "f8a",
+  "total_sum": 151.0,
+  "currency": "f",
   "errors": [
     {
-      "code": "2z1i7drmmzi3qy",
-      "additional_code": "w4dror97ft",
-      "message": "pfv6mdn"
+      "code": "dba",
+      "additional_code": "yjppun2pym02d3qgc",
+      "message": "1qaweq8yv8mne"
     },
     {
-      "code": "ptqfemedvtrwtz0cnhxba0fp6slaf9jgerrhtlcq5nbjvs0",
-      "additional_code": "30zs1x14d0yq",
-      "message": "peu441eu0f02s1dv6"
+      "code": "tbg9cl6hag5qdk6x7njb",
+      "additional_code": "jbehhn",
+      "message": "eyyz7vltuuzbnr8psr16oap"
     }
   ],
   "warnings": [
     {
-      "code": "bfb5l8897b5spyqwdtbxqgpjqssprw63rwlcgnwh6m1hi",
-      "message": "qvbokoun0rx4alqs5e9txugckyozpe2lkam0e5ml3r6kdu3"
-    },
-    {
-      "code": "s",
-      "message": "9indpenu308plz7168420wpwrex2g4e"
+      "code": "zri",
+      "message": "dsg6t7klj3chygg1uu9qr5c0xafl2hmqxpnrjknvr6xu"
     }
   ],
   "delivery_date_range": {
-    "min": "1su02v2yjsl3ne1n43f",
-    "max": "3wdx7j"
+    "min": "bvpwhefbj",
+    "max": "49xaw1myimc3sy8vwqt4805m1net8g15xkouyl"
   }
 }

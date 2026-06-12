@@ -9,24 +9,26 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP POST /v2/photoDocument
       # @return [CDEKApiClient::Entities::PhotoResponse]
       def get_ready_orders(body_data = {}, query_params = {})
-        response = @client.request('post', 'photoDocument', body: body_data, query: query_params)
+        response = @client.request('post', "photoDocument", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::PhotoResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::PhotoResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/photoDocument/{uuid}
       # @return [Hash]
       def get_photo_document(uuid, query_params = {})
         response = @client.request('get', "photoDocument/#{uuid}", query: query_params)
         @client.send(:handle_response, response)
       end
+      
     end
   end
 end

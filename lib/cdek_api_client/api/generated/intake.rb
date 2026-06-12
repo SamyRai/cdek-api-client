@@ -9,57 +9,61 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP POST /v2/intakes/availableDays
       # @return [CDEKApiClient::Entities::IntakeAvailableDaysResponse]
       def get_available_days(body_data = {}, query_params = {})
-        response = @client.request('post', 'intakes/availableDays', body: body_data, query: query_params)
+        response = @client.request('post', "intakes/availableDays", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::IntakeAvailableDaysResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::IntakeAvailableDaysResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP POST /v2/intakes
       # @return [CDEKApiClient::Entities::EntityResponse]
       def create(body_data = {}, query_params = {})
-        response = @client.request('post', 'intakes', body: body_data, query: query_params)
+        response = @client.request('post', "intakes", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::EntityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::EntityResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP PATCH /v2/intakes
       # @return [CDEKApiClient::Entities::IntakeChangeStatusResponse]
       def change_status(body_data = {}, query_params = {})
-        response = @client.request('patch', 'intakes', body: body_data, query: query_params)
+        response = @client.request('patch', "intakes", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::IntakeChangeStatusResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::IntakeChangeStatusResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/intakes/{uuid}
       # @return [CDEKApiClient::Entities::IntakeInfo]
       def get_by_uuid(uuid, query_params = {})
         response = @client.request('get', "intakes/#{uuid}", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::IntakeInfo.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::IntakeInfo.new(result)
       end
-
+      
+      
+            # 
       # HTTP DELETE /v2/intakes/{uuid}
       # @return [CDEKApiClient::Entities::EntityResponse]
       def delete_by_uuid(uuid, query_params = {})
         response = @client.request('delete', "intakes/#{uuid}", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::EntityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::EntityResponse.new(result)
       end
+      
     end
   end
 end

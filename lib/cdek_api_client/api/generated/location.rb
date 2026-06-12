@@ -9,57 +9,61 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP GET /v2/location/suggest/cities
       # @return [CDEKApiClient::Entities::SuggestCityResponse]
       def suggest_cities(query_params = {})
-        response = @client.request('get', 'location/suggest/cities', query: query_params)
+        response = @client.request('get', "location/suggest/cities", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::SuggestCityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::SuggestCityResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/location/regions
       # @return [CDEKApiClient::Entities::RegionsResponse]
       def regions(query_params = {})
-        response = @client.request('get', 'location/regions', query: query_params)
+        response = @client.request('get', "location/regions", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::RegionsResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::RegionsResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/location/postalcodes
       # @return [CDEKApiClient::Entities::PostcodesResponse]
       def postalcodes(query_params = {})
-        response = @client.request('get', 'location/postalcodes', query: query_params)
+        response = @client.request('get', "location/postalcodes", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::PostcodesResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::PostcodesResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/location/coordinates
       # @return [CDEKApiClient::Entities::CityByCoordinates]
       def get_city_by_coordinates(query_params = {})
-        response = @client.request('get', 'location/coordinates', query: query_params)
+        response = @client.request('get', "location/coordinates", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::CityByCoordinates.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::CityByCoordinates.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/location/cities
       # @return [CDEKApiClient::Entities::City]
       def cities(query_params = {})
-        response = @client.request('get', 'location/cities', query: query_params)
+        response = @client.request('get', "location/cities", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::City.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::City.new(result)
       end
+      
     end
   end
 end

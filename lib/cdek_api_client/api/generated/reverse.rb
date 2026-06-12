@@ -9,14 +9,15 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP POST /v2/reverse/availability
       # @return [Hash]
       def check_availability(body_data = {}, query_params = {})
-        response = @client.request('post', 'reverse/availability', body: body_data, query: query_params)
+        response = @client.request('post', "reverse/availability", body: body_data, query: query_params)
         @client.send(:handle_response, response)
       end
+      
     end
   end
 end

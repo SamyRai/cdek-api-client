@@ -9,47 +9,50 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP POST /v2/calculator/tarifflist
       # @return [CDEKApiClient::Entities::TariffListResponse]
       def tariff_list(body_data = {}, query_params = {})
-        response = @client.request('post', 'calculator/tarifflist', body: body_data, query: query_params)
+        response = @client.request('post', "calculator/tarifflist", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::TariffListResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::TariffListResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP POST /v2/calculator/tariff
       # @return [CDEKApiClient::Entities::TariffResponse]
       def tariff(body_data = {}, query_params = {})
-        response = @client.request('post', 'calculator/tariff', body: body_data, query: query_params)
+        response = @client.request('post', "calculator/tariff", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::TariffResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::TariffResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP POST /v2/calculator/tariffAndService
       # @return [CDEKApiClient::Entities::TariffWithServicesResponse]
       def tariff_with_services(body_data = {}, query_params = {})
-        response = @client.request('post', 'calculator/tariffAndService', body: body_data, query: query_params)
+        response = @client.request('post', "calculator/tariffAndService", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::TariffWithServicesResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::TariffWithServicesResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/calculator/alltariffs
       # @return [CDEKApiClient::Entities::AvailableTariffsResponse]
       def available_tariffs(query_params = {})
-        response = @client.request('get', 'calculator/alltariffs', query: query_params)
+        response = @client.request('get', "calculator/alltariffs", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::AvailableTariffsResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::AvailableTariffsResponse.new(result)
       end
+      
     end
   end
 end

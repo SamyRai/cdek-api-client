@@ -9,14 +9,15 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP POST /v2/international/package/restrictions
       # @return [Hash]
       def check_packages_restrictions(body_data = {}, query_params = {})
-        response = @client.request('post', 'international/package/restrictions', body: body_data, query: query_params)
+        response = @client.request('post', "international/package/restrictions", body: body_data, query: query_params)
         @client.send(:handle_response, response)
       end
+      
     end
   end
 end

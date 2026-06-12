@@ -2,78 +2,67 @@
   {
     "registries": [
       {
-        "registry_number": 619,
-        "payment_date": "ilnk1tekpq0dxb86mz5szpnxg4u7f15amenoji3i6",
-        "sum": 619.0,
-        "payment_order_number": "halo3x9ezgktu8tqn48yptq3aeqvvgq",
+        "registry_number": 728,
+        "payment_date": "cftk9o2b",
+        "sum": 116.0,
+        "payment_order_number": "pyu9v6xypllo2h1he",
         "orders": [
           {
-            "cdek_number": "kj00nnczyltoo22n83ne29ntgcpsn1auu6ruvccqq3",
-            "transfer_sum": 741.0,
-            "payment_sum": 989.0,
-            "total_sum_without_agent": 762.0,
-            "agent_commission_sum": 630.0,
-            "basis_type": "sxqkdcanlgdsa"
+            "cdek_number": "rz8dho4ibn4hq3nzkf9rq0n77sljtxlqj",
+            "transfer_sum": 276.0,
+            "payment_sum": 828.0,
+            "total_sum_without_agent": 902.0,
+            "agent_commission_sum": 173.0,
+            "basis_type": "81naxpgiq57siyq3w"
           }
         ],
-        "date_created": "wcy5feiuszulcqtx4a7vcdml1py2u92ql8tlc8tumeg"
+        "date_created": "06kg4w4sdq9ia4wkcdbe7zl0bkrs"
       },
       {
-        "registry_number": 103,
-        "payment_date": "i69",
-        "sum": 313.0,
-        "payment_order_number": "4pyev4isr53cxa1kjzx4p0322x4fbry5sl",
+        "registry_number": 217,
+        "payment_date": "0pcvboq038qfut4q5me0n3aq378zs3v3ob4fu",
+        "sum": 182.0,
+        "payment_order_number": "iiwj6f7znz2yt7l9u84znh599s6draw50p9xva",
         "orders": [
           {
-            "cdek_number": "pxzkq1780bupb2gs6zik35v3f595uesit00f7o1",
-            "transfer_sum": 594.0,
-            "payment_sum": 802.0,
-            "total_sum_without_agent": 334.0,
-            "agent_commission_sum": 624.0,
-            "basis_type": "mndii243xrl7vzadmpdu1wj"
-          }
-        ],
-        "date_created": "7zhnzwooju"
-      },
-      {
-        "registry_number": 724,
-        "payment_date": "u08unoscetsabcs1f3lm3rikgyzc6n",
-        "sum": 431.0,
-        "payment_order_number": "u8p7q3hes1zk55maayg46hwc58bl1dgzqlbpuuhhp6kr9os",
-        "orders": [
+            "cdek_number": "aiqapn1cjv4cuve7hvm6llhk1",
+            "transfer_sum": 855.0,
+            "payment_sum": 111.0,
+            "total_sum_without_agent": 971.0,
+            "agent_commission_sum": 928.0,
+            "basis_type": "w"
+          },
           {
-            "cdek_number": "apxawipvxym6jfv9q3xodni72",
-            "transfer_sum": 459.0,
-            "payment_sum": 854.0,
-            "total_sum_without_agent": 993.0,
-            "agent_commission_sum": 190.0,
-            "basis_type": "hdpz"
+            "cdek_number": "xmfn6itr7vfhpof218cj4ej5z2ru9oo2922yvx",
+            "transfer_sum": 456.0,
+            "payment_sum": 68.0,
+            "total_sum_without_agent": 691.0,
+            "agent_commission_sum": 72.0,
+            "basis_type": "vyqwmv587x5xnsxz8ba517nzcv20ky"
+          },
+          {
+            "cdek_number": "2ejvnmwyv574ci2c6bz9y4ajcp8afi1i4ssjmcoauvbhhb7",
+            "transfer_sum": 610.0,
+            "payment_sum": 820.0,
+            "total_sum_without_agent": 331.0,
+            "agent_commission_sum": 76.0,
+            "basis_type": "513unzabou"
           }
         ],
-        "date_created": "hyn6niijab5k5ldv686g"
+        "date_created": "pyqofp"
       }
     ],
     "errors": [
       {
-        "code": "fyncfgegecsff18h",
-        "additional_code": "qy971yzqxbpxzg5854l5s7eqb63403q1",
-        "message": "e3pwvu4x00r6agjv1c7quklsqnznnkdz7"
-      },
-      {
-        "code": "wdgxoyqq7qcgam",
-        "additional_code": "kyxrikr3wuln6qxk88jgz7979c978p83kfvc1kaueq4j9v78ji",
-        "message": "p7nl6"
-      },
-      {
-        "code": "iv7zku5krmksss26lbbfy25exdjw266dtear0m",
-        "additional_code": "gmbywbtv1z3yxsj4hp4gxcul1q19eetu66x44ez49nx",
-        "message": "pyquuot6pjbguhiwfi3jh13bx97z9c61509av"
+        "code": "5dr908owgkn9hym27v380ti0qqz1hs3",
+        "additional_code": "g363j8azwqzb918i35y0bqifzeoae48wk0qmxmqdj",
+        "message": "fagwm5rc3f8wwsv7vo1avyldrifw"
       }
     ],
     "warnings": [
       {
-        "code": "y4ecw391zdkd7ymycpml1bmqv2qt48",
-        "message": "p60zsd2yoqjm1xhz9wp"
+        "code": "4cudu62izgsm3we01930b0yg48lcqwaufv1co",
+        "message": "et5aqvunssy5ux3w4qxzjn7u1ezi81th"
       }
     ]
   }

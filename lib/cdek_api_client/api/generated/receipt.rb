@@ -9,17 +9,17 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP GET /v2/check
       # @return [CDEKApiClient::Entities::CheckResponse]
       def get_check(query_params = {})
-        response = @client.request('get', 'check', query: query_params)
+        response = @client.request('get', "check", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::CheckResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::CheckResponse.new(result)
       end
+      
     end
   end
 end

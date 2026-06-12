@@ -5,85 +5,63 @@
   "requests": [
     {
       "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "8hov3shlveqgi73lb9dxxjvwuzkonghqnrzykec",
-      "date_time": "mtguohp7hyvvukpkwgge",
+      "type": "enxef49vo4oe",
+      "date_time": "kqj4zpt5aexfnytj",
       "state": "ACCEPTED",
       "errors": [
         {
-          "code": "cddvm2gexjmcppt26ho4fgyhezpsns",
-          "additional_code": "27y6hjf1of5cuaeueruhqlcvh94xh",
-          "message": "wz7e1r6u4hjo0osg"
+          "code": "if03ws2qp5r3ocr1nmyxvkb6glr5fj6j",
+          "additional_code": "a1l1m6sfra4096h6",
+          "message": "4l739jx5e1vp3m7sjmu4elman4y206vt1pvr5maio8vczowu"
         },
         {
-          "code": "ole0o3ccxyzhz0ddky3wkpofjy525dpf5qfrn5h8j4gd3usl",
-          "additional_code": "6gnyx4zmpzd997ott50dff06sqi4qxag",
-          "message": "vit"
+          "code": "j63idlx963xx8n7dhf4anbscjkwmo12jaxbxny43x2vbo0",
+          "additional_code": "pwo3iio3sryj8np53gnpuhy75hyjvf",
+          "message": "fporr2pajzt223cp60bsqvhnc4gmfwmwmurcgeoj3"
+        },
+        {
+          "code": "nku0qff9q7558",
+          "additional_code": "kshi2dj597a",
+          "message": "mx7l6z78ntuy7bew9tp0j3zqm5l55gjs6k0qjidhp0rkl"
         }
       ],
       "warnings": [
         {
-          "code": "3aw8v4ju0",
-          "message": "inxsyneq88al70dh7j2x"
+          "code": "4all4aksbr9i69qujgp7tmm3nj31dz09lx2lfjczid89fr8",
+          "message": "zhux4mlsfo"
         },
         {
-          "code": "cxmu66neomxe52k8ysuf5w6e0f002torx8j",
-          "message": "ia7aa6iz48auz0vodzroajjj5bxca3vnd"
+          "code": "cce4b7uh7x69rlywz4g6aran4jp87kiatx6x6i4x2",
+          "message": "n167t91m3d"
         }
       ]
     },
     {
       "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "9ah53i3x420nx1k45y7jplc9bn",
-      "date_time": "446gji6qx1d1fedel8elm0hyllzue3fd2nwary8jj8z",
+      "type": "2tj51r8dss048l5tnnr8",
+      "date_time": "di4rsdc2gt74iyultm9b1n6ow94oiy59e",
       "state": "ACCEPTED",
       "errors": [
         {
-          "code": "u8ihr3gmdl3fwrr8h9wy19dpxdv6xp",
-          "additional_code": "ch1p5xooz8zl2f",
-          "message": "pmg03c3i7phfzbs767l0vdku6udpkumioihzwmbw506"
+          "code": "bg54gipter16xu5e8lc06kqttj839gnn1d84b7guekus3cpptm",
+          "additional_code": "nqbsej0xhl10k2ez3c0v4kl04kg4g9bqul",
+          "message": "1xjle6t6y"
         },
         {
-          "code": "ohsvmvjsg4",
-          "additional_code": "7zswie7",
-          "message": "j54xah3ooay6bbvp6rmsl6pnzcd6131y3zrxf2yhqxgxdud"
+          "code": "zwtzft88cg5xmv6y699pdthb4bu37asp",
+          "additional_code": "i088huvmw3sdzjuzew9m4hk6bwa0qbbqg4fcaq8vpi0lwts0",
+          "message": "41hqunl42xt7k3n20slcektkyfj4lwuja83af7q2t"
         },
         {
-          "code": "r46jb1efamd5zg4a6pgmxnhs",
-          "additional_code": "juw8rhmgtplm1tvp3o",
-          "message": "lr54501jbmnwe690e3rt5fi2y2gchx58raqd739"
+          "code": "bvv3kz9tyvda9k54p6rmdftbccys6wm346iu9m18g5v1",
+          "additional_code": "94zeyy11agind4hzio",
+          "message": "3ju7pdz3lgta"
         }
       ],
       "warnings": [
         {
-          "code": "7oql5j6p2n6id0yagndq0fclmfzep1uedoqb3",
-          "message": "f1jm0r6ogr1zm14hx4gwns8sfzmj950thawtwlzuahlq"
-        }
-      ]
-    },
-    {
-      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "l5lhtpgaisa6v4j2pk5d8fsioyiohugjf57bixwj7ern",
-      "date_time": "o",
-      "state": "ACCEPTED",
-      "errors": [
-        {
-          "code": "chugm7marafpw58nxcfkb6xio5ykl13vxc",
-          "additional_code": "dle93h44skrzj3",
-          "message": "vjn9j7ptewotwuyew60d"
-        }
-      ],
-      "warnings": [
-        {
-          "code": "d87jdltt2dq3w81qb02q9hbvpc882pnlvcydvlv7vi9h",
-          "message": "77amgu9y03267fsqspj5u0p1u9hqewlz3ii9"
-        },
-        {
-          "code": "p2yge7a06p13rp21fuxn3m",
-          "message": "a3tbiypivj4hofyi2a4cvf4khianz4pf5qd19ow48"
-        },
-        {
-          "code": "ixpusulpmzghgujihs64b65a64jxqe84ojgkgc9pcmrnauv1x5",
-          "message": "m1fek8lfuq3"
+          "code": "ccqpolpn9pjhm4uzdeuy",
+          "message": "k0zj1ubuftzw878bg84wofwe"
         }
       ]
     }
@@ -92,22 +70,12 @@
     {
       "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
       "type": "return_order",
-      "url": "l4fzzwxpjp7y70ak74e4c1b1dw209pnxpm52rxkg22m6rsi6y77jpmn70mnr65o0mkt9yktyamri7mi8m7ozkcjle2idv6tg",
-      "create_time": "yau0dfkq8s8kru649k8zta0485de7s03p",
-      "cdek_number": "p48csehu6sne3x8djdgps8u6g22jnqq7hgyhwnncitazrjktn6kwc4ctzu3yrvo3hzf815jt4u0xa",
-      "date": "r2",
-      "time_from": "8wzh6wdgsp4ooa722ieydmppz8wu",
-      "time_to": "h08jlp14gsza82lvtxlq8"
-    },
-    {
-      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "return_order",
-      "url": "wh98otdoa7j3zgddjq0v21i4o2lklsf36jw8wvnq7tf33j6a2uttw15oxuvvc9rm4i4fo5vrr43rqa46628hnjkae9o31bp8poemo2jzl0szbbv6gfzrvr20yldyu2b6orzwwc06qbblbwvtxivgte4c",
-      "create_time": "i5",
-      "cdek_number": "gb4xcdentkgqo4eq8fux713dr2i4ktowqlz07mu7ixmznvacnt73ux8uy9uyjuy7yiqtf1iyrikdmx4cat9nby8la3hqfpyt54qd5k1wn",
-      "date": "lddqmym81ezqt4i9h26zwd7gsn27kwmdpod1arvujcjb91yac",
-      "time_from": "8envmolox",
-      "time_to": "3sk0w"
+      "url": "x8h5g0pdmco6dhpm4bmjal7dnim4y18yc2a09ueswppnzedvbnk8i7qeg855jdljq4n8jk8y0tm22fv677xykn1jktolycyzmr16fytwyybxs2f5k0atxcf1nb0eo6yp15dqk4o52s8npjcn3687nnjh06dnkgon8gxg37rdpe2r12bwrxqms7nrf4wpxiz0a6hd9d60n1ace",
+      "create_time": "v",
+      "cdek_number": "h5q1eoqvdiy8lj98u57om4jim2bxf38fbntorr55uedel0hbtm10qy1f8xgi31taclmrbn871utriwwzoe7iaf4nzd33ti7hi2jvc3u801qalff5qoedx9j7kk30vje25qc0sf0bk3qevwdxs1iup76kepp1oihn6kyiu6v04yx4bztyocew7hyxyn2plpsuf902ucq8drapmfnap56dch8c8zwgw1vgsb9x75q7640cikyh1v9x138t7iaz",
+      "date": "fgc0wubfalwxouxzc3ybet8o9y9wpa13xaveh5bv3k",
+      "time_from": "ubbk8139gzfrfgzgu3t0dzux",
+      "time_to": "fjm4wa1wojkz1getliaf7ryueuj5kapkp898omqcqvene2a"
     }
   ]
 }

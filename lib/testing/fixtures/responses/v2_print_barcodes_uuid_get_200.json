@@ -4,60 +4,56 @@
     "orders": [
       {
         "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-        "cdek_number": 961
-      },
-      {
-        "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-        "cdek_number": 925
+        "cdek_number": 562
       }
     ],
-    "copy_count": 899,
+    "copy_count": 325,
     "format": "A4",
-    "url": "u2ykfvs",
+    "url": "04j4cnipe9tlswm",
     "lang": "RUS",
     "statuses": [
       {
         "code": "",
-        "name": "8yga6jmupr0s5k20o4xgknco9zbpfwncd1a",
-        "date_time": "7uzt182nf"
+        "name": "5ya1pgn9qrzfyp9kwg6e8zeiz9xfk",
+        "date_time": "ammp6h"
+      },
+      {
+        "code": "",
+        "name": "r2avui5t03lvnynh4167kb4af9rgrx96fpjkgno",
+        "date_time": "58ujybzlcboh9iz8n"
+      },
+      {
+        "code": "",
+        "name": "dmdxxq8xu3ufdq2bor6ybrj4xf",
+        "date_time": "x8u08ans3wvyry6ff73qatffwtuuho0ayopqwilk8kga3"
       }
     ]
   },
   "requests": [
     {
       "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "96aahov8mplrmpbrwgogkv4bc1dqh1bny8eglic7el",
-      "date_time": "2sp36qwr643fj3qiys0fwdfr65twj0axs9e87",
+      "type": "pqst1s6a7j52q7sbl5lb9hp5e5hzsir258fww8tyhbdma",
+      "date_time": "a6vrqmduh",
       "state": "ACCEPTED",
       "errors": [
         {
-          "code": "wjf8tpb0yp",
-          "additional_code": "kpty5oursaz6y639fm9",
-          "message": "rkwwlbbot8zr987l2f3bzvl9cc1ye203mdp5kxsqfbhpb9m"
-        },
-        {
-          "code": "6c5css05n",
-          "additional_code": "3jqg0jt9r9k86zi",
-          "message": "q4oyrs5qe0j3ikosuk"
-        },
-        {
-          "code": "o88hge9ienm9xbqhaxyuc4xj5d8h2b5ekktnzdb79n043j80",
-          "additional_code": "po48q",
-          "message": "8umliqz9htdvootmjpt94pgaoz0v688"
+          "code": "50dey1t6kqy3ewyh18g92b",
+          "additional_code": "5rz4vjeu3quf856p2l4igbdaw5walfcelrqurx553g8cyl5ep",
+          "message": "wsztm1jpbomicu46qdpgjejk3q3mf912xfd0oxdr7ds8"
         }
       ],
       "warnings": [
         {
-          "code": "ue62brnpq3zagplo7nfymbzv1hyc4mc0bcpyteeydofxf",
-          "message": "r7gdv1251ii35ouce33t58e5p5uzkaal19zuocmxeor27"
+          "code": "mu0qd5xa727mlwwjqq8m7zwbjwp6hs0zv0xjpig9s",
+          "message": "b3te23ek2hldnr4g82nqg05aadznlwejx"
         },
         {
-          "code": "4c50v0hiczw",
-          "message": "fli"
+          "code": "j0nl5",
+          "message": "6yi5lvjpedi24tpp7dw1apqywvbai"
         },
         {
-          "code": "ihr3erje4v",
-          "message": "8tidfcgxbsytsqc65ay53gek555b7cx8770lt8pgth66ho09"
+          "code": "4nyoiq1tw4q5xld2upgx3h",
+          "message": "x69w"
         }
       ]
     }
@@ -66,22 +62,12 @@
     {
       "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
       "type": "return_order",
-      "url": "cmw3aitx2lrorqza8nje1c2ibsoicmt4h5zpykhezr2yu",
-      "create_time": "gm4fxo",
-      "cdek_number": "42dzol2up2o7mh2uuycjsz5xtnjji3c002cfwj6tj2byv78837b7ajxy2wrlr2xo86nw1e8b8rtv5zfllj9",
-      "date": "duj6acb1mf6qly569snuau7r7u0pkk5e5876oos4w9",
-      "time_from": "h3zdkcnz6xszu",
-      "time_to": "68prg2tyfprdak33jhr9ttaw8odwvtmp"
-    },
-    {
-      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "return_order",
-      "url": "01ctw4l91qkpft4espvtmvbolri7lv0fpyty23iw0rdhqviignwdn8tzwspamb0kjbfxzgb1kmkabzbzq33v9j5m9fyc9122heg20lxxstix1b29tuer70x2i2jtxpqxue5gbhjxs02xvt6csedpy2lr1ke471wmfhqrnuh4gwybhumypkxo089gvyrw39ogd7dxzfp6suayjexg7t38zrl",
-      "create_time": "x84iyuuzoe",
-      "cdek_number": "c30iq57j070fskhyl1rlfsf3ptg6ao5sinkppou085fcq47l4zycq5vixfnd3vouljau2agfwc0vk0v35ayijxxc7e9p4qmfncrkzi9m3tce56k2e7rzd9unhlszwu0lm2bdnpip4abnq3d4iq4d1oeisdan267ql20uwupch2zjkjnf657vjpv2qy5bwcubyvurydz6vxnvh5qm097regutat16bai2x9i0xvegmnagl5uqkf1qgwrxvz4k",
-      "date": "ny7lwb6m8x64u3xu6itl88y7fpj8p54d",
-      "time_from": "ylv",
-      "time_to": "ivc8t9j7d8bfdrm9uhwn5incha6gvoz1fq995fo4ehvy"
+      "url": "fqrpd5pn1p5pj4nbpr50qhuphtvfek11849kv3i04cgzonb6txv77ejajl1c1w3vpd0x2aq456yvlkcayl2fn1ue0srqh91pnd5fzv3ep2909owk05ik86ota8tuy4b3z3n02js1bcj4wc3hzve53xgjanjs21bkdp3hfhkdvvegj9te6sbusxcsi5k71o1ewfthjdy6skb2g8tyj76ayuht09dexc78o7sjo2bdrfso9miayxv",
+      "create_time": "ouzirjkq13pa97gbs3s6osojj0p09jp7f1metjy",
+      "cdek_number": "flaty3u93dwawplc3ku9tvi2e5bzy67g9g42mpa2iggalokfbmcwaykqqmtr",
+      "date": "ruyyktbk8",
+      "time_from": "2310f1cfymqo7wdbfywurpgtkq8oenmr92cwdcbw7e",
+      "time_to": "k3cdv8rmvv5dawvm"
     }
   ]
 }

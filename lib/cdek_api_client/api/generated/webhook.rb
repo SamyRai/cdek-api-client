@@ -9,47 +9,50 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP GET /v2/webhooks
       # @return [Array<CDEKApiClient::Entities::Webhook>]
       def get_all(query_params = {})
-        response = @client.request('get', 'webhooks', query: query_params)
+        response = @client.request('get', "webhooks", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Array)
-
-        result.map { |item| CDEKApiClient::Entities::Webhook.new(item) }
+      return result unless result.is_a?(Array)
+      result.map { |item| CDEKApiClient::Entities::Webhook.new(item) }
       end
-
+      
+      
+            # 
       # HTTP POST /v2/webhooks
       # @return [CDEKApiClient::Entities::WebhookEntityResponse]
       def create_webhook(body_data = {}, query_params = {})
-        response = @client.request('post', 'webhooks', body: body_data, query: query_params)
+        response = @client.request('post', "webhooks", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::WebhookEntityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::WebhookEntityResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/webhooks/{uuid}
       # @return [CDEKApiClient::Entities::WebhookDataResponse]
       def get_by_id(uuid, query_params = {})
         response = @client.request('get', "webhooks/#{uuid}", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::WebhookDataResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::WebhookDataResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP DELETE /v2/webhooks/{uuid}
       # @return [CDEKApiClient::Entities::WebhookEntityResponse]
       def delete_by_id(uuid, query_params = {})
         response = @client.request('delete', "webhooks/#{uuid}", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::WebhookEntityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::WebhookEntityResponse.new(result)
       end
+      
     end
   end
 end

@@ -24,7 +24,7 @@ module CDEKApiClient
 
       # Converts the object to a hash representation suitable for API requests.
       def to_h
-        super.reject { |_, v| v.nil? }
+        super.compact
       end
 
       # Converts the object to a JSON representation.

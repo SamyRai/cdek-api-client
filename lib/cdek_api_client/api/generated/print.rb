@@ -9,65 +9,70 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP POST /v2/print/orders
       # @return [CDEKApiClient::Entities::WaybillPrintResponse]
       def waybill_print(body_data = {}, query_params = {})
-        response = @client.request('post', 'print/orders', body: body_data, query: query_params)
+        response = @client.request('post', "print/orders", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::WaybillPrintResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::WaybillPrintResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/print/orders/{uuid}
       # @return [CDEKApiClient::Entities::WaybillGetResponse]
       def waybill_get(uuid, query_params = {})
         response = @client.request('get', "print/orders/#{uuid}", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::WaybillGetResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::WaybillGetResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/print/orders/{uuid}.pdf
       # @return [String]
       def waybill_download(uuid, query_params = {})
         response = @client.request('get', "print/orders/#{uuid}.pdf", query: query_params, parse_response: false)
         return response.body if response.is_a?(Net::HTTPSuccess)
-
-        @client.send(:handle_response, response)
+      @client.send(:handle_response, response)
       end
-
+      
+      
+            # 
       # HTTP POST /v2/print/barcodes
       # @return [CDEKApiClient::Entities::BarcodePrintResponse]
       def barcode_print(body_data = {}, query_params = {})
-        response = @client.request('post', 'print/barcodes', body: body_data, query: query_params)
+        response = @client.request('post', "print/barcodes", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::BarcodePrintResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::BarcodePrintResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/print/barcodes/{uuid}
       # @return [CDEKApiClient::Entities::BarcodeGetResponse]
       def barcode_get(uuid, query_params = {})
         response = @client.request('get', "print/barcodes/#{uuid}", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::BarcodeGetResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::BarcodeGetResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/print/barcodes/{uuid}.pdf
       # @return [String]
       def barcode_download(uuid, query_params = {})
         response = @client.request('get', "print/barcodes/#{uuid}.pdf", query: query_params, parse_response: false)
         return response.body if response.is_a?(Net::HTTPSuccess)
-
-        @client.send(:handle_response, response)
+      @client.send(:handle_response, response)
       end
+      
     end
   end
 end

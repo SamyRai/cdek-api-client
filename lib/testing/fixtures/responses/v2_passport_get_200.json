@@ -2,8 +2,12 @@
   "orders": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 258,
+      "cdek_number": 640,
       "passport": [
+        {
+          "client": "SENDER",
+          "passport_requirements_satisfied": true
+        },
         {
           "client": "SENDER",
           "passport_requirements_satisfied": false
@@ -12,11 +16,11 @@
     },
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 494,
+      "cdek_number": 154,
       "passport": [
         {
           "client": "SENDER",
-          "passport_requirements_satisfied": false
+          "passport_requirements_satisfied": true
         },
         {
           "client": "SENDER",
@@ -27,29 +31,29 @@
   ],
   "errors": [
     {
-      "code": "j8i5d2wv5lvc04ckoxjzk8fbb14fri4p",
-      "additional_code": "u8nf9fw5pjir35keim2ddtu",
-      "message": "y"
+      "code": "yob9xb267yke8gk",
+      "additional_code": "qc58c",
+      "message": "2yx7d24s94ortavtmvm63d4ji632yia"
     },
     {
-      "code": "z6336cxu",
-      "additional_code": "w",
-      "message": "hj7x9ebi7ggu8ocfvdmlvmo0wp77b"
+      "code": "j",
+      "additional_code": "9rdxztw9vpvkdbc",
+      "message": "iqs5wgv9p9tjtma671emlb3fqkfkvnveoojkw6"
     },
     {
-      "code": "f3tlp11cq3nstkx3054o4zz",
-      "additional_code": "ltt77tvc6c1qgjhf8tkw56tnhkwny6blywe7h2gmmjorjv6",
-      "message": "9koruc9hgn6rw3l591x47b"
+      "code": "q6iaunukh61dnwpwlbzgocd",
+      "additional_code": "m61geamxr394c0golq8pp4c1v3khqfg1ib83qiqs75g75",
+      "message": "o1kpx7mfm37puqnn5xhrff7"
     }
   ],
   "warnings": [
     {
-      "code": "9trw0bcm5dg40xg9h99rnoqf3cva1eopr5gke56ja4c",
-      "message": "o84nct"
+      "code": "ed3d",
+      "message": "nmohtf3fagdr5izaekdslmnkblm6srss12dt6wa3"
     },
     {
-      "code": "oghspiwopccysk8cwh91h",
-      "message": "chogs97077blxisnnc18byxs4xtztm0hg0fm"
+      "code": "eq523w35r0b8wwp4goq30gcjqebo2ja98d51qliav9f4b9",
+      "message": "x85agwj1ex21h3ev6augjxifn77sp8rztarg7wpe"
     }
   ]
 }

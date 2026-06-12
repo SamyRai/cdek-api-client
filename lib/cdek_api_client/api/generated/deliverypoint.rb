@@ -9,17 +9,17 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP GET /v2/deliverypoints
       # @return [CDEKApiClient::Entities::Office]
       def search(query_params = {})
-        response = @client.request('get', 'deliverypoints', query: query_params)
+        response = @client.request('get', "deliverypoints", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::Office.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::Office.new(result)
       end
+      
     end
   end
 end

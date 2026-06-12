@@ -9,87 +9,94 @@ module CDEKApiClient
       def initialize(client)
         @client = client
       end
-
-      #
+      
+      # 
       # HTTP GET /v2/orders
       # @return [CDEKApiClient::Entities::OrderResponse]
       def get(query_params = {})
-        response = @client.request('get', 'orders', query: query_params)
+        response = @client.request('get', "orders", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::OrderResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::OrderResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP POST /v2/orders
       # @return [CDEKApiClient::Entities::EntityResponse]
       def post_orders(body_data = {}, query_params = {})
-        response = @client.request('post', 'orders', body: body_data, query: query_params)
+        response = @client.request('post', "orders", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::EntityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::EntityResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP PATCH /v2/orders
       # @return [CDEKApiClient::Entities::EntityResponse]
       def update(body_data = {}, query_params = {})
-        response = @client.request('patch', 'orders', body: body_data, query: query_params)
+        response = @client.request('patch', "orders", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::EntityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::EntityResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/orders/{uuid}
       # @return [CDEKApiClient::Entities::OrderResponse]
       def get_orders(uuid, query_params = {})
         response = @client.request('get', "orders/#{uuid}", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::OrderResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::OrderResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP DELETE /v2/orders/{uuid}
       # @return [CDEKApiClient::Entities::EntityResponse]
       def delete(uuid, query_params = {})
         response = @client.request('delete', "orders/#{uuid}", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::EntityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::EntityResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP GET /v2/orders/{orderUuid}/intakes
       # @return [Array<CDEKApiClient::Entities::IntakeInfoResponse>]
       def get_intakes(order_uuid, query_params = {})
         response = @client.request('get', "orders/#{order_uuid}/intakes", query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Array)
-
-        result.map { |item| CDEKApiClient::Entities::IntakeInfoResponse.new(item) }
+      return result unless result.is_a?(Array)
+      result.map { |item| CDEKApiClient::Entities::IntakeInfoResponse.new(item) }
       end
-
+      
+      
+            # 
       # HTTP POST /v2/orders/{uuid}/refusal
       # @return [CDEKApiClient::Entities::EntityResponse]
       def refuse(uuid, body_data = {}, query_params = {})
         response = @client.request('post', "orders/#{uuid}/refusal", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::EntityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::EntityResponse.new(result)
       end
-
+      
+      
+            # 
       # HTTP POST /v2/orders/{uuid}/clientReturn
       # @return [CDEKApiClient::Entities::EntityResponse]
       def client_return(uuid, body_data = {}, query_params = {})
         response = @client.request('post', "orders/#{uuid}/clientReturn", body: body_data, query: query_params)
         result = @client.send(:handle_response, response)
-        return result unless result.is_a?(Hash) && !result.empty?
-
-        CDEKApiClient::Entities::EntityResponse.new(result)
+      return result unless result.is_a?(Hash) && !result.empty?
+      CDEKApiClient::Entities::EntityResponse.new(result)
       end
+      
     end
   end
 end

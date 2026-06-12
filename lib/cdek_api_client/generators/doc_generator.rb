@@ -24,7 +24,7 @@ module CDEKApiClient
               next unless %w[get post put delete patch].include?(method)
 
               tag = (details['tags'] || ['Common']).first
-              
+
               title = details['summary']
               if !title || title.empty? || title == 'No description available'
                 title = details['operationId'] ? details['operationId'].gsub(/([A-Z])/, ' \1').capitalize : 'Endpoint'
@@ -46,21 +46,21 @@ module CDEKApiClient
 
               response_props = []
               response_ref = nil
-              ['200', '202'].each do |code|
+              %w[200 202].each do |code|
                 resp_schema_node = details.dig('responses', code, 'content', 'application/json', 'schema')
-                if resp_schema_node
-                  response_ref = resp_schema_node['$ref']&.split('/')&.last
-                  SchemaLoader.current_context_schema = schema
-                  resolved_resp = SchemaLoader.resolve_schema_reference(resp_schema_node)
-                  if resolved_resp && resolved_resp['properties']
-                    response_props = resolved_resp['properties'].map do |k, v|
-                      type = v['type'] || (v['$ref'] ? 'object' : 'any')
-                      type = "#{type}[]" if type == 'array'
-                      { name: k, type: type, description: v['description'] }
-                    end
+                next unless resp_schema_node
+
+                response_ref = resp_schema_node['$ref']&.split('/')&.last
+                SchemaLoader.current_context_schema = schema
+                resolved_resp = SchemaLoader.resolve_schema_reference(resp_schema_node)
+                if resolved_resp && resolved_resp['properties']
+                  response_props = resolved_resp['properties'].map do |k, v|
+                    type = v['type'] || (v['$ref'] ? 'object' : 'any')
+                    type = "#{type}[]" if type == 'array'
+                    { name: k, type: type, description: v['description'] }
                   end
-                  break
                 end
+                break
               end
 
               endpoints_by_tag[tag] << {

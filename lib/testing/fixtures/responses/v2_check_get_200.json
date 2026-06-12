@@ -1,90 +1,86 @@
 {
   "errors": [
     {
-      "code": "y6ev8mz8jhe33c1dl4jbuljlqybpad",
-      "additional_code": "140f9hbpn03zjdd548ucgz8059c3hj29v0cglpn",
-      "message": "jpubeimry0nxy"
+      "code": "6bsxeh85wy",
+      "additional_code": "zamu9kgdvft1xuqw6d8i37wo1bb448l3zpstd2ah",
+      "message": "lmautsskux31d12c87ozy1xvcoc6q"
     },
     {
-      "code": "06odr7kt9fivk40h5uq9iuz0xshqqp",
-      "additional_code": "g2ae5",
-      "message": "3jnwhzrpx"
+      "code": "6snhoqb0nx0p76oiazxi",
+      "additional_code": "3erk9o",
+      "message": "4lg"
     }
   ],
   "warnings": [
     {
-      "code": "ukbpv5hbrkzhue3sv23sv",
-      "message": "cvnbglucm5p3pd25sb95ls3z"
+      "code": "i30wn8vjjrfq5xksga6wfe5e0gat0kl3b3t",
+      "message": "zxwd9f1jbyii1svii0vu73yliw0zhd7"
     }
   ],
   "check_info": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 240,
-      "date": "bdl2p52zd1c",
-      "fiscal_storage_number": "k4i4gl9rwujxwqirxh9f2ellc826b53tvlcc3l61ld08sb83v9odtipnsrko6vealmkjyfrrsn15v8j92porz8ku7d0ybd0cdx6ud2huc9y0494pu",
-      "document_number": "mzzhyl27ge",
-      "fiscal_sign": 966,
+      "cdek_number": 115,
+      "date": "m3gs07unvjclq3oraf",
+      "fiscal_storage_number": "hoqar9aioqxptln3t9ohnf2l6w6zsj9udqrys4eo8nym98m3afbeosh83hr6zg2erx79e5vf8sibl1o44fk5j06w8bmwi7shqslcrlmrx0flmcaca14jj00i3jjf4v2uoqh25sbku6ffutlakkr8gep61mbegmi9avwlytj03k2ga9jt35n9qs9jyxdcogda3jt3sldsmlq0xagwxdkorine26yyranoyaudh5hehh3xmg9xg7nujcdfg7p0",
+      "document_number": "c7d11q4msbxw5133jufl99f60yz80r78sqtcx41vdqxly6dl7hfl1wzltejcbn02iinhgeat2hvvn8cmtgflaaqgkiycrt64nv2kq2zdauexk545kqq5z9frjprem9jg046eqsuk3f4tewnt15oq1h65xg",
+      "fiscal_sign": 481,
       "type": "CASH_RECEIPT_IN",
       "payment_info": [
         {
-          "sum": 855.0,
+          "sum": 469.0,
           "type": "CASH"
         },
         {
-          "sum": 687.0,
+          "sum": 702.0,
           "type": "CASH"
         },
         {
-          "sum": 59.0,
+          "sum": 115.0,
           "type": "CASH"
         }
       ],
-      "shift_no": 953
+      "shift_no": 240
     },
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 598,
-      "date": "k570g9equ",
-      "fiscal_storage_number": "gvmpeaalprherl1eb4w4piu5wpw9va4dzhutx2s9xggeeed631schjsxvplx9cglxrysx2mcikaq6bhngv34rpuoqdxqzkcc5",
-      "document_number": "263fttgcpt0kxbl7inojsv39l8j8g0tx5mf9yli8e5hipex9smrpfvr2j549jndyi3bhq890esbrm64ptafzvm",
-      "fiscal_sign": 934,
+      "cdek_number": 236,
+      "date": "k7ww8gfn9981bilaru7zfe8kct9ye1r6jgexazhtsjz14olkqq",
+      "fiscal_storage_number": "22ccrprw5yz7dz3e5zd3mmp31vzcf3dszh2ggscmn0q3ylkzfu6vf5kmyfvanlss5vc0cqu3h2akd9dmr5vrjhtxmjfuyillilgzkhwy5gb6ul9vds6e9ijxckwd7j8n9mmkeg5qmjnw9mzlwe3k7nkpmh9ipr7lxkh2js60xqvcdgb9m71ezqhou88o3rhur363il3",
+      "document_number": "02jz9pun3v5c7cy8qxvzvglqrlth9mmz7ytanf7zyula5kdjx1fr42qxqsf4gx8a",
+      "fiscal_sign": 441,
       "type": "CASH_RECEIPT_IN",
       "payment_info": [
         {
-          "sum": 11.0,
+          "sum": 543.0,
           "type": "CASH"
         },
         {
-          "sum": 613.0,
+          "sum": 51.0,
           "type": "CASH"
         }
       ],
-      "shift_no": 330
+      "shift_no": 482
     },
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 909,
-      "date": "acrsnbij3b2g4rfalpioa",
-      "fiscal_storage_number": "74pvbmwf7sp4ne7w69t40viwef5rnt7wr6sqy08ko8ins2k7ehhk",
-      "document_number": "6e5h9l2coml7elr38tn4p9s7ap7kkwoq93tm7rue51pdot2ddhu5qap0gqhg23mvuotketgebqz5lr0dfxnp9orrm0vmss9jbixbin7fm6fbqbzm5h1p1",
-      "fiscal_sign": 21,
+      "cdek_number": 209,
+      "date": "f7mx1",
+      "fiscal_storage_number": "k5wv9axud",
+      "document_number": "ub56k6mmbdh2lbptnndntzdeb4cf71whzalqlymipu5gxsefqbcn3bs1pig0bskq0pjodggmncgg1rd27qd9ycewll6wlv7p6d9w4diz2o8lgwrf9df8qmr",
+      "fiscal_sign": 718,
       "type": "CASH_RECEIPT_IN",
       "payment_info": [
         {
-          "sum": 554.0,
+          "sum": 955.0,
           "type": "CASH"
         },
         {
-          "sum": 252.0,
-          "type": "CASH"
-        },
-        {
-          "sum": 70.0,
+          "sum": 211.0,
           "type": "CASH"
         }
       ],
-      "shift_no": 749
+      "shift_no": 388
     }
   ]
 }
