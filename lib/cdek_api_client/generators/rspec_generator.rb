@@ -79,15 +79,16 @@ module CDEKApiClient
             <%#{' '}
               method_name = get_method_name(ep)
               takes_body = %w[post put patch].include?(ep[:method])
-              path_params = ep[:path].scan(/\\{([^}]+)\\}/).flatten.map { |p| to_snake_case(p) }
+              path_params = ep[:path].scan(/\{([^}]+)\}/).flatten.map { |p| to_snake_case(p) }
               args = path_params.map { |p| p.include?('uuid') ? "'12345678-1234-5678-9012-123456789abc'" : "'mock_\#{p}'" }
               args << "{}" if takes_body
+              method_call = args.empty? ? "api.\#{method_name}" : "api.\#{method_name}(\#{args.join(', ')})"
             %>
             describe '#<%= method_name %>' do
               it 'successfully executes the API call and parses the response without errors' do
-                expect {
-                  api.<%= method_name %>(<%= args.join(', ') %>)
-                }.not_to raise_error
+                expect do
+                  <%= method_call %>
+                end.not_to raise_error
               end
             end
             <% end %>
