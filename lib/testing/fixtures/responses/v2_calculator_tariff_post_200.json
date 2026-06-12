@@ -1,52 +1,69 @@
 {
   "delivery_sum": 661.0,
-  "period_min": 592,
-  "period_max": 637,
-  "calendar_min": 404,
-  "calendar_max": 471,
-  "weight_calc": 160,
+  "period_min": 431,
+  "period_max": 804,
+  "calendar_min": 654,
+  "calendar_max": 418,
+  "weight_calc": 987,
   "services": [
     {
-      "code": "6255klj7vkyd4iwfu5g5",
-      "sum": 997.0,
-      "total_sum": 168.0,
-      "discount_percent": 95.0,
-      "discount_sum": 345.0,
-      "vat_rate": 985.0,
-      "vat_sum": 935.0
+      "code": "h2tzrbxhv758ygn2g6qsyhlc4hd5gn7e",
+      "sum": 522.0,
+      "total_sum": 649.0,
+      "discount_percent": 968.0,
+      "discount_sum": 589.0,
+      "vat_rate": 76.0,
+      "vat_sum": 508.0
     },
     {
-      "code": "ulrfy3i5w84ugmgkul37ufxnetdnsj4udgkizbii",
-      "sum": 447.0,
-      "total_sum": 652.0,
-      "discount_percent": 215.0,
-      "discount_sum": 664.0,
-      "vat_rate": 814.0,
-      "vat_sum": 803.0
+      "code": "l0umy7quoz68zlvji97u6jg1r",
+      "sum": 769.0,
+      "total_sum": 319.0,
+      "discount_percent": 802.0,
+      "discount_sum": 262.0,
+      "vat_rate": 596.0,
+      "vat_sum": 657.0
+    },
+    {
+      "code": "o3y",
+      "sum": 553.0,
+      "total_sum": 373.0,
+      "discount_percent": 636.0,
+      "discount_sum": 166.0,
+      "vat_rate": 936.0,
+      "vat_sum": 752.0
     }
   ],
-  "total_sum": 151.0,
-  "currency": "f",
+  "total_sum": 458.0,
+  "currency": "3pj",
   "errors": [
     {
-      "code": "dba",
-      "additional_code": "yjppun2pym02d3qgc",
-      "message": "1qaweq8yv8mne"
+      "code": "ylaitr2l5ll656x43zb",
+      "additional_code": "qa42",
+      "message": "kd9h9uklz07jimlqd1tgh82o4l"
     },
     {
-      "code": "tbg9cl6hag5qdk6x7njb",
-      "additional_code": "jbehhn",
-      "message": "eyyz7vltuuzbnr8psr16oap"
+      "code": "up5fx5rj2im0hbdjnynjhfeuwstjrtko5k2a08",
+      "additional_code": "hl1s2r7sx75b5hiw2ge5cj2sytjkn4e1s6b2rjov00",
+      "message": "vu47fmo04w8h61g9m4m8gv7i58cum69j"
     }
   ],
   "warnings": [
     {
-      "code": "zri",
-      "message": "dsg6t7klj3chygg1uu9qr5c0xafl2hmqxpnrjknvr6xu"
+      "code": "9r4a4zpl2lebln38qcigtlg22rbkz0stxmfab3x03ip81",
+      "message": "lli2uq67zr7y7obwfs7wobyhk2etlpuu17h4ucu25zmob6"
+    },
+    {
+      "code": "4aootg9lmefeffk0pcv5yrs380rm4c4xv6on",
+      "message": "o2zvd6e1852x3irkvw2m5jfu8cut7cekqdhv50f4"
+    },
+    {
+      "code": "d3641yq49qjv43tnos4wnv3h4pxuhrfn3ngds",
+      "message": "yys33o286ww3p60jtdtooqtqlk3zyqazc"
     }
   ],
   "delivery_date_range": {
-    "min": "bvpwhefbj",
-    "max": "49xaw1myimc3sy8vwqt4805m1net8g15xkouyl"
+    "min": "k1138g60204e7uze6bw2r8j65waq90and5ub",
+    "max": "ynm"
   }
 }

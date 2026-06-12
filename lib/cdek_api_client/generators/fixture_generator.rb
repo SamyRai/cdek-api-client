@@ -39,6 +39,11 @@ module CDEKApiClient
       end
 
       def generate_all
+        # Seed PRNG for deterministic generation so that 'git diff' stays clean
+        srand(42)
+        require 'faker'
+        Faker::Config.random = Random.new(42)
+
         puts 'Generating static JSON fixtures from OpenAPI schemas...'
         FileUtils.mkdir_p(@requests_dir)
         FileUtils.mkdir_p(@responses_dir)

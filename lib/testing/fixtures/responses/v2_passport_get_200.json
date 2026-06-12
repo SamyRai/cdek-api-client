@@ -2,58 +2,26 @@
   "orders": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 640,
+      "cdek_number": 993,
       "passport": [
         {
           "client": "SENDER",
           "passport_requirements_satisfied": true
-        },
-        {
-          "client": "SENDER",
-          "passport_requirements_satisfied": false
-        }
-      ]
-    },
-    {
-      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 154,
-      "passport": [
-        {
-          "client": "SENDER",
-          "passport_requirements_satisfied": true
-        },
-        {
-          "client": "SENDER",
-          "passport_requirements_satisfied": false
         }
       ]
     }
   ],
   "errors": [
     {
-      "code": "yob9xb267yke8gk",
-      "additional_code": "qc58c",
-      "message": "2yx7d24s94ortavtmvm63d4ji632yia"
-    },
-    {
-      "code": "j",
-      "additional_code": "9rdxztw9vpvkdbc",
-      "message": "iqs5wgv9p9tjtma671emlb3fqkfkvnveoojkw6"
-    },
-    {
-      "code": "q6iaunukh61dnwpwlbzgocd",
-      "additional_code": "m61geamxr394c0golq8pp4c1v3khqfg1ib83qiqs75g75",
-      "message": "o1kpx7mfm37puqnn5xhrff7"
+      "code": "wd7xl2fxvq5y",
+      "additional_code": "z0g870h8rw3p47ai9dtqjmp60popf2qg",
+      "message": "79zzky9b1af9aoasynvwg7kpid8wxd35"
     }
   ],
   "warnings": [
     {
-      "code": "ed3d",
-      "message": "nmohtf3fagdr5izaekdslmnkblm6srss12dt6wa3"
-    },
-    {
-      "code": "eq523w35r0b8wwp4goq30gcjqebo2ja98d51qliav9f4b9",
-      "message": "x85agwj1ex21h3ev6augjxifn77sp8rztarg7wpe"
+      "code": "774459vs8oh593wgv91lc9uvwggunge",
+      "message": "sylia2so9rvv3g"
     }
   ]
 }

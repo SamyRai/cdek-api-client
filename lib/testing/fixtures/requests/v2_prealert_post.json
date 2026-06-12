@@ -1,11 +1,16 @@
 {
-  "planned_date": "yk",
-  "shipment_point": "miwnad4psz4j9eboj11ad2pkmck111m",
+  "planned_date": "ie5tko51vqzgzyjskm",
+  "shipment_point": "hd41kax4zetk607o5uefvrnjm4",
   "orders": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 731,
-      "im_number": "8ap2ht8u9znh4nu9q2xo2jc86vppwpv3oep8o3r4"
+      "cdek_number": 201,
+      "im_number": "3c3f2h6qkmk41fpd8zlkyrswrzfd27qpb7hm"
+    },
+    {
+      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "cdek_number": 269,
+      "im_number": "h3593aqtxv2vij911uxbh0v02cmj9i0"
     }
   ]
 }

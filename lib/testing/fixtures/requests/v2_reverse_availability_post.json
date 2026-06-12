@@ -1,43 +1,43 @@
 {
   "from_location": {
-    "code": 123,
+    "code": 489,
     "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "postal_code": "hf5n2rb1arl20og30qzcyb08kmt9jwh1k4dv7ibb24vpg",
-    "longitude": 739.0,
-    "latitude": 969.0,
-    "country_code": "4mlp80bd1n6vj4lwms5ecnkx1wqw",
-    "region": "5om17ntpva7ifyolkds5enhnm1yp08awge26p52tu2u89bq8",
-    "region_code": 397,
-    "sub_region": "d520n3u8p48xe1bo0ab03cuj",
-    "city": "5gtwttg5hq97w229ay6y9mjuludfjtzot2rp6ovrhg8xjpm2",
-    "address": "vln0kgyid2gbia81qp0"
+    "postal_code": "emljobp67yzno847igaw",
+    "longitude": 692.0,
+    "latitude": 241.0,
+    "country_code": "nyhfotq5f1ji7mkk31wokm1g",
+    "region": "4vnf4cqtgqz0meaqpr1cr35nqshdx2klngc5kbqw6vn",
+    "region_code": 125,
+    "sub_region": "tqhg9d3u0c4pmgk7k56240bhltema6i7h6",
+    "city": "9l9su6ddkze3bxprlzlzd0wu7",
+    "address": "kcfnfm26qkb74pv8godxm2pa77p56oqq82lmuamxxm9enpfbdp"
   },
-  "shipment_point": "h8",
+  "shipment_point": "9uqcxfs7vcwk539c9p59vlngbkjfi",
   "to_location": {
-    "code": 130,
+    "code": 184,
     "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "postal_code": "qjfab8v97k4xws0gotfwpyev5dw0ob9qm2w17ekyxcpd3rmc",
-    "longitude": 869.0,
-    "latitude": 759.0,
-    "country_code": "j2chccmdttd7ipfxvnhzfe8",
-    "region": "x41s0renst4c5umqy9watje",
-    "region_code": 822,
-    "sub_region": "xwgsquk2qs9g4rgo45dnm2zk4d",
-    "city": "vislongzxaokhemwtgr70fekawx",
-    "address": "6ace0i911"
+    "postal_code": "syeecdlzfj0w3yncd9yhy93oer5gd4pccc2sd8p",
+    "longitude": 222.0,
+    "latitude": 183.0,
+    "country_code": "zd7uycry5tob3lgvhwwlfn1edy0d20g5t9321c0u8ti8jux",
+    "region": "a4wr0l8pu09mhhpw7xumd2du7iyudpygeu7v0jocmza",
+    "region_code": 177,
+    "sub_region": "izrhovdupywq5baiz8fitz7",
+    "city": "j3d7ieiycyrkw77xbmtgi7ahay2qg8pubzeeirsf04un",
+    "address": "pbrr8nrsy8gclpte4xxp1emodn0jw1m95adarm"
   },
-  "delivery_point": "t671bgzyjit",
-  "tariff_code": 427,
+  "delivery_point": "yuoj8dexxst1kwou9m5j",
+  "tariff_code": 150,
   "sender": {
     "contragent_type": "LEGAL_ENTITY",
     "phones": [
       {
-        "number": "6vq637nr5fmziihs27s6w9zfgo4392x5tiqem3t3bpw3h4",
-        "additional": "hknjduqx984f48v7kx5vbtd5bmexw8wb7pgnalfzjvu"
+        "number": "5tpeq9zdztmgxccp46nybmrtbgmhcnwh60k6kr1z3jc59",
+        "additional": "jugy7yih81jn2asn"
       },
       {
-        "number": "suv6me29nqn221jhi00s31yl5io5u8sxexi6c1kvz1frv6vd",
-        "additional": "pe8dqa6wrl78fxt3w"
+        "number": "t9hxgenitzytfg99trh0e4uczq3wydkr69rpvu440c47zxj2mf",
+        "additional": "n3d1jz72hrivr6bzqdijevs6fwn46qalc9xn10toyf"
       }
     ]
   },
@@ -45,16 +45,16 @@
     "contragent_type": "LEGAL_ENTITY",
     "phones": [
       {
-        "number": "pb046n6",
-        "additional": "95z0guyxi6m3honyq9nk1r6r5sth28l72c5054g"
+        "number": "n314ibab",
+        "additional": "19wt63ypg67qdmzm5lnu6cgogzzlbo47lf59jpy32wgnbevfg9"
       },
       {
-        "number": "9cpc5s7cthmonep1zs81j2hgl3hhqgj8llpbrfmh2p8ojg",
-        "additional": "gasc13vnex8qd92ngv32l3nsskx7imj2r3m"
+        "number": "ez1wbubbr0eindavoy54w",
+        "additional": "q"
       },
       {
-        "number": "0347mqqkvnv3v1z0",
-        "additional": "nw88ghg4gilyt0ik3hrsmvzivkjogydy6tc9u0"
+        "number": "7e33nyct",
+        "additional": "wwueivseduremzpkcdi3lmuu0equa"
       }
     ]
   }

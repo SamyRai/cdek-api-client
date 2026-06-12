@@ -1,55 +1,75 @@
 {
   "tariff_codes": [
     {
-      "tariff_code": 116,
-      "tariff_name": "kasrn9atof02xwcguzszbomjhc6xn80pqm3icwqq5pl7i430vbeqxpl4hur3om4kjnjelri67rcsj6sg4gg1tcie6h82mx26k1iruqdwez82zyrks7461ie8cpsekw2kayfzb2094bbrxks6ybvc200uyptehfwp6g95i61c04kyvmmopf2wx3pg1hm8ojtqr0b0pm3nm885pkrclrxqzjfbwz558x2ywij1l3hiw927zgnryoiqmdnalb1",
-      "tariff_description": "44g",
-      "delivery_mode": 70,
-      "delivery_sum": 959.0,
-      "period_min": 294,
-      "period_max": 120,
-      "calendar_min": 506,
-      "calendar_max": 586,
+      "tariff_code": 155,
+      "tariff_name": "x84uj06pex0njp2ovf021s6jk3npgdp8i9i",
+      "tariff_description": "5zsd4mjtfh8o2hi2wl1o82rrjgbr8jtjmxktp8mi49nlw5apk2bpp096zkgyh1f2c9fao2olfgdjmg8erghzfrjil2uu0l2zz1nyho08edutf2c9qy8ubkq4s2mue1o0dc2k908e",
+      "delivery_mode": 143,
+      "delivery_sum": 105.0,
+      "period_min": 419,
+      "period_max": 669,
+      "calendar_min": 657,
+      "calendar_max": 1,
       "delivery_date_range": {
-        "min": "9ako8jqbmnvisrbwncr6bd3wh",
-        "max": "rfz9phjvtzqbncz6jdl66nlft92xl34i8xgyy57ic8d17jp6"
+        "min": "puy3cgchurjt2395fs46dkfl4qdoljfv4ph9c2cj5uf51d3q1",
+        "max": "ja45t2yao7w2m"
       }
     },
     {
-      "tariff_code": 665,
-      "tariff_name": "wifugedgc48ql2f0gos9uf9s4k2fqrkr8ebd8e9dty5ja96thju6u142s3gs3nuzfinbaavmr43s9tjfwo6i3ztsymndpriezf11homhl3phq07y53g2zpr0zh2m73z0ta",
-      "tariff_description": "nbt3r46z0pfr6v7145a28wrlsv8vvwxt71lghidzshf03az4chu9pq17dt47ooweq7lzxs4c6wc3tt81sf42ncmc4jpx3hde7ukvjzwxgaiaumhw9i7bl14ssuwmc038m8b141sea2mk9ea268301wv0d2956aqzqhijctvghr2zn",
-      "delivery_mode": 886,
-      "delivery_sum": 341.0,
-      "period_min": 557,
-      "period_max": 166,
-      "calendar_min": 372,
-      "calendar_max": 207,
+      "tariff_code": 643,
+      "tariff_name": "bevom3yuq977zb797dkm9ek0c18n2qn4errodisytnhiu7mz3tgtpbj81jmv7phtj23xb7u753ns30pyyxcxk5wlu7",
+      "tariff_description": "uz97ir3cbcoc7qcg4j81tamhxv06zc3jfqgn7f6rfr3dyceejtma39hi6fqwbr1nvah0j76h3tagkg9t67wxiwq7f",
+      "delivery_mode": 349,
+      "delivery_sum": 458.0,
+      "period_min": 262,
+      "period_max": 350,
+      "calendar_min": 107,
+      "calendar_max": 585,
       "delivery_date_range": {
-        "min": "94tbvulcorfyjl87",
-        "max": "2ht"
+        "min": "chio3d26f2s0kiprmgqi5zv1p9y12a43yrio2ei",
+        "max": "jyjtickd1k5rs"
+      }
+    },
+    {
+      "tariff_code": 158,
+      "tariff_name": "pcm3n9f55lyyh8fd8z4uxjgz1bngqov5zwzxv0uhnbg0hdjjpcwbaktu3yqwsugfbckvitb",
+      "tariff_description": "pzwnuwldq419n46iv93iil1pfi74g5x3z6zsatlvgv0nmthrdwwdbvaj74ns293k3vbyh5gv2botzkwddawx0g7dbw9vj80xguh9eprwuvm9kfitxl8y0alamf2dwhbdwuz36vlftg3hq15idc9gj6nr6zq1b504d85kww8qt5eo57zoie76uc3expf8zat",
+      "delivery_mode": 311,
+      "delivery_sum": 240.0,
+      "period_min": 937,
+      "period_max": 444,
+      "calendar_min": 297,
+      "calendar_max": 951,
+      "delivery_date_range": {
+        "min": "ktd39vre3enkuk52cmf14wfv7ga5vcdq8w2b",
+        "max": "fxbleomjv2gvdbvxzvej"
       }
     }
   ],
   "errors": [
     {
-      "code": "n06sk2bq38n2h2m9dh6spv35j9izsxakaa57y4s2z5227ngs",
-      "additional_code": "7223v",
-      "message": "p2vzorzf182"
+      "code": "sv0buyv",
+      "additional_code": "i",
+      "message": "4ao3mn7y6u5pe0zsvjo738nwgz2j3wjzracj2eeozz9d"
+    },
+    {
+      "code": "z2va1slf8kaag27g4az28je3dgt1gknhx4bh0xfkp23gp",
+      "additional_code": "94ksnohlxmr82t7c84giqgexobounby0s3j4mm0sso",
+      "message": "1916vi9fbzewfa86zymqp3bdmqw2iob27qnoz7cr9gwzoxt"
     }
   ],
   "warnings": [
     {
-      "code": "czsxyumucb3kyapocte9ghsaqj6rt",
-      "message": "xqzrxd91t2j6"
+      "code": "xn58w6bm37klr",
+      "message": "tmfj6ddleyy6otlnvxlt1k"
     },
     {
-      "code": "uy3xh8l0sxdurf7kspsfz88",
-      "message": "pdzheeu48z5tt9z6abrr1eqsdsli93egq8315j12"
+      "code": "v6nmyp3a149bb6937r9xa",
+      "message": "xu2mjmkfjm8vqc370d64sk"
     },
     {
-      "code": "ze2257y4d64vm2l0lwt",
-      "message": "pcf50rmygbaeduz9dfkp1myobyai3oymdwl3yg8jzel6fw"
+      "code": "othb0nx817q6wh6sld4ulgrk6vh4",
+      "message": "01w0jw6zm"
     }
   ]
 }

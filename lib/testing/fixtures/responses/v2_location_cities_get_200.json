@@ -1,18 +1,18 @@
 [
   {
-    "code": 832,
+    "code": 130,
     "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "city": "2bx8gfqsdyt41zv4z1bofo6hdmeh8qdwaw5uaii97zsbpnpipbzge92noziqn0w0kj5h33fsd76pwy88men63i1mpv469tjy9q2txmkf4s",
+    "city": "etkjfhwzlzmry6l9deh14i2nvkwauz9waouiijz8yzkbgr070qxygfx62vz1ugqttv1ga5m3ws53223psranb13dah2c5jjs76w15g2hacxwhc61h785xn5pdun4rgjg6wuss92rbaetkbcwlte3i7",
     "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "country_code": "4x",
-    "country": "r2jxaozej9jdeo7qj2zoum40t4ynxwuykqfx2fq5qdwh8h82e11e8ifu5e5gqgwo6hx2aebk30koqqi",
-    "region": "r29nr2a0oh1xvygj5b38vxr92tnn8llplaldn",
-    "region_code": 288,
+    "country_code": "8",
+    "country": "vx",
+    "region": "qj3w5qqnibyivdz27wkfru97qylwvu04f07lgjqzu1ba9z2ukk987xve69ts8q7izbiiqayy8c37lsqjlpxsh4uq",
+    "region_code": 491,
     "fias_region_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "sub_region": "v4lflik1n8",
-    "longitude": 286.0,
-    "latitude": 23.0,
-    "time_zone": "i4wc8ek8aa9hal55rc79cqj1vcn0e",
-    "payment_limit": 480.0
+    "sub_region": "wpfhyrylozz5jpgqwzuvgnogihw2r438rqn4x87czwod2vymr6pb873mmr55822pj3ytea3cn3dryaoioxdlfxkm7ygdht2j7zcfeewi8t8rqxc58myidn7kc12icy7lioyek7xohezrfm1emq52c70m6fxsp1",
+    "longitude": 805.0,
+    "latitude": 385.0,
+    "time_zone": "6my90ge4wj534r9bnm2lb5m0q47x8fs3gj571o32vdt59d0qlvqjavzrn2l98lg2k6fo5kwz772dq8mo22k5bntvk0cq12uptfsecao78yxlrop0hyq2ho0gc2xctoy3ngqt9ivbxhkmqhur3r45ky6hkvxql5opv1t6j56b66m36mzvbzo7kcfifi45lhh1",
+    "payment_limit": 955.0
   }
 ]

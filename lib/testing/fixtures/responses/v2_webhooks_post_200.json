@@ -6,40 +6,16 @@
     {
       "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
       "type": "CREATE",
-      "date_time": "7pzmi7pifd0",
+      "date_time": "wxm5av5m9",
       "state": "ACCEPTED",
       "errors": [
         {
-          "code": "s",
-          "message": "yuubeslt6v1"
-        }
-      ]
-    },
-    {
-      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "CREATE",
-      "date_time": "lzggrnu0xmra8gjntekrukcevdvaz2p17j",
-      "state": "ACCEPTED",
-      "errors": [
-        {
-          "code": "v96xdmgru343phtm3v45n",
-          "message": "dihfu"
+          "code": "upidypjj4yi1nej",
+          "message": "1j6t4g0hnhcdtmfduvswqd524ujj91twdzv1iuetr5ydmdzanp"
         },
         {
-          "code": "l5orlrgkwrbmibw63mily2nj03vw78khongt0m6",
-          "message": "fv42ykj87tnx927uwnu9xik8qntvl3b25caolp4og"
-        }
-      ]
-    },
-    {
-      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "CREATE",
-      "date_time": "roaz7abmmo0kljuojkn6qmtlz1agf5zs9jaj",
-      "state": "ACCEPTED",
-      "errors": [
-        {
-          "code": "yopio0curozt3elj",
-          "message": "y41uuiivqgemym9"
+          "code": "7e4",
+          "message": "qy1qvtqdkn5q0vbnc9fwuekzovdyo7ecseshuhdt9fsfxe2dz"
         }
       ]
     }

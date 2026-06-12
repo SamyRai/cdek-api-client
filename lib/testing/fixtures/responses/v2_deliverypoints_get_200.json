@@ -1,134 +1,123 @@
 [
   {
-    "code": "07ts14wxbn7cmipopd81vn0bj97",
+    "code": "fmnbp6a3kn8nv4rjxx57",
     "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "address_comment": "r261uxtgee7hs6496ypd5qd2kjh87npgenaediy2bsvunpd11r13fr8lk42fha3",
-    "nearest_station": "jentp0kqgrir830ctgzwfkz2fpyxddxmnkaw0wfmkgc5kk5s158078cvjzcjff6m90q0m8y3x7kj",
-    "nearest_metro_station": "c8lqnqnhrztiafedhxh4xn0ns5ike94251ow3tzbm6rbcvoq31pfr0ibwbsl14jlwh",
-    "work_time": "x9r4w8x17vey8u0c",
+    "address_comment": "jnw5lx7t2picjag4mvpvfab0lfbjqqfatri5qsma9j8z6htb12yzh3a13muuk0eml63cw4fkfrarkfexb87blb826e6m49sy86cxcgmx3ew0rtf3fq9oqy3qe8k1tb69jsy08w7hbyiy2vnkm6",
+    "nearest_station": "c95998els08j1698qk9r481a40ll00qy3josdoo6mqsmf394mx2bpl1z5deqt2yrvhjqt0b2ftskrvnfuhrvf88ipkuwtq4r25hifemy47qztf56tkjs079tej512vibm80328zd8jtj3kpgwagdbqiksnoh6bbtwr3u9cqxdi675ho4e2nmzt490620dkyebm0q4kikgf324wmlrlc9qjmw31we3",
+    "nearest_metro_station": "i7zq7dnbfixnmky3x7wsaop7avbm8uh2idcd03op1ly1d8e2q4l94k35hjk0",
+    "work_time": "ff3rno9w9yixs97k81496ob0pc058xgsehyvbjrypogl5caw8atp8a7uznrx8apuxzrx1tqurb9qf87v5jfmf96bpyt0oj0qvn1hh2aihduewwbck1ci5jltliykimmglw0147ldt9c2fe8lty5caabmrubxfcn43ia2ytl7vn1gf95zf72fahhzvpjqhta",
     "phones": [
       {
-        "number": "o7n8nbmsrrlef",
-        "additional": "19ph3fyy369zizt8y1jmc8r1no3p9de5799qw3iiyki9uewt4f77xh42kiuzkbh5wsfuo5vp4qxhpm3iqcsaxlr48o1mek5p8fy1327u4q6iz5j82tq4pkpjxpwsrwoucrtgzpd9h3hciky4bl3x28g9jujeqfnvxy"
+        "number": "4vyl2bnxyxl",
+        "additional": "cojj0f3i6wual8w7705srh8919emod43bgi23sv9c3pbk120frejvxg6lq97toiphwg14jogvvuuzjyfoxpdrkmf69u4rqio2dxkxl4dtfenoqoyn1409p8mutht5fn79l7p8m03695nt06529gvykce6ikch9i96wcphax2mb6njdp6mehh4ujukx14lx1r6o11lw3ximtsdzr6tuwkffk9hxjsx6wgeymjqnkj3pn3dcuvdwdfyb67zouqth"
       },
       {
-        "number": "j6333w17u2bk1s",
-        "additional": "kaorpvyooyvd1f2t9386mycrwl96m262kzdcm8s9cy1ync9r41q7gvame5n0sn73qrvnblz68ggcz2ybaqpbfjm8t6v8c2g48b0c577dgxr62t0yubszjpkwwbu3kko9nrebejgseuqi6hdnoguio37ffj5obqtc"
-      },
-      {
-        "number": "yrhko7f0uxfrfky6",
-        "additional": "ls81nwkuvhxcox4pnv7ex"
+        "number": "ga",
+        "additional": "c74hy1yapcnnowb1k0vnqb32t5a8ufs8pmnjm53fmrrw91fpyl120mpvt6g9"
       }
     ],
-    "email": "mslrml5bg7ij4ea8aor3b60mx8jwrwuu0jmephu1gowxhze9jxd0kffpd40n5auf84xtsodekzxzzy58hubjbi7gkzjoxje9z1ncysjcgkk9p3lvh1lai",
-    "note": "jj2bopf1flq7r5jdpg26is98r7w66pf72w0dwipqammifubhn6fg5jnvqhppeks9g",
-    "type": "k6fcd8wr6wmqrtlg894fro",
-    "owner_code": "8b5ztj8i3qty2s7eqvyneak17q6b3qo7sonuqpu9fwpbkb136gr92vilc8gjqiinl1puiec9jflkjb3cn18kj4nb727whyw72vtk60yht433x35q66vqu9bjpikl47rkdig119ptl61ax9np36n3r8v6wfr19zutmt6yl3jeqz2wsapqi4xbcmmk0b09vzb5fpb4qnp1yn7ueobo8bv1f4503o50t33ne7tun14rv66b2clskwdt3dpjrd",
+    "email": "iky6t7yo064omp3qru5lamhnpsj49cbrnbxbxnakoh23yca0xxcagvkdrk6bwyitio7o6v9mno6cgezbad1jorlha8fpumf2bdthbdr6jrs4o7t51zrkjb86nigwgat8h4se7pguybhssa1nwh84wgb",
+    "note": "s196rjzo5qaoz7d0g92uog1i35m6btv8zcu2auecz198uwbecivt9d75ooq39mf4tptbp8s958d6f5cuzg5odqrqna6q540q3fkf3rd5ic0c09mhnz2cxon4kzayu7cgk4zwpstjvwhmmg2izf62s5uq7sk9ww78qm5qf9ycorjeuay27ss9l5vaaxm16zqy5b3nmki9vd4asil7kqq",
+    "type": "pwlws5aoxzxjfb7rxlxhayj9g2z8556",
+    "owner_code": "rvowmvv2cs9fn14zfcicq0ndhkv65xb4gulcpvknmp1grorkkqfe6ui6etw7p0dotep7n0b2e1b7cvzed6qhmz80730y2xqbpcwgxhuq0ly439vow78t21i5hm7ykxd89b3fgmtex7wizzr9qef74tlk3nuw9ec51dz4jlqhkh3srhpzugbudzukll1nt2j069qzhf5f1rfjmn65qqaaxtkyz81rjzr7u91qiwyzvran2ooqq04",
     "take_only": true,
     "is_handout": true,
     "is_reception": false,
-    "is_dressing_room": true,
+    "is_dressing_room": false,
     "is_marketplace": true,
-    "is_ltl": true,
-    "have_cashless": true,
+    "is_ltl": false,
+    "have_cashless": false,
     "have_cash": true,
-    "have_fast_payment_system": true,
-    "allowed_cod": false,
-    "site": "7d70xdaynmfgqnyae3pd93fmdd4i1p70zp54w85tkio6ayruacb7zxrnw3yggrsp0rjnzzflh7fsjmfrap87b5qj5usgmyu3v08ghu08c2r0rdm18eho78imx5er450epczapoofkzae4uccpiup3bbc4sr",
+    "have_fast_payment_system": false,
+    "allowed_cod": true,
+    "site": "paof5pfkkyksajf4pekelnjctnzyspff6j0vq2bxx71otygzg9vl2v8ziha1t0obnkbf0hfr1vgpi8dmko8zees8l7xox5n4e93n7aa0klgu634n483eaxy4jq71ws1tmlod691ufc1l4wdveln3w7vct1rg7l7",
     "office_image_list": [
       {
-        "number": 924,
-        "url": "gd3h4d1nxk9sy9w4khv8c3crv9mna8q7hrtiokoqmoqur1zblisfqm5rd2po0ik5buitzkwiw8tfuu4qkvn9ku1jf1v55m5q5c12p38tpeksjv9zv9uhtpm3mn25vajym2mqqrymknoxuas10hbbrq1udgtyoels6xrie1eyjcobdm7tg6ywhb78xcr0nbm0exrez51qugbugeiwz3c2pnp00mpmk874vf4mw234yvmf"
+        "number": 456,
+        "url": "u7o3irqtb9b5ytaxx5nj3h6r3pt88ii45n9g50hpuhmbdd49qfcbmxww726zqlxfwjbwd95mounfw7s44so5vyev6nr38v5s06ejgkp4r10dqb3k64u1fuzgizg1bhaw9foo0sbhkvusnhf5wedkbnhgqv8kznjzyvofs108qydi9u9dfni8kukrrwy1s0pgke1fu5lk77t819sdo9zinxc"
       },
       {
-        "number": 621,
-        "url": "2yeksqq4zpk76ksh4rv85f08b55ox6fwlvgusyzzdce72cbru9zwkg2kuixfzh7wynz0umc012yz2h1rdco1o3hc82s2hkigssf6amzp1hy6avkkyi3k8xe6fa8yqkd6ev2dy45ohzjgv9dva9a0bg85zssn3hskbhntrmz569p58b7g6vxbcplg4yfsnuzyax72vulm4yeyqf45tscb2ixnsibxs257ijmkfs8725o9n1w73a3mya95ox"
+        "number": 82,
+        "url": "i7wyr3qidk24ud9d9y19voukulnct8xybklpwp73iwd1gygu7hbutmlccbnc1h3koqj3pr3aa98ys6fy30rkyv2ywj4xyfzwr6kd31ct1jt9mrx3pk1bo60v3txaxaopeevk6os0s"
       },
       {
-        "number": 369,
-        "url": "fb0iekw73718svsw5ewl5kuooxy0trhlllo0ygvuosn42u6su91oyqg8qu3kozimauerhg419b8zvbahfqsemk8a4903lrt4fgu3y1skr3bj4gpv18kzht6kfifpccgkrfvbwvsgax"
+        "number": 98,
+        "url": "h00kkada9g7igsprgy4ww67is65lnmj61uu25ovyr9opmzjcjzqe9pvcguykgvljspdffr80cf211ztpxm5h9km227sp40n2w1jzwrdkmyg3f5u2yjsd2q7ef8d0apyd9krweqmd3ohfdzyu2jtty"
       }
     ],
     "work_time_list": [
       {
-        "day": 325,
-        "time": "ec5f9iiu2uofug92ms1dlg7ofwyweh5330gp7dge5es55k8u9w1ci09849vqmkqteoldlkqfebqv873lf551sxg8ksg7u1if29oidadabqkwhizkt6dzn"
-      },
-      {
-        "day": 935,
-        "time": "wtch2oq3ffssqjkuct9ig6zof74hi2tjwbtkyqkagit1p44z4sw8nyaoac0fm2akrcvopfqs6k54umeplq85fvq2mt6ikeepqtms0kpjsti6v7zkr98jq28w9r1pm1vuuo9vxy634kp57rfevf3c1y4i5e5dp"
+        "day": 155,
+        "time": "geg31q0rtbvrhkw4uzx99q7n0yhhtr6bfgc84n9tr17w5o2kp4edzj0ge8718eo611t1ou8d0jnmb2aq1s6dzxgzpnlka856e6b6xm6g8s77zfz8w0j9376ia6gip3rxn2sfekgjr6okr2c3mzskey2vy58qzc964gtse5qh8fd7a10uyx1bgk3sfpszo7"
       }
     ],
     "work_time_exception_list": [
       {
-        "date_start": "4xy1tkyagbpbh9fcqex3s984phrssantur",
-        "date_end": "bijdghtbu4c3yyjy91fjo47c8uls39gfyhh6kgetiapo",
-        "time_start": "x34",
-        "time_end": "bce12",
+        "date_start": "netlg75",
+        "date_end": "iislhlpchkrj6owl",
+        "time_start": "1ca8a933jnxtt6le",
+        "time_end": "wp0in2n4gins7jpw4bvd6v4l6tiw6s6eu",
         "is_working": false
+      },
+      {
+        "date_start": "5svr",
+        "date_end": "9y9pzm5c9snu5xph2enxjek627bxuhjkneyz73q",
+        "time_start": "964rlfkzh5we3dfvz22escnw0mvko2oyuiy1w23y",
+        "time_end": "t8ax2yss6w81clh7f",
+        "is_working": true
       }
     ],
-    "weight_min": 651.0,
-    "weight_max": 128.0,
+    "weight_min": 358.0,
+    "weight_max": 379.0,
     "dimensions": [
       {
-        "width": 268,
-        "height": 891,
-        "depth": 87
-      },
-      {
-        "width": 120,
-        "height": 854,
-        "depth": 116
-      },
-      {
-        "width": 566,
-        "height": 640,
-        "depth": 571
+        "width": 819,
+        "height": 419,
+        "depth": 123
       }
     ],
     "errors": [
       {
-        "code": "ris7i95lqlgj3vx6erd404ne5g34wooa2z8r",
-        "additional_code": "c",
-        "message": "t"
+        "code": "buk6molwry2ts9n73jhbvxfe335clzl7ihvixll",
+        "additional_code": "rq4i5s9cx9ztn5hkf56q78vb5wm1pmxd5zopa1qp4pdx087umi",
+        "message": "g2wrxexu26jur396meftllmet3qudvg90nosr"
       },
       {
-        "code": "dcvrhahr7eouyo74k7zp2dtfvah8e",
-        "additional_code": "lgwayuv7wvbxk1qmeht9awrplk5snwlu9zwfuoecbjj966",
-        "message": "4x7c0jqs80ymgq2h3yp9"
+        "code": "6iptw9flvpxxj3mjzesqa5akqvnwrs0rqz3",
+        "additional_code": "7pqj33z",
+        "message": "geuh25xc6dk1hbf59sr8yqbv6tl"
       }
     ],
     "warnings": [
       {
-        "code": "11o5jcvl41ywgnl3dnwxfdsuuvdzlnzosbtc2xxzelkh3",
-        "message": "9cot9npsdswxds001kj1"
+        "code": "78b1sknxbgi60d",
+        "message": "6hilkpb"
       },
       {
-        "code": "gfn7d957f2youl",
-        "message": "p24bw7eamlka7wfp7lfkx5ga31umfy2r7qx2z2r3metiv"
+        "code": "c8i9gzlp4xaz0e0uolkydv0yxiv0xaan2t6tq",
+        "message": "3mvi1ww5q1u3swfsdwe6l9"
       }
     ],
     "location": {
-      "country_code": "ty",
-      "region_code": 860,
-      "region": "gekdauaxlz8sewuemuk9rmazdooxd3jmoarvebq74rlcdgtlu8v2caidtwcywc2349c8zxlnaf7sd62gh4im5got1n02qtzhzngrouuzqdbsxmclg6vwg83dzksseih9mi6jkuf7uho899y4vuntjd2w26tnodvpw6q7hje4csubbv9odymzpil3sppje63tghyxr5mvk1i63f40tw9ck03betshuut",
-      "city_code": 746,
-      "city": "3q1g6janhdx6juw9zbd041ou3lvb8j5glbmcw94yyxhin5fyqqi98xqt194mrvwkj4gbkl0a2ljmhsendq9wzqic2oqpfa7fs34pwbtevwy1u55o05lzlw5jdv0eny1lgesioeuh4s1i4bmxuer",
+      "country_code": "2",
+      "region_code": 509,
+      "region": "ngtn7we6jjks8o0emwp9j5chashwa3duut1y6o6cpz2u45hgg1s0t94bu74je93wit8fbrensj5y6a80j7eo6xwan1kiugg02kel0ah6b6d8veh87tr0sitgpnigu3n60mb2gmosijcqjyatwp8nld99uawpnmbmgnsfnzlxvu3d2kpydj7pdrs",
+      "city_code": 385,
+      "city": "5msi5x9zd3664olkwm709jvw7ibth1tgi55200o5bokic57d2okjokjpwkenwu",
       "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "postal_code": "obj0m311kwbh7pnscw3so4lhsgb3ivmv9dyf8dcwry1ux76q33mxk126btz7jkqk1puxf0jx5gycd1cjseuolsa73rzival74acnld67nkk8vtdur8lkwv6vo0zoo6zpdtuq12sb5g9k3jx6bdfeym8p2s3it2lqyrrr1x6bkbay",
-      "longitude": 453.0,
-      "latitude": 319.0,
-      "address": "tucfdrx1gp02sx58n2ajanshm1alg8tlwxzk8utmoc8dhujm1l6x96i09jloxs9c1pa5p9902ieybpjo4xzk3eoozl0dtevtzhkahcoj0tgtnjv5pccbv328bw1cyhbskiq1c9vuofimno7loqgvbzk6ues8wshbepsyulr5pfpvayo85arzigontgdqfvbu0kb6zcdsj38w2kxe1p4s4klq2w1ggo8jfu",
-      "address_full": "lwfny35xgju4seszc7ilv874ufvndcjd2h129nxp4odv3fxpjznpnfmip703fdijyvm31k81uxwi5osz8tgfmazaf6f0ceph3bexf81693bfc3kzf3tp6ukp3y4afjpyutawytafx4nv5d1gi06huz335capax1iq2x5jfygsj0jiv7al1oy9xu9091i6k0h6irjad4uong5bpt7c2b7j",
+      "postal_code": "4mxsdgrylqhc4895qjwcm7w14zhukcgd2iicq9jwrezqrpdspu9b2kywnlkdjm2u7h7h2tq1f4g54ab4nxmtkci7jofk823obwmzuuegxodwyombiwmeqsv5vop68q2kq1wsbywvesn1hr8cpfya46lvd25vhp8jt8kvkjnqqi201vmpdgnegjrcmm1psxq0rh7yfzri2890gzhr2z2vpcwl68n",
+      "longitude": 404.0,
+      "latitude": 245.0,
+      "address": "xzjewrkh6focmqzk8f148tsmdfje4843oltqgh2t5jmrz9licsx0jlra9welpepcqk89slb013j8srcrun8v8ipsc3xaj4vwvaezq747nl9ocijebzffe1sxzop42vsf89oqhmpexzschz424stv2kairael1x3suwcin4fakurxf7hq433b2pefrm8dh6kgysc9a8k1gnuf96g40waz98ctu33zfwg2tkft03",
+      "address_full": "p6o5u8az90qovzi6ksubkdhiayen7i7q88z7felnj3kl0a1tx0j07wpx0l767k61k43vhcsvcvm6oek",
       "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93"
     },
-    "distance": 400,
-    "ltl_acceptance_partners": true,
-    "ltl_issuance_partners": false,
+    "distance": 660,
+    "ltl_acceptance_partners": false,
+    "ltl_issuance_partners": true,
     "fulfillment": false,
-    "length_max": 507,
-    "width_max": 927,
-    "height_max": 24
+    "length_max": 887,
+    "width_max": 422,
+    "height_max": 900
   }
 ]

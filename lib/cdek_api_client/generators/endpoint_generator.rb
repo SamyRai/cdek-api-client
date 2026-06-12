@@ -51,6 +51,18 @@ module CDEKApiClient
         puts "Generated #{endpoints_by_tag.keys.size} API endpoint classes!"
       end
 
+      def self.method_name_for(operation_id, path, http_method)
+        method_name = if operation_id && !operation_id.match?(/_\d+$/)
+                        operation_id.gsub('::', '/').gsub(/([A-Z]+)([A-Z][a-z])/, '\1_\2').gsub(/([a-z\d])([A-Z])/, '\1_\2').tr('-', '_').downcase
+                      else
+                        clean_path = path.sub(%r{^/v2/}, '').gsub(/\{[^}]+\}/, '').gsub(%r{/+}, '_').chomp('_')
+                        "#{http_method}_#{clean_path}"
+                      end
+
+        method_name = "do_#{method_name}" if %w[class return begin end do if else unless].include?(method_name)
+        method_name
+      end
+
       private
 
       def extract_return_type(responses)
@@ -108,18 +120,6 @@ module CDEKApiClient
         ERB
 
         File.write(file_path, ERB.new(template, trim_mode: '-').result(binding))
-      end
-
-      def self.method_name_for(operation_id, path, http_method)
-        method_name = if operation_id && !operation_id.match?(/_\d+$/)
-                        operation_id.gsub('::', '/').gsub(/([A-Z]+)([A-Z][a-z])/, '\1_\2').gsub(/([a-z\d])([A-Z])/, '\1_\2').tr('-', '_').downcase
-                      else
-                        clean_path = path.sub(%r{^/v2/}, '').gsub(/\{[^}]+\}/, '').gsub(%r{/+}, '_').chomp('_')
-                        "#{http_method}_#{clean_path}"
-                      end
-
-        method_name = "do_#{method_name}" if %w[class return begin end do if else unless].include?(method_name)
-        method_name
       end
 
       def generate_method(endpoint)

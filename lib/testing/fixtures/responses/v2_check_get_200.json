@@ -1,86 +1,45 @@
 {
   "errors": [
     {
-      "code": "6bsxeh85wy",
-      "additional_code": "zamu9kgdvft1xuqw6d8i37wo1bb448l3zpstd2ah",
-      "message": "lmautsskux31d12c87ozy1xvcoc6q"
-    },
-    {
-      "code": "6snhoqb0nx0p76oiazxi",
-      "additional_code": "3erk9o",
-      "message": "4lg"
+      "code": "73ca2v357khon",
+      "additional_code": "2itok742ykbhbbh46xyaz",
+      "message": "uw9ce201nfnsa2gtjfmmh4qvre"
     }
   ],
   "warnings": [
     {
-      "code": "i30wn8vjjrfq5xksga6wfe5e0gat0kl3b3t",
-      "message": "zxwd9f1jbyii1svii0vu73yliw0zhd7"
+      "code": "iqfe4crsnsrd9cnto1l9c9enqhmhmqyk72lbglp4toniq",
+      "message": "sw47s91ayosu7rfkxei3k"
+    },
+    {
+      "code": "lta5pjiu8610szjya1",
+      "message": "3d8deds1wb1k3vqx9vmzsys4qzhlzp6qedcah"
     }
   ],
   "check_info": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 115,
-      "date": "m3gs07unvjclq3oraf",
-      "fiscal_storage_number": "hoqar9aioqxptln3t9ohnf2l6w6zsj9udqrys4eo8nym98m3afbeosh83hr6zg2erx79e5vf8sibl1o44fk5j06w8bmwi7shqslcrlmrx0flmcaca14jj00i3jjf4v2uoqh25sbku6ffutlakkr8gep61mbegmi9avwlytj03k2ga9jt35n9qs9jyxdcogda3jt3sldsmlq0xagwxdkorine26yyranoyaudh5hehh3xmg9xg7nujcdfg7p0",
-      "document_number": "c7d11q4msbxw5133jufl99f60yz80r78sqtcx41vdqxly6dl7hfl1wzltejcbn02iinhgeat2hvvn8cmtgflaaqgkiycrt64nv2kq2zdauexk545kqq5z9frjprem9jg046eqsuk3f4tewnt15oq1h65xg",
-      "fiscal_sign": 481,
+      "cdek_number": 671,
+      "date": "sz9aq91nv9krd5o43nnuqct837f5i6c05ixa",
+      "fiscal_storage_number": "qpiypp0fe9xxred8ve8fmd67iotoajjeqmdto8w4oo11ly5e441m219m9sqno4tc3hxu1whint4ls9xhv11t8w0fr58syiafrpkrvmi6f247rsptndpx67mry5619pbbmjd2n412j0aclz1s7v421cwyvmvw7suhiylr0se4kjlg71pu1rz5ja1a9wnh9gj2qul0am2ie99nxrm6l",
+      "document_number": "u457m233ifdok419j3oal3eyxw40slwrlusqifthrvruta3vi2r1ifvbg55xh4thg27vfl1zi01575j8rxx303d0cfgugbico8uqfol6jf6mbrq7h2fo43tztxpd7ccals8ejj98y49sgiywmk8x7oks1ng5av6l266vf4tp6k71fav6r2baf0on5kes0a642a0g42cbi3ntnv0ozo4knd8595n7cw9va9n",
+      "fiscal_sign": 496,
       "type": "CASH_RECEIPT_IN",
       "payment_info": [
-        {
-          "sum": 469.0,
-          "type": "CASH"
-        },
         {
           "sum": 702.0,
           "type": "CASH"
         },
         {
-          "sum": 115.0,
-          "type": "CASH"
-        }
-      ],
-      "shift_no": 240
-    },
-    {
-      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 236,
-      "date": "k7ww8gfn9981bilaru7zfe8kct9ye1r6jgexazhtsjz14olkqq",
-      "fiscal_storage_number": "22ccrprw5yz7dz3e5zd3mmp31vzcf3dszh2ggscmn0q3ylkzfu6vf5kmyfvanlss5vc0cqu3h2akd9dmr5vrjhtxmjfuyillilgzkhwy5gb6ul9vds6e9ijxckwd7j8n9mmkeg5qmjnw9mzlwe3k7nkpmh9ipr7lxkh2js60xqvcdgb9m71ezqhou88o3rhur363il3",
-      "document_number": "02jz9pun3v5c7cy8qxvzvglqrlth9mmz7ytanf7zyula5kdjx1fr42qxqsf4gx8a",
-      "fiscal_sign": 441,
-      "type": "CASH_RECEIPT_IN",
-      "payment_info": [
-        {
-          "sum": 543.0,
+          "sum": 916.0,
           "type": "CASH"
         },
         {
-          "sum": 51.0,
+          "sum": 307.0,
           "type": "CASH"
         }
       ],
-      "shift_no": 482
-    },
-    {
-      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 209,
-      "date": "f7mx1",
-      "fiscal_storage_number": "k5wv9axud",
-      "document_number": "ub56k6mmbdh2lbptnndntzdeb4cf71whzalqlymipu5gxsefqbcn3bs1pig0bskq0pjodggmncgg1rd27qd9ycewll6wlv7p6d9w4diz2o8lgwrf9df8qmr",
-      "fiscal_sign": 718,
-      "type": "CASH_RECEIPT_IN",
-      "payment_info": [
-        {
-          "sum": 955.0,
-          "type": "CASH"
-        },
-        {
-          "sum": 211.0,
-          "type": "CASH"
-        }
-      ],
-      "shift_no": 388
+      "shift_no": 767
     }
   ]
 }

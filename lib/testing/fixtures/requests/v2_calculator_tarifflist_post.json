@@ -1,53 +1,46 @@
 {
-  "date": "7frlh3rxs1y4icb4zkx5qbf0",
-  "type": 145,
+  "date": "tlw6gdokeni5uyrk44rvqw1",
+  "type": 325,
   "additional_order_types": [
-    990,
-    721,
-    968
+    497,
+    363
   ],
-  "currency": 5,
-  "lang": "zyt",
-  "shipment_point": "apjko4u5ab31i5ma6hs2z5vlfiatx62u0vacjmrmiep7inpoqbm815r9obzz7swixula532urvw44rdrus2fag7c36cn0lsebajgwci2iv4kvt0t7tu5a9x99rpdsjdl9u1p6jxjuo7gu081734nsjfjbmbf4gfj5ed5uoy9kns10c4ggbem5g2fpcup3b05cqr7hl44dpquejxvt2j8l2khozc3dgdpw03rqhqzqlyuqua3k9tyxq86vls5qlm",
-  "delivery_point": "s8n2bepdol79c2iy0b424jery5brvlm0sxojz5o4oaipoe8guv52u05h41kp1p2xfv3bw0nj4bketajf16qf51ig2",
+  "currency": 3,
+  "lang": "g7b",
+  "shipment_point": "bva7k0nhqmgoo9n39ndi6ho2a0nhgxpalj87ivl95qb4tehp5ci96f5rd18776pqwk7yshdfxtcwsacwae1esm3hqyl2ab76ajrv4bwcxymjfepue6cojajp410ku7vjdewpsoyl6hce5ws0u7bi45j9yave6qvs88s0k1j8refv3radxquhr63ikdb0r7kb4ys59gna67p4blsopp1kf0qkmmhynutt064pgpdc3s02q",
+  "delivery_point": "au6yk891tyh5ttimv3wkn",
   "from_location": {
-    "code": 741,
-    "postal_code": "hvshhv2giwdk8tvlqgzpzgg50579ro23tbfbvs8jm4o6momqnmgy11mqom2j8ygffc9cv593x37migazzbphajs65s8kmsbdmj5jyeagwrb38cg1ah4trad5gr6iou1o9s1x3",
-    "country_code": "8",
-    "city": "ctxz8q2uwp29ne6nweud4lykj0kelk5u3shzajki2orr95vtpmcz6jy4yjpkkj4",
-    "address": "mam9dnhu824kaxdkgprzfzs7hfntwqw7fexyu2se4km8ousva0fbxlsjbm84wk0ioca6sabvr3yanhau68ix9dlz2f7ntguh8s9evh574zrsdmhh530j56",
-    "contragent_type": "3qxt4s",
-    "longitude": 634.0,
-    "latitude": 798.0
+    "code": 406,
+    "postal_code": "p10jt0v55eigrafnxqqu87mndxft5wnvqbg89nt1mgce6i0o7rd7ur98g7bp134h8gr9ud5pr7v0l5gj9jgcl53jutou4shvlql4hr0f12r",
+    "country_code": "w",
+    "city": "9j0rmww2j3v4wdbnzvrh9kposhqrbxqoxw0vml81jjx1i98bwlu290ftvw7d5pd11vhz3izky70joelh",
+    "address": "fxaykw9g0ue6pk5xi9g1wmgum9lh9w7w2xvlpa39x55ljlm",
+    "contragent_type": "o3marlid01xd1t2",
+    "longitude": 792.0,
+    "latitude": 803.0
   },
   "to_location": {
-    "code": 671,
-    "postal_code": "bto7qgf105jnxlxd6737692hb4dsgp8u27givd3vj85j34fqx7cy9na5izqrqmbqk7r9vsn1szkn5jwh81z71s67huvd5zx398lh53112fyzza1vo512fu0bbg6crtpqd5r97hyqzrp03ox700vepnv8sdxo6pwgqp762j1fwpv3ffg",
-    "country_code": "c5",
-    "city": "dzjlmq7fx42zhv0ejt3liove7ujrll1evi6ah0khjsglimvro6ih5ieh1o57zsw764v9w6kailsx0f6n8lp09jmenxj",
-    "address": "tzh9l2xrhxvmxnngu6w6eodcyum1grsjfjbvyfc6enihvli80s1x",
-    "contragent_type": "air2j2rk",
-    "longitude": 139.0,
-    "latitude": 24.0
+    "code": 714,
+    "postal_code": "63csuut6i45wwpulfnv41ez02pzhkcbaat4pcf9lj8b4o6b0x04",
+    "country_code": "g",
+    "city": "zvbpypw9ni4gau2his80uwnle7ge8y3kh1l74upxvmihwjq2bkhu6gyi0jz0vtz92mgk",
+    "address": "c8aa6zcx8p8n6is3jkzzn",
+    "contragent_type": "p3imabw7ae5jv",
+    "longitude": 469.0,
+    "latitude": 786.0
   },
   "packages": [
     {
-      "weight": 737,
-      "length": 31,
-      "width": 528,
-      "height": 455
+      "weight": 333,
+      "length": 892,
+      "width": 963,
+      "height": 372
     },
     {
-      "weight": 415,
-      "length": 255,
-      "width": 402,
-      "height": 117
-    },
-    {
-      "weight": 919,
-      "length": 306,
-      "width": 905,
-      "height": 626
+      "weight": 563,
+      "length": 493,
+      "width": 538,
+      "height": 668
     }
   ]
 }

@@ -4,56 +4,52 @@
     "orders": [
       {
         "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-        "cdek_number": 562
+        "cdek_number": 106
       }
     ],
-    "copy_count": 325,
+    "copy_count": 932,
     "format": "A4",
-    "url": "04j4cnipe9tlswm",
+    "url": "h00832erozb4yy5vj9luokgx3nfh9lemsvl5qzplpehg0zm",
     "lang": "RUS",
     "statuses": [
       {
         "code": "",
-        "name": "5ya1pgn9qrzfyp9kwg6e8zeiz9xfk",
-        "date_time": "ammp6h"
-      },
-      {
-        "code": "",
-        "name": "r2avui5t03lvnynh4167kb4af9rgrx96fpjkgno",
-        "date_time": "58ujybzlcboh9iz8n"
-      },
-      {
-        "code": "",
-        "name": "dmdxxq8xu3ufdq2bor6ybrj4xf",
-        "date_time": "x8u08ans3wvyry6ff73qatffwtuuho0ayopqwilk8kga3"
+        "name": "8qgijnmhj6td",
+        "date_time": "asxkvcqt8okmzwmpn7210mcep4vceco7o0m7r"
       }
     ]
   },
   "requests": [
     {
       "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "pqst1s6a7j52q7sbl5lb9hp5e5hzsir258fww8tyhbdma",
-      "date_time": "a6vrqmduh",
+      "type": "j5db34ce7ngossqmuarx3g00cpda6zcd6e2kcr3q336qp6bbx",
+      "date_time": "e9c5nezqskgmyl41o6k5pilsnlxiuleitfmpteqj3gkh",
       "state": "ACCEPTED",
       "errors": [
         {
-          "code": "50dey1t6kqy3ewyh18g92b",
-          "additional_code": "5rz4vjeu3quf856p2l4igbdaw5walfcelrqurx553g8cyl5ep",
-          "message": "wsztm1jpbomicu46qdpgjejk3q3mf912xfd0oxdr7ds8"
+          "code": "4ay1w2vjqmplosu",
+          "additional_code": "5eo5ao",
+          "message": "8t4txjn82ijbwrak969xywv6s7wzvcd6kt5oyqv76yn3"
+        },
+        {
+          "code": "vvsdhj1ua7kpna4l0qpa",
+          "additional_code": "3w0px13zx4ybgw28324boph1qnu0u5p129xuh1rsszfz157yv4",
+          "message": "f4ailucem21yj7"
+        },
+        {
+          "code": "o3",
+          "additional_code": "menj74efm",
+          "message": "m6wuh744t8bxkdznt9yj8edtwe225vg6v1u9d"
         }
       ],
       "warnings": [
         {
-          "code": "mu0qd5xa727mlwwjqq8m7zwbjwp6hs0zv0xjpig9s",
-          "message": "b3te23ek2hldnr4g82nqg05aadznlwejx"
+          "code": "fskqrmk0ponorlzrzrapuhbs23ch8",
+          "message": "r"
         },
         {
-          "code": "j0nl5",
-          "message": "6yi5lvjpedi24tpp7dw1apqywvbai"
-        },
-        {
-          "code": "4nyoiq1tw4q5xld2upgx3h",
-          "message": "x69w"
+          "code": "zyhrxezjkdjljle065ewxb3jam9cpney2qi",
+          "message": "rl15ta"
         }
       ]
     }
@@ -62,12 +58,12 @@
     {
       "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
       "type": "return_order",
-      "url": "fqrpd5pn1p5pj4nbpr50qhuphtvfek11849kv3i04cgzonb6txv77ejajl1c1w3vpd0x2aq456yvlkcayl2fn1ue0srqh91pnd5fzv3ep2909owk05ik86ota8tuy4b3z3n02js1bcj4wc3hzve53xgjanjs21bkdp3hfhkdvvegj9te6sbusxcsi5k71o1ewfthjdy6skb2g8tyj76ayuht09dexc78o7sjo2bdrfso9miayxv",
-      "create_time": "ouzirjkq13pa97gbs3s6osojj0p09jp7f1metjy",
-      "cdek_number": "flaty3u93dwawplc3ku9tvi2e5bzy67g9g42mpa2iggalokfbmcwaykqqmtr",
-      "date": "ruyyktbk8",
-      "time_from": "2310f1cfymqo7wdbfywurpgtkq8oenmr92cwdcbw7e",
-      "time_to": "k3cdv8rmvv5dawvm"
+      "url": "lvhlx1l41ivgd2judxurzhwiy95g64q8v2rjognzrrfyl3sup8gszrlezerfakpzr9z6a0vsmc08itz8u5vn24qw9yrpbz7lj2bp99vf84b81guyrmhnqmkjq2ba0sr8iyvm2vpshlbenp7jhy0j9gom68bkunywaf9rea3an14w4gtt4ikfr2a6cp8z9u9si04o52iqnf5f577lieq1vf5sqjouc3o04p1iil1g89a7v3thgb3l9",
+      "create_time": "07kt3",
+      "cdek_number": "5zwxb5ofpkicg3vdevddoptj64ayryod8dtl3v970yllu6gsxte3gtq7gkr3tbg0os7b1bkfwj6skx1l1esh1ehxt8fej1locw9gah0v4kuo1w0splwg3p5udg0ftln7qtbulmarn4xly9nrxz3d2rd6blvznijgt",
+      "date": "o7xbtmy9cl61kqn4ebmtkndckywq4nrc8sw4xq0i5nvnn16v8",
+      "time_from": "1cvwfnv9twmif1",
+      "time_to": "gs4826vcmmml"
     }
   ]
 }

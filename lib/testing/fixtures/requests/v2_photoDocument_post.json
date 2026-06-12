@@ -1,18 +1,10 @@
 {
-  "period_begin": "v9i91g7htn789t9r211ts7qlhym09zdco8cpz",
-  "period_end": "rx06cpbea0ddbhri",
+  "period_begin": "pvwth3b5smxje0yg0u1u7u0oeqhxrepu",
+  "period_end": "lq6kk13nu507h6u2pdyesf31mc8djfaagpxdpg",
   "orders": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 820
-    },
-    {
-      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 818
-    },
-    {
-      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 381
+      "cdek_number": 494
     }
   ]
 }
