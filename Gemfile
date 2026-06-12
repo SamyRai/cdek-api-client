@@ -14,7 +14,7 @@ group :development do
   group :test do
   end
   gem 'json_schemer', '~> 2.5.0'
-  gem 'pry', '~> 0.15.2'
+  gem 'pry', '~> 0.16.0'
   gem 'rspec', '~> 3.13.2'
   gem 'rubocop', '~> 1.82.1'
   gem 'rubocop-rspec', '~> 3.7.0'
