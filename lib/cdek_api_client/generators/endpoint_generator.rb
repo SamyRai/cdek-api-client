@@ -110,7 +110,7 @@ module CDEKApiClient
         File.write(file_path, ERB.new(template, trim_mode: '-').result(binding))
       end
 
-      private_class_method def self.method_name_for(operation_id, path, http_method)
+      def self.method_name_for(operation_id, path, http_method)
         method_name = if operation_id && !operation_id.match?(/_\d+$/)
                         operation_id.gsub('::', '/').gsub(/([A-Z]+)([A-Z][a-z])/, '\1_\2').gsub(/([a-z\d])([A-Z])/, '\1_\2').tr('-', '_').downcase
                       else
