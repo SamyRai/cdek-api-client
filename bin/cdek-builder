@@ -77,7 +77,7 @@ module CDEKApiClient
         RspecGenerator.new.generate_all
 
         puts "\n7. Formatting Generated Code..."
-        system('bundle exec rubocop -A', exception: true)
+        system('bundle exec rubocop -A')
 
         puts "\n✅ All code generation completed successfully!"
       end
