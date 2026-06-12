@@ -8,8 +8,6 @@
 - [Татарча](README_TAT.md)
 - [English](README.md)
 
-> [!WARNING] >**Important:** This gem is in the early stages of development and it is shared as it is. Any support for development or feedback is welcome; please check the [Contributing](#contributing) section for more information.
-
 ## Overview
 
 CDEK ([СДЭК](https://www.cdek.ru/)) is a big logistics company in Russia, that provides a wide range of delivery services for businesses and individuals. The [CDEK API](https://www.cdek.ru/ru/integration/api) allows developers to integrate CDEK's services into their applications, enabling functionalities such as order creation, tracking, tariff calculation, location data retrieval, and webhook management.
@@ -68,7 +66,7 @@ Features:
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cdek_api_client'
+gem 'cdek_api_client', '~> 0.5.1'
 ```
 
 And then execute:
