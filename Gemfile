@@ -19,5 +19,5 @@ group :development do
   gem 'rubocop', '~> 1.88.2'
   gem 'rubocop-rspec', '~> 3.10.2'
   gem 'webmock', '~> 3.26.1'
-  gem 'yard', '~> 0.9.38'
+  gem 'yard', '~> 0.9.45'
 end
