@@ -1,10 +1,14 @@
 {
-  "period_begin": "pvwth3b5smxje0yg0u1u7u0oeqhxrepu",
-  "period_end": "lq6kk13nu507h6u2pdyesf31mc8djfaagpxdpg",
+  "period_begin": "pn9m",
+  "period_end": "0hwkeeyrxiknie0k1ims",
   "orders": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 494
+      "cdek_number": 323
+    },
+    {
+      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "cdek_number": 730
     }
   ]
 }

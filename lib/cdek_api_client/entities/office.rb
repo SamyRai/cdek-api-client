@@ -93,6 +93,9 @@ module CDEKApiClient
       # @!attribute [r] dimensions
       #   @return [Array<Hash>]
       attribute? :dimensions, Types::Array.of(Types::Hash).optional
+      # @!attribute [r] status
+      #   @return [String]
+      attribute? :status, Types::String.optional
       # @!attribute [r] errors
       #   @return [Array<Hash>]
       attribute? :errors, Types::Array.of(Types::Hash).optional

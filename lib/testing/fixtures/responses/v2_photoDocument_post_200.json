@@ -1,47 +1,35 @@
 {
   "errors": [
     {
-      "code": "yoikgwcgclcgwowe2sxw1qiqaifofrx3s1wx0mko3fy4kdo",
-      "additional_code": "xnxwez3crv13bia9u195fwfv4shhtxmgh0",
-      "message": "c"
-    },
-    {
-      "code": "qeifhztzcyok55fbw2g3pam9av",
-      "additional_code": "2piyvbaj8xxjtlwwid202dbg7l0voj8t5te20zk2tfh",
-      "message": "b0t32bo6kx"
+      "code": "hdyg0w29j5wx",
+      "additional_code": "u207zofyrgb7ab9d1wtl54",
+      "message": "r272047qt44ug5lwf"
     }
   ],
   "warnings": [
     {
-      "code": "oeid0dmukln9meui6q0aelyylk30q3ck6iraf7eczfkkpttz8y",
-      "message": "3yj80dp28u4s5dnas5"
+      "code": "5",
+      "message": "oztlz323mvqwyfzu8fvqkd"
     },
     {
-      "code": "hehf8kmy2t8ztfq0s",
-      "message": "5w4pcppde1wsyschz4sqaml5x7"
+      "code": "jqrsvosyrl5zz1y3na6k8uver2",
+      "message": "rlu3o81d130p5l9osr"
     }
   ],
   "orders": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": "xidy9xwoyjjfe2tavwzn9lopohnblxbrd1yglsdb",
-      "link": "xkxig28xca67jok65t5hq9b7knrjwxk10hbadczgvjjak7jnb",
+      "cdek_number": "zk31woku4oqyx9",
+      "link": "6dakuy1ffvo6ql4875web4ltnk46zb480ek1pzxdlrnqpt1",
       "status": "CREATED",
-      "create_date": "j52ad6xvjznl"
+      "create_date": "apd52hbxna6kto1uwitqoe63p9xy0"
     },
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": "t78vq1wpw9w4omnvihngc9wqywk",
-      "link": "5a01zi3c",
+      "cdek_number": "eu8fi0a3o5td",
+      "link": "7t1ykh70vh6ivi47dnh8vf6rhg5gj944jt82",
       "status": "CREATED",
-      "create_date": "4j5ahjxsgi5s2pcefqq95n5mw"
-    },
-    {
-      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": "lv3vjl91wx1htcgw868v79zjgkqhgh6fepn77yvcrtm7u2",
-      "link": "iv44",
-      "status": "CREATED",
-      "create_date": "fbglstmuz6vkor472qr5ji0zu2tidowpa"
+      "create_date": "346d7q7564z441jh9s1exgtbjr7nj5chikp"
     }
   ]
 }

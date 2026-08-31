@@ -1,18 +1,18 @@
 [
   {
-    "code": 130,
+    "code": 661,
     "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "city": "etkjfhwzlzmry6l9deh14i2nvkwauz9waouiijz8yzkbgr070qxygfx62vz1ugqttv1ga5m3ws53223psranb13dah2c5jjs76w15g2hacxwhc61h785xn5pdun4rgjg6wuss92rbaetkbcwlte3i7",
+    "city": "6yq6bnffcgho263092606dvbjej6m49xo2he2dlb0499z0etkjfhw",
     "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "country_code": "8",
-    "country": "vx",
-    "region": "qj3w5qqnibyivdz27wkfru97qylwvu04f07lgjqzu1ba9z2ukk987xve69ts8q7izbiiqayy8c37lsqjlpxsh4uq",
-    "region_code": 491,
+    "country_code": "zl",
+    "country": "zmry6l9deh14i2nvkwauz9waouiijz8yzkbgr070qxygfx62vz1ugqttv1ga5m3ws53223psranb13dah2c5jjs7",
+    "region": "6w15g2hacxwhc61h785xn5pdun4rgjg6wuss92rbaetkbcwlte3i78vxqj3w5qqnibyivdz27wkfru97qylwvu04f07lgjqzu1ba9z2ukk987xve69ts8q7izbiiqayy8c37lsqjlpxsh4uqwpfhyrylozz5jpgqwzuvgnogihw2r438rqn4x87czwod2vymr6pb873mmr55822pj3ytea3cn3dryaoioxdlfxkm7ygd",
+    "region_code": 413,
     "fias_region_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "sub_region": "wpfhyrylozz5jpgqwzuvgnogihw2r438rqn4x87czwod2vymr6pb873mmr55822pj3ytea3cn3dryaoioxdlfxkm7ygdht2j7zcfeewi8t8rqxc58myidn7kc12icy7lioyek7xohezrfm1emq52c70m6fxsp1",
-    "longitude": 805.0,
-    "latitude": 385.0,
-    "time_zone": "6my90ge4wj534r9bnm2lb5m0q47x8fs3gj571o32vdt59d0qlvqjavzrn2l98lg2k6fo5kwz772dq8mo22k5bntvk0cq12uptfsecao78yxlrop0hyq2ho0gc2xctoy3ngqt9ivbxhkmqhur3r45ky6hkvxql5opv1t6j56b66m36mzvbzo7kcfifi45lhh1",
-    "payment_limit": 955.0
+    "sub_region": "ht2j7zcfeewi8t8rqxc58myidn7kc12icy7lio",
+    "longitude": 385.0,
+    "latitude": 191.0,
+    "time_zone": "yek7xohezrfm1emq52c70m6fxsp16my90ge4wj534r9bnm2lb5m0q47x8fs3gj571o32vdt59d0qlvqjavzrn2l98lg2k6fo5kwz772dq8mo22k5bntvk0cq12uptfsecao78yxlrop0hyq2ho0gc2xctoy3ngqt9ivbxhkmqhur3r45ky6hkvxql5op",
+    "payment_limit": 276.0
   }
 ]

@@ -9,556 +9,513 @@
     ],
     "is_return": true,
     "is_reverse": true,
-    "cdek_number": "yqxkz71cknzu3ht",
-    "number": "5vgia2hd8cg0a0pgwk69q8e5c8",
-    "accompanying_number": "n44qxwrnoof0o9hocm7x553ma7on27rg24ynh0bqny",
+    "cdek_number": "4tqbym1fc8rktes",
+    "number": "vspxdoy8ns9g3syphr1psqmg0j",
+    "accompanying_number": "79yfxrwf2yqxkz71cknzu3ht5vgia2hd8cg0a0pgwk",
     "accompanying_waybill": {
-      "client_name": "32tuv8pqpbdu7",
-      "flight_number": "3fqyeetpiebi9vvv726rga6axddr0561",
-      "air_waybill_numbers": [
-        "9fp7wxmrmqorw37dcgrgfvad2uznilftx0haxgsv832vkt27a",
-        "43rqnwyovcs78au2faa0upzp1a9jqwgg",
-        "o7dn"
-      ],
-      "vehicle_numbers": [
-        "npg5sbjqlfv5tafsrf6wwzmgo0z6o90eb6pwp",
-        "n2z8ocw276wgc54rgan5fjg"
-      ],
-      "vehicle_driver": "z739uq6jlp5o01qb9gmoywvz6kjyx6qxb5xidqq",
-      "planned_departure_date_time": "3kuur2xjqrtrqin24drtimo0o1szzyzz1r5cb6sq6lcz8"
+      "client_name": "69q8e5c8n44qx",
+      "flight_number": "test_value",
+      "air_waybill_numbers": "test_value",
+      "vehicle_numbers": "test_value",
+      "vehicle_driver": "test_value",
+      "planned_departure_date_time": "test_value"
     },
-    "tariff_code": 654,
-    "comment": "h9g9pxayjpph21fptpgnzzng6ztcdzkbn3lz6mnx7zu",
-    "shipment_point": "19biwomwqbttclb9nps7fm9vrl3g5",
-    "delivery_point": "sft0gekocewioc2fqzuhukhx8nnjl7jqqc4a",
-    "date_invoice": "ldm7uvdresblq",
-    "keep_free_until": "j7fhklibhk9juth92lnuvu3txwgiazvj",
-    "shipper_name": "fqxjhufux6r15l0j5zykw7w24g6ubr67t8rxh3jwkbz96mydsr3swpalx7hrez3ms2czlbk",
-    "shipper_address": "1rmvlbgzzxlpwi5omekjmog158o9ufadkzw2u0mwp3dp4ylz61ile18e77mnkd6ghjooe2sjld4rp9ywl79cir87nd2o1ple7a5zq0x8zwvdidgwbx447xzpmo0dp339cvvlud44wtow1puoqms3rn99tsgd7bej5mejj0uha1nu3uiqe4s96mn629j",
+    "tariff_code": 690,
+    "comment": "wrnoof0o9hocm7x553ma7on27rg24ynh",
+    "shipment_point": "0bqny32tuv8pqpbdu73fqyeetpiebi9vvv726rga6axddr05619fp7wxmrmqorw37dcgrgfvad2uznilftx0haxgsv832vkt27a43rqnwyovcs78au2faa0upzp1a9jqwggo7dnnpg5sbjqlfv5tafsrf6wwzmgo0z6o90eb6pwpn2z8ocw276wgc54rgan5fjgz739uq6jlp5o01qb9gmoywvz6kjyx6qxb5xi",
+    "delivery_point": "dqq3kuur2xjqrtrqin24drtimo0o1szzyzz1r5cb6sq6lcz8h9g9pxayjpph21fptpgnzzng6ztcdzkbn3lz6mnx7zu19biwomwqbttclb9nps7fm9vrl3g5sft0gekocewioc2fqzuhukhx8nnjl7jqqc4aldm7uvdresblqj7fhklibhk9juth92lnuvu3txwgiazvjfqxjhufux6r15l0j5zykw7w24g6ubr67t8rxh3jw",
+    "date_invoice": "kbz96mydsr3swpalx7hrez3ms2czlbk1",
+    "keep_free_until": "rmvl",
+    "shipper_name": "bgzzxlpwi5omekjmog158o9ufadkzw2u0mwp3dp4ylz61ile18e77mnkd6ghjooe2sjld4rp9ywl79cir87nd2o1ple7a5zq0x8zwvdidgwbx447xzpmo0dp339cvvlud44wtow1puoqms3rn99tsgd7bej5mejj0uha1nu3uiqe4s96mn629j4fag0u1pwty1eurf2s6acu8cyt7uwfmwiqbssgti",
+    "shipper_address": "q0b9sqergq9dye3ldx2idxnerslrq3xk8wqao5io1x8v0sltauaj5vr501r2rh47g9riih8ren13dty1lbnv4wtdoxyag4lelrbjo3qdg47f7onf5ccvvjcl2qgmbdjxqfse5ji0msuxdx8cd84ymdnm0fq98qbmb1zvc8lxetmlmj6p8cezkgj7ch4kgbf5t7pylgqkfw0fbvtyo2h6ver34jorw6p871b3m",
     "delivery_recipient_cost": {
-      "value": 242.0,
-      "vat_sum": 85.0,
-      "vat_rate": 795
+      "value": 406.0,
+      "vat_sum": 230.0,
+      "vat_rate": 748
     },
     "delivery_recipient_cost_adv": [
       {
-        "threshold": 681,
-        "sum": 556.0,
-        "vat_sum": 573.0,
-        "vat_rate": 952
+        "threshold": 170,
+        "sum": 540.0,
+        "vat_sum": 35.0,
+        "vat_rate": 524
       },
       {
-        "threshold": 645,
+        "threshold": 159,
+        "sum": 838.0,
+        "vat_sum": 698.0,
+        "vat_rate": 242
+      },
+      {
+        "threshold": 85,
         "sum": 795.0,
-        "vat_sum": 27.0,
-        "vat_rate": 619
+        "vat_sum": 577.0,
+        "vat_rate": 681
       }
     ],
     "sender": {
-      "company": "4fag0u1pwty1eurf2s6acu8cyt7uwfmwiqbssgtiq0b9",
-      "name": "sqergq9dye3ldx2idxnerslrq3xk8wqao5io1x8v0sltauaj5vr501r2rh47g9riih8ren13dty1lbnv4wtd",
-      "contragent_type": "LEGAL_ENTITY",
-      "passport_series": "ox",
-      "passport_number": "yag4lelrbjo3qdg47f7onf5ccvvjcl",
-      "passport_date_of_issue": "2qgmbdjxqfs",
-      "passport_organization": "e5ji0msuxdx8cd84ymdnm0fq98qbmb1zvc8lxetmlmj6p8cezkgj7ch4kgbf5t7pylgqkfw0fbvtyo2h6ver34jorw6p871b3mpe1tx030zgew17o5z4si2dc2k6k06u",
-      "tin": "4b09kra884",
-      "passport_date_of_birth": "1aytcbrjeib74jl9ufcjezuzzheo",
-      "email": "papc4mpub0zykhh6guhuth42io3zj2p9tvgw2p14n6i0xmz211hw2eg90byi0awjycffbrwblvtxtaaqa3ckxvzmaxj8x19ppqopo7kaozde8mjkr7wgclgz6obg5dt951ma839ypsaevx99d9rprvbu92zuqp4i4nbn68tbsrpdl2gnl8eq5jqei699ri2nyof2o2drpkncrtymdn61h7ee4",
+      "company": "pe1tx030zgew17o5z4si2dc2k6k06u4b09kra8841aytc",
+      "name": "brjeib74jl9ufcjezuzzheopapc4mpub0zykhh6guhuth42io3zj2p9tvgw2p1",
+      "contragent_type": "4n6i0xmz211hw2eg90byi0awjycffbrwblvtxtaaqa3ckxvzmaxj8x19ppqopo7kaozde8mjkr7wgclgz6obg5dt951ma839ypsaevx99d9rprvbu92zuqp4i4nbn68tbsrpdl2gnl8eq5jqei699ri2nyof2o2drpkncrtymdn61h7ee4i56c3l2",
+      "passport_series": "c",
+      "passport_number": "z3izbc",
+      "passport_date_of_issue": "dym8wib4b5rmejy73gfcmczxfl9b",
+      "passport_organization": "k7zru9v33h7itysekohsw05z0s26",
+      "tin": "ss6pwgz5lhe1",
+      "passport_date_of_birth": "ezevom16w6r3zpm6zabfxr0h1jq2fnvfzl8nvwgymuji",
+      "email": "obym778cfscrileck3dea012rlmbpx8v9k28o4pj5bxwb4z2cnyaczriwuau0f91qcllbvw3eiuke80bx463",
       "phones": [
         {
-          "number": "i",
-          "additional": "56c3l2cz3izbcdym8wib4b5rmejy73gfcmczxfl9bk7zru9v33h7itysekohsw05z0s26ss6pwgz5lhe1ezevom16w6r3zpm6zabfxr0h1jq2fnvfzl8nvwgymujiobym"
+          "number": "14kwb08bueu",
+          "additional": "2ttyb5zfc6aemsly8l3e7vmct4ex6hxtplmy5xiwm5o9evpjxrrgdzep8zr2wno6yuqwqn2t3smrw6ri65qs0f87tydjjxuk0pz3pgp8pl8u9q5fx0tybi1ctf6af7oz"
         },
         {
-          "number": "778cfscrileck3dea012",
-          "additional": "rlmbpx8v9k28o4pj5bxwb4z2cnyaczriwuau0f91qcllbvw3eiuke80bx46314kwb08bueu2ttyb5zfc6aemsly8l3e7vmct4ex6hxtplmy5xiwm5o9evpjxrrgdzep8zr2wno6yuqwqn2t3smrw6ri65qs0f87tydjjxuk0pz3pgp8pl8u9q5fx0tybi1ctf6af7ozng4x42"
-        },
-        {
-          "number": "5qn9x0y5r",
-          "additional": "rzi"
+          "number": "ng4x425qn9x0y5rrzi8htvs",
+          "additional": "318k493wslo4o2zbtodvwzk1bh2krnj8i8klcn1kyujosvu5wmed1nhi8ur6hq47fvncl9lbbow2q5g31n3q5fxf0rxx"
         }
       ],
       "passport_requirements_satisfied": true
     },
     "seller": {
-      "name": "8htvs318k493wslo4o2zbtodvwzk1bh2krnj8i8klcn1kyujosvu5wmed1nhi8ur6hq47fvncl9lbbow2q5g31n3q5fxf0rxx7okvxarl1gwu7kv821rnr1xhhd09e673hz7g11ndryg1ec4tskcwgwg7sirynysop0jds1un6js3vcrkblf23bib26j7h6fs50a65",
-      "inn": "eqh7iw8g",
-      "phone": "otycx7vkh8h0175oq6p2i62muuejfmathjickljyyk9znad3l8m4wdpgv2k62lgzi7m9yxqbm4210o4o6tliwh5n0ymu4em1y8g5cvhq06ql0hw2tpqpsh29z4lqoil5yro5f87erphy5zv4jl1ftewi2pv",
-      "ownership_form": "htn7k647g",
-      "address": "wgyct73qj8tr09w5jkf79qluscrsfphrljga9uxygq23g6gxkil8d91mwsxp6l"
+      "name": "7okvxarl1gwu7kv821rnr1xhhd09e673hz7g11ndryg1ec4tskcwgwg7sirynysop0jds1un6js3vcrkblf23bib26j7h6fs50a65eqh7iw8gotycx7vkh8h0175oq6p2i62muuejfmathjickljyyk9znad3l8m4wdpgv2k62lgzi7m9yxqbm4210o4o6tliwh5n0ymu4em1y8g5cvhq06ql0hw2tpqpsh29z4",
+      "inn": "l",
+      "phone": "qoil5yro5f87erphy5zv4jl1ftewi2pvhtn7k647gwgyct73qj8tr09w5jkf79qluscrsfphrljga9uxygq23g6gxkil8d91mwsxp6l7gk42m4bok7dk2bpmqusghmbkx",
+      "ownership_form": "fzgsf2bsdf13giy6afrj1k6amta",
+      "address": "crn40q29zqvybved9fumyzt6n9quppt21hxcys6bovjrv0m6ezm0nxc38nl12quwtk7jjf9xlw0fafvxyozhxf8a9lklgk946mrxi4jboc4fcko1jgorrxbt7zg3eka7asbutwuxdlvtra36xn9ekx4mpxmxzbpak82q12cjnl3555zabq3g0iv7aits9d"
     },
     "recipient": {
-      "company": "7gk42m4bok7dk2bpmqusghmbkxfzgsf2bsdf13giy6afrj1k6amtacrn40q29zqvybved9fumyzt6n9quppt21hxcys6bovjrv0m6ezm0nxc38nl12quwtk7jjf9xlw0fafvxyozhxf8a9lklgk946mrxi4jboc4fcko1",
-      "name": "jgorrxbt7zg3eka7asbutwuxdlvtra36xn9ekx4mpxmxzbpak82q12cjnl3555zabq3g0iv7aits9divrlifsgpepasqzvh6b3trjxddmymrxb6si18jauio8evwgwy0f7i6f472n99ohz9u1dpvlp2rjrauaodtjw767jtamaepo14wq7mnk1584qijhumef34qktibad9ycivwlj7j3vfb3b5plahmo",
-      "contragent_type": "LEGAL_ENTITY",
-      "passport_series": "hje",
-      "passport_number": "sktturj7z3",
-      "passport_date_of_issue": "i4dfndzqsf2kp3ykgzvys4z9wmybbpi1m8m4u57hb51a",
-      "passport_organization": "jd8jknlqp8bkc2rtn74r3ysh1h4ccvq9qni3ul5kt8khd030utdkmidlimzm1sxsmm1bjvmi6nto56qx3mpbq5hcltpnp63lor1wn36ogok24yxsbvt6hyi7weyhpoavcn9rrcja00kegs2o8l3tcizb",
-      "tin": "wwupim10q9a",
-      "passport_date_of_birth": "rimod6x9j9tklr3tyluykiy85naqyhee",
-      "email": "8swi3p6bnazypozpn2xosh7b0j8wh1wdn2ad56zqw5ombsxxkvoj0i1aq4j2rflnjto4gjj13couldi1wvxz36pvrgzhf3w5",
+      "company": "ivrlifsgpepasqzvh6b3trjxddmymrxb6si18jauio8evwgwy0f7i6f472n99ohz9u1dpvlp2rjrauaodtjw767jtamaepo14wq7mnk1584qijhumef34qkti",
+      "name": "bad9ycivwlj7j3vfb3b5plahmohjesktturj7z3i4dfndzqsf2kp3ykgzvys4z9wmybbpi1m8m4u57hb51ajd8jknlqp8bkc2rtn74r3ysh1h4ccvq9q",
+      "contragent_type": "ni3ul5kt8khd030utdkmidlimzm1sxsmm1bjvmi6nto56qx3mpbq5hcltpnp63lor1wn36ogok24yxsbvt6hyi7weyhpoavcn9rrcja00kegs2o8l3tcizbwwupim10q9arimod6x9j9tklr3tyluykiy85naqyhee8swi3p6bnazypozpn2xosh7b0j8wh1wdn2ad56zqw5o",
+      "passport_series": "m",
+      "passport_number": "bsx",
+      "passport_date_of_issue": "xkvoj0i1aq4j2rflnjto4gjj13couldi1wvxz36",
+      "passport_organization": "pvrgzhf3w5vi4gimc86u4758o5fu65s614u7onsofit7zr1i5fn1xmlsu0sxz1r92qd2djy4cbyfzh80yracdohszjns3e4gs4x7wf90keqg0omkzv1x2idrp62ji41cnyobxng9x030ozad2avkjq9zumikkfafmv4v0ne957gjq3umaa6yzm163halexfyaya5cs",
+      "tin": "2biq9qlt",
+      "passport_date_of_birth": "cdqo6pktxp37axxivlqy1o30vj4",
+      "email": "0l4558ujpgd0y4kt9qk38v08dppuz9sqzv1a9bquimkppbhmqxc3msgisvrwbk46npk6g4n1psqzfiq4lwe99cxqzdlausurc5joed1doqcjwra84accs2y692zdn06vcwuwdu4uz",
       "phones": [
         {
-          "number": "vi4gimc86u4758o5fu65",
-          "additional": "s614u7onsofit7zr1i5fn1xmlsu0sxz1r92qd2djy4cbyfzh80yracdohszjns3e4gs4x7wf90keqg0omkzv1x2idrp62ji41cnyobxng9x030oza"
+          "number": "8xk2c",
+          "additional": "asvnnp6ml662ef4p4y6mjxj4mc71sw5m676ecgxvw3r5g6e1hod7e6e7zadz66htpuzwr4laiczipxnc76ximbgusyvk65uthiyy6bst2fqyd3tcwrz9hq460dvz5x85g64lkxh5v7stn6jpd01p6suviii0qhpr6alfeprrashcyesr46rppgny5vp2plq0ymhelc86vir209q7cencw3w0jymp7vqw9"
+        },
+        {
+          "number": "ib5vmhaqldm4gwxeeq3",
+          "additional": "ifyspubjpomm5hr9zj462emawccg98oc23rka2j14sc9o6zp96tm6en0wndsd3s44imnj4w0fzbmsa5v2bkqhvdkhizbp4fuzs1hnxz45byba9li916vyrfrpohmgq5vmw2va2e8jsg8mjbfh9ygwsvmuas6dc081ffw6pxemle4113r08zr6y4b65rq7g83l8kdy5t4dacvqn8m8bmprg93gosbm4pf15jrdighgc"
         }
       ],
       "passport_requirements_satisfied": false
     },
     "from_location": {
-      "code": 496,
+      "code": 663,
       "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "city": "d2avkjq9zumi",
+      "city": "qbo2vdfzkzqx184",
       "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "kladr_code": "kkfafmv4v0ne957gjq3umaa6yzm163halexfyay",
-      "country_code": "a5",
-      "country": "cs2",
-      "region": "biq9qltcdqo6pktxp37axxivlqy1o30vj40l4558ujpgd0y4k",
-      "region_code": 612,
+      "kladr_code": "m8por0881ilou86swma2xpyw1pkcoaga",
+      "country_code": "5i2zw26gl45tq9ca06tn9ewof6sm2fop",
+      "country": "xwjq3js2b9sgzocpb41g3g92",
+      "region": "xd2e232zsz033cgimoe2800h5tjm28h243vulkbb7",
+      "region_code": 691,
       "fias_region_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "sub_region": "t9qk38v08dppuz9sqzv1a9bquimkppbhmqxc3msgisvrwbk46",
-      "longitude": 951.0,
-      "latitude": 80.0,
-      "time_zone": "npk6g4n1psqzfiq4lwe99cxqzdlausurc5joed1doqcjwra84",
-      "payment_limit": 1.0,
-      "address": "accs2y692zdn06vcwuwdu4uz8xk2casvnnp6ml662ef4p4y6mjxj4mc71sw5m676ecgxvw3r5g6e1hod7e6e7zadz66htpuzwr4laiczipxnc76ximbgusyvk65uthiyy6",
-      "postal_code": "bst2fqyd3tcwrz9hq460dvz5x85g"
+      "sub_region": "cpdwty3rk2qzwtbx40bndm98hbf4jujwc5tj27thgfkr2yucr",
+      "longitude": 829.0,
+      "latitude": 496.0,
+      "time_zone": "xj0lgqazo648",
+      "payment_limit": 509.0,
+      "address": "ahlsy5lm1afhdeyv1wddubgpqtw7k76zbwv7ojo",
+      "postal_code": "2w"
     },
     "to_location": {
-      "code": 565,
+      "code": 386,
       "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "city": "64lkxh5v7stn6jpd01p6suv",
+      "city": "qi9ip964fjpdvmp2fzkx2cjazlnyhd1gj9bznpqvdsbispyrw",
       "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "kladr_code": "iii0qhpr6alfeprrashcyesr46rppgny5vp2p",
-      "country_code": "lq0ymhelc86vir209q7cencw3w0jymp7",
-      "country": "vqw9ib5vmhaqldm4gwxeeq3ifyspubjpo",
-      "region": "m",
-      "region_code": 402,
+      "kladr_code": "ukdy53z97ilbeevedi2v0jpjfefyd58j79fps",
+      "country_code": "7y4q34s82ad1rzsfah6uxys2jl6gqj4fqrzphxm25xpk5f86r",
+      "country": "mjzqay7jtgp2lqtzs",
+      "region": "lu7g8oaz8yovfoxug255edvr8qxbmoecc8w13r96zqgh4l4sj",
+      "region_code": 1,
       "fias_region_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "sub_region": "m5",
-      "longitude": 52.0,
-      "latitude": 683.0,
-      "time_zone": "hr9zj462emawccg98oc23rka2j",
-      "payment_limit": 671.0,
-      "address": "14sc9o6zp96tm6en0wndsd3s44imnj4w0fzbmsa5v2bkqhvdkhizbp4fuzs1hnxz45byba9li916vyrfrpohmgq5vmw2va2e8jsg8mjbfh9ygwsvmuas6dc081ffw6pxemle4113r08zr6y4b65rq7g83l8kdy5t4dacvqn8m8bmprg93gosbm4pf15jrdighgcqbo",
-      "postal_code": "2vdfzkzqx184m8por0881ilou86swma2"
+      "sub_region": "lt",
+      "longitude": 219.0,
+      "latitude": 565.0,
+      "time_zone": "gnkg2j2i9js4qi67xigpsfk",
+      "payment_limit": 996.0,
+      "address": "lmlujt91xel8bivelavsp4cwrzmrcwcy00yxhi3spxu9fendhxkquz0pz64fhg7npijqlfs2fyxyppfud711qngva243or837k0x8hrmxwl341v1mygfxss9i92xezn2fgrwad8w0zhpc5etn5zf9em5pamkhy5x1nc90to01y6nhnaprgoxmio8x6ph2w4n30pf6rplt23zv62vmixo9m0ghnl9q20a",
+      "postal_code": "7dxu6gaco4pj2f2qvxqukgeur8toemluf"
     },
     "services": [
       {
-        "code": "xpyw",
-        "parameter": "1pkcoaga5i2",
-        "sum": 183.0,
-        "total_sum": 122.0,
-        "discount_percent": 400.0,
-        "discount_sum": 766.0,
-        "vat_rate": 293.0,
-        "vat_sum": 279.0
-      },
-      {
-        "code": "zw26g",
-        "parameter": "l45tq9ca06tn9ewof6sm2fopxwjq3js2b9",
-        "sum": 197.0,
-        "total_sum": 981.0,
-        "discount_percent": 906.0,
-        "discount_sum": 510.0,
-        "vat_rate": 751.0,
-        "vat_sum": 143.0
-      },
-      {
-        "code": "s",
-        "parameter": "gzocpb41g",
-        "sum": 123.0,
-        "total_sum": 186.0,
-        "discount_percent": 325.0,
-        "discount_sum": 463.0,
-        "vat_rate": 348.0,
-        "vat_sum": 770.0
+        "code": "gzh",
+        "parameter": "i0",
+        "sum": 52.0,
+        "total_sum": 683.0,
+        "discount_percent": 729.0,
+        "discount_sum": 671.0,
+        "vat_rate": 709.0,
+        "vat_sum": 415.0
       }
     ],
     "packages": [
       {
-        "number": "3g92",
-        "barcode": "xd2e232zsz033cgimoe",
-        "weight": 345,
-        "length": 962,
-        "width": 510,
-        "weight_volume": 146,
-        "weight_calc": 147,
-        "height": 863,
-        "comment": "2800h5tjm28h243vulkbb7cpdwty3rk2qzwtbx40bndm98hbf4jujwc5tj27thgfkr2yucrxj0lgqazo648ahlsy5lm1afhdeyv1wddubgpqtw7k76zbwv7ojo2wqi9ip964fjpdvmp2fzkx2cjazlnyhd1gj9bznpqvdsbispyrwukdy53z97ilbeevedi2v0jpjfe",
+        "number": "du4u",
+        "barcode": "yo81ndt7l6x",
+        "weight": 183,
+        "length": 122,
+        "width": 400,
+        "weight_volume": 766,
+        "weight_calc": 293,
+        "height": 279,
+        "comment": "te3xg9powl2o2uonpod0w2igdeek1p3dbcufreit1zrsci94qw7eocs1cdx4kaiqacz4z",
         "items": [
           {
-            "name": "fyd58j79fps7y4q34s82ad1rzsfah6uxys2jl6gqj4fqrzphxm25xpk5f86rmjzqay7jtgp2lqtzslu7g8oaz8yovfoxug255edvr8qxbmoecc8w13r96zqgh4l4sjltgnkg2j2i9js4qi67xigpsfklmlujt91xe",
-            "ware_key": "l8bivelavsp4cwrzmrcwcy00yxhi3spxu9fendhx",
-            "marking": "kquz0pz64fhg7npijqlfs2fyxyppfud711qngva243or837k0x8hrmxwl341v1mygfxss9i92xezn2fgrwad8w0zhpc5etn5zf9em5pamkhy5x1nc90to01y6nhnaprg",
+            "name": "w3jhyvojtwabsnhlz02oa1cr752yzhsv268csj0okzxm5dmi7galukn77ydzpjb8sfshnjc2owwrs1zjdbcgp4js1q1swtmmkoq1sdvv766lb1jvqzcghtl8q1jv6vm0ov3778sh61y9qxub463llxxkm0hjhthign1bhmu18wobl9cecsbqn10jc9yv3u314zvuam",
+            "ware_key": "uiqu4vlfpzein3z2shw848",
+            "marking": "5epq55tbtra22sfhxtne7pgpg0nn66t9g5c2xvfxwjpk5fx6l0rm3m793yb9resr5ujvmqixnhs13gzknuhc12wr8mlekk44mny66opfyodd37045ihn6wulbmdtn32hlzbnf4qy5lm",
             "payment": {
-              "value": 550.0,
-              "vat_sum": 337.0,
-              "vat_rate": 871
+              "value": 510.0,
+              "vat_sum": 751.0,
+              "vat_rate": 143
             },
-            "weight": 640,
-            "weight_gross": 778,
-            "amount": 987,
-            "delivery_amount": 952,
-            "name_i18n": "oxmio8x6ph2w4n30pf6rplt23zv62vmixo9m0ghnl9q20a7dxu6gaco4pj2f2qvxqukgeur8toemlufgzhi0du4uyo81ndt7l6xte3xg9powl2o2uonpod0w2igdeek1p3dbcufreit1zrsci94qw7eocs1cdx4kaiqacz4zw3jhyvojtwabsnhlz02oa1cr752yzhsv268csj0okzxm5dmi7",
-            "brand": "galukn77ydzpjb8sfshnjc2owwrs1zjdbcgp4js1q1swtmmkoq1sdvv766lb1jvqzcghtl8q1jv6vm0ov3778sh61y9qxub463llxxkm0hjhthign1bhmu18wobl9cecsbqn10jc9yv3u314zvuamuiqu4vlfpzein3z2shw8485epq55t",
-            "country_code": "b",
-            "material": "tra22sfhxtne7pgpg0nn66t9g5c2xvfxwjpk5fx6l0rm3m793yb9resr5ujvmqixnhs13gzknuhc12wr8mlekk44mny66opfyodd37045ihn6wulbmdtn32hlzbnf4qy5lmsy4ypwnfywlm97fhh67o98vwve4m",
+            "weight": 608,
+            "weight_gross": 200,
+            "amount": 123,
+            "delivery_amount": 186,
+            "name_i18n": "sy4ypwnfywlm97fhh67o98vwve4m1t6p2wx7gd7vewo4iyyuivwd2oa32t69vmgh1iypjk",
+            "brand": "4l4n5q8a2dw1pluqm5olo7fqtiew6nqs6am0ff638wjs1wdts07dggzzsitpqvmlja53huvrbiczu319z7hjnoqr5ww8ox1ppfbmi7q02vxg7lwo6mw58aeme5uxrujxuywvd7f148wfpbxqafe2lca0xshb335amkjztqqdewj16z20rjejuxc4bb7t6dkey7ifrnsnq82qha9g",
+            "country_code": "e",
+            "material": "x1q",
             "wifi_gsm": false,
-            "url": "1t6p2wx7gd7vewo4iyyuivwd2oa32t69vmgh1iypjk",
+            "url": "tczohmcai4zq7imemayd9j1f0lc6j4og9nnc",
             "seller": {
-              "name": "4l4n5q8a2dw1pluqm5olo7fqtiew6nqs6am0ff638wjs1wdts07dggzzsitpqvmlja53huvrbiczu319z7hjnoqr5ww8ox1ppfb",
-              "inn": "mi7q02v",
-              "phone": "xg7lwo6mw58aeme5",
-              "ownership_form": "uxrujxuywvd7f148wfpbxqafe2",
-              "address": "lca0xshb335amkjztqqdewj16z20rjejuxc4bb7t6dkey7ifrnsnq82qha9gex1qtczohmcai4zq7imemayd9j1f0lc6j4og9nnccvs8lej6m85k",
-              "giis_subdivision_id": "x8sf8d6m9slkfl0ycct1wcxftk50umv8v1ur4uny0w423zts0"
+              "name": "cvs8lej6m85kx8sf8d6m9slkfl0ycct1wcxftk50umv8v1ur4uny0w423zts0yw2ocjopqskeenzhegpnd9q9fp29j92nd9mr6upoefcl96964u00h5zblvqgd5kayxqh0r0vpberc0qpfgno60",
+              "inn": "2e25fbfd2y",
+              "phone": "icz",
+              "ownership_form": "095apkzaz1ivh0syuxx",
+              "address": "sbn551mlhozl0r90iagzgghpcjgu4w0v0dxwsc0c1q4jv3u9wlytg22mcbp3fgeg75m3yuu1t7erkqvtf7nwtm5zn9hvvp0jy4u0q64zu9addzdi3dewpvh6pepgaircx1jim8wqgp9txef1ebur",
+              "giis_subdivision_id": "lqognac4mrqqktj27qm0z1ml1b7w28k6"
             },
             "return_item_detail": {
-              "direct_order_number": "yw",
+              "direct_order_number": "kinic2s",
               "direct_order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-              "direct_package_number": "2"
+              "direct_package_number": "95g1rewvzlsac0r3be26t3euoth4lu30z6zz9aoak"
             },
-            "excise": false,
-            "cost": 253.0,
-            "feacn_code": "ocjopqskeenzhegpnd9q9fp29j92nd9mr6upoefcl96964u00h5zblvqgd5kayxqh0r0vpberc0qpfgno602e25fbfd2yicz095apkzaz1ivh0syuxxsbn551mlhozl0r90iagzgghpc",
-            "jewel_uin": "jgu4w",
+            "excise": true,
+            "cost": 935.0,
+            "feacn_code": "ba4pvrq3j8upfcumrx0dvxjbfrqw3ujmlidx7eodhx10a7qzxu3mc58snvqdsbobkwjcecms8xxqjbwfbu82g2w6hljoxzcbfuij9cxvn06v2ssfsmzvu9b30gt4wmqd",
+            "jewel_uin": "ntmczzr5ncazx8ncmnuzcd9a6gk0nvpljxrviqm",
+            "used": false
+          },
+          {
+            "name": "fu9g9ykn2jehexzfp9lkcfsrpwichdl4ypnmgldb8cdlsjaqpiiilobkkh5ft8h7sg4rn9qit1t90h5aqit5b5i3tae89ani3xdnydyj",
+            "ware_key": "8",
+            "marking": "gmd9nrh50wg",
+            "payment": {
+              "value": 987.0,
+              "vat_sum": 952.0,
+              "vat_rate": 472
+            },
+            "weight": 945,
+            "weight_gross": 150,
+            "amount": 414,
+            "delivery_amount": 989,
+            "name_i18n": "lyczd9o52jups2rpabo1aev9mapv5polaq1givzlgo",
+            "brand": "unbhf6fznhmm1rs5vbmwy1k6xb3q7vepmz4wlnr01rppm2iz1m9inl5cpt5wqphs37nvqo5mu608p17a4966rwwoz3ypnql25xm",
+            "country_code": "t",
+            "material": "od71b3zzt1tkjwsr0fjbx11bekjbogt787v4wsdxt1qs8583q2fqqnx59n0s4iqsdkvdqh7k4ku3jz0hhh7pmwl0v50b6z1se6t3hqacz4hh81dpmtetx977sqeyrh0ompvtmtb8sfndv970gc6bpyoxo4nnfnqrtqp5i06jq9qrw7hmwtvw8c76qs3wonbrf5u10b6pvmbn1gr99d3xt4xgzmhem2tn50yduroxh1upp8qi82rlsvoabhvy",
+            "wifi_gsm": false,
+            "url": "biimf3oogkbjqgd894ymrua9hu",
+            "seller": {
+              "name": "u0sw8ehkpxuwhgb3mw2t62owc2hv2batuh08fsray0g249sfy4itj0mbu6x7ib3vkq9mgp6akft8zl310see01z0ua1oqztym6yhefw3nwk4fkml",
+              "inn": "b89q11vgo",
+              "phone": "5kxc3fbnr4mzlriux7h6wmnnpzza5our3mx3bsynfltw33339",
+              "ownership_form": "7p",
+              "address": "xnzhn4bdatnyycezdg33s866nj1n9pu16foc8nb2dzlbq8jvuo8uuu5eiruh7jxx567k4rwvrtmadx99b1zwo90f889j32ded9pynk27vnxz9p5f7h30g0yoyvrlwyj3j",
+              "giis_subdivision_id": "7m2imnihc65gs7nszq1s0s6g2e3hlmzrtpc0o7vwdwixupyz"
+            },
+            "return_item_detail": {
+              "direct_order_number": "io6aeif1z1of",
+              "direct_order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+              "direct_package_number": "0dku3"
+            },
+            "excise": true,
+            "cost": 159.0,
+            "feacn_code": "r8cl03uuor2uqrlktiacuwissw009l076145t844viiomvp5bzn7h9u1ft46ghibqq83fd8ifmv139b9hiamo574nn2s0i1x19ry8dnzhxptogqvvlropeb1049a2ahp1vrvlsye7jgoxzzzjqnbm0igjivwgi0x2qtgg1stgfymvqv7hrxbb0nl511ydz9caqges78p0yznnny9do5rnatjjx710a6dgipe7wymxkqm0t65h2sfuvjj2pa",
+            "jewel_uin": "q3zsuqusg",
             "used": true
           }
         ],
         "services": [
           {
-            "code": "0v0dxwsc0"
+            "code": "qafzb5e4l83fooptm47"
           },
           {
-            "code": "c1q4jv3u9wlytg22mcbp3fgeg75m3yuu1t7erkqvt"
+            "code": "2cikkyvitujv2iekaaevzf5kj74lpcbeky88vvk584ht7drd"
           },
           {
-            "code": "f7nwtm5zn9hvvp0jy4u0q64zu9addzdi3de"
+            "code": "tipzydsnuocpnign"
           }
         ],
-        "package_id": "wpvh6pepgaircx1jim8"
+        "package_id": "fuo"
       },
       {
-        "number": "wqgp9txef1eburlq",
-        "barcode": "ognac4mrqqktj27q",
-        "weight": 130,
-        "length": 403,
-        "width": 151,
-        "weight_volume": 53,
-        "weight_calc": 119,
-        "height": 672,
-        "comment": "m0z1ml1b7w28k6kinic2s95g1rewvzlsac0r3be26t3euoth4lu30z6zz9aoakba4pvrq3j8upfcumrx0dvxjbfrqw3ujmlidx7eodhx10a7qzxu3mc58snvqdsbobkwjcecms8xxqjbwfbu82g2w6hl",
+        "number": "h7a5e3vtpggbn4neke2k",
+        "barcode": "e59osv7qlyqj1rr5nprpqgl7",
+        "weight": 53,
+        "length": 119,
+        "width": 672,
+        "weight_volume": 919,
+        "weight_calc": 627,
+        "height": 586,
+        "comment": "jeucs8fndr28ptx8sd6bm373x6jrsgsxowddewkkmnhyrrjgnopb33r4mt8w689tch52gbuf195ikwkbck8ok4115yt1yks1aej79brmetbk3551j",
         "items": [
           {
-            "name": "joxzcbfuij9cxvn06v2ssfsmzvu9b30gt4wmqdntmczzr5ncazx8ncmnuzcd9a6gk0nvpljxrviqmfu9g9ykn2jehexzfp9lkcfsrpwichdl4ypnm",
-            "ware_key": "gldb8cdl",
-            "marking": "sjaqpiiilobkkh5ft8h7sg4rn9qit1t90h5aqit5b5i3tae89ani3xdnydyj8gmd9nrh50wglyczd9o52jups2rpabo1aev9mapv5polaq1givzlgounbhf6fznhmm1rs5vbmwy1k6xb3q7vepmz4wlnr01rppm2iz1m",
+            "name": "vqvsqx9591n9fiul34d40yefe0hio9g5hosfs1qs4kojwccryt2voju25jmww4dcubdao6fgsaszlvm1nv3t07ao5h6r256erj96we7x",
+            "ware_key": "q4gq1vooyub05udsbz7n",
+            "marking": "ot79sig3m08moiw9c7s1wglnocoxhednptxf4f8o2ckc1j6pj69celmx5p59uluufialnfav7kcfftubz4z5jwfw13n57v4gupts5oeko2d9woc5jvnquooaxlj4kpins4i9zhxhs3vidha1f9kexrt1me3avre4f0y21pltr7w0qu4cqzwf1hhs2w5j0a2c4kvr8fcei1s10mu0fkqg3uay5he3hs3o90mn3mpg08o18gt55ztrovvubrwmig",
             "payment": {
-              "value": 421.0,
-              "vat_sum": 103.0,
-              "vat_rate": 851
+              "value": 226.0,
+              "vat_sum": 111.0,
+              "vat_rate": 509
             },
-            "weight": 253,
-            "weight_gross": 226,
-            "amount": 111,
-            "delivery_amount": 509,
-            "name_i18n": "9inl5cpt5wqphs37nvqo5mu608p17a4966rwwoz3ypnql25xmtod71b3zzt1tkjwsr0fjbx11bekjbogt787v4wsdxt1qs8583q2fqqnx59n0s4iqsdkvdqh7k4ku3jz0hhh7pmwl0v50b6z1se6t3hqacz4hh81dpmtetx977sqeyrh0ompvtmtb8sfndv970gc6bpyoxo4nnfnqrtqp5i06",
-            "brand": "jq9qrw7hmwtvw8c76qs3wonbrf5u10b6pvmbn1gr99d3xt4xgzmhem2tn50yduroxh1upp8qi82rlsvoabhvybiimf3oogkbjqg",
-            "country_code": "d",
-            "material": "894ymrua9huu0sw8ehkpxuwhgb3mw2t62owc2hv2batuh08fsray0g249sfy4itj0mbu6x7ib3vkq9mgp6akft8zl310s",
+            "weight": 472,
+            "weight_gross": 98,
+            "amount": 152,
+            "delivery_amount": 860,
+            "name_i18n": "abdn59bntyh1uw5h4p0r8o0qb477cqnn8a2d6q1zh7r40pjlvplkta0cl3iado0hwo04h3rdvco86nazhpjz1ltn82lrbbqjrvsax9y944bslj4vwwozcwthrf09oeigtjzdxnaqx0gi8lucou",
+            "brand": "j6fb26dd2twryao7t0ve7cqxxcgyco22j5windt1n7m461y5i14qwmjpfkc1omqg1mqo91ok4d870j3t22wujl36rnvuao9v56wbb2cg929wp47aroqjtfh75dtxxzy9",
+            "country_code": "gj",
+            "material": "laypesdfzinioth5us24fd2caou4gqsc382n813zg4e8n90x2vhoedkr3ofpi70m90iev4c3u8f15y58vx",
             "wifi_gsm": false,
-            "url": "ee01z0ua1oqztym6yhefw3nwk4fkmlb89q11vgo5kxc3fb",
+            "url": "354w6y9x4mjwr5691pprhpkfal1qa5hxjj9",
             "seller": {
-              "name": "nr4mzlriux7h6wmnnpzza5our3mx3bsynfltw333397pxnzhn4bdatnyycezdg33s866nj1n9pu16foc8n",
-              "inn": "b2",
-              "phone": "dzlbq8jvuo8uuu5eiruh7jxx567k4rwvrtm",
-              "ownership_form": "adx99b1zwo90f889",
-              "address": "j32ded9pynk27vnxz9p5f7h30g0yoyvrlwyj3j7m2imnihc65gs7nszq1s0s6g2e3hlmzrtpc0o7vwdwixupyzio6aeif1z1of0dku3r8cl03uuor2uqrlktiacuwissw009l076145t844viiomvp5bzn7h9u1ft46ghibqq83fd8ifmv139b9hiamo5",
-              "giis_subdivision_id": "74nn2s0i1x19ry8dnzhxptogqvvlropeb1049a2ah"
+              "name": "yjsopb2d24qj0o4uz9qcnm0aq7nqc7yb7z4i3tu2yyizplxztiw24stw03u8gvjwo37mdrw67798q1n7km6b72dlz1ctjr040afk7tuurusdmr2ym0sasaquvo5d5da6giaprfbidwhyp8qr0oqepo7shjezvwmit1x6t3iq9nsgc65kbzdqq13wx2d2s0298fwhbmu4909wumzg",
+              "inn": "vw3rrj3zg",
+              "phone": "gearmyhj5qooto8f3h45ormxn1kfyayb5m65",
+              "ownership_form": "x0dxw27u3ztpcywa6oq7qdmdgiw66tda7",
+              "address": "0uxo8yiqumcdd1gzkxjmsslv3l2ukr0lw7wyd33mnhxr8yq5xgm0e9z4jzvl506tmnvr",
+              "giis_subdivision_id": "2p87cdej254bl0e0w6dux4xjb4ydkqbfi"
             },
             "return_item_detail": {
-              "direct_order_number": "p1vrvlsye7jgoxzzzjqnbm0igjivwgi0x2qt",
+              "direct_order_number": "et2ui1h4t0hu1w",
               "direct_order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-              "direct_package_number": "gg1stgfymvqv7hrxbb0nl511ydz9caqge"
+              "direct_package_number": "fceigdeko7mgf3vy1tcea"
             },
             "excise": false,
-            "cost": 800.0,
-            "feacn_code": "s78p0yznnny9do5rnatjjx710a6dgipe7wymxkqm0t65h2sfuvjj2paq3zsuqusgqafzb5e4l83fooptm472cikkyvitujv2iekaaevzf5kj74lpcbeky88vvk584ht7drdtipzydsnuoc",
-            "jewel_uin": "pnignfuoh7a5e3vtpggbn",
-            "used": false
+            "cost": 915.0,
+            "feacn_code": "ozc7e4mavozriaiwbnrp2kfcnb54kvc46xao00lc35wbg755nc59qcjrcjik69z0vzve8b8irlcrg6frvi8wlximqgqxb81s6ujif8rseykjq9z45urranhbo79aua5t93gvjh0jnkfu6sxr8sx7vdjbh61ja7ciejlruuaceyhqi5fugg0hi1obgrvj6gcn9mppeyzmzahduvcsa2w6wegfvmldh4zh62e1qwib54g3cijza3oyfrac",
+            "jewel_uin": "qhqyl2y9",
+            "used": true
           },
           {
-            "name": "4neke2ke59osv7qlyqj1rr5nprpqgl7jeucs8fndr28ptx8sd6bm373x6jrsgsxowddewkkmnhyrrjgnopb33r4mt8w689tch52gbuf195ikwkbck8ok4115yt1yks1aej79brmetbk3551jvqvs",
-            "ware_key": "qx9591n9",
-            "marking": "fiul34d40yefe0hio9g5hosfs1qs4kojwccryt2voju25jmww4dcubdao6fgsaszlvm1nv3t07ao5h6r256erj96we7xq4gq1vooyub05udsbz7not79sig3m08moiw9c7s1wgl",
+            "name": "y2kdnqbh9jg9pnpyd2faacaau356v3dwylqoj82laajrbhvvzziu4fn6gxikwbo891djf38j5czoq0rslxex03o70t5dehvgv3poecwjeworyh4ubvhw5hd3swr2w6r6g1a7s4mxewsa6651lik6s7g4bs5jhz3kttiho7x60ue8udp4z8f6up7ofbx1aa19tha",
+            "ware_key": "zyjlglqen7q8a9ose",
+            "marking": "selsl9lr76r2eyx26j6wkxxgutjy9ofbldwmq4pz1altb9ov5t96oc20e4v8gfzasg9ltwy324rsdaohoovrpb9tpc3b8zebt77tytynlebp3x3knwpud6nse94r43u3",
             "payment": {
-              "value": 194.0,
-              "vat_sum": 400.0,
-              "vat_rate": 639
+              "value": 32.0,
+              "vat_sum": 687.0,
+              "vat_rate": 459
             },
-            "weight": 32,
-            "weight_gross": 687,
-            "amount": 459,
-            "delivery_amount": 954,
-            "name_i18n": "nocoxhednptxf4f8o2ckc1j6pj69celmx5p59uluufialnfav7kcfftubz4z5jwfw13n57v4gupts5oeko2d9woc5jvnquooaxlj4kpins4i9zhxhs3",
-            "brand": "vidha1f9kexrt1me3avre4f0y21pltr7w0qu4cqzwf1hhs2w5j0a2c4kvr8fcei1s10mu0fkqg3uay5he3hs3o90mn3mpg08o18gt55ztrovvubrwmigabdn59bntyh1uw5h4p0r8o0qb477cqnn8a2d6q1zh7r40pjlvplkta0cl3iado0hwo04h3rdvco86nazhpjz1ltn82lrbbqjrv",
-            "country_code": "s",
-            "material": "ax9y944bslj4vwwozcwthr",
+            "weight": 954,
+            "weight_gross": 882,
+            "amount": 469,
+            "delivery_amount": 374,
+            "name_i18n": "dej0p3m9uotte5f3zm2eym",
+            "brand": "x4thiutozkk03s7wacc1n3eonnhhs542km0szi15c5ehncxm2h4zrrgp6cd9diqq6tnv0cx3hvyj2auxizit899ivaeish5mt93j4y2xuibdh5nmuxrz564r8ly4j7ch52vtf2q47dbl8fhu8ogofqdv5v0ov1i79ioth1spkh6jr8c01fngjo42q2ozlyed4cczqjbxkx8w5w7sbbou8e0xgf6q3hgfdao4y68ee9qn2h",
+            "country_code": "7a",
+            "material": "292e5xslagq7gqc2v2e3wuzutwduuaoqns7ffe",
             "wifi_gsm": false,
-            "url": "f09oeigtjzdxnaqx0gi8lucouj6fb2",
+            "url": "g6mam0gcy6qnwx20w49qc9eofj5wqtovfdws4c1cnr0jo",
             "seller": {
-              "name": "6dd2twryao7t0ve7cqxxcgyco22j5windt1n7m",
-              "inn": "461y5i",
-              "phone": "14qwmjpfkc1omqg1mqo91ok4d870j3t22wujl36rnvuao",
-              "ownership_form": "9v56wbb2",
-              "address": "cg929wp47aroqjtfh75dtxxzy9g",
-              "giis_subdivision_id": "jlaypesdfzinioth5us24fd2cao"
+              "name": "sidohag4rl36g1cf4og30qrvz0xhu2uc400i66z14atlqo7pdh7",
+              "inn": "yo1ibq",
+              "phone": "ji4bxsqj",
+              "ownership_form": "11acojuownojieyzhvylijjiz80",
+              "address": "4sfo2enbwsxt0xqy411veh1lyo7",
+              "giis_subdivision_id": "mhm9f5ugzowop5rtbw3cav2n1u5faudc34"
             },
             "return_item_detail": {
-              "direct_order_number": "u4gqsc382n813zg4e8n90x2vhoedkr3ofp",
+              "direct_order_number": "7stwyowbo8jn0n86a7sxd",
               "direct_order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-              "direct_package_number": "i70m90iev4c3u8f15y58v"
-            },
-            "excise": false,
-            "cost": 608.0,
-            "feacn_code": "x354w6y9x4mjwr5691pprhpkfal1",
-            "jewel_uin": "qa5hxjj9yjsopb2d24qj0o4uz9qcnm0aq7nqc7yb7z4i3tu",
-            "used": false
-          },
-          {
-            "name": "2yyizplxztiw24stw03u8gvjwo37mdrw67798q1n7km6b72dlz1ctjr040afk7tuurusdmr2ym0sasaquvo5d5da6giaprfbidwhyp8qr0oqepo7shjezvwmit1x6t3iq9nsgc65kbzdqq13wx2d2s0298fwhbmu4909wumzgvw3rrj3zggearmyhj5qooto8f3h45ormxn1kfyayb5m65x0dxw27u3zt",
-            "ware_key": "pcywa",
-            "marking": "6oq7qdmdgiw66tda70uxo8yiqumcdd1gzkxjmsslv3l2ukr0lw7wyd33mnhxr8yq5xgm0e9z4jzvl506tmnvr2p87cdej254bl0e0w6dux4xjb4ydkqbfiet2ui1h4t0hu1wfceigdeko7mgf3vy1tceaozc7e4mavozriaiwbnrp2kfcnb54kvc46xao00lc35wbg755nc59qcjrcjik69z0vzve8b8irlcrg6frvi8wlximqgqxb81s6uj",
-            "payment": {
-              "value": 828.0,
-              "vat_sum": 815.0,
-              "vat_rate": 658
-            },
-            "weight": 515,
-            "weight_gross": 546,
-            "amount": 191,
-            "delivery_amount": 48,
-            "name_i18n": "if8rseykjq9z45urr",
-            "brand": "anhbo79aua5t93gvjh0jnkfu6sxr8sx7vdjbh61ja7ciejlruuaceyhqi5fugg0hi1obgrvj6gcn9mppeyzmzahduvcsa2w6wegfvmldh4zh62e1qwib54g3cijza3oyfracqhqyl2y9y2kdnqbh9jg9pnpyd2faacaau356v3dw",
-            "country_code": "yl",
-            "material": "qoj82laajrbhvvzziu4fn6gxikwbo891djf38j5czoq0rslxex03o70t5dehvgv3poecwjeworyh4ubvhw5hd3swr2w6r6g1a7s4mxewsa6651lik6s7g4bs5jhz3kttiho7x60ue8udp4z8f6up7ofbx1aa19",
-            "wifi_gsm": true,
-            "url": "thazyjlglqen7q8a9oseselsl9lr76r2eyx26j6wkxxgut",
-            "seller": {
-              "name": "jy9ofbldwmq4pz1altb9ov5t96oc20e4v8gfzasg9ltwy324rsdaohoovrpb9tpc3b8zebt77tytynlebp3x3knwpud6nse94r43u3dej0p3m9uotte5f",
-              "inn": "3zm2ey",
-              "phone": "mx4thiutozkk03s7wacc1n3eonnhhs542km",
-              "ownership_form": "0szi15c5ehncxm2h4zrrgp6cd9diqq6tnv0cx3hvy",
-              "address": "j2auxizit899ivaeish5mt93j4y2xuibdh5nm",
-              "giis_subdivision_id": "uxrz564r8ly4j7ch52vtf2q4"
-            },
-            "return_item_detail": {
-              "direct_order_number": "7dbl8fhu8ogofqdv5v0ov1i79ioth",
-              "direct_order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-              "direct_package_number": "1spkh6jr8c01fngjo42q2ozlyed4cczqjbxkx8w5w7sbbou8e"
-            },
-            "excise": false,
-            "cost": 180.0,
-            "feacn_code": "0xgf6q3hgfdao4y68ee9qn2h7a292e5xslagq7gqc2v2e3wuzutwduuaoqns7ffeg6mam0gcy6qnwx20w49qc9eofj5wqto",
-            "jewel_uin": "vfdws4c1cnr0josidohag4rl36g1cf4og30",
-            "used": false
-          }
-        ],
-        "services": [
-          {
-            "code": "qrvz0xhu2uc400i66z14a"
-          }
-        ],
-        "package_id": "tlqo7pdh7yo1ibqji4bxsqj11acojuow"
-      },
-      {
-        "number": "nojieyzhvylijjiz804sfo2",
-        "barcode": "enbwsxt0xqy411veh1lyo7mhm9f5ugzow",
-        "weight": 255,
-        "length": 322,
-        "width": 127,
-        "weight_volume": 17,
-        "weight_calc": 792,
-        "height": 734,
-        "comment": "op5rtbw3cav2n1u5faudc347stwyowbo8jn0n86a7sxd9m5ipctjvc",
-        "items": [
-          {
-            "name": "kyhio5cd3musvt4jrtrkvr7wajai4gq8r6dwki3helaoyrzcvzs9uzm9xzuroof41h2",
-            "ware_key": "uqx947bc3hglsz1onnc2fw1nntm08bx2cdbto5a8",
-            "marking": "gman2cxajm9in9jw8g8boiqrorxwlwuzh37be46dfwshmafg0o7wxo8dq4j0ffodgz4b1mr3kmx2e8smenvize2vc1nnkifaypo7qccqagzs3nmtz0yiljf7sfboqp1uhjjji1xs6dclrwtf7b3i07xq29l4isqbepq0ghhw5rlo14",
-            "payment": {
-              "value": 791.0,
-              "vat_sum": 625.0,
-              "vat_rate": 287
-            },
-            "weight": 942,
-            "weight_gross": 853,
-            "amount": 662,
-            "delivery_amount": 961,
-            "name_i18n": "ihsh7d4c8s2jl33rx5ixzcwkj9m2mztetnnhmxoav7cznhpujyvdd3b29uuudazbirkyz98c8vhogsqa2m2fe7kiihcms75p9rn3bm0q4otegrk50z1btdmx29brhoq",
-            "brand": "wbf207rjqm0b74wg6llsijqjlo4o1d9a7q6uz9e6afbezmlebd0jmbzojvyomhuuv60v3i8re0f5hurnoz515morfk5t6h8e8nuxqr7lpdy71km4yjxay19rfbch4sfnca3ssiggidylfruocbd5b2b70r9",
-            "country_code": "s0",
-            "material": "tuw3y407hsz1d4pjji99sslmy9y13eqruvfpba3wascbq1r6ov05s11jtyunvzkgqrgtkp0kpwlcbx27trnrbat7k0wcl34watfk8d2j2ahqs6o4ucb8pul1l6tu9vzggh",
-            "wifi_gsm": false,
-            "url": "zxxlhicu4xdtpjz2e",
-            "seller": {
-              "name": "k2ofot7bps7nx15jix922w04gdnj7zwihnggicnqvz1nizbkq7srmewx2hzoa1n74fe4ooe16kfwbowvi3p3iahr0r5599u54pnxy8qd",
-              "inn": "k",
-              "phone": "o3xb7w4m6",
-              "ownership_form": "g5gmx15r77a4apo6w7qyf4e3elgmdcla0mqh5tq788x",
-              "address": "r6wy0auj4ytbo1mnb78yoli4n2hcbps3p41djr539i92p1ub81946wqaw0y5sxcl8oq5gsgeugwkju6t68790se2jm2elmvomaakv8f14heqijtnnz20yp97p6cwkr2ex22zcbysbsa08edqu4vk7oj5414fnwpyb7y9prm07kam3ernm5ghgp4062h6suuywk6tyzl56jdof0eer18v7drzv6n4jxuh547wygsghnamc1o9cdezyj",
-              "giis_subdivision_id": "hlc0w6nw4ml8ruaiwnkg4xz37ees1zw3c16cesaie76y2yic"
-            },
-            "return_item_detail": {
-              "direct_order_number": "odtwh66gveouyqgsgxka5bouxqi8tsrt3axxs3z",
-              "direct_order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-              "direct_package_number": "2mdq6e1xqklmhai1bnmbdljcdfwec"
-            },
-            "excise": false,
-            "cost": 758.0,
-            "feacn_code": "jsnu1u9xqvsjkb6489w9zyqodv",
-            "jewel_uin": "qvqnnqh7z3vp3px98fdrfz0kpsoz4sxiwdj",
-            "used": false
-          },
-          {
-            "name": "iso7su7qrqbajel94izopmy3gd3j3g98x9t5zz988l69n6xo4qlvwznldmr1scstykq8nsc7v0u40bis9jgdolfi8hgdmsgjy8y2llfjbygwk9wg0mq5zvmlga6nqdax77xoqmgi8wwzan5jaec0vrpbm",
-            "ware_key": "phhj64liir35wkts9zjxm729",
-            "marking": "g3qmx40uaocfn",
-            "payment": {
-              "value": 827.0,
-              "vat_sum": 505.0,
-              "vat_rate": 902
-            },
-            "weight": 824,
-            "weight_gross": 35,
-            "amount": 684,
-            "delivery_amount": 19,
-            "name_i18n": "6hzonts69xj799porgv5sa8ellusi95845535bktisgexgki3cvt5ggty8xmdlqaq",
-            "brand": "bfkry1pl",
-            "country_code": "2w",
-            "material": "upzvjgiyomzuw1lxmbln3s4ydm9cpzso5uaf0w4lubeitrvh7ig3r0pue2vns8xfc7boo5uq75w86yu7s0ieeyzs39pgru4ac4yhagghsqkkbd16kceuvkvmcm1kkuugqn6kma7im3gnf7p9fhxcd5a7iljjwfxxu437rl8gyfapd21vh56m0rrmvnkv9q5n2fdkj1k8ohtua2x386tpi4q4wf3gk7l0lmhp2824mlb6h5",
-            "wifi_gsm": false,
-            "url": "1owxmulmw1nqx7",
-            "seller": {
-              "name": "vjhugzmp34e5pivnptozia8tfj6p9fs4br1dapb9awzkakxjnngwv90bsglcehn9gg5hljni3eaatkzcfkh2j7xq5k7xe27pyh2yw7c3752ibgeh5rrpujdhsi3qodfpzwmq0vs8mn4bnijg1y1bqdmrc6xh8b6lvmjqeimw3duigpww4efa1rxm6jg5vpxnksw7m1p1d1lp",
-              "inn": "9tz",
-              "phone": "zvieq7bg9mt33k4cbcoqge7",
-              "ownership_form": "6pcuhveqn14q8v2",
-              "address": "jr8pg3swhquz16s2ttjl6yyddiozoz1g5l85inm65s3pljbrm2xl2v9a776d3tzogg2w7to6qtmxghwndujv33pkv2yn",
-              "giis_subdivision_id": "nbmc3r9usp1doapt6qeem93dwuufx4slnl"
-            },
-            "return_item_detail": {
-              "direct_order_number": "os",
-              "direct_order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-              "direct_package_number": "1eefwc6utaq2hz17zmmywvu3kd6li5kx"
+              "direct_package_number": "9m5ipctjvckyhio5cd3musvt4jrtrk"
             },
             "excise": true,
-            "cost": 958.0,
-            "feacn_code": "gh6yac16a08jlj7x1vpm99wn5c0svae6s9fo96x0kw624a7rrfa3d5jeiek80dj6hx6sbk8qcv8uybagtf9u89",
-            "jewel_uin": "hdpcgbaagxeu1rx56ji66gd1w",
+            "cost": 283.0,
+            "feacn_code": "vr7wajai4gq8r6dwki3helaoyrzcvzs9uzm9xzuroof41h2uqx947bc3hglsz1onnc2fw1nntm08bx2cdbto5a8gman2cxajm9in9jw8g8boiqr",
+            "jewel_uin": "orxwlwuzh37be46dfwshmafg0o7wxo8dq",
+            "used": true
+          }
+        ],
+        "services": [
+          {
+            "code": "4j0ffodgz4b1mr3kmx2e8smenvize2vc1nnkifaypo7qccqa"
+          }
+        ],
+        "package_id": "gzs3nmtz0yiljf7sfbo"
+      },
+      {
+        "number": "qp1u",
+        "barcode": "hjjji1xs6dclrwtf7b3i07xq29l4isqbepq",
+        "weight": 191,
+        "length": 48,
+        "width": 511,
+        "weight_volume": 16,
+        "weight_calc": 171,
+        "height": 219,
+        "comment": "0ghhw5rlo14ihsh7d4c8s2jl33rx5ixzcwkj9m2mztetnnhmxoav7cznhpujyvdd3b29uuudazbirkyz98c8vhogsqa2m2fe7kiihcms75p9rn3bm0q4otegrk50z1btdmx29brhoqwbf207rjqm0b74wg6lls",
+        "items": [
+          {
+            "name": "ijqjlo4o1d9a7q6uz9e6afbezmlebd0jmbzojvyomhuuv6",
+            "ware_key": "0v3i8r",
+            "marking": "e0f5hurnoz515morfk5t6h8e8nuxqr7lpdy71km4yjxay19rfbch4sfnca3ssiggidylfruocbd5b2b70r9s0tuw3y407hsz1d4",
+            "payment": {
+              "value": 891.0,
+              "vat_sum": 744.0,
+              "vat_rate": 36
+            },
+            "weight": 279,
+            "weight_gross": 348,
+            "amount": 496,
+            "delivery_amount": 301,
+            "name_i18n": "pjji99sslmy9y13eqruvfpba3wascbq1r6ov05s11jtyunvzkgqrgtkp0kpwlcbx27trnrbat7k0wcl34watfk8d2j2ahqs6o4ucb8pul1l6tu9vzgghzxxlhicu4xdtpjz2ek2ofot7bps7nx15jix922w04gdnj7zwihnggicnqvz1nizbk",
+            "brand": "q7srmewx2hzoa1n74fe4ooe16kfwbowvi3p3iahr0r5599u54pnxy8qdko3xb7w4m6g5gmx15r77a4apo6w7qyf4e3elgmd",
+            "country_code": "c",
+            "material": "la0mqh5tq788xr6wy0auj4ytbo1mnb78yoli4n2hcbps3p41djr539i92p1ub81946wqaw0y5sxcl8oq5gsgeugwkju6t68790se2jm2elmvomaakv8f14heqijtnnz20yp97p6cwkr2ex22zcbysbsa08edqu4vk7oj5414fnwpyb7y9prm07kam3er",
+            "wifi_gsm": true,
+            "url": "nm5ghgp4062h6suuywk6t",
+            "seller": {
+              "name": "yzl56jdof0eer18v7drzv6n4jxuh547wygsghnamc1o9cdezyjhlc0w6nw4ml8ruaiwnkg4xz37ees1zw3c16cesaie76y2yicodtwh66gveouyqgsgxka5bouxqi8tsrt3axxs3z2mdq6e1xqklmhai1bnmbdlj",
+              "inn": "cdfwecj",
+              "phone": "snu1u9xqvsjkb6489w9zyqodvqvqnnqh7",
+              "ownership_form": "z3v",
+              "address": "p3px98fdrfz0kpsoz4sxiwdjiso7su7qrqbajel94izopmy3gd3j3g98x9t5zz988l69n6xo4qlvwznldmr1scstykq8nsc7v0u40bis9jgdolfi8hgdmsgjy8y2llfj",
+              "giis_subdivision_id": "bygwk9wg0mq5zvmlga"
+            },
+            "return_item_detail": {
+              "direct_order_number": "6nqdax77xoqmgi8wwzan5jaec",
+              "direct_order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+              "direct_package_number": "0vrpbmphhj64liir35wkts9zjxm729g3qmx40uaocf"
+            },
+            "excise": true,
+            "cost": 565.0,
+            "feacn_code": "n6hzonts69xj799porgv5sa8ellusi95845535bktisgexgki3cvt5ggty",
+            "jewel_uin": "8xm",
             "used": false
           }
         ],
         "services": [
           {
-            "code": "5pjn97xrpyhxt3trd9fcrr"
+            "code": "dlqaqbfkry1pl2wupzvjgiyo"
           },
           {
-            "code": "w8fzuxo05legv0o8zwmzc2"
-          },
-          {
-            "code": "b1w9fk7qc7v22ejjiumjkd4786h56hn7hgmu5knkb7qny0hqe"
+            "code": "mzuw1lxmbln3s4ydm9cpzso5uaf0w4lubeitrvh7ig3r0pue2v"
           }
         ],
-        "package_id": "lrz4fozlnaq624h3mpbr8smdsy49dgpew95xy1sgqb"
+        "package_id": "ns8xfc7boo5uq75w86yu7s0ieeyzs39p"
       }
     ],
     "statuses": [
       {
-        "code": "pracu3kvyc3x9wh",
-        "name": "d429miucyyl2kkznpj449jztioigzxltnvp25s85tth",
-        "date_time": "8mfpe7f6oonezqp8wm62770oizc9ettejpyy3",
-        "reason_code": "nv13st8vok7xfq149iju742k6auwiauvd",
-        "city": "ajo92e20",
+        "code": "gru4ac4yhagghsqkkbd16k",
+        "name": "ceuvkvmcm1kkuugqn6kma7i",
+        "date_time": "m3",
+        "reason_code": "gnf7p9fhxcd5a7iljjwfxxu437r",
+        "city": "l8gyfapd21vh56m0rrmvnkv9q5n2fdkj1k8ohtua2x",
+        "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+        "deleted": false
+      },
+      {
+        "code": "386tpi4q4wf3gk7l0lmhp2824m",
+        "name": "lb6h51owxmulmw1nq",
+        "date_time": "x7vjhugzmp34e5pivnptozia8tfj6p9fs4br1dap",
+        "reason_code": "b9awzkakxjnngwv90bsglcehn9gg5hljn",
+        "city": "i3eaatkzc",
         "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
         "deleted": true
       },
       {
-        "code": "ypp9yaete927rbp26p8qddy6nxky1g9j94srf1gl7yq6",
-        "name": "wifbicpyx2z8wdnghsbamx53f6wjow9ahcnq7fe28r3o",
-        "date_time": "op6js",
-        "reason_code": "c9dk615pikf0lvu6q2jrm0j5cv0c6bkj6gozk0g",
-        "city": "ajuo",
+        "code": "fkh2j7xq5k7xe27pyh2yw7c3752ibgeh5rrpujdhsi3qodfp",
+        "name": "zwmq0vs8mn4bnijg1y1bqdmrc6xh8b6lvmjqeim",
+        "date_time": "w3duigpww4efa1rxm6jg5vpxnksw7",
+        "reason_code": "m1p1d1lp9tzzvieq7bg9mt33k4cbcoqge76pcuhveq",
+        "city": "n14q8v2jr8pg3swhquz16s2ttj",
         "city_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-        "deleted": false
+        "deleted": true
       }
     ],
-    "is_client_return": true,
-    "delivery_mode": "33hxsco9frs3ml7lxd9nqcwmiuhqpp1p",
+    "is_client_return": false,
+    "delivery_mode": "l6yyddiozoz1g5l85inm65s3p",
     "has_reverse_order": false,
     "delay_reasons": [
       {
-        "create_date": "nt72cjtb05jq6frihy4dt1awmpz4aqpj4j7f11mlbhihcim"
-      },
-      {
-        "create_date": "i4yh44qsc3j2rlwkixyyilk1hjy9ihcr8q9"
+        "create_date": "ljbrm2x"
       }
     ],
-    "planned_delivery_date": "1osvfgitkbv9egfvjt1w8a2iivbpfm6so6jal2qd",
+    "delivery_types": [
+      "l2v9a776d3tzogg2w7to6qtmxghwndujv33p"
+    ],
+    "planned_delivery_date": "kv2ynnbmc3r9usp1doapt6qeem93dwuufx4slnlos1eef",
     "delivery_detail": {
-      "date": "2gmef7g1jdcyw0n5",
-      "recipient_name": "wc8m7xalhsi1n",
-      "payment_sum": 369.0,
-      "delivery_sum": 635.0,
-      "total_sum": 105.0,
+      "date": "wc6utaq2hz17zmmywvu3",
+      "recipient_name": "k",
+      "payment_sum": 775.0,
+      "delivery_sum": 511.0,
+      "total_sum": 399.0,
       "payment_info": [
         {
           "type": "CASH",
-          "sum": 658.0
+          "sum": 971.0
         },
         {
           "type": "CASH",
-          "sum": 656.0
+          "sum": 882.0
         }
       ],
-      "delivery_vat_rate": 119.0,
-      "delivery_vat_sum": 830.0,
-      "delivery_discount_percent": 786.0,
-      "delivery_discount_sum": 603.0
+      "delivery_vat_rate": 470.0,
+      "delivery_vat_sum": 142.0,
+      "delivery_discount_percent": 91.0,
+      "delivery_discount_sum": 353.0
     },
     "delivery_problem": [
       {
-        "code": "0rf6ymw96u79qjwb8nbspyab0b",
-        "create_date": "3jspmh4yu2fr80egjj19j88tmks1dsn419saw"
+        "code": "d6li5kxgh6yac16a08jlj7x1vpm99wn5",
+        "create_date": "c0svae6s9fo96x0kw624a7r"
       },
       {
-        "code": "1dryrfsly8aeahried2a3acvhr",
-        "create_date": "yt43pbqjgiqiixkhybjxps4"
+        "code": "rfa3d5jeiek80dj6hx6sbk",
+        "create_date": "8qcv8uybagtf9u89hdpcgbaag"
       }
     ],
-    "developer_key": "kff5mc8qc",
+    "developer_key": "xeu1rx56ji66gd1w5pjn97",
     "calls": {
       "failed_calls": [
         {
-          "date_time": "7",
-          "reason_code": 57
+          "date_time": "xrpyhxt3trd9fcrrw8fzux",
+          "reason_code": 304
+        },
+        {
+          "date_time": "o05legv0o8zwmzc2b1w9fk7qc7v22ejjiumjkd4786",
+          "reason_code": 837
         }
       ],
       "rescheduled_calls": [
         {
-          "date_time": "l",
-          "date_next": "xfk0xr0u76rcxafsvheiu1dxhq7tpj7j33ygtqc9zj7nh0j",
-          "time_next": "ov4b4nj39on420uit8oxp9khcsc9y9kpqx",
-          "comment": "qtvfgnkleetoz63xwic9gvn2p7jgy0o5"
+          "date_time": "h56hn7hgmu5knkb7qny0hqelrz4fozlnaq624h3mpbr",
+          "date_next": "8smdsy49dgpew95xy1sgqbpracu3kvyc3x9wh",
+          "time_next": "d429miucyyl2kkznpj449jztioigzxltn",
+          "comment": "vp25s85t"
         },
         {
-          "date_time": "1igpz8qwhb452chb4t2qjvf74llpyv0xlrpdl6vr60sny7xw",
-          "date_next": "e9x9ef9djauc40qwm0tmxcjam",
-          "time_next": "n6bb4d7sixm3sjntde5fnfnl0zlhjpzh2tqsqa2n",
-          "comment": "qm27062sxnex743i01zr9hrt52rga16dt941cfwg9afx9"
+          "date_time": "th8mfpe7f6oonezqp8wm62770oizc9ettejpyy3nv13s",
+          "date_next": "t8vok7xfq149iju742k6auwiauvdajo92e20ypp9yaet",
+          "time_next": "e927r",
+          "comment": "bp26p8qddy6nxky1g9j94srf1gl7yq6wifbicpy"
+        },
+        {
+          "date_time": "x2z8",
+          "date_next": "wdnghs",
+          "time_next": "bamx53f6wjow9ahcnq7fe28r3oop6jsc9dk615pikf0lv",
+          "comment": "u6q2jrm0j5cv0c6bkj6gozk0gajuo33h"
         }
       ]
     }
@@ -566,20 +523,57 @@
   "requests": [
     {
       "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "x",
-      "date_time": "25yj8y05ldzcqi2a",
+      "type": "xsco9frs3ml7lxd9nqcwmiuhqpp1pnt72cjtb05jq6frihy",
+      "date_time": "4dt1awmpz4aqpj4j7f11mlbhihcimi4yh44",
       "state": "ACCEPTED",
       "errors": [
         {
-          "code": "rt718pum85fmml61crzbd11yzb73uw6b0v7ptzp",
-          "additional_code": "fwhfv",
-          "message": "f5qqwm5vgvufnpciu335wc"
+          "code": "qsc3j2rlwkixyyilk1hjy9ihcr8q91osvfgitkbv",
+          "additional_code": "9egfvjt1w8a2iivb",
+          "message": "pfm6so6jal2qd"
+        },
+        {
+          "code": "2gmef7g1jdcyw0n5wc8m7xalhsi1n0rf6ymw96u79qjwb8nbsp",
+          "additional_code": "yab0b3jspmh4yu2fr80egjj19j88tmks1dsn419saw",
+          "message": "1dryrfsly8aeahried2a3acvhryt43"
+        },
+        {
+          "code": "pbqjgiqiixkhybjxps4",
+          "additional_code": "kff5mc8qc7lxfk0xr",
+          "message": "0u76rcxafsvheiu1dxh"
         }
       ],
       "warnings": [
         {
-          "code": "acg",
-          "message": "c9cd4bn4b4vj"
+          "code": "q7tpj7j33ygtqc9zj7nh0jov4b",
+          "message": "4nj39on420uit8oxp9khcsc9y9kpqxqtvfgnk"
+        },
+        {
+          "code": "leetoz63xwic9gvn2p7jgy0o51",
+          "message": "igpz8qwhb452chb4t2qjvf7"
+        }
+      ]
+    },
+    {
+      "request_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "type": "4llpyv0xl",
+      "date_time": "rpdl6vr60sny",
+      "state": "ACCEPTED",
+      "errors": [
+        {
+          "code": "7",
+          "additional_code": "x",
+          "message": "we9x9ef9djauc40qwm0tmxcjamn6bb4d7sixm3sjntde5fn"
+        }
+      ],
+      "warnings": [
+        {
+          "code": "fnl0zlhjpzh2tqsqa2nqm27062sxnex7",
+          "message": "43i01zr9hrt52rga16dt941cfwg9afx9x25yj8y05ldzcqi2"
+        },
+        {
+          "code": "art718pum85fmml61crzbd11y",
+          "message": "zb73uw6b0v7ptzpfwhfvf5qqwm5vgvufnpciu335"
         }
       ]
     }
@@ -588,22 +582,12 @@
     {
       "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
       "type": "return_order",
-      "url": "36sya5yqnmb55fycrcex7x917p9grf172dneyhoskt9rnypraaauy0jl156hzb87f4wl1oslbkyu9ilje6ep2r2fr54kz10s0tcp2o3a235j0h9899ytqwy4f8dtaz7jwxm204j4jx6n87qu",
-      "create_time": "5coh5z3i5kv7rsrrld0efmwyd5ozkikb0zhuu",
-      "cdek_number": "hami1fw9qilvlfic7hjin05db6uakakgbohz8uh5hjwd3weufqyxvmqn7zszcb1bvgdtfi4z9z1ejro6evvvoq",
-      "date": "1vuqerqdgyisiw454qv83zf75ymbe",
-      "time_from": "kkxn38ueb7k9ki",
-      "time_to": "f75l5qd6i73tw8www1s3uxuz9z69"
-    },
-    {
-      "uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "type": "return_order",
-      "url": "dihb2wf9uvi7za9evdbppvaoxdrqgjabv528qlx33tgg3l4rb6k7p86uthz6z346kebmr",
-      "create_time": "zynebdlkdij0fo4vf62u3u9vtvk4mrvqy5omzkm6a095o4f",
-      "cdek_number": "yrv49ic60aieoi1mxjvvtjjzy1mofls5k6bo9eojq7xj3cce1nkhhlos1gg3rxfdcfzk2tjz0n9lwuhix4yq2cuhnpr4ktdt4tkar69r48ofhvamxudglmpfn498jq3grsov3t5ywe30geohikv78mk5oaxvcnb56fy7kgvjufa7n90if4q9u01p898su6wf5vc8pyqm1kjxx6q98fp15zky4uclyq99sbq3j896ard0y1vyq",
-      "date": "lppq4om0ubhgjd98crx57bbjwolqrn",
-      "time_from": "qolp5w77p7g6dgrdktkoq7l18h0vxb4vany99ceas63lj7",
-      "time_to": "p2ok7"
+      "url": "wcacgc9cd4bn4b4vj36sya5yqnmb55fycrcex7x917p9grf172dneyhoskt9rnypraaauy0jl156hzb87f4wl1oslbkyu9ilje6ep2r2fr54kz10s0tcp",
+      "create_time": "2",
+      "cdek_number": "o3a235j0h9899ytq",
+      "date": "wy4f8dtaz7jwxm204j4jx6n87qu5coh5z3i5kv7",
+      "time_from": "rsrrl",
+      "time_to": "d0efmwyd5ozkikb0zhuuha"
     }
   ]
 }

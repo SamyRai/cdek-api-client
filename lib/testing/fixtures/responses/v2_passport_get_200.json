@@ -2,8 +2,26 @@
   "orders": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 993,
+      "cdek_number": 963,
       "passport": [
+        {
+          "client": "SENDER",
+          "passport_requirements_satisfied": true
+        }
+      ]
+    },
+    {
+      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+      "cdek_number": 146,
+      "passport": [
+        {
+          "client": "SENDER",
+          "passport_requirements_satisfied": false
+        },
+        {
+          "client": "SENDER",
+          "passport_requirements_satisfied": false
+        },
         {
           "client": "SENDER",
           "passport_requirements_satisfied": true
@@ -13,15 +31,19 @@
   ],
   "errors": [
     {
-      "code": "wd7xl2fxvq5y",
-      "additional_code": "z0g870h8rw3p47ai9dtqjmp60popf2qg",
-      "message": "79zzky9b1af9aoasynvwg7kpid8wxd35"
+      "code": "kqpt0nvgkqmqkdp4u6m2oj6om8u3gxpefbcjx6tv5",
+      "additional_code": "3cdd4i32y8y9kzyubj864dceqm",
+      "message": "awy4ma724hbl630y6p5xbbt0vsgc"
     }
   ],
   "warnings": [
     {
-      "code": "774459vs8oh593wgv91lc9uvwggunge",
-      "message": "sylia2so9rvv3g"
+      "code": "7wecx07ul5v7wadqz461j9iz7nz41ql0a6me1xttwceoe7wqid",
+      "message": "3n34a0"
+    },
+    {
+      "code": "bjxtpr83e",
+      "message": "kdkl1z7af6x7hppp7tnzbsbzysq3lu916"
     }
   ]
 }

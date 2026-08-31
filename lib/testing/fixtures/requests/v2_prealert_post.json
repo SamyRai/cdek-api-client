@@ -1,16 +1,16 @@
 {
-  "planned_date": "ie5tko51vqzgzyjskm",
-  "shipment_point": "hd41kax4zetk607o5uefvrnjm4",
+  "planned_date": "2y9zat1pq1l037fg55",
+  "shipment_point": "y6glpp9mg9i5kh6wyhvdc22771",
   "orders": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
       "cdek_number": 201,
-      "im_number": "3c3f2h6qkmk41fpd8zlkyrswrzfd27qpb7hm"
+      "im_number": "mowzdzie5tko51vqzgzyjskmhd41kax4zetk"
     },
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
       "cdek_number": 269,
-      "im_number": "h3593aqtxv2vij911uxbh0v02cmj9i0"
+      "im_number": "607o5uefvrnjm43c3f2h6qkmk41fpd8"
     }
   ]
 }

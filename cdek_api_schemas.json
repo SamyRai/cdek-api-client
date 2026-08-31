@@ -1,7 +1,7 @@
 {
   "metadata": {
     "total_schemas": 5,
-    "parsed_at": "2026-06-11T23:52:45Z",
+    "parsed_at": "2026-08-31T00:47:57Z",
     "source_url": "https://gateway.cdek.ru/api-cdek-docs/web/docs?sectionId=api_v2_integration"
   },
   "schemas": [
@@ -52,7 +52,7 @@
       "metadata": {
         "version": "2.0",
         "title": "Протокол интеграции, метод авторизации",
-        "description": "Документация методов авторизации",
+        "description": "",
         "openapi_version": "3.0.1",
         "servers": [
           {
@@ -97,11 +97,30 @@
               "operationId": "getOAuthToken",
               "parameters": [
                 {
-                  "name": "request",
+                  "name": "grant_type",
                   "in": "query",
                   "required": true,
                   "schema": {
-                    "$ref": "#/components/schemas/RequestDto"
+                    "nullable": false,
+                    "type": "string"
+                  }
+                },
+                {
+                  "name": "client_id",
+                  "in": "query",
+                  "required": true,
+                  "schema": {
+                    "type": "string",
+                    "nullable": false
+                  }
+                },
+                {
+                  "name": "client_secret",
+                  "in": "query",
+                  "required": true,
+                  "schema": {
+                    "type": "string",
+                    "nullable": false
                   }
                 }
               ],
@@ -119,7 +138,7 @@
                   "content": {
                     "application/json": {
                       "schema": {
-                        "$ref": "#/components/schemas/ErrorResponseDto"
+                        "$ref": "#/components/schemas/ErrorDto"
                       }
                     }
                   }
@@ -130,66 +149,49 @@
         },
         "components": {
           "schemas": {
-            "RequestDto": {
+            "ErrorDto": {
+              "nullable": false,
               "type": "object",
-              "required": [
-                "grant_type",
-                "client_id",
-                "client_secret"
-              ],
-              "properties": {
-                "grant_type": {
-                  "type": "string"
-                },
-                "client_id": {
-                  "type": "string"
-                },
-                "client_secret": {
-                  "type": "string"
-                }
-              }
-            },
-            "AuthResponseDto": {
-              "type": "object",
-              "required": [
-                "access_token",
-                "token_type",
-                "expires_in",
-                "scope",
-                "jti"
-              ],
-              "properties": {
-                "access_token": {
-                  "type": "string"
-                },
-                "token_type": {
-                  "type": "string"
-                },
-                "expires_in": {
-                  "type": "integer"
-                },
-                "scope": {
-                  "type": "string"
-                },
-                "jti": {
-                  "type": "string"
-                }
-              }
-            },
-            "ErrorResponseDto": {
-              "type": "object",
-              "required": [
-                "error",
-                "error_description"
-              ],
               "properties": {
                 "error": {
+                  "nullable": false,
                   "type": "string"
                 },
                 "error_description": {
+                  "nullable": false,
                   "type": "string"
                 }
-              }
+              },
+              "title": "ErrorDto"
+            },
+            "AuthResponseDto": {
+              "nullable": false,
+              "type": "object",
+              "properties": {
+                "access_token": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "token_type": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "expires_in": {
+                  "nullable": false,
+                  "type": "integer",
+                  "format": "date-time"
+                },
+                "scope": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "jti": {
+                  "nullable": false,
+                  "type": "string"
+                }
+              },
+              "title": "AuthResponseDto"
             }
           }
         }
@@ -249,6 +251,7 @@
                   "in": "query",
                   "required": true,
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 },
@@ -256,25 +259,26 @@
                   "name": "country_code",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 }
               ],
               "responses": {
-                "400": {
-                  "content": {
-                    "application/json": {
-                      "schema": {
-                        "$ref": "#/components/schemas/SimplifiedResponseDto"
-                      }
-                    }
-                  }
-                },
                 "200": {
                   "content": {
                     "application/json": {
                       "schema": {
                         "$ref": "#/components/schemas/SuggestCityResponseDto"
+                      }
+                    }
+                  }
+                },
+                "400": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/SimplifiedResponseDto"
                       }
                     }
                   }
@@ -296,6 +300,7 @@
                   "name": "country_codes",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 },
@@ -304,6 +309,7 @@
                   "in": "query",
                   "deprecated": true,
                   "schema": {
+                    "nullable": false,
                     "type": "string",
                     "format": "uuid"
                   }
@@ -312,6 +318,7 @@
                   "name": "size",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "integer",
                     "format": "int32"
                   }
@@ -320,6 +327,7 @@
                   "name": "page",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "integer",
                     "format": "int32"
                   }
@@ -328,25 +336,26 @@
                   "name": "lang",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 }
               ],
               "responses": {
-                "400": {
-                  "content": {
-                    "application/json": {
-                      "schema": {
-                        "$ref": "#/components/schemas/SimplifiedResponseDto"
-                      }
-                    }
-                  }
-                },
                 "200": {
                   "content": {
                     "application/json": {
                       "schema": {
                         "$ref": "#/components/schemas/RegionsResponseDto"
+                      }
+                    }
+                  }
+                },
+                "400": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/SimplifiedResponseDto"
                       }
                     }
                   }
@@ -365,10 +374,11 @@
               "operationId": "postalcodes",
               "parameters": [
                 {
-                  "name": "city_code",
+                  "name": "code",
                   "in": "query",
                   "required": true,
                   "schema": {
+                    "nullable": false,
                     "type": "integer",
                     "format": "int32"
                   }
@@ -411,6 +421,7 @@
                   "in": "query",
                   "required": true,
                   "schema": {
+                    "nullable": false,
                     "type": "number"
                   }
                 },
@@ -419,25 +430,26 @@
                   "in": "query",
                   "required": true,
                   "schema": {
+                    "nullable": false,
                     "type": "number"
                   }
                 }
               ],
               "responses": {
-                "400": {
-                  "content": {
-                    "application/json": {
-                      "schema": {
-                        "$ref": "#/components/schemas/SimplifiedResponseDto"
-                      }
-                    }
-                  }
-                },
                 "200": {
                   "content": {
                     "application/json": {
                       "schema": {
                         "$ref": "#/components/schemas/V2LocationCityByCoordinatesDto"
+                      }
+                    }
+                  }
+                },
+                "400": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/SimplifiedResponseDto"
                       }
                     }
                   }
@@ -459,6 +471,7 @@
                   "name": "country_codes",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 },
@@ -466,6 +479,7 @@
                   "name": "region_code",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "integer",
                     "format": "int32"
                   }
@@ -474,6 +488,7 @@
                   "name": "kladr_region_code",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 },
@@ -482,6 +497,7 @@
                   "in": "query",
                   "deprecated": true,
                   "schema": {
+                    "nullable": false,
                     "type": "string",
                     "format": "uuid"
                   }
@@ -490,6 +506,7 @@
                   "name": "kladr_code",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 },
@@ -497,6 +514,7 @@
                   "name": "fias_guid",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string",
                     "format": "uuid"
                   }
@@ -505,6 +523,7 @@
                   "name": "postal_code",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 },
@@ -512,6 +531,7 @@
                   "name": "code",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "integer",
                     "format": "int32"
                   }
@@ -520,6 +540,7 @@
                   "name": "city",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 },
@@ -527,6 +548,7 @@
                   "name": "payment_limit",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "number",
                     "format": "double"
                   }
@@ -535,6 +557,7 @@
                   "name": "size",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "integer",
                     "format": "int32"
                   }
@@ -543,6 +566,7 @@
                   "name": "page",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "integer",
                     "format": "int32"
                   }
@@ -551,25 +575,26 @@
                   "name": "lang",
                   "in": "query",
                   "schema": {
+                    "nullable": false,
                     "type": "string"
                   }
                 }
               ],
               "responses": {
-                "400": {
-                  "content": {
-                    "application/json": {
-                      "schema": {
-                        "$ref": "#/components/schemas/SimplifiedResponseDto"
-                      }
-                    }
-                  }
-                },
                 "200": {
                   "content": {
                     "application/json": {
                       "schema": {
                         "$ref": "#/components/schemas/V2LocationCityDto"
+                      }
+                    }
+                  }
+                },
+                "400": {
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/SimplifiedResponseDto"
                       }
                     }
                   }
@@ -583,25 +608,64 @@
         },
         "components": {
           "schemas": {
+            "SuggestCityResponseDto": {
+              "nullable": false,
+              "type": "object",
+              "properties": {
+                "city_uuid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid",
+                  "maxLength": 255
+                },
+                "code": {
+                  "nullable": false,
+                  "type": "integer",
+                  "format": "int32"
+                },
+                "full_name": {
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
+                },
+                "country_code": {
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
+                }
+              },
+              "required": [
+                "city_uuid",
+                "code",
+                "country_code",
+                "full_name"
+              ]
+            },
             "ErrorDto": {
+              "nullable": false,
+              "type": "object",
+              "properties": {
+                "code": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "message": {
+                  "nullable": false,
+                  "type": "string"
+                }
+              },
               "required": [
                 "code",
                 "message"
               ],
-              "type": "object",
-              "properties": {
-                "code": {
-                  "type": "string"
-                },
-                "message": {
-                  "type": "string"
-                }
-              }
+              "title": "ErrorDto"
             },
             "SimplifiedResponseDto": {
+              "nullable": false,
               "type": "object",
               "properties": {
                 "errors": {
+                  "nullable": false,
                   "type": "array",
                   "items": {
                     "$ref": "#/components/schemas/ErrorDto"
@@ -609,114 +673,177 @@
                 }
               }
             },
-            "SuggestCityResponseDto": {
-              "required": [
-                "city_uuid",
-                "code",
-                "country_code",
-                "full_name"
-              ],
-              "type": "object",
-              "properties": {
-                "city_uuid": {
-                  "maxLength": 255,
-                  "type": "string",
-                  "format": "uuid"
-                },
-                "code": {
-                  "type": "integer",
-                  "format": "int32"
-                },
-                "full_name": {
-                  "maxLength": 255,
-                  "type": "string"
-                },
-                "country_code": {
-                  "maxLength": 255,
-                  "type": "string"
-                }
-              }
-            },
             "RegionsResponseDto": {
-              "required": [
-                "country",
-                "country_code",
-                "region"
-              ],
+              "nullable": false,
               "type": "object",
               "properties": {
                 "country_code": {
-                  "maxLength": 2,
-                  "type": "string"
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 2
                 },
                 "country": {
-                  "maxLength": 255,
-                  "type": "string"
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
                 },
                 "region": {
-                  "maxLength": 255,
-                  "type": "string"
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
                 },
                 "region_code": {
+                  "nullable": false,
                   "type": "integer",
                   "format": "int32"
                 },
                 "fias_region_guid": {
+                  "nullable": false,
                   "type": "string",
                   "format": "uuid",
                   "deprecated": true
                 },
                 "kladr_region_code": {
+                  "nullable": false,
                   "type": "string"
                 }
-              }
+              },
+              "required": [
+                "country",
+                "country_code",
+                "region"
+              ]
             },
             "PostcodesResponseDto": {
-              "required": [
-                "code",
-                "postal_codes"
-              ],
+              "nullable": false,
               "type": "object",
               "properties": {
                 "code": {
+                  "nullable": false,
                   "type": "integer",
                   "format": "int32"
                 },
                 "postal_codes": {
+                  "nullable": false,
                   "type": "array",
                   "items": {
+                    "nullable": false,
                     "type": "string"
                   }
                 }
-              }
+              },
+              "required": [
+                "code",
+                "postal_codes"
+              ]
             },
             "V2LocationCityByCoordinatesDto": {
-              "required": [
-                "city",
-                "city_uuid",
-                "code"
-              ],
+              "nullable": false,
               "type": "object",
               "properties": {
                 "code": {
+                  "nullable": false,
                   "type": "integer",
                   "format": "int32"
                 },
                 "city_uuid": {
+                  "nullable": false,
                   "type": "string",
                   "format": "uuid"
                 },
                 "city": {
-                  "maxLength": 255,
-                  "type": "string"
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
                 },
                 "fias_guid": {
+                  "nullable": false,
                   "type": "string",
                   "format": "uuid"
                 }
-              }
+              },
+              "required": [
+                "city",
+                "city_uuid",
+                "code"
+              ]
             },
             "V2LocationCityDto": {
+              "nullable": false,
+              "type": "object",
+              "properties": {
+                "code": {
+                  "nullable": false,
+                  "type": "integer",
+                  "format": "int32"
+                },
+                "city_uuid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "city": {
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
+                },
+                "fias_guid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "country_code": {
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 2
+                },
+                "country": {
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
+                },
+                "region": {
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
+                },
+                "region_code": {
+                  "nullable": false,
+                  "type": "integer",
+                  "format": "int32"
+                },
+                "fias_region_guid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid",
+                  "deprecated": true
+                },
+                "sub_region": {
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
+                },
+                "longitude": {
+                  "nullable": false,
+                  "type": "number",
+                  "format": "double"
+                },
+                "latitude": {
+                  "nullable": false,
+                  "type": "number",
+                  "format": "double"
+                },
+                "time_zone": {
+                  "nullable": false,
+                  "type": "string",
+                  "maxLength": 255
+                },
+                "payment_limit": {
+                  "nullable": false,
+                  "type": "number",
+                  "format": "double"
+                }
+              },
               "required": [
                 "city",
                 "city_uuid",
@@ -725,67 +852,366 @@
                 "country_code",
                 "payment_limit",
                 "region"
-              ],
+              ]
+            },
+            "LocationRegionSearchDto": {
+              "nullable": false,
               "type": "object",
               "properties": {
-                "code": {
+                "countryCodes": {
+                  "nullable": false,
+                  "type": "array",
+                  "items": {
+                    "nullable": false,
+                    "type": "string"
+                  }
+                },
+                "regionFiasGuid": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "size": {
+                  "nullable": false,
                   "type": "integer",
                   "format": "int32"
                 },
-                "city_uuid": {
+                "page": {
+                  "nullable": false,
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "title": "LocationRegionSearchDto"
+            },
+            "RegionDto": {
+              "nullable": false,
+              "type": "object",
+              "properties": {
+                "regionUuid": {
+                  "nullable": false,
                   "type": "string",
                   "format": "uuid"
                 },
-                "city": {
-                  "maxLength": 255,
+                "regionName": {
+                  "nullable": false,
                   "type": "string"
                 },
-                "fias_guid": {
+                "prefix": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "regionCode": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "regionCodeExt": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "regionFiasGuid": {
+                  "nullable": false,
                   "type": "string",
                   "format": "uuid"
                 },
-                "country_code": {
-                  "maxLength": 2,
+                "countryName": {
+                  "nullable": false,
                   "type": "string"
+                },
+                "countryCode": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "countryCodeExt": {
+                  "nullable": false,
+                  "type": "string"
+                }
+              },
+              "title": "RegionDto"
+            },
+            "LocationPostcodeDto": {
+              "nullable": false,
+              "type": "object",
+              "properties": {
+                "postcode": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "cityUuid": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "cityCode": {
+                  "nullable": false,
+                  "type": "string"
+                }
+              },
+              "title": "LocationPostcodeDto"
+            },
+            "LocationSearchDto": {
+              "nullable": false,
+              "type": "object",
+              "properties": {
+                "cityUuids": {
+                  "nullable": false,
+                  "type": "array",
+                  "items": {
+                    "nullable": false,
+                    "type": "string"
+                  }
+                },
+                "cityCode": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "cityName": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "countryCodes": {
+                  "type": "array",
+                  "items": {
+                    "nullable": false,
+                    "type": "string"
+                  }
                 },
                 "country": {
-                  "maxLength": 255,
+                  "nullable": false,
+                  "type": "string"
+                },
+                "regionCode": {
+                  "nullable": false,
                   "type": "string"
                 },
                 "region": {
-                  "maxLength": 255,
+                  "nullable": false,
                   "type": "string"
                 },
-                "region_code": {
+                "subRegion": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "postcode": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "address": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "fiasGuid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "size": {
+                  "nullable": false,
                   "type": "integer",
                   "format": "int32"
                 },
-                "fias_region_guid": {
-                  "type": "string",
-                  "format": "uuid",
-                  "deprecated": true
+                "page": {
+                  "nullable": false,
+                  "type": "integer",
+                  "format": "int32"
                 },
-                "sub_region": {
-                  "maxLength": 255,
+                "paymentLimit": {
+                  "nullable": false,
+                  "type": "number"
+                },
+                "creationPermitIgnore": {
+                  "nullable": false,
+                  "type": "boolean"
+                },
+                "showPostcodes": {
+                  "nullable": false,
+                  "type": "boolean"
+                }
+              },
+              "title": "LocationSearchDto"
+            },
+            "LocationDto": {
+              "nullable": false,
+              "type": "object",
+              "properties": {
+                "addressString": {
+                  "nullable": false,
                   "type": "string"
                 },
-                "longitude": {
-                  "type": "number",
-                  "format": "double"
+                "cityName": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "cityCode": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "cityUuid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "country": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "countryCode": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "countryCodeCdek": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "region": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "regionCode": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "regionCodeExt": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "regionFiasGuid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "regionUuid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "subRegion": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "subRegionUuid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "street": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "house": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "flat": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "postcode": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "postcodes": {
+                  "nullable": false,
+                  "type": "array",
+                  "items": {
+                    "nullable": false,
+                    "type": "string"
+                  }
                 },
                 "latitude": {
-                  "type": "number",
-                  "format": "double"
+                  "nullable": false,
+                  "type": "number"
                 },
-                "time_zone": {
-                  "maxLength": 255,
+                "longitude": {
+                  "nullable": false,
+                  "type": "number"
+                },
+                "coordinateTarget": {
+                  "nullable": false,
                   "type": "string"
                 },
-                "payment_limit": {
+                "timezone": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "kladr": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "fiasGuid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "fiasLevel": {
+                  "nullable": false,
+                  "type": "integer",
+                  "format": "int32"
+                },
+                "houseGuid": {
+                  "nullable": false,
+                  "type": "string",
+                  "format": "uuid"
+                },
+                "nearestCity": {
+                  "$ref": "#/components/schemas/NearestCityDto"
+                },
+                "iqdqValid": {
+                  "nullable": false,
+                  "type": "boolean"
+                },
+                "iqdqErrorMessage": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "iqdqStatusError": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "paymentLimit": {
+                  "nullable": false,
+                  "type": "number"
+                },
+                "creationPermit": {
+                  "nullable": false,
+                  "type": "boolean"
+                },
+                "priority": {
+                  "nullable": false,
+                  "type": "boolean"
+                }
+              },
+              "title": "LocationDto"
+            },
+            "NearestCityDto": {
+              "nullable": false,
+              "type": "object",
+              "properties": {
+                "code": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "name": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "fullName": {
+                  "nullable": false,
+                  "type": "string"
+                },
+                "latitude": {
+                  "nullable": false,
+                  "type": "number"
+                },
+                "longitude": {
+                  "nullable": false,
+                  "type": "number"
+                },
+                "distance": {
+                  "nullable": false,
                   "type": "number",
                   "format": "double"
                 }
-              }
+              },
+              "title": "NearestCityDto"
             }
           },
           "securitySchemes": {
@@ -3068,14 +3494,11 @@
                     "$ref": "#/components/schemas/PackageRequestDto"
                   }
                 },
-                "is_client_return": {
-                  "type": "boolean"
-                },
-                "has_reverse_order": {
-                  "type": "boolean"
-                },
-                "developer_key": {
-                  "type": "string"
+                "delivery_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "print": {
                   "type": "string",
@@ -3085,7 +3508,16 @@
                   ],
                   "maxLength": 7
                 },
-                "widget_token": {
+                "widgetToken": {
+                  "type": "string"
+                },
+                "is_client_return": {
+                  "type": "boolean"
+                },
+                "has_reverse_order": {
+                  "type": "boolean"
+                },
+                "developer_key": {
                   "type": "string"
                 }
               },
@@ -3166,10 +3598,6 @@
                 },
                 "contragent_type": {
                   "type": "string",
-                  "enum": [
-                    "LEGAL_ENTITY",
-                    "INDIVIDUAL"
-                  ],
                   "maxLength": 255
                 },
                 "passport_series": {
@@ -3212,7 +3640,8 @@
                 }
               },
               "required": [
-                "name"
+                "name",
+                "phones"
               ]
             },
             "RequestFromLocationDto": {
@@ -4279,7 +4708,7 @@
                   "type": "integer",
                   "format": "int32"
                 },
-                "item_id": {
+                "itemId": {
                   "type": "string",
                   "writeOnly": true
                 },
@@ -4422,10 +4851,6 @@
                 },
                 "contragent_type": {
                   "type": "string",
-                  "enum": [
-                    "LEGAL_ENTITY",
-                    "INDIVIDUAL"
-                  ],
                   "maxLength": 255
                 },
                 "passport_series": {
@@ -4478,12 +4903,10 @@
                   "type": "string"
                 },
                 "order_uuid": {
-                  "type": "string",
-                  "format": "uuid"
+                  "type": "string"
                 },
                 "intake_date": {
-                  "type": "string",
-                  "format": "date"
+                  "type": "string"
                 },
                 "intake_time_from": {
                   "type": "string",
@@ -4678,8 +5101,7 @@
                   "$ref": "#/components/schemas/IntakeAvailableDaysLocationDto"
                 },
                 "date": {
-                  "type": "string",
-                  "format": "date"
+                  "type": "string"
                 }
               },
               "required": [
@@ -5664,6 +6086,12 @@
                 },
                 "has_reverse_order": {
                   "type": "boolean"
+                },
+                "delivery_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 }
               },
               "required": [
@@ -6187,25 +6615,40 @@
                   "type": "string"
                 },
                 "flight_number": {
-                  "type": "string"
+                  "type": [
+                    "string",
+                    "null"
+                  ]
                 },
                 "air_waybill_numbers": {
-                  "type": "array",
+                  "type": [
+                    "array",
+                    "null"
+                  ],
                   "items": {
                     "type": "string"
                   }
                 },
                 "vehicle_numbers": {
-                  "type": "array",
+                  "type": [
+                    "array",
+                    "null"
+                  ],
                   "items": {
                     "type": "string"
                   }
                 },
                 "vehicle_driver": {
-                  "type": "string"
+                  "type": [
+                    "string",
+                    "null"
+                  ]
                 },
                 "planned_departure_date_time": {
-                  "type": "string",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
                   "format": "date-time"
                 }
               },
@@ -6552,6 +6995,13 @@
                   },
                   "readOnly": true
                 },
+                "delivery_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "readOnly": true
+                },
                 "planned_delivery_date": {
                   "type": "string",
                   "format": "date"
@@ -6701,10 +7151,6 @@
                 },
                 "contragent_type": {
                   "type": "string",
-                  "enum": [
-                    "LEGAL_ENTITY",
-                    "INDIVIDUAL"
-                  ],
                   "maxLength": 255
                 },
                 "passport_series": {
@@ -7065,10 +7511,6 @@
                 },
                 "contragent_type": {
                   "type": "string",
-                  "enum": [
-                    "LEGAL_ENTITY",
-                    "INDIVIDUAL"
-                  ],
                   "maxLength": 255
                 },
                 "passport_series": {
@@ -7127,10 +7569,6 @@
                 },
                 "contragent_type": {
                   "type": "string",
-                  "enum": [
-                    "LEGAL_ENTITY",
-                    "INDIVIDUAL"
-                  ],
                   "maxLength": 255
                 },
                 "passport_series": {
@@ -7188,12 +7626,10 @@
                   "maxLength": 255
                 },
                 "order_uuid": {
-                  "type": "string",
-                  "format": "uuid"
+                  "type": "string"
                 },
                 "intake_date": {
-                  "type": "string",
-                  "format": "date"
+                  "type": "string"
                 },
                 "intake_number": {
                   "type": "string",
@@ -7577,6 +8013,13 @@
                     "$ref": "#/components/schemas/OfficeCellDimensionsDto"
                   }
                 },
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "ACTIVE",
+                    "CLOSED"
+                  ]
+                },
                 "errors": {
                   "type": "array",
                   "items": {
@@ -7630,6 +8073,7 @@
                 "location",
                 "owner_code",
                 "phones",
+                "status",
                 "take_only",
                 "type",
                 "uuid",

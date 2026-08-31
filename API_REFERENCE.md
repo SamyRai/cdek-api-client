@@ -244,6 +244,7 @@ This document provides a reference of all available API endpoints supported by t
 | `weight_min` | `number` |  |
 | `weight_max` | `number` |  |
 | `dimensions` | `array[]` |  |
+| `status` | `string` |  |
 | `errors` | `array[]` |  |
 | `warnings` | `array[]` |  |
 | `location` | `object` |  |
@@ -639,11 +640,12 @@ This document provides a reference of all available API endpoints supported by t
 | `to_location` | `object` |  |
 | `services` | `array[]` |  |
 | `packages` | `array[]` |  |
+| `delivery_types` | `array[]` |  |
+| `print` | `string` |  |
+| `widgetToken` | `string` |  |
 | `is_client_return` | `boolean` |  |
 | `has_reverse_order` | `boolean` |  |
 | `developer_key` | `string` |  |
-| `print` | `string` |  |
-| `widget_token` | `string` |  |
 
 
 
@@ -695,6 +697,7 @@ This document provides a reference of all available API endpoints supported by t
 | `services` | `array[]` |  |
 | `packages` | `array[]` |  |
 | `has_reverse_order` | `boolean` |  |
+| `delivery_types` | `array[]` |  |
 
 
 

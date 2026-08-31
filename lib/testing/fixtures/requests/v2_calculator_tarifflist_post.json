@@ -1,46 +1,51 @@
 {
-  "date": "tlw6gdokeni5uyrk44rvqw1",
-  "type": 325,
+  "date": "s2fcru294h5pvboqm8yjk6",
+  "type": 500,
   "additional_order_types": [
-    497,
-    363
+    385
   ],
   "currency": 3,
-  "lang": "g7b",
-  "shipment_point": "bva7k0nhqmgoo9n39ndi6ho2a0nhgxpalj87ivl95qb4tehp5ci96f5rd18776pqwk7yshdfxtcwsacwae1esm3hqyl2ab76ajrv4bwcxymjfepue6cojajp410ku7vjdewpsoyl6hce5ws0u7bi45j9yave6qvs88s0k1j8refv3radxquhr63ikdb0r7kb4ys59gna67p4blsopp1kf0qkmmhynutt064pgpdc3s02q",
-  "delivery_point": "au6yk891tyh5ttimv3wkn",
+  "lang": "n",
+  "shipment_point": "7vdzaj9b2yw3ym78otvynsvwa3e3gm4g2ymo3gen3wpxu3l3vbwwv307k2fptjjyv5qzpjqbb2d3l7nxxryyy13yxmb7pxb2qwlmeobf9wmbep87szq8l8fjwshic6b78r00qi5wnkdp9yejerwnw86afu0e0fyeoqq6r9cy8t94u7a4wktg8b6xji6unwlv10jrxcd3uv1ipennp",
+  "delivery_point": "dnwixk1ssl7lc38ovi12qddgbjr1883uymgfteyrxohmywevvyad5z9o80n7y0u8f8zoez6y",
   "from_location": {
-    "code": 406,
-    "postal_code": "p10jt0v55eigrafnxqqu87mndxft5wnvqbg89nt1mgce6i0o7rd7ur98g7bp134h8gr9ud5pr7v0l5gj9jgcl53jutou4shvlql4hr0f12r",
-    "country_code": "w",
-    "city": "9j0rmww2j3v4wdbnzvrh9kposhqrbxqoxw0vml81jjx1i98bwlu290ftvw7d5pd11vhz3izky70joelh",
-    "address": "fxaykw9g0ue6pk5xi9g1wmgum9lh9w7w2xvlpa39x55ljlm",
-    "contragent_type": "o3marlid01xd1t2",
-    "longitude": 792.0,
-    "latitude": 803.0
+    "code": 788,
+    "postal_code": "qtbhs2siho7d0m589j",
+    "country_code": "ww",
+    "city": "ded36mr56gnnjrscggfj90aau19bbdbar709zkc19p8vp6m1pbz1cu5fexawphyk",
+    "address": "lhj8urrzty4rprng2w7qrsb2br99u6bjolcdij4k0f38rfmlgni8gus0bn6lu3vb2x5lgbsr7bsfqwiuu0",
+    "contragent_type": "k31tdr290a8ef9",
+    "longitude": 494.0,
+    "latitude": 606.0
   },
   "to_location": {
-    "code": 714,
-    "postal_code": "63csuut6i45wwpulfnv41ez02pzhkcbaat4pcf9lj8b4o6b0x04",
-    "country_code": "g",
-    "city": "zvbpypw9ni4gau2his80uwnle7ge8y3kh1l74upxvmihwjq2bkhu6gyi0jz0vtz92mgk",
-    "address": "c8aa6zcx8p8n6is3jkzzn",
-    "contragent_type": "p3imabw7ae5jv",
-    "longitude": 469.0,
-    "latitude": 786.0
+    "code": 165,
+    "postal_code": "e54j4h02nwd70s4c2m05cfcmk0bllw4j",
+    "country_code": "8",
+    "city": "fy43ocrqnp06tynejjin62xfzc5zclnsdl8wccpms1iqg",
+    "address": "hl1b1y08o86w0hdeprrh2u0bdlpywqau9bwbji2z92du64196dd6nixyg1embtl0g7urjuptxu4jtns3pvtf6seg7toae7unql0fy0bv5qbz6a9ym9luwrms87av1dgkl87rjozcm7qanaxkcmv3ygyyb7varpj4m77lqomhqka5jocihjhpkwvrche0esqrbgpgrz2p3yhnvn08lukciswpd",
+    "contragent_type": "5",
+    "longitude": 101.0,
+    "latitude": 424.0
   },
   "packages": [
     {
-      "weight": 333,
-      "length": 892,
-      "width": 963,
-      "height": 372
+      "weight": 213,
+      "length": 690,
+      "width": 87,
+      "height": 552
     },
     {
-      "weight": 563,
-      "length": 493,
-      "width": 538,
-      "height": 668
+      "weight": 400,
+      "length": 587,
+      "width": 888,
+      "height": 45
+    },
+    {
+      "weight": 671,
+      "length": 462,
+      "width": 591,
+      "height": 309
     }
   ]
 }
