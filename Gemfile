@@ -16,7 +16,7 @@ group :development do
   gem 'json_schemer', '~> 2.5.0'
   gem 'pry', '~> 0.16.0'
   gem 'rspec', '~> 3.13.2'
-  gem 'rubocop', '~> 1.90.0'
+  gem 'rubocop', '~> 1.91.0'
   gem 'rubocop-rspec', '~> 3.10.2'
   gem 'webmock', '~> 3.26.4'
   gem 'yard', '~> 0.9.45'
