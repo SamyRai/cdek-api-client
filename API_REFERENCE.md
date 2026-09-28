@@ -244,6 +244,68 @@ This document provides a reference of all available API endpoints supported by t
 | `weight_min` | `number` |  |
 | `weight_max` | `number` |  |
 | `dimensions` | `array[]` |  |
+| `status` | `string` |  |
+| `errors` | `array[]` |  |
+| `warnings` | `array[]` |  |
+| `location` | `object` |  |
+| `distance` | `integer` |  |
+| `ltl_acceptance_partners` | `boolean` |  |
+| `ltl_issuance_partners` | `boolean` |  |
+| `fulfillment` | `boolean` |  |
+| `length_max` | `integer` |  |
+| `width_max` | `integer` |  |
+| `height_max` | `integer` |  |
+
+
+
+
+
+
+---
+
+### By polygons
+
+**HTTP Method:** `GET`  
+**Path:** `/v2/deliverypoints/byPolygons`  
+
+**Operation ID:** `byPolygons`
+
+
+
+
+**Success Response:** `OfficeDto`
+
+| Attribute | Type | Description |
+| --------- | ---- | ----------- |
+| `code` | `string` |  |
+| `uuid` | `string` |  |
+| `address_comment` | `string` |  |
+| `nearest_station` | `string` |  |
+| `nearest_metro_station` | `string` |  |
+| `work_time` | `string` |  |
+| `phones` | `array[]` |  |
+| `email` | `string` |  |
+| `note` | `string` |  |
+| `type` | `string` |  |
+| `owner_code` | `string` |  |
+| `take_only` | `boolean` |  |
+| `is_handout` | `boolean` |  |
+| `is_reception` | `boolean` |  |
+| `is_dressing_room` | `boolean` |  |
+| `is_marketplace` | `boolean` |  |
+| `is_ltl` | `boolean` |  |
+| `have_cashless` | `boolean` |  |
+| `have_cash` | `boolean` |  |
+| `have_fast_payment_system` | `boolean` |  |
+| `allowed_cod` | `boolean` |  |
+| `site` | `string` |  |
+| `office_image_list` | `array[]` |  |
+| `work_time_list` | `array[]` |  |
+| `work_time_exception_list` | `array[]` |  |
+| `weight_min` | `number` |  |
+| `weight_max` | `number` |  |
+| `dimensions` | `array[]` |  |
+| `status` | `string` |  |
 | `errors` | `array[]` |  |
 | `warnings` | `array[]` |  |
 | `location` | `object` |  |
@@ -543,7 +605,6 @@ This document provides a reference of all available API endpoints supported by t
 | `region` | `string` |  |
 | `region_code` | `integer` |  |
 | `fias_region_guid` | `string` |  |
-| `kladr_region_code` | `string` |  |
 
 
 
@@ -639,11 +700,12 @@ This document provides a reference of all available API endpoints supported by t
 | `to_location` | `object` |  |
 | `services` | `array[]` |  |
 | `packages` | `array[]` |  |
+| `delivery_types` | `array[]` |  |
+| `print` | `string` |  |
+| `widgetToken` | `string` |  |
 | `is_client_return` | `boolean` |  |
 | `has_reverse_order` | `boolean` |  |
 | `developer_key` | `string` |  |
-| `print` | `string` |  |
-| `widget_token` | `string` |  |
 
 
 
@@ -695,6 +757,7 @@ This document provides a reference of all available API endpoints supported by t
 | `services` | `array[]` |  |
 | `packages` | `array[]` |  |
 | `has_reverse_order` | `boolean` |  |
+| `delivery_types` | `array[]` |  |
 
 
 

@@ -73,6 +73,15 @@ module CDEKApiClient
       # @!attribute [r] packages
       #   @return [Array<Package>]
       attribute? :packages, Types::Array.of(Package).optional
+      # @!attribute [r] delivery_types
+      #   @return [Array]
+      attribute? :delivery_types, Types::Array.of(Types::String).optional
+      # @!attribute [r] print
+      #   @return [String]
+      attribute? :print, Types::String.optional
+      # @!attribute [r] widgetToken
+      #   @return [String]
+      attribute? :widgetToken, Types::String.optional
       # @!attribute [r] is_client_return
       #   @return [Boolean]
       attribute? :is_client_return, Types::Bool.optional
@@ -82,12 +91,6 @@ module CDEKApiClient
       # @!attribute [r] developer_key
       #   @return [String]
       attribute? :developer_key, Types::String.optional
-      # @!attribute [r] print
-      #   @return [String]
-      attribute? :print, Types::String.optional
-      # @!attribute [r] widget_token
-      #   @return [String]
-      attribute? :widget_token, Types::String.optional
 
       # Converts the object to a hash representation suitable for API requests.
       def to_h
