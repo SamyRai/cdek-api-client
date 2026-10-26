@@ -2,14 +2,10 @@
   "orders": [
     {
       "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 319
-    },
-    {
-      "order_uuid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-      "cdek_number": 337
+      "cdek_number": 721
     }
   ],
-  "copy_count": 365,
+  "copy_count": 160,
   "format": "A4",
   "lang": "RUS"
 }

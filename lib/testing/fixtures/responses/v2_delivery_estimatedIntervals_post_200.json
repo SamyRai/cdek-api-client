@@ -1,30 +1,24 @@
 {
   "date_intervals": [
     {
-      "date": "z3wi1v",
+      "date": "bfqwu4l2mz67tja",
       "time_intervals": [
         {
-          "start_time": "1lssttbwru4ehon1jftdc4tyylt14",
-          "end_time": "iii69vanqxijrim7d440yxluqb",
-          "agreed_count": 664,
-          "total_count": 11
+          "start_time": "2vahiwt7pvwanwh5bm0gcuhaqz2hhh",
+          "end_time": "y0vcx682hkp6k2",
+          "agreed_count": 454,
+          "total_count": 272
         }
       ]
     },
     {
-      "date": "1nide",
+      "date": "xbexg43feo08iwqw2kmlbknvu9ycb06rkg90v4f6gfa2",
       "time_intervals": [
         {
-          "start_time": "munriz0u3j5fzxnz9g9b2ti4u82r3mkyztyjm58yx28ulggu",
-          "end_time": "qd6hrp4q2qzjo4hbox1fcpbjckybis3awakp2",
-          "agreed_count": 974,
-          "total_count": 299
-        },
-        {
-          "start_time": "gd9jx3jg6tfvpp7wcv1su6c6hk112t4qn96u",
-          "end_time": "7rirelbbup98t77",
-          "agreed_count": 42,
-          "total_count": 943
+          "start_time": "k1o3wl143p3d661uoznobpkk6b6ct6z7n2bh0h",
+          "end_time": "gk3uugtnte4llbzd37tb8on930bun0uw8hl166iojbcwjsr8",
+          "agreed_count": 955,
+          "total_count": 830
         }
       ]
     }

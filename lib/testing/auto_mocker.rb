@@ -425,6 +425,16 @@ stub_request(:get, %r{#{Regexp.escape(@base_url)}/deliverypoints(?:\?|$)})
     headers: { 'Content-Type' => 'application/json' }
   )
 
+  # GET /v2/deliverypoints/byPolygons
+fixture_path_v2_deliverypoints_byPolygons_get = File.expand_path('fixtures/responses/v2_deliverypoints_byPolygons_get_200.json', __dir__)
+body_content = File.exist?(fixture_path_v2_deliverypoints_byPolygons_get) ? File.read(fixture_path_v2_deliverypoints_byPolygons_get) : '{}'
+stub_request(:get, %r{#{Regexp.escape(@base_url)}/deliverypoints/byPolygons(?:\?|$)})
+  .to_return(
+    status: 200,
+    body: body_content,
+    headers: { 'Content-Type' => 'application/json' }
+  )
+
   # GET /v2/check
 fixture_path_v2_check_get = File.expand_path('fixtures/responses/v2_check_get_200.json', __dir__)
 body_content = File.exist?(fixture_path_v2_check_get) ? File.read(fixture_path_v2_check_get) : '{}'

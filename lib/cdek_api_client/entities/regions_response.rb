@@ -24,9 +24,6 @@ module CDEKApiClient
       # @!attribute [r] fias_region_guid
       #   @return [String]
       attribute? :fias_region_guid, Types::String.optional
-      # @!attribute [r] kladr_region_code
-      #   @return [String]
-      attribute? :kladr_region_code, Types::String.optional
 
       # Converts the object to a hash representation suitable for API requests.
       def to_h
