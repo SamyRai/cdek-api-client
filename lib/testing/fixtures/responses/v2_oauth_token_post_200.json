@@ -1,7 +1,7 @@
 {
-  "access_token": "2ohuswkkx9xcvbx3bu6lvy01pocguirdynizbt1",
-  "token_type": "gh8nq9dbfd2rz7j9n4ohnwuprxzy2",
-  "expires_in": 270,
-  "scope": "oaygixahxkqh886e1gihl76wx8v08a8ncaezn0ioozm",
-  "jti": "55d3wo29"
+  "access_token": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
+  "token_type": "2ohuswkkx9xcvbx3bu6lvy01pocguirdynizbt1",
+  "expires_in": 435,
+  "scope": "gh8nq9dbfd2rz7j9n4ohnwuprxzy2",
+  "jti": "oaygixahxkqh886"
 }

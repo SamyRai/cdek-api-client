@@ -1,28 +1,27 @@
 {
   "date": [
-    "tiwg4kq9z9r481zf71i27lpg46gct"
+    "cupzfrfyx3whif66grfuzo3khehejocjgx"
   ],
   "all_days": false,
   "errors": [
     {
-      "code": "eco8w6b9unnkd39tp",
-      "additional_code": "7htu39euws",
-      "message": "j08miq4xs3eh9ye6v"
-    },
-    {
-      "code": "y233471jd6qkgq1qjzfq",
-      "additional_code": "pzdtkw64gveafd33qx41dsxg",
-      "message": "ivb0p"
+      "code": "z7",
+      "additional_code": "he9zj694yma99",
+      "message": "x0roq2ekp7q64rye3wr5329iwcv4vkcns495zabfn16"
     }
   ],
   "warnings": [
     {
-      "code": "elzoci",
-      "message": "19"
+      "code": "yr7l0x6o5q88mija7yvjzsde2ea1s9a295n5iskdyqhabj00",
+      "message": "mkn5p27zes1"
     },
     {
-      "code": "y1u2y3kskya5u",
-      "message": "m7qsjik4bxe38q4bpu3anpihi76v3grueglqxspy0gh"
+      "code": "1qs0lcdk7r8rf76httr0egv7m5xpnglt6f0mexj5i8lk9hj",
+      "message": "n3alen9qv4zmcked5jjrwr8"
+    },
+    {
+      "code": "caqfkn19kdfs4byk",
+      "message": "ucbkxxuydwxubwozz1zb853tm0wp4l6"
     }
   ]
 }

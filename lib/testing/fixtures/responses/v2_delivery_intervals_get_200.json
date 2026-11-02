@@ -1,19 +1,19 @@
 {
   "date_intervals": [
     {
-      "date": "2b3jltsfws46bokzra5dv9296neve7o0a2",
+      "date": "rc1",
       "time_intervals": [
         {
-          "start_time": "h6g24h4o5zkw76q6bdl2sbgvk6tedncr0dc01",
-          "end_time": "v2p8s3oe44imu4am79pj7yalvvbh6ejck31el2z22n9"
+          "start_time": "b7vv37a2ss26qa69vrq5tw1zgtkg0id2z",
+          "end_time": "yn1hk8479quz1vc19bt9hyo37dvy"
         },
         {
-          "start_time": "8hpepmhzeibg3q4a134x4kpi3lp6fam8ziq8yg45",
-          "end_time": "sqfy6so8595597j6j8vwguamit"
+          "start_time": "iwlng4fwsuss7m9y6u7yrks7b3okxds2nqhmw2kpwlx49az",
+          "end_time": "q9q0y3y5"
         },
         {
-          "start_time": "jzaqqloa5kerrwgza1tw5r6",
-          "end_time": "y51msc0q261t7pb1qtr11p6uerekvwz0cbqccpladqsd"
+          "start_time": "lu7amuam4wck2ry7ra1dufu3t549yehqot",
+          "end_time": "291hn672vcwcfwleecdxe48sh1wgmufj0z1"
         }
       ]
     }
