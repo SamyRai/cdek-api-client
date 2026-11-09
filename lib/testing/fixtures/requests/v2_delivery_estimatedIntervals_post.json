@@ -1,35 +1,35 @@
 {
-  "date_time": "5whr9wv7t8pam4zx16xcx",
+  "date_time": "2pduaszlq192ecocmeuwv7z48",
   "from_location": {
-    "code": 914,
+    "code": 791,
     "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "postal_code": "hnbfl9z2d3ph58x47en9qtapwkdw4",
-    "longitude": 472.0,
-    "latitude": 416.0,
-    "country_code": "4e02m8irox4gip75wt9intmqve952l8dqurinxm8pdc7o4aa6",
-    "region": "zap8h8brjjlxvevdr36vfkgxhljktwvv",
-    "region_code": 496,
-    "sub_region": "c8prmvifir6v62pd9j55ntrcfr5izsfb1tn",
-    "city": "6d13rig9o0eevwmf7bivztjukurb92vpxb4zg9r03j4p",
-    "address": "s96fpdiywdez0duyk4qg0m4di3xdc2ulrewq4l"
+    "postal_code": "g5vfu0jvrd89",
+    "longitude": 785.0,
+    "latitude": 270.0,
+    "country_code": "dj5jjkimrk1f6n2oev4srfi348qp6d469kd9eumd8zzs",
+    "region": "kb4rkpb5v9h9y4dj",
+    "region_code": 538,
+    "sub_region": "0qyqmuox",
+    "city": "gvj6lhvp7pnfjx0ipb4skv24hjf482ueexo17m5v2cekzi",
+    "address": "ka1w4brpqq848x3r0pt1u6ixm"
   },
-  "shipment_point": "vetpjlfwyus7tcgcd7fudlu7gu",
+  "shipment_point": "36xtaw6qb44pg9a3r",
   "to_location": {
-    "code": 266,
+    "code": 604,
     "fias_guid": "c80a68c1-1e43-42ca-b7e2-de1aad5b7d93",
-    "postal_code": "yf08aqe5r89jbr8vex57kjwjgmwk8hw9gjl",
-    "longitude": 967.0,
-    "latitude": 621.0,
-    "country_code": "4kzeg9g9fuabc7",
-    "region": "nypoxhbzrr",
-    "region_code": 961,
-    "sub_region": "s65y0uwku488p4msjedlzo52320o91pj7lyh5xeskq1xl4",
-    "city": "gclzc2u22",
-    "address": "zpk"
+    "postal_code": "zkaevmqg",
+    "longitude": 590.0,
+    "latitude": 26.0,
+    "country_code": "glwho3iunh9iztf7w6uzei6yqskhffhxs0txep6jesuc1s",
+    "region": "pbhlxarw0f1w7ykajizjrizi9oxbd4tzedvf4eged0ibsqqxm1",
+    "region_code": 198,
+    "sub_region": "nww",
+    "city": "jq0ks09pw6vnmvga6vwoo41cy66w1",
+    "address": "peklurn6uzyy8tbl5646tn9lz7fmv8sw5kdl3jxwad1c"
   },
-  "tariff_code": 84,
+  "tariff_code": 692,
   "additional_order_types": [
-    327,
-    815
+    898,
+    915
   ]
 }

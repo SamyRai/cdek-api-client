@@ -12,6 +12,9 @@ module CDEKApiClient
       # @!attribute [r] code
       #   @return [String]
       attribute? :code, Types::String.optional
+      # @!attribute [r] name
+      #   @return [String]
+      attribute? :name, Types::String.optional
       # @!attribute [r] uuid
       #   @return [String]
       attribute? :uuid, Types::String.optional
@@ -93,6 +96,9 @@ module CDEKApiClient
       # @!attribute [r] dimensions
       #   @return [Array<Hash>]
       attribute? :dimensions, Types::Array.of(Types::Hash).optional
+      # @!attribute [r] status
+      #   @return [String]
+      attribute? :status, Types::String.optional
       # @!attribute [r] errors
       #   @return [Array<Hash>]
       attribute? :errors, Types::Array.of(Types::Hash).optional

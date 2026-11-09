@@ -25,4 +25,12 @@ RSpec.describe CDEKApiClient::API::Deliverypoint do
       end.not_to raise_error
     end
   end
+
+  describe '#by_polygons' do
+    it 'successfully executes the API call and parses the response without errors' do
+      expect do
+        api.by_polygons
+      end.not_to raise_error
+    end
+  end
 end
