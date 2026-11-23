@@ -1,130 +1,99 @@
 {
   "tariff_codes": [
     {
-      "tariff_name": "qo0qbyhj198pqavd0uk4dw9xkl",
-      "weight_min": 509.0,
-      "weight_max": 707.0,
-      "weight_calc_max": 545.0,
-      "length_min": 563,
-      "length_max": 623,
-      "width_min": 763,
-      "width_max": 593,
-      "height_min": 743,
-      "height_max": 226,
-      "order_types": [
-        "j93og5gf3o7f0dopouwyi5e2uagfs"
-      ],
-      "payer_contragent_type": [
-        "nfi5hvh7ijvm8hm82j3f2egkt0o2l686o94ybr"
-      ],
-      "sender_contragent_type": [
-        "zngzok3bzm5unovihjpi3",
-        "ak7hf6kj0qyfrcqop9tbc3itlmc0r7kltgpsn19gi7"
-      ],
-      "recipient_contragent_type": [
-        "xq4o1oqxmuyscxua4g59caljgy00ftvz5wa9unsyi2b44nw4p"
-      ],
-      "delivery_modes": [
-        {
-          "delivery_mode": "hlan1av1mhgc0sua3",
-          "delivery_mode_name": "tmd1zcger",
-          "tariff_code": 424
-        }
-      ],
-      "additional_order_types_param": {
-        "without_additional_order_type": true,
-        "additional_order_types": [
-          "bmm66phl85bgg8offl7d78gk6hgwci2grt4twvvomkt0zr1b",
-          "ldjp6bwn16x10mb2qrnzdfpuhgngk"
-        ]
-      }
-    },
-    {
-      "tariff_name": "ty5sujc4auyn93uv4cr5ltw2p95a0rd2h",
-      "weight_min": 9.0,
+      "tariff_name": "t1kv6nmyp3a149bb6937r9xaxu2mjmkfj",
+      "weight_min": 438.0,
       "weight_max": 241.0,
-      "weight_calc_max": 825.0,
-      "length_min": 955,
-      "length_max": 231,
-      "width_min": 788,
-      "width_max": 283,
-      "height_min": 714,
-      "height_max": 758,
+      "weight_calc_max": 580.0,
+      "length_min": 686,
+      "length_max": 560,
+      "width_min": 482,
+      "width_max": 107,
+      "height_min": 225,
+      "height_max": 672,
       "order_types": [
-        "xj1ccw0x",
-        "hhq6jkz6h2nt7kha0ot3vm"
+        "m8vqc370d64skothb0nx8",
+        "17q6wh6sld4ulgrk6",
+        "vh401w0jw6zm40m7glefzs"
       ],
       "payer_contragent_type": [
-        "wvcomovlq5jrs0h"
+        "oim87720lb9rf3u"
       ],
       "sender_contragent_type": [
-        "r3yarnmyhsc2pgunx36vjko"
+        "vkgg4fz9i9c4343ify3zcvi8gi01",
+        "6fqwys2",
+        "4f7xjkxb2pw8v8fww3tkxr0guoh1uh17"
       ],
       "recipient_contragent_type": [
-        "3n5zuel2uyp4t4k5hwh"
+        "o0zl74czft",
+        "qamrullz1",
+        "yuki892qhewjop"
       ],
       "delivery_modes": [
         {
-          "delivery_mode": "b098wm43ftz9svlceewng8nqgt73mf0r",
-          "delivery_mode_name": "x5z7u1erh7vwi0ntzgxigdkd10qfqla2zh33dxzh4r76",
-          "tariff_code": 448
+          "delivery_mode": "058x48p9lpeet95kk1l43t0y7",
+          "delivery_mode_name": "8e",
+          "tariff_code": 319
         }
       ],
       "additional_order_types_param": {
         "without_additional_order_type": true,
         "additional_order_types": [
-          "itbun3q6"
+          "hsrpso2o2qokcmitzl4b6",
+          "peq5olqjz11wtqhown",
+          "0my"
         ]
       }
     },
     {
-      "tariff_name": "khdkudm4dpv3p",
-      "weight_min": 199.0,
-      "weight_max": 504.0,
-      "weight_calc_max": 86.0,
-      "length_min": 42,
-      "length_max": 384,
-      "width_min": 620,
-      "width_max": 434,
-      "height_min": 407,
-      "height_max": 482,
+      "tariff_name": "zki6ptg6m8d43c05fhxoy0mtege12gzsjt49fox3ia",
+      "weight_min": 373.0,
+      "weight_max": 636.0,
+      "weight_calc_max": 166.0,
+      "length_min": 936,
+      "length_max": 752,
+      "width_min": 458,
+      "width_max": 998,
+      "height_min": 279,
+      "height_max": 699,
       "order_types": [
-        "dywb5"
+        "ofog0j5u9nnbxjfc7zj",
+        "uyb9"
       ],
       "payer_contragent_type": [
-        "cuhd09ihncj6r03jngk4zvfto24jnix1s2to95tu"
+        "a9xj8v75p3943ex90nmt1fivwhaglqpdii0l7w",
+        "8imbb2vuf1pawhhakh49hx02ri9nmxnhl479udkgle"
       ],
       "sender_contragent_type": [
-        "91fegx82n8drv3oitdard1gnqfzd1m7",
-        "rx3jb2aqvzjhtvxvw1bduzo8ovazjtalxzbtsya4dc9ksi"
+        "c589l36cz7cnnqol3g84n1lfd6eir5470mdihf6fqmvs1",
+        "yh5kr097om0s9mgaup2xs0a0nkwtzr93dsebjkvhcrvkbv",
+        "ohsieh6ooguzazz1izmerw1e0t97nf0bikek"
       ],
       "recipient_contragent_type": [
-        "tir95d3ksrestbs",
-        "kmtbigdbwae5s4dg56f",
-        "7o1puv6"
+        "cznisqxnjgm842fhyejwamzszbsl85m9a"
       ],
       "delivery_modes": [
         {
-          "delivery_mode": "8yzst39tv05vhlyra5b9vp19p86y",
-          "delivery_mode_name": "lp969917p22xwqdwv03vf0vmx63vgi58qvz529jwekl",
-          "tariff_code": 441
+          "delivery_mode": "6dbhpvjig",
+          "delivery_mode_name": "q3kogcw0",
+          "tariff_code": 352
         },
         {
-          "delivery_mode": "tjzly",
-          "delivery_mode_name": "htjy3",
-          "tariff_code": 349
+          "delivery_mode": "3pnvtj",
+          "delivery_mode_name": "2d4nedkyl4k5kgbayi92j0sst2cvv2wzviu99557w",
+          "tariff_code": 998
         },
         {
-          "delivery_mode": "lhwqdah68y218cbp6gw4rth3m3tj1sb0",
-          "delivery_mode_name": "ml5qu6xp",
-          "tariff_code": 319
+          "delivery_mode": "zpcb",
+          "delivery_mode_name": "9i1x1gza8rvmp",
+          "tariff_code": 560
         }
       ],
       "additional_order_types_param": {
         "without_additional_order_type": false,
         "additional_order_types": [
-          "cwrj5ms5milftthiduh8uzfez0rup6b1dtvs38edox6j85p",
-          "mqehzly8em3mos58ttmzq3dhivls6dbg"
+          "2ui2l",
+          "hj7tpkn47dgax1xmjzb610fq6ocj2g9v4nbfs0fbmjen"
         ]
       }
     }
